@@ -14619,7 +14619,6 @@ while True:
             if e.key == pygame.K_BACKSPACE: Game.Back = True
             if e.key == pygame.K_x:
                 Game.Player.Search= True
-            if e.key == pygame.K_h: Game.Player.Full_Team_Heal()
             if e.key == pygame.K_f:
                 if Game.Events.Stage == "OverWorld":
                     if Game.Player.Check_Moves("Fly") and Game.Player.Get_BadgeInfo("Thunder",Name=True):
