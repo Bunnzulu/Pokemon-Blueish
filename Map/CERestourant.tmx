@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="19">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="8">
+  <data encoding="csv">
+1126,1126,1126,1126,1126,1126,1126,1126,1126,1126,
+1257,1257,1174,1174,1174,1257,1228,1134,1134,1134,
+1258,1259,1174,1174,1174,1257,1233,1134,1134,1134,
+1266,1267,1174,1174,1174,1257,1233,1134,1134,1134,
+1257,1257,1174,1174,1174,1257,1233,1134,1134,1134,
+1258,1259,1174,1174,1174,1257,1233,1134,1134,1134,
+1266,1267,1174,1174,1174,1174,1158,1159,1159,1159,
+1257,1257,1174,1136,1136,1174,1134,1134,1134,1134
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="DMan" gid="1356" x="-1.83565" y="56.6534" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Go ahead! Laugh! I'm flat out busted! No more slots for me!"/>
+    <property name="Dialouge2" value="I'm going straight! Here! I won't be needing this anymore!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="Coin Case"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="2" name="Man" gid="1402" x="159.81" y="123.118" width="35" height="32">
+   <properties>
+    <property name="Dialouge" value="Munch... The man at that table lost it all at the slots."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="3" name="Man" gid="1353" x="31.4289" y="156.028" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Psst! There's a basement under the GAME CORNER."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="4" name="Maid" gid="1415" x="224.307" y="93.435" width="36" height="32">
+   <properties>
+    <property name="Dialouge" value="My POKEMON are weak, so I often have to go to the DRUG STORE."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="5" name="Chef" gid="1399" x="221.467" y="177.645" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Hi! We're taking a break now."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="6" name="Spawn" x="126.333" y="239.667">
+   <point/>
+  </object>
+  <object id="7" name="Border" x="1.66667" y="0" width="318.333" height="25.3333"/>
+  <object id="8" name="Border" x="0.666667" y="62.6667" width="63.3333" height="62.6667"/>
+  <object id="11" name="Border" x="193.333" y="94.3333" width="33" height="49.6667"/>
+  <object id="9" name="Border" x="1" y="160.333" width="63.3333" height="62.6667"/>
+  <object id="15" name="Border" x="-1" y="257" width="95" height="7.33333"/>
+  <object id="16" name="Border" x="159.333" y="256" width="161.333" height="7.33333"/>
+  <object id="17" name="Border" x="-14.6667" y="0.666667" width="15.3333" height="256"/>
+  <object id="18" name="Border" x="319.667" y="0.333333" width="15.3333" height="256"/>
+  <object id="14" name="Door" x="94" y="256.667" width="66" height="8">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="13" name="Border" x="191.667" y="192.667" width="129.333" height="24.6667"/>
+  <object id="10" name="MaidDesk" x="192" y="32" width="31.6667" height="61.3333"/>
+  <object id="12" name="ChefDesk" x="192" y="141.333" width="31.6667" height="51.3333"/>
+ </objectgroup>
+</map>

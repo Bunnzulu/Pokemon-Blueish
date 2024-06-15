@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="46">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="3" name="Ground_Floor" width="10" height="10">
+  <data encoding="csv">
+1185,1185,129,468,468,129,129,129,468,468,
+1193,1193,137,137,137,137,137,137,137,183,
+137,137,137,490,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,146,526,527,146,137,137,137,137,
+137,137,146,534,535,146,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,145,145,137,137,137,137
+</data>
+ </layer>
+ <objectgroup id="4" name="Ground Floor">
+  <object id="31" name="Mom" gid="1468" x="157" y="188" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Right. All boys leave home some day. It said so on TV. "/>
+    <property name="Dialouge2" value="PROF.OAK, next door, is looking for you."/>
+    <property name="Type" value="Talk"/>
+   </properties>
+  </object>
+  <object id="20" name="Overworld_Door" x="127" y="317" width="67" height="28">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="24" name="HouseSpawnPoint" type="Playerspawnpoint" x="163" y="272">
+   <point/>
+  </object>
+  <object id="21" name="UpStairs" x="299" y="37" width="21" height="22">
+   <properties>
+    <property name="Destination" value="PlayerRoom"/>
+   </properties>
+  </object>
+  <object id="27" name="Books" x="-3" y="11" width="63" height="52">
+   <properties>
+    <property name="Text" value="Lots of books"/>
+   </properties>
+  </object>
+  <object id="25" name="TV" x="98" y="65" width="31" height="26">
+   <properties>
+    <property name="Text" value="Mom needs to turn down the volume!"/>
+   </properties>
+  </object>
+  <object id="40" name="Border2" x="322" y="3" width="11" height="314"/>
+  <object id="41" name="Border2" x="-10" y="5" width="11" height="314"/>
+  <object id="42" name="Border2" x="65" y="5" width="250" height="25"/>
+  <object id="43" name="Border2" x="2" y="319" width="126" height="25"/>
+  <object id="44" name="Border2" x="193" y="320" width="126" height="25"/>
+  <object id="45" name="Border2" x="98" y="161" width="59" height="61"/>
+ </objectgroup>
+ <layer id="1" name="PlayerRoom" width="10" height="10" visible="0">
+  <data encoding="csv">
+129,129,129,129,129,129,129,468,129,129,
+281,137,1260,1277,1262,137,137,137,137,175,
+289,137,1268,1269,1270,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,490,137,137,137,137,137,
+137,137,137,137,498,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,514,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137
+</data>
+ </layer>
+ <objectgroup id="2" name="Player Room" visible="0">
+  <object id="8" name="Downstairs" x="290" y="39" width="29" height="21">
+   <properties>
+    <property name="Destination" value="PlayerHouse_Ground"/>
+   </properties>
+  </object>
+  <object id="10" name="Computer_rect" x="0" y="32" width="37" height="38">
+   <properties>
+    <property name="Text" value="To be Changed"/>
+   </properties>
+  </object>
+  <object id="11" name="TrashCan" x="289" y="225" width="28" height="25">
+   <properties>
+    <property name="Text" value="Its empty"/>
+   </properties>
+  </object>
+  <object id="14" name="PS4_rect" x="125" y="155" width="41" height="64">
+   <properties>
+    <property name="Text" value="A ps4! With no games."/>
+   </properties>
+  </object>
+  <object id="23" name="Startpoint1" x="267" y="68">
+   <point/>
+  </object>
+  <object id="33" name="Border" x="3" y="1" width="315" height="33"/>
+  <object id="34" name="Border" x="-23" y="8" width="24" height="319"/>
+  <object id="35" name="Border" x="321" y="1" width="24" height="319"/>
+  <object id="36" name="Border" x="1" y="320" width="320" height="26"/>
+  <object id="37" name="Border" x="64" y="33" width="96" height="58"/>
+  <object id="22" name="SSSpawn" x="144" y="260">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

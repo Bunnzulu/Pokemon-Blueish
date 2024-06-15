@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+1165,137,137,137,137,137,137,1165,
+1173,137,233,233,137,137,137,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="0" y="191.5" width="30.5" height="65"/>
+  <object id="3" name="Border" x="226" y="193" width="30" height="63"/>
+  <object id="4" name="Border" x="1.5" y="2" width="61" height="58.5"/>
+  <object id="5" name="Border" x="62.5" y="2" width="161.5" height="16.5"/>
+  <object id="6" name="Border" x="225.5" y="2" width="28" height="61.5"/>
+  <object id="8" name="Border" x="257.5" y="0.5" width="10.5" height="264"/>
+  <object id="9" name="Border" x="-1.5" y="256" width="62.5" height="13.5"/>
+  <object id="10" name="Border" x="129" y="258" width="127.5" height="13"/>
+  <object id="11" name="Border" x="-11.5" y="-1" width="10" height="260"/>
+  <object id="12" name="Border" x="96" y="98" width="61.5" height="46"/>
+  <object id="13" name="Door" x="63" y="256" width="65.5" height="12.5">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="15" name="PlayerPoint" x="93" y="235.5">
+   <point/>
+  </object>
+  <object id="16" name="Old Man" gid="1335" x="64.5" y="123" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="POKEMON learn new techniques as they grow!"/>
+    <property name="Dialouge2" value="But, some moves must be taught by the trainer!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Boy" gid="1331" x="128.5" y="193.5" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="POKEMON become easier to catch when they are hurt or asleep!"/>
+    <property name="Dialouge2" value="But, it's not a sure thing!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

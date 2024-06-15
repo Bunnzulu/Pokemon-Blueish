@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="34">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Normal" width="20" height="14">
+  <data encoding="csv">
+1137,1138,1137,1138,1137,1138,1137,1138,1126,1236,1126,1126,1126,1126,1126,1126,1126,1126,1126,1126,
+1145,1146,1145,1146,1145,1146,1145,1146,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1243,1243,1243,1243,1243,1243,1243,1243,
+1158,1159,1159,1159,1159,1159,1159,1160,1174,1174,1174,1174,1251,1251,1251,1251,1251,1251,1251,1251,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1154,1154,1174,1174,1174,1174,1154,1154,1174,1174,1174,1174,1154,1154,1174,1174,1174,1174,1154,1154,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,
+1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1136,1136,1174,1174,1174
+</data>
+ </layer>
+ <layer id="3" name="Secret" width="20" height="14">
+  <data encoding="csv">
+1137,1138,1137,1138,1137,1138,1137,1138,1126,1236,1126,1126,1126,1126,1126,1126,1126,792,1126,1126,
+1145,1146,1145,1146,1145,1146,1145,1146,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1243,1243,1243,1243,1243,1243,1243,1243,
+1158,1159,1159,1159,1159,1159,1159,1160,1174,1174,1174,1174,1251,1251,1251,1251,1251,1251,1251,1251,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1154,1154,1174,1174,1174,1174,1154,1154,1174,1174,1174,1174,1154,1154,1174,1174,1174,1174,1154,1154,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,1257,1174,1174,1257,1162,1162,
+1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,
+1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,1257,1174,1174,1257,1166,1166,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1136,1136,1174,1174,1174
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="O_GCSpawn" x="510.425" y="430.409">
+   <point/>
+  </object>
+  <object id="2" name="GC_ODoor" x="478.806" y="445.896" width="65.8197" height="11.6152">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="-1.42109e-14" y="-0.645291" width="253.6" height="54.8498"/>
+  <object id="28" name="Desk" x="140" y="94.3547" width="115.6" height="25.8498"/>
+  <object id="29" name="Desk2" x="3" y="96.3547" width="137.6" height="25.8498"/>
+  <object id="4" name="Border" x="382" y="71.688" width="255.6" height="51.1831"/>
+  <object id="11" name="Border" x="548" y="449.688" width="100.6" height="27.1831"/>
+  <object id="24" name="Machine" x="1" y="160.688" width="63.6" height="208.183">
+   <properties>
+    <property name="Text" value="This seems broken"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="Machine" x="192" y="159.688" width="63.6" height="208.183">
+   <properties>
+    <property name="Text" value="This seems broken"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="26" name="Machine" x="386" y="157.688" width="63.6" height="208.183">
+   <properties>
+    <property name="Text" value="This seems broken"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="27" name="Machine" x="574" y="158.688" width="63.6" height="208.183">
+   <properties>
+    <property name="Text" value="This seems broken"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="5" name="Border" x="-2" y="446.688" width="480.6" height="36.1831"/>
+  <object id="6" name="Border" x="-23" y="-2.31196" width="20.5995" height="451.183"/>
+  <object id="7" name="Border" x="641" y="-1.31196" width="20.5995" height="451.183"/>
+  <object id="10" name="Border" x="319" y="-1.31196" width="320.6" height="23.1831"/>
+  <object id="8" name="Border" x="641" y="-1.31196" width="20.5995" height="451.183"/>
+  <object id="9" name="Border" x="257" y="-0.311958" width="29.5995" height="29.1831"/>
+  <object id="12" name="Man" gid="1381" x="544" y="315" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Hey, what? You're throwing me off!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="Man" gid="1414" x="448" y="250" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Darn! I need more coins for the POKEMON I want!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="14" name="Man" gid="1335" x="353" y="380" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Games are scary! It's so easy to get hooked!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="Man" gid="1358" x="255" y="344" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Hey! You have better things to do, champ in making! CELADON GYM's"/>
+    <property name="Dialouge2" value="LEADER is ERIKA! She uses grass-type POKEMON! She might appear"/>
+    <property name="Dialouge3" value="docile, but don't be fooled!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Lady" gid="1415" x="253" y="256" width="36" height="32">
+   <properties>
+    <property name="Dialouge" value="I'm having a wonderful time!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="18" name="Man" gid="1384" x="162" y="251" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Kid, do you want to play?"/>
+    <property name="Dialouge2" value="Sorry but it seems like all the good machines are taken"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="19" name="Man" gid="1395" x="64" y="215" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Keep this quiet. It's rumored that this place is run by TEAM ROCKET."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="20" name="Lady" gid="1416" x="63" y="348" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="I think these machines have different odds."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="21" name="Rocket" gid="1366" x="287" y="52" width="32" height="31" visible="0">
+   <properties>
+    <property name="AfterBattle" value="Our hideout might be discovered! I better tell BOSS!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Dang!"/>
+    <property name="BattleStart" value="I'm guarding this poster! Go away, or else!"/>
+    <property name="Money" type="int" value="600"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Raticate-20-Tackle_Tail Whip_Quick Attack_Hyper Fang-Rocket-Raticate,Zubat-20-Leech Life_Supersonic_Bite-Rocket-Zubat"/>
+   </properties>
+  </object>
+  <object id="22" name="Worker" gid="1418" x="65" y="98" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Welcome! You can exchange your coins for fabulous prizes next door."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="23" name="Employee" gid="1417" x="157" y="94" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="Welcome to ROCKET GAME CORNER! Do you need some game coins?"/>
+    <property name="Dialouge2" value="It's P1000 for 50 coins. Would you like some?"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="31" name="GC_RocketBaseF1Door" x="542" y="1" width="33" height="28">
+   <properties>
+    <property name="Destination" value="Rocket HideoutF1"/>
+   </properties>
+  </object>
+  <object id="32" name="RocketBaseF1_GCSpawn" x="556" y="58">
+   <point/>
+  </object>
+  <object id="33" name="Lever" x="287" y="-1" width="32" height="25">
+   <properties>
+    <property name="Text" value="Hey! A switch behind the poster!?"/>
+    <property name="Text2" value="And the idiot left it on."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="29">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor 1" width="10" height="8">
+  <data encoding="csv">
+258,252,258,257,480,2147484128,257,258,252,258,
+258,260,283,257,257,257,257,283,260,258,
+258,257,283,257,257,257,257,283,257,258,
+258,257,283,257,257,257,257,283,257,258,
+258,257,283,257,257,257,257,265,258,258,
+258,257,283,257,257,257,257,257,257,258,
+258,257,283,257,257,257,257,258,183,258,
+258,258,258,257,480,2147484128,257,258,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects">
+  <object id="1" name="Border" x="63.5612" y="0.967937" width="31.2966" height="108.409"/>
+  <object id="16" name="Border" x="65.1744" y="146.481" width="31.2966" height="108.409"/>
+  <object id="2" name="Border" x="224.561" y="1.61323" width="31.2966" height="157.128"/>
+  <object id="3" name="Border" x="223.271" y="191.006" width="31.2966" height="63.5612"/>
+  <object id="4" name="Border" x="288.445" y="129.381" width="31.2966" height="63.5612"/>
+  <object id="6" name="Border" x="192.297" y="-30.3287" width="31.2966" height="30.974"/>
+  <object id="7" name="Border" x="96.7937" y="-30.6513" width="31.2966" height="30.974"/>
+  <object id="8" name="Border" x="95.5031" y="254.567" width="31.2966" height="30.974"/>
+  <object id="9" name="Border" x="192.587" y="254.922" width="31.2966" height="30.974"/>
+  <object id="5" name="Border" x="224.884" y="129.381" width="93.2446" height="29.6834"/>
+  <object id="10" name="O_R12GuardHouseSpawn" x="157.451" y="26.4569">
+   <point/>
+  </object>
+  <object id="18" name="O2_R12GuardHouseSpawn" x="158.419" y="242.307">
+   <point/>
+  </object>
+  <object id="11" name="R12GuardHouse_ODoor" x="129.058" y="-28.7155" width="62.2706" height="28.3928">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="12" name="R12GuardHouse_O2Door" x="128.736" y="256.503" width="62.2706" height="28.3928">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="13" name="R12GuardHouse_F2Door" x="254.89" y="197.459" width="33.5552" height="25.8117">
+   <properties>
+    <property name="Destination" value="R12GHF2"/>
+   </properties>
+  </object>
+  <object id="14" name="F2_R12GuardHouseSpawn" x="270.7" y="178.423">
+   <point/>
+  </object>
+  <object id="15" name="Guard" gid="1382" x="30.1383" y="146.381" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="There's a lookout spot upstairs."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Desk" x="65.4971" y="110.99" width="30.3287" height="36.1363"/>
+ </objectgroup>
+ <layer id="3" name="Floor 2" width="10" height="8" visible="0">
+  <data encoding="csv">
+0,0,586,587,586,585,586,585,264,585,
+0,0,594,595,594,593,594,593,272,593,
+0,0,257,588,257,257,257,257,588,257,
+0,0,257,596,257,257,257,257,596,257,
+0,0,257,239,239,257,257,239,239,257,
+0,0,257,257,257,257,257,257,257,257,
+0,0,251,257,257,257,257,257,257,257,
+0,0,259,257,257,257,257,257,257,263
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects" visible="0">
+  <object id="19" name="Border2" x="63.5612" y="0.967937" width="255.858" height="63.2386"/>
+  <object id="20" name="Border2" x="50.0101" y="0" width="13.8738" height="196.491"/>
+  <object id="22" name="Border2" x="63.8838" y="193.91" width="32.5872" height="61.6253"/>
+  <object id="25" name="Scope" x="95.1805" y="63.8838" width="32.5872" height="44.5251">
+   <properties>
+    <property name="Text" value="A man fishing"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="26" name="Scope" x="255.213" y="63.2386" width="32.5872" height="44.5251">
+   <properties>
+    <property name="Text" value="It's Pokemon Tower"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="23" name="Border2" x="63.2386" y="255.535" width="225.207" height="19.3587"/>
+  <object id="21" name="Border2" x="319.71" y="7.10543e-15" width="13.8738" height="223.593"/>
+  <object id="24" name="Girl" gid="1360" x="176.942" y="149.93" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="My POKEMON's ashes are stored in POKEMON TOWER. You can have this"/>
+    <property name="Dialouge2" value="TM. I don't need it any more..."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="TM39"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="27" name="F2_R12GuardHouseDoor" x="291.994" y="227.143" width="27.4249" height="28.3928">
+   <properties>
+    <property name="Destination" value="R12GH"/>
+   </properties>
+  </object>
+  <object id="28" name="R12GuardHouse_F2Spawn" x="270.7" y="208.106">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

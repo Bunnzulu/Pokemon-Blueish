@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="26">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1456" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="12">
+  <data encoding="csv">
+555,217,217,555,218,218,555,217,217,555,
+563,225,225,563,225,225,563,225,225,563,
+555,225,225,555,225,225,555,225,225,555,
+563,225,225,571,225,225,571,225,225,563,
+555,225,225,225,225,225,225,225,225,555,
+563,225,225,225,225,225,225,225,225,563,
+555,225,225,225,225,225,225,225,225,555,
+563,225,225,225,225,225,225,225,225,563,
+555,225,225,228,225,225,228,225,225,555,
+563,225,225,236,225,225,236,225,225,563,
+555,225,225,225,225,225,225,225,225,555,
+248,578,256,578,233,233,256,578,256,570
+</data>
+ </layer>
+ <objectgroup id="2">
+  <object id="1" name="Border" x="97.4596" y="0.449123" width="29.6421" height="125.305"/>
+  <object id="23" name="Fight" x="126.653" y="97.4596" width="69.614" height="24.2526"/>
+  <object id="5" name="Border" x="31.4386" y="353.46" width="95.214" height="26.0491"/>
+  <object id="6" name="Border" x="191.775" y="353.011" width="95.214" height="29.193"/>
+  <object id="2" name="Border" x="192.225" y="1.34737" width="29.6421" height="125.305"/>
+  <object id="3" name="Border" x="288.786" y="-0.898246" width="29.6421" height="383.551"/>
+  <object id="4" name="Border" x="1.79649" y="5.32907e-15" width="29.6421" height="383.551"/>
+  <object id="7" name="Spawn" x="156.744" y="364.688">
+   <point/>
+  </object>
+  <object id="8" name="Door" x="127.102" y="382.653" width="66.9193" height="9.43158">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="9" name="Totem" x="95.6632" y="256.449" width="31.8877" height="61.5298">
+   <properties>
+    <property name="Text" value="FIGHTING DOJO"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="10" name="Totem" x="192.674" y="257.347" width="31.8877" height="61.5298">
+   <properties>
+    <property name="Text" value="FIGHTING DOJO"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="11" name="FD1Blackbelt" gid="1408" x="191.393" y="253.933" width="34" height="30">
+   <properties>
+    <property name="AfterBattle" value="The prime fighters across the land train here."/>
+    <property name="Bag" value="X Attack-3"/>
+    <property name="BattleEnd" value="Oof! I give up!"/>
+    <property name="BattleStart" value="Hoohah! You're trespassing in our FIGHTING DOJO!"/>
+    <property name="Money" type="int" value="775"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Machop-31-Karate Chop_Low Kick_Leer-Blackbelt-Machop,Mankey-31-Leer_Karate Chop_Fury Swipes_Focus Energy-Blackbelt-Mankey,Primeape-31-Leer_Karate Chop_Fury Swipes_Focus Energy-Blackbelt-Primeape"/>
+   </properties>
+  </object>
+  <object id="12" name="FD2Blackbelt" gid="1379" x="94.3825" y="224.393" width="35" height="32">
+   <properties>
+    <property name="AfterBattle" value="Our Master is a pro fighter!"/>
+    <property name="Bag" value="X Attack-2"/>
+    <property name="BattleEnd" value="Judge! 1 point!"/>
+    <property name="BattleStart" value="I hear you're good! Show me!"/>
+    <property name="Money" type="int" value="800"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Machop-32-Karate Chop_Low Kick_Leer_Focus Energy-Blackbelt-Machop,Machoke-32-Karate Chop_Low Kick_Leer_Focus Energy-Blackbelt-Machoke"/>
+   </properties>
+  </object>
+  <object id="13" name="FD4Blackbelt" gid="1379" x="94.8316" y="152.084" width="35" height="32">
+   <properties>
+    <property name="AfterBattle" value="You wait 'til you see our Master! I'm a small fry compared-to him!"/>
+    <property name="Bag" value="X Attack-3"/>
+    <property name="BattleEnd" value="I give up!"/>
+    <property name="BattleStart" value="Hoargh! Take your shoes off!"/>
+    <property name="Money" type="int" value="775"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Mankey-31-Leer_Karate Chop_Fury Swipes_Focus Energy-Blackbelt-Mankey,Mankey-31-Leer_Karate Chop_Fury Swipes_Focus Energy-Blackbelt-Mankey,Primeape-31-Leer_Karate Chop_Fury Swipes_Focus Energy-Blackbelt-Primeape"/>
+   </properties>
+  </object>
+  <object id="14" name="FD3Blackbelt" gid="1408" x="191.842" y="182.523" width="34" height="30">
+   <properties>
+    <property name="AfterBattle" value="The only thing that frightens us is psychic power!"/>
+    <property name="Bag" value="X Attack-1"/>
+    <property name="BattleEnd" value="Yow! Stubbed fingers!"/>
+    <property name="BattleStart" value="Nothing tough frightens me! I break boulders for training!"/>
+    <property name="Money" type="int" value="900"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Primeape-36-Leer_Karate Chop_Fury Swipes_Focus Energy-Blackbelt-Primeape"/>
+   </properties>
+  </object>
+  <object id="15" name="Leader" gid="1359" x="159.607" y="117.951" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Ho! Stay and train at Karate with us!"/>
+    <property name="Bag" value="X Attack-3"/>
+    <property name="BattleEnd" value="I give up!"/>
+    <property name="BattleStart" value="Hoargh! Take your shoes off!"/>
+    <property name="Money" type="int" value="925"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Hitmonlee-37-Double Kick_Meditate_Rolling Kick-Blackbelt-Hitmonlee,Hitmonchan-37-Comet Punch_Agility_Fire Punch-Blackbelt-Hitmonchan"/>
+   </properties>
+  </object>
+  <object id="17" name="Eyes" x="62.4281" y="222.765" width="128.449" height="30.5404">
+   <properties>
+    <property name="Trainer" value="FD1Blackbelt"/>
+   </properties>
+  </object>
+  <object id="19" name="Eyes" x="127.551" y="191.775" width="128.449" height="30.5404">
+   <properties>
+    <property name="Trainer" value="FD2Blackbelt"/>
+   </properties>
+  </object>
+  <object id="20" name="Eyes" x="64.6737" y="154.049" width="128.449" height="35.0316">
+   <properties>
+    <property name="Trainer" value="FD3Blackbelt"/>
+   </properties>
+  </object>
+  <object id="21" name="Eyes" x="129.347" y="123.958" width="128.449" height="27.8456">
+   <properties>
+    <property name="Trainer" value="FD4Blackbelt"/>
+   </properties>
+  </object>
+  <object id="22" name="Eyes" x="-88.0281" y="88.0281" width="15.7193" height="35.0316">
+   <properties>
+    <property name="Trainer" value="Leader"/>
+   </properties>
+  </object>
+  <object id="24" name="Hitmonchan" gid="1465" x="166.954" y="63.0561" width="30" height="30">
+   <properties>
+    <property name="Text" value="Hitmonchan: You want the piston punching HITMONCHAN?"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="Hitmonlee" gid="1465" x="122.372" y="63.0561" width="30" height="30">
+   <properties>
+    <property name="Text" value="Hitmonlee : You want the hard kicking HITMONLEE?"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

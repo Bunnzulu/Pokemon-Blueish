@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="13">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,1185,
+857,857,854,854,854,854,854,1193,
+854,854,854,854,854,854,854,854,
+854,854,467,2147484457,809,467,854,854,
+854,854,467,2147484465,817,467,854,854,
+854,854,854,854,854,854,854,854,
+1165,854,854,854,854,854,854,1165,
+1173,854,1136,1136,854,854,854,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="PlayerPoint" x="91.0615" y="205.249">
+   <point/>
+  </object>
+  <object id="2" name="Door" x="62.8236" y="224.848" width="63.7248" height="29.8769">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="-11.5382" y="3.06063" width="12" height="253"/>
+  <object id="4" name="Border" x="-1" y="258" width="256.5" height="13.5"/>
+  <object id="5" name="Border" x="258.5" y="0.5" width="8.5" height="257"/>
+  <object id="6" name="Border" x="2.5" y="-13.5" width="251" height="12"/>
+  <object id="7" name="Border" x="97.5" y="96" width="62" height="62.5"/>
+  <object id="8" name="Border" x="2" y="192.5" width="30.5" height="61.5"/>
+  <object id="9" name="Border" x="223.5" y="193" width="32.5" height="61"/>
+  <object id="10" name="Little Girl" gid="1339" x="15.1392" y="109.022" width="32" height="35">
+   <properties>
+    <property name="Dialouge" value="My Daddy loves POKEMON too."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="11" name="Man" gid="1340" x="66.0398" y="149.539" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Coming up with nicknames is fun, but hard. Simple names are the"/>
+    <property name="Dialouge2" value="easiest to remember."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="Spearow" gid="1343" x="50.6795" y="107.214" width="23" height="23">
+   <properties>
+    <property name="Dialouge" value="Tetweet!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

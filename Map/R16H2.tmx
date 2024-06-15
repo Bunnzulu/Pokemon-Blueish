@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="15">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,2147484184,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+1165,137,137,137,137,137,137,1165,
+1173,137,151,151,137,137,137,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="0.59883" y="192.225" width="29.6421" height="63.476"/>
+  <object id="5" name="Border" x="0.898246" y="1.19766" width="60.4819" height="49.4035"/>
+  <object id="6" name="Border" x="223.963" y="-7.10543e-15" width="32.3368" height="49.4035"/>
+  <object id="7" name="Border" x="63.7754" y="0.299415" width="161.085" height="25.4503"/>
+  <object id="8" name="Border" x="97.0105" y="95.5135" width="62.2784" height="57.4877"/>
+  <object id="9" name="Border" x="126.952" y="254.503" width="129.048" height="14.6713"/>
+  <object id="10" name="Border" x="-0.59883" y="256.299" width="65.2725" height="14.6713"/>
+  <object id="2" name="Border" x="224.262" y="192.225" width="30.8398" height="63.476"/>
+  <object id="3" name="Border" x="255.401" y="1.19766" width="11.6772" height="254.802"/>
+  <object id="4" name="Border" x="-9.58129" y="0.898246" width="9.8807" height="254.802"/>
+  <object id="11" name="O_R16H2Spawn" x="93.4175" y="233.244">
+   <point/>
+  </object>
+  <object id="12" name="R16H2_ODoor" x="65.5719" y="256.599" width="61.3801" height="10.7789">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="13" name="Girl" gid="1412" x="63.6444" y="121.694" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Oh, you found my secret retreat! Please don't tell anyone I'm here."/>
+    <property name="Dialouge2" value="I'll make it up to you with this!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="HM02"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="14" name="Fearow" gid="1343" x="165.356" y="117.394" width="23" height="23">
+   <properties>
+    <property name="Dialouge" value="Kyueen!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

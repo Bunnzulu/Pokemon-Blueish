@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="35" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="340">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Main Zone" width="40" height="35" visible="0">
+  <data encoding="csv">
+4,368,368,368,368,368,368,368,368,368,681,682,368,368,1610613721,1610613729,368,368,368,368,368,368,368,368,368,368,368,368,368,4,0,0,0,0,0,0,0,0,0,0,
+4,368,4,4,4,4,4,4,4,4,689,690,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,368,4,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,4,10,10,4,4,684,4,368,4,4,4,4,4,10,10,4,4,10,10,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,10,10,10,10,4,4,4,368,4,4,4,4,10,10,10,10,10,10,10,10,4,4,684,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,10,10,10,10,10,10,4,4,368,4,4,4,10,10,10,10,10,10,10,10,10,10,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,10,10,10,10,10,4,4,368,4,4,10,10,10,10,10,10,10,10,10,10,10,10,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,10,10,10,10,4,4,4,368,4,4,10,10,10,10,10,10,10,10,10,10,10,10,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,10,10,10,10,4,4,4,4,368,4,4,4,10,10,10,10,4,4,10,10,10,10,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,10,10,4,10,335,350,350,350,350,350,350,350,350,350,350,350,350,333,4,4,4,4,4,4,681,682,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,10,4,10,10,343,342,342,342,342,342,342,342,342,342,342,342,342,341,368,368,368,368,368,368,689,690,0,0,0,0,0,0,0,0,0,0,
+3221226465,4,4,4,4,4,10,10,343,342,342,341,4,4,4,4,4,4,343,342,342,341,4,4,4,4,4,4,4,985,0,0,0,0,0,0,0,0,0,0,
+3221226457,4,4,4,4,4,10,10,343,342,342,341,4,4,4,4,4,4,343,342,342,341,4,4,4,684,4,4,4,993,0,0,0,0,0,0,0,0,0,0,
+368,676,4,4,4,4,10,10,343,342,342,349,350,350,350,350,350,350,351,342,342,341,10,10,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,684,4,4,10,343,342,342,342,342,342,342,342,342,342,342,342,342,341,10,10,10,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,684,4,4,4,4,4,4,4,365,4,4,365,4,4,365,4,4,365,4,4,10,10,10,10,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,4,4,368,368,368,368,373,367,367,373,367,367,373,367,367,373,4,4,4,10,10,10,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+681,682,368,368,368,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+689,690,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,4,10,10,10,10,10,4,4,4,4,4,4,375,376,376,697,4,4,4,10,10,10,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,10,10,10,10,10,10,10,4,4,4,4,4,383,706,707,705,4,4,10,10,10,10,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,684,4,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,4,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,4,4,10,10,10,10,10,10,10,10,4,4,4,4,4,4,4,10,10,10,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,676,4,4,10,10,10,10,10,10,4,4,4,4,4,4,4,10,10,10,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,368,365,4,4,4,4,365,4,4,4,4,4,365,1610613721,1610613729,365,4,4,4,4,4,365,4,4,4,4,365,368,4,0,0,0,0,0,0,0,0,0,0,
+4,368,373,367,367,367,367,373,367,367,367,367,367,373,4,4,373,367,367,367,367,367,373,367,367,367,367,373,368,4,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="MZObjects" visible="0">
+  <object id="1" name="Border" x="0" y="582.887" width="34.0585" height="179.05"/>
+  <object id="2" name="Border" x="0" y="509.904" width="62.2784" height="66.1708"/>
+  <object id="3" name="Border" x="2.9193" y="385.347" width="30.1661" height="116.772"/>
+  <object id="4" name="Border" x="64.2246" y="511.85" width="128.449" height="26.2737"/>
+  <object id="5" name="Border" x="190.727" y="482.657" width="449.572" height="24.3275"/>
+  <object id="6" name="Border" x="0.973099" y="62.2784" width="31.1392" height="254.952"/>
+  <object id="7" name="Border" x="30.1661" y="-3.8924" width="31.1392" height="67.1439"/>
+  <object id="21" name="Border" x="32.1123" y="767.829" width="31.1392" height="61.3053"/>
+  <object id="22" name="Border" x="571.991" y="603.375" width="60.5232" height="36.0047"/>
+  <object id="24" name="Border" x="516.716" y="574.182" width="115.799" height="27.2468"/>
+  <object id="23" name="Border" x="517.689" y="601.429" width="29.193" height="35.0316"/>
+  <object id="13" name="Border" x="894.278" y="31.1392" width="31.1392" height="29.193"/>
+  <object id="18" name="Border" x="896.198" y="765.829" width="31.1392" height="65.1977"/>
+  <object id="16" name="Border" x="701.605" y="288.037" width="194.62" height="29.193"/>
+  <object id="11" name="Border" x="383.401" y="1.63425e-13" width="62.2784" height="32.1123"/>
+  <object id="9" name="Border" x="352.262" y="62.2784" width="31.1392" height="186.835"/>
+  <object id="32" name="Border" x="318.204" y="444.706" width="325.015" height="36.9777"/>
+  <object id="10" name="Border" x="319.177" y="-2.9193" width="62.2784" height="65.1977"/>
+  <object id="15" name="Border" x="897.198" y="253.06" width="62.2784" height="65.1977"/>
+  <object id="14" name="Border" x="927.364" y="68.117" width="28.2199" height="184.889"/>
+  <object id="17" name="Border" x="929.364" y="384.401" width="28.2199" height="374.643"/>
+  <object id="8" name="Border" x="63.2515" y="-3.8924" width="253.006" height="31.1392"/>
+  <object id="12" name="Border" x="511.85" y="-2.9193" width="416.487" height="31.1392"/>
+  <object id="19" name="Border" x="512.823" y="796.968" width="376.589" height="31.1392"/>
+  <object id="20" name="Border" x="67.1439" y="797.942" width="379.509" height="31.1392"/>
+  <object id="25" name="SMZ_ODoor" x="443.733" y="807.673" width="72.0094" height="23.3544">
+   <properties>
+    <property name="Destination" value="Safari Zone Entrance"/>
+   </properties>
+  </object>
+  <object id="267" name="SZMZ_A2Door" x="445.066" y="-24.327" width="72.0094" height="23.3544">
+   <properties>
+    <property name="Destination" value="Safari Zone A2"/>
+   </properties>
+  </object>
+  <object id="320" name="SZMZ_A3Door" x="-13.6003" y="315.673" width="14.6761" height="75.3544">
+   <properties>
+    <property name="Destination" value="Safari Zone A3"/>
+   </properties>
+  </object>
+  <object id="26" name="O_SMZSpawn" x="479.738" y="778.48">
+   <point/>
+  </object>
+  <object id="27" name="Ball" gid="1330" x="449.168" y="347.8" width="30" height="30">
+   <properties>
+    <property name="Item" value="Nugget"/>
+   </properties>
+  </object>
+  <object id="28" name="H1_SZMASpawn" x="560.263" y="674.54">
+   <point/>
+  </object>
+  <object id="29" name="SZMA_H1Door" x="550.161" y="607.805" width="20.2261" height="25.2826">
+   <properties>
+    <property name="Destination" value="Safari Zone MAH1"/>
+   </properties>
+  </object>
+  <object id="30" name="Sign" gid="660" x="600.945" y="672.842" width="32" height="32">
+   <properties>
+    <property name="Text" value="Rest House"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="31" name="Sign" gid="660" x="447.195" y="735.12" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="Press the START Button to check remaining time!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="36" name="Grass" x="161.535" y="578.994" width="154.723" height="117.745">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="37" name="Grass" x="317.23" y="607.214" width="37.9509" height="68.117">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="38" name="Grass" x="122.611" y="604.295" width="37.9509" height="68.117">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="39" name="Grass" x="191.701" y="699.658" width="256.898" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="40" name="Grass" x="223.813" y="734.69" width="190.727" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="41" name="Grass" x="704.524" y="379.509" width="62.2784" height="99.2561">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="54" name="Grass" x="449.572" y="158.615" width="378.536" height="65.1977">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="55" name="Grass" x="479.738" y="96.3368" width="317.23" height="57.4129">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="60" name="Grass" x="94.3906" y="128.449" width="191.701" height="62.2784">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="61" name="Grass" x="157.642" y="66.1708" width="70.0632" height="185.862">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="65" name="Grass" x="92.4444" y="164.454" width="42.8164" height="94.3906">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="66" name="Grass" x="64.2246" y="157.642" width="31.1392" height="63.2515">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="67" name="Grass" x="221.867" y="257.871" width="31.1392" height="185.862">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="68" name="Grass" x="189.754" y="289.984" width="31.1392" height="126.503">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="62" name="Grass" x="229.598" y="97.3099" width="26.2737" height="123.584">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="63" name="Grass" x="128.395" y="92.4444" width="26.2737" height="229.651">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="64" name="Grass" x="157.588" y="58.386" width="33.0854" height="229.651">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="56" name="Grass" x="542.016" y="65.1977" width="70.0632" height="29.193">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="57" name="Grass" x="670.465" y="61.3053" width="70.0632" height="29.193">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="58" name="Grass" x="479.738" y="223.813" width="126.503" height="29.193">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="59" name="Grass" x="670.465" y="224.786" width="126.503" height="29.193">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="42" name="Grass" x="767.775" y="411.621" width="31.1392" height="99.2561">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="43" name="Grass" x="799.888" y="449.572" width="31.1392" height="99.2561">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="44" name="Grass" x="736.636" y="478.765" width="31.1392" height="99.2561">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="45" name="Grass" x="704.524" y="510.877" width="31.1392" height="66.1708">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="49" name="Grass" x="834.919" y="478.765" width="31.1392" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="50" name="Grass" x="706.47" y="605.268" width="31.1392" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="51" name="Grass" x="641.273" y="733.717" width="95.3637" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="52" name="Grass" x="674.358" y="699.658" width="95.3637" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="53" name="Grass" x="704.524" y="672.412" width="95.3637" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="46" name="Grass" x="736.636" y="602.349" width="92.4444" height="66.1708">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="47" name="Grass" x="766.802" y="543.963" width="92.4444" height="95.3637">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="48" name="Grass" x="770.695" y="446.653" width="63.2515" height="95.3637">
+   <properties>
+    <property name="GrassType" value="Main Area"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="69" name="Seapoint" x="258.844" y="255.925" width="432.056" height="9.73099"/>
+  <object id="70" name="Seapoint" x="254.952" y="439.841" width="448.599" height="9.73099"/>
+  <object id="71" name="Seapoint" x="693.82" y="269.549" width="7.7848" height="171.265"/>
+  <object id="72" name="Seapoint" x="256.898" y="253.979" width="7.7848" height="187.808"/>
+  <object id="76" name="SZMZ_A1Door" x="960.449" y="319.177" width="8.75789" height="63.2515">
+   <properties>
+    <property name="Destination" value="Safari Zone A1"/>
+   </properties>
+  </object>
+  <object id="77" name="SZA1_MZSpawn" x="898.171" y="357.127">
+   <point/>
+  </object>
+  <object id="268" name="SZA2_MZSpawn" x="476" y="58.6667">
+   <point/>
+  </object>
+  <object id="321" name="SZA3_MZSpawn" x="64" y="361.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="4" name="Area 1" width="40" height="35" visible="0">
+  <data encoding="csv">
+658,658,368,368,368,368,368,368,658,658,658,658,658,658,658,658,658,658,658,658,368,368,658,658,658,658,658,658,658,658,0,0,0,0,0,0,0,0,0,0,
+658,4,4,4,4,4,4,4,10,10,10,10,10,10,10,10,10,10,10,10,4,4,10,10,10,10,10,10,4,658,0,0,0,0,0,0,0,0,0,0,
+658,4,4,4,4,4,4,4,10,10,10,10,10,10,10,10,10,10,4,4,4,10,10,10,10,10,10,10,10,658,0,0,0,0,0,0,0,0,0,0,
+658,658,368,368,368,368,4,4,4,10,10,10,10,10,10,10,10,4,4,4,10,10,10,10,10,10,10,10,10,658,0,0,0,0,0,0,0,0,0,0,
+664,4,4,4,4,4,4,4,4,4,677,678,678,678,678,678,678,678,678,679,10,10,10,10,10,10,10,10,10,658,0,0,0,0,0,0,0,0,0,0,
+672,4,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,686,686,687,4,10,10,10,10,10,10,10,10,658,0,0,0,0,0,0,0,0,0,0,
+658,658,368,368,368,368,368,368,368,368,685,686,686,686,686,686,686,686,686,687,10,10,10,10,10,10,10,10,4,368,0,0,0,0,0,0,0,0,0,0,
+658,4,4,4,4,4,4,4,4,4,693,694,702,694,694,694,694,702,694,695,4,10,4,10,10,4,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,10,14,14,14,14,10,4,4,4,4,681,682,4,4,4,4,4,4,4,4,4,375,376,376,697,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,14,14,14,14,10,10,4,4,4,689,690,4,4,4,4,4,4,4,4,4,383,706,707,705,4,368,0,0,0,0,0,0,0,0,0,0,
+658,10,14,14,10,10,10,10,14,14,4,335,350,350,350,350,350,350,350,333,4,4,4,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+658,10,14,14,10,10,10,10,14,14,4,343,342,342,342,342,342,342,342,341,4,4,4,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+658,10,14,14,10,10,10,10,14,14,10,10,10,10,10,359,342,342,677,678,678,678,678,678,678,678,678,679,681,682,0,0,0,0,0,0,0,0,0,0,
+658,10,14,14,10,10,10,10,14,14,10,10,10,10,10,343,342,342,685,686,686,686,686,686,686,686,686,687,689,690,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,14,14,14,14,10,10,4,335,350,350,350,351,342,342,685,686,686,686,686,686,686,686,686,687,681,682,0,0,0,0,0,0,0,0,0,0,
+368,4,4,10,14,14,14,14,10,4,4,343,342,342,342,342,342,342,693,694,701,686,686,703,702,694,694,695,689,690,0,0,0,0,0,0,0,0,0,0,
+658,4,4,4,4,4,4,4,4,4,4,343,342,342,342,342,342,342,342,342,685,686,686,687,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+658,658,4,4,4,4,4,4,4,4,4,343,342,342,342,342,342,342,342,342,685,686,686,687,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+681,682,681,682,681,682,4,4,4,4,677,678,678,678,678,678,678,678,678,678,678,686,686,687,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+689,690,689,690,689,690,4,4,4,4,685,686,686,686,686,686,686,686,686,686,686,686,686,687,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,368,368,368,368,368,368,4,4,4,685,686,686,686,686,686,686,686,686,686,686,686,686,687,10,10,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,4,368,4,4,4,693,694,702,694,694,694,694,694,694,694,702,694,694,695,10,10,10,10,4,368,0,0,0,0,0,0,0,0,0,0,
+664,4,4,4,4,4,658,4,4,4,4,4,4,4,4,4,368,4,10,10,10,10,10,10,10,10,10,10,4,368,0,0,0,0,0,0,0,0,0,0,
+672,4,4,4,4,4,658,658,368,368,368,368,368,368,368,368,368,4,4,10,10,10,10,10,10,10,10,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,10,10,10,10,10,10,10,4,4,4,658,0,0,0,0,0,0,0,0,0,0,
+368,368,368,368,368,368,368,368,368,368,368,368,368,368,658,658,658,658,658,658,658,658,658,658,658,658,368,368,658,658,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="A1Objects" visible="0">
+  <object id="73" name="SZA1_MZDoor" x="-11.6772" y="716.201" width="12.6503" height="45.7357">
+   <properties>
+    <property name="Destination" value="Safari Zone MA"/>
+   </properties>
+  </object>
+  <object id="74" name="SZMZ_A1Spawn" x="61.3053" y="735.663">
+   <point/>
+  </object>
+  <object id="75" name="Border2" x="1.9462" y="639.326" width="222.84" height="27.2468"/>
+  <object id="84" name="Border2" x="192.674" y="668.519" width="29.1932" height="99.2562"/>
+  <object id="92" name="Border2" x="320.096" y="592.644" width="29.1932" height="106.068"/>
+  <object id="93" name="Border2" x="414.487" y="674.384" width="222.84" height="24.3275"/>
+  <object id="94" name="Border2" x="674.304" y="673.411" width="93.4178" height="30.1661"/>
+  <object id="95" name="Border2" x="739.502" y="483.657" width="30.1663" height="193.647"/>
+  <object id="96" name="Border2" x="798.861" y="476.845" width="96.3371" height="35.0316"/>
+  <object id="97" name="Border2" x="603.241" y="380.804" width="283.172" height="12.6503"/>
+  <object id="98" name="Border2" x="416.406" y="223.162" width="125.53" height="31.1392"/>
+  <object id="105" name="Seapoint2" x="354.127" y="449.894" width="16.5429" height="125.53"/>
+  <object id="106" name="Border2" x="367.751" y="446.002" width="122.611" height="18.4889"/>
+  <object id="107" name="Border2" x="477.711" y="383.724" width="18.4891" height="63.2515"/>
+  <object id="108" name="Seapoint2" x="350.235" y="321.445" width="18.4891" height="63.2515"/>
+  <object id="109" name="Seapoint2" x="360.939" y="319.499" width="269.549" height="13.6234"/>
+  <object id="110" name="Seapoint2" x="624.649" y="330.203" width="15.5698" height="53.5205"/>
+  <object id="111" name="Border2" x="576.967" y="381.777" width="28.2201" height="120.664"/>
+  <object id="112" name="Border2" x="639.246" y="495.63" width="28.2201" height="78.8211"/>
+  <object id="113" name="Border2" x="351.208" y="568.613" width="316.258" height="13.6234"/>
+  <object id="114" name="Border2" x="770.614" y="256.248" width="117.745" height="29.193"/>
+  <object id="115" name="Border2" x="775.48" y="286.414" width="25.3008" height="29.193"/>
+  <object id="116" name="Border2" x="829" y="283.494" width="55.4669" height="29.193"/>
+  <object id="99" name="Border2" x="576.967" y="221.216" width="65.1979" height="31.1392"/>
+  <object id="100" name="Border2" x="320.069" y="223.162" width="65.1979" height="31.1392"/>
+  <object id="101" name="Border2" x="606.16" y="127.799" width="36.0049" height="92.4445"/>
+  <object id="102" name="Border2" x="322.988" y="128.772" width="25.3008" height="92.4445"/>
+  <object id="103" name="Border2" x="333.692" y="123.906" width="286.091" height="12.6503"/>
+  <object id="85" name="Border2" x="225.759" y="733.717" width="317.231" height="30.1661"/>
+  <object id="88" name="Border2" x="0.973101" y="799.861" width="956.557" height="30.1661"/>
+  <object id="86" name="Border2" x="511.85" y="703.551" width="32.1125" height="30.1661"/>
+  <object id="87" name="Border2" x="31.1392" y="542.989" width="32.1125" height="30.1661"/>
+  <object id="83" name="Border2" x="35.0316" y="97.2558" width="156.669" height="27.2468"/>
+  <object id="79" name="Border2" x="-0.973098" y="194.62" width="325.015" height="27.2468"/>
+  <object id="89" name="Border2" x="926.391" y="35.0313" width="32.1125" height="346.423"/>
+  <object id="91" name="Border2" x="926.391" y="512.823" width="32.1125" height="287.064"/>
+  <object id="90" name="Border2" x="897.198" y="384.374" width="62.2786" height="126.503"/>
+  <object id="104" name="Border2" x="415.513" y="255.925" width="66.171" height="65.1977"/>
+  <object id="117" name="Border2" x="352.262" y="674.358" width="29.1932" height="29.193"/>
+  <object id="80" name="Border2" x="1.16959e-06" y="0.972784" width="958.503" height="27.2468"/>
+  <object id="81" name="Border2" x="1.16959e-06" y="27.2465" width="32.1125" height="101.202"/>
+  <object id="82" name="Border2" x="1.16959e-06" y="226.732" width="32.1125" height="342.531"/>
+  <object id="78" name="Border2" x="1.16959e-06" y="576.075" width="191.701" height="62.2784"/>
+  <object id="118" name="Grass2" x="258.844" y="31.1392" width="312.365" height="62.2784">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="119" name="Grass2" x="288.037" y="95.3637" width="253.979" height="31.1392">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="120" name="Grass2" x="573.156" y="29.193" width="66.1708" height="31.1392">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="121" name="Grass2" x="703.551" y="28.2199" width="190.727" height="191.701">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="129" name="Grass2" x="126.503" y="319.177" width="131.368" height="128.449">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="140" name="Grass2" x="610.133" y="706.47" width="214.082" height="95.3637">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="141" name="Grass2" x="771.668" y="640.299" width="87.5789" height="67.1439">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="142" name="Grass2" x="826.161" y="698.685" width="36.9778" height="67.1439">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="143" name="Grass2" x="859.247" y="666.573" width="36.9778" height="67.1439">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="145" name="Grass2" x="575.102" y="701.605" width="36.0047" height="36.0047">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="144" name="Grass2" x="448.599" y="766.802" width="212.136" height="32.1123">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="130" name="Grass2" x="257.871" y="253.006" width="29.193" height="69.0901">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="131" name="Grass2" x="97.3099" y="251.06" width="29.193" height="69.0901">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="132" name="Grass2" x="66.1708" y="282.199" width="29.193" height="36.9778">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="133" name="Grass2" x="33.0854" y="316.257" width="29.193" height="128.449">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="134" name="Grass2" x="289.011" y="283.172" width="29.193" height="36.9778">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="135" name="Grass2" x="317.23" y="383.401" width="160.561" height="58.386">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="136" name="Grass2" x="258.844" y="447.626" width="32.1123" height="58.386">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="137" name="Grass2" x="94.3906" y="450.545" width="32.1123" height="58.386">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="138" name="Grass2" x="65.1977" y="444.706" width="32.1123" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="139" name="Grass2" x="289.011" y="442.76" width="32.1123" height="33.0854">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="122" name="Grass2" x="896.225" y="59.3591" width="28.2199" height="132.342">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="123" name="Grass2" x="674.358" y="57.4129" width="28.2199" height="196.566">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="124" name="Grass2" x="645.165" y="95.3637" width="28.2199" height="62.2784">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="126" name="Grass2" x="644.192" y="190.727" width="28.2199" height="31.1392">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="127" name="Grass2" x="734.69" y="219.92" width="64.2246" height="31.1392">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="128" name="Grass2" x="830.054" y="220.894" width="34.0585" height="31.1392">
+   <properties>
+    <property name="GrassType" value="Area 1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="146" name="Sign2" gid="660" x="160" y="769.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="CENTER AREA"/>
+    <property name="Text2" value="NORTH: AREA 2"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="147" name="Sign2" gid="660" x="832" y="349.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="Rest House"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="148" name="Sign2" gid="660" x="190.667" y="157.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="Rest House"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="149" name="Ball2" gid="1330" x="642.333" y="447" width="30" height="30">
+   <properties>
+    <property name="Item" value="Carbos"/>
+   </properties>
+  </object>
+  <object id="151" name="Ball2" gid="1330" x="674.333" y="348.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Full Restore"/>
+   </properties>
+  </object>
+  <object id="152" name="Ball2" gid="1330" x="95.6667" y="249.667" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Potion"/>
+   </properties>
+  </object>
+  <object id="150" name="Ball2" gid="1330" x="450.333" y="408.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM37"/>
+   </properties>
+  </object>
+  <object id="153" name="SZA1_H1Door" x="803.753" y="287.011" width="28.2199" height="21.4082">
+   <properties>
+    <property name="Destination" value="Safari Zone A1RH"/>
+   </properties>
+  </object>
+  <object id="154" name="H1_SZA1Spawn" x="797.942" y="356.154">
+   <point/>
+  </object>
+  <object id="207" name="SZA1_A2Door" x="-12" y="129.333" width="13.3333" height="70.6667">
+   <properties>
+    <property name="Destination" value="Safari Zone A2"/>
+   </properties>
+  </object>
+  <object id="208" name="SZA2_A1Spawn" x="68" y="166.667">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="6" name="Area 2" width="40" height="35" visible="0">
+  <data encoding="csv">
+681,682,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,658,658,658,658,658,658,658,658,681,682,
+689,690,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,10,10,10,689,690,
+368,4,4,10,10,4,4,10,10,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,375,376,376,697,4,368,
+368,4,10,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,4,383,706,707,705,4,368,
+368,4,10,10,10,10,10,10,10,10,4,368,368,368,368,368,681,682,368,368,681,682,368,368,368,368,368,368,10,10,10,10,4,4,4,4,4,4,4,368,
+368,4,4,10,10,10,10,10,10,4,4,368,4,4,4,4,689,690,4,4,689,690,4,4,4,4,4,4,10,10,10,10,4,4,4,4,4,4,4,368,
+368,4,4,10,10,10,10,10,10,4,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,4,4,4,4,4,4,368,
+368,4,10,10,10,10,10,10,10,10,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,4,4,4,4,4,368,
+681,682,10,10,10,10,10,10,335,350,350,333,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,4,4,4,4,368,
+689,690,4,10,10,4,4,10,343,342,342,341,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,4,4,4,368,
+368,4,4,4,4,4,4,4,343,342,342,341,10,10,10,4,681,682,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,4,4,4,368,
+368,4,4,4,4,4,4,4,343,342,342,341,10,10,10,10,689,690,658,658,658,658,658,658,658,658,658,658,658,658,658,658,4,10,10,10,4,4,4,368,
+368,4,4,4,4,4,4,4,343,342,342,341,10,10,10,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,677,678,678,678,678,678,678,679,
+368,4,4,4,4,4,4,4,343,342,342,341,10,10,10,10,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,687,
+368,4,4,4,335,350,350,333,14,14,10,10,10,10,10,10,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,687,
+368,4,4,4,343,342,342,341,14,14,10,10,10,10,10,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,693,694,702,694,701,686,686,687,
+368,4,4,4,343,342,342,341,10,10,10,10,10,10,4,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,343,342,342,341,4,10,10,4,4,10,4,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,343,342,342,341,4,4,4,4,4,4,4,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,343,342,342,341,4,4,4,4,4,4,4,4,368,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,4,368,4,4,4,4,4,4,4,4,677,678,678,678,678,678,678,678,678,678,678,679,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,4,368,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,686,686,686,686,687,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,4,368,4,10,4,10,10,10,10,4,685,686,686,686,686,686,686,686,686,686,686,687,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,4,368,10,10,10,10,10,10,10,10,685,686,686,686,686,703,694,694,702,694,694,695,4,4,4,4,4,4,4,4,4,4,685,686,686,687,
+368,4,4,4,4,658,10,10,335,350,350,333,10,10,685,686,686,686,686,687,10,10,10,10,10,4,677,678,678,678,678,678,678,678,678,678,678,686,686,687,
+368,4,4,4,4,658,10,10,343,342,342,341,10,10,685,686,686,686,686,687,10,10,10,10,10,10,685,686,686,686,686,686,686,686,686,686,686,686,686,687,
+368,4,4,4,4,368,10,10,343,342,342,341,10,10,685,686,686,686,686,687,10,10,10,10,10,10,685,686,686,686,686,686,686,686,686,686,686,686,686,687,
+368,4,4,4,4,368,10,10,343,342,342,341,10,4,693,694,702,694,694,695,10,10,10,10,10,10,693,694,702,694,694,694,694,694,694,694,694,694,695,695,
+368,4,4,4,4,368,10,10,343,342,342,341,4,4,4,4,4,368,10,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,658,658,
+368,4,4,4,4,368,4,10,343,342,342,341,4,4,4,4,4,368,4,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,658,658,
+368,4,4,4,4,368,4,4,4,4,4,4,4,4,4,4,4,368,4,4,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,2147484312,
+368,4,4,4,4,368,4,4,4,4,4,4,4,4,4,4,4,368,4,4,10,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,2147484320,
+368,4,4,4,4,368,4,4,4,4,4,4,4,4,4,4,4,368,4,4,4,4,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,658,658,
+368,4,4,4,4,368,4,4,4,4,4,4,4,4,4,4,4,368,4,4,4,4,10,4,4,10,10,4,4,4,4,4,4,4,4,4,4,4,658,658,
+658,658,670,671,658,658,658,658,670,671,658,658,658,658,658,658,658,658,658,658,670,671,658,658,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368,368
+</data>
+ </layer>
+ <objectgroup id="7" name="A2Objects" visible="0">
+  <object id="155" name="Sign3" gid="660" x="606.667" y="1085.33" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="POKEMON hide in the tall grass! Zigzag through grassy areas to"/>
+    <property name="Text3" value="flush them out."/>
+   </properties>
+  </object>
+  <object id="156" name="Sign3" gid="660" x="416" y="1025.33" width="32" height="32">
+   <properties>
+    <property name="Text" value="AREA 2"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="158" name="Sign3" gid="660" x="834.667" y="925.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="Win a free HM for finding the SECRET HOUSE!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="159" name="Sign3" gid="660" x="1149.33" y="161.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="Rest House"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="157" name="Sign3" gid="660" x="126.667" y="830.667" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="The SECRET HOUSE is still ahead!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="160" name="Border3" x="1216" y="-2.66667" width="60" height="64"/>
+  <object id="173" name="Border3" x="352" y="128" width="157.333" height="26.6667"/>
+  <object id="179" name="Border3" x="580" y="356" width="442.667" height="26.6667"/>
+  <object id="193" name="Border3" x="854.667" y="761.333" width="313.333" height="12"/>
+  <object id="194" name="Border3" x="830.667" y="786.667" width="29.3333" height="97.3333"/>
+  <object id="195" name="Border3" x="862" y="865.333" width="33.3333" height="32"/>
+  <object id="196" name="Border3" x="930" y="864" width="312" height="32"/>
+  <object id="197" name="Border3" x="1124.67" y="481.333" width="29.3333" height="32"/>
+  <object id="199" name="Border3" x="1046" y="481.333" width="41.3333" height="32"/>
+  <object id="198" name="Border3" x="1023.33" y="381.333" width="24" height="130.667"/>
+  <object id="200" name="Border3" x="1150" y="68" width="57.3333" height="57.3333"/>
+  <object id="202" name="Border3" x="1094.67" y="68" width="29.3333" height="57.3333"/>
+  <object id="201" name="Border3" x="1091.33" y="66.6667" width="113.333" height="21.3333"/>
+  <object id="175" name="Border3" x="577.333" y="126.667" width="62.6667" height="26.6667"/>
+  <object id="184" name="Border3" x="470.667" y="635" width="329.333" height="12"/>
+  <object id="185" name="Border3" x="801.333" y="643" width="30.6667" height="128"/>
+  <object id="192" name="Border3" x="1152" y="481.667" width="25.3333" height="285.333"/>
+  <object id="186" name="Border3" x="740" y="739" width="60" height="29.3333"/>
+  <object id="189" name="Border3" x="545.333" y="863" width="60" height="29.3333"/>
+  <object id="191" name="Border3" x="453.333" y="864.333" width="57.3333" height="28"/>
+  <object id="190" name="Border3" x="448" y="652.333" width="24" height="236"/>
+  <object id="187" name="Border3" x="612" y="740.333" width="92" height="28"/>
+  <object id="188" name="Border3" x="606.667" y="763" width="32" height="128"/>
+  <object id="176" name="Border3" x="353.333" y="160" width="28" height="89.3333"/>
+  <object id="183" name="Border3" x="546.667" y="896" width="28" height="184"/>
+  <object id="182" name="Border3" x="160" y="636" width="28" height="448"/>
+  <object id="181" name="Border3" x="513.333" y="381.333" width="28" height="258.667"/>
+  <object id="174" name="Border3" x="705.333" y="129.333" width="190.667" height="26.6667"/>
+  <object id="162" name="Border3" x="1215.67" y="896" width="60" height="64"/>
+  <object id="165" name="Border3" x="317" y="1084" width="320" height="33.3333"/>
+  <object id="166" name="Border3" x="128.333" y="1084" width="122.667" height="33.3333"/>
+  <object id="167" name="Border3" x="0.666667" y="1084" width="61.3333" height="33.3333"/>
+  <object id="169" name="Border3" x="3.33333" y="252.667" width="52" height="66.6667"/>
+  <object id="171" name="Border3" x="0.666667" y="61.3333" width="32" height="189.333"/>
+  <object id="172" name="Border3" x="64.6667" y="8.52651e-14" width="1148" height="28"/>
+  <object id="170" name="Border3" x="4.66667" y="-4" width="60" height="66.6667"/>
+  <object id="177" name="Border3" x="511.333" y="126.667" width="60" height="66.6667"/>
+  <object id="180" name="Border3" x="514" y="313.333" width="60" height="66.6667"/>
+  <object id="178" name="Border3" x="638" y="122.667" width="60" height="66.6667"/>
+  <object id="168" name="Border3" x="0.666667" y="316" width="28" height="765.333"/>
+  <object id="163" name="Border3" x="1217" y="1026.67" width="60" height="64"/>
+  <object id="164" name="Border3" x="709" y="1092" width="566.667" height="26.6667"/>
+  <object id="161" name="Border3" x="1246.67" y="64" width="26.6667" height="830.667"/>
+  <object id="203" name="Ball3" gid="1330" x="607.667" y="251" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM30"/>
+   </properties>
+  </object>
+  <object id="204" name="Ball3" gid="1330" x="770.333" y="59" width="30" height="30">
+   <properties>
+    <property name="Item" value="Protein"/>
+   </properties>
+  </object>
+  <object id="205" name="SZA2_A1Door" x="1281.33" y="956.333" width="9.33333" height="70.6667">
+   <properties>
+    <property name="Destination" value="Safari Zone A1"/>
+   </properties>
+  </object>
+  <object id="265" name="SZA2_MZDoor" x="640.663" y="1116.33" width="68" height="16">
+   <properties>
+    <property name="Destination" value="Safari Zone MA"/>
+   </properties>
+  </object>
+  <object id="322" name="SZA2_A3Door" x="60.6633" y="1120.33" width="68" height="16">
+   <properties>
+    <property name="Destination" value="Safari Zone A3"/>
+   </properties>
+  </object>
+  <object id="323" name="SZA2_A3Door2" x="253.997" y="1119" width="68" height="16">
+   <properties>
+    <property name="Destination" value="Safari Zone A3"/>
+   </properties>
+  </object>
+  <object id="206" name="SZA1_A2Spawn" x="1216" y="1000">
+   <point/>
+  </object>
+  <object id="266" name="SZMZ_A2Spawn" x="676" y="1100">
+   <point/>
+  </object>
+  <object id="324" name="SZA3_A2Spawn" x="96" y="1081.33">
+   <point/>
+  </object>
+  <object id="325" name="SZA3_A2Spawn2" x="288" y="1080">
+   <point/>
+  </object>
+  <object id="209" name="Seapoint3" x="254.667" y="258.667" width="126.667" height="10.6667"/>
+  <object id="210" name="Seapoint3" x="256" y="269.333" width="12" height="177.333"/>
+  <object id="213" name="Seapoint3" x="130.667" y="464" width="12" height="177.333"/>
+  <object id="214" name="Seapoint3" x="240.667" y="458.667" width="12" height="177.333"/>
+  <object id="218" name="Seapoint3" x="368.667" y="781.333" width="12" height="177.333"/>
+  <object id="219" name="Seapoint3" x="256.667" y="781.333" width="12" height="177.333"/>
+  <object id="220" name="Seapoint3" x="257.667" y="768" width="122.667" height="12"/>
+  <object id="221" name="Seapoint3" x="259" y="949.333" width="122.667" height="8"/>
+  <object id="215" name="Seapoint3" x="128.667" y="450.667" width="122.667" height="10.6667"/>
+  <object id="216" name="Seapoint3" x="190" y="629.333" width="61.3333" height="10.6667"/>
+  <object id="217" name="Seapoint3" x="128.667" y="632" width="26.6667" height="10.6667"/>
+  <object id="211" name="Seapoint3" x="253.333" y="440" width="122.667" height="9.33333"/>
+  <object id="212" name="Seapoint3" x="366.667" y="269.333" width="13.3333" height="166.667"/>
+  <object id="222" name="Grass3" x="898.667" y="93.3333" width="120" height="126.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="233" name="Grass3" x="94.6667" y="118.667" width="192" height="126.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="242" name="Grass3" x="380" y="320" width="93.3333" height="190.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="255" name="Grass3" x="638.667" y="762.667" width="160" height="260">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="256" name="Grass3" x="801.333" y="797.333" width="32" height="290.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="257" name="Grass3" x="829.333" y="956" width="32" height="136">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="258" name="Grass3" x="858.667" y="990.667" width="32" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="259" name="Grass3" x="708" y="1021.33" width="32" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="260" name="Grass3" x="737.333" y="1014.67" width="64" height="41.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="261" name="Grass3" x="578.667" y="893.333" width="86.6667" height="34.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="262" name="Grass3" x="608" y="924" width="86.6667" height="34.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="249" name="Grass3" x="192" y="736" width="252" height="34.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="250" name="Grass3" x="286.667" y="698.667" width="132" height="34.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="251" name="Grass3" x="224" y="702.667" width="29.3333" height="257.333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="252" name="Grass3" x="193.333" y="734.667" width="29.3333" height="190.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="253" name="Grass3" x="384" y="700" width="29.3333" height="190.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="254" name="Grass3" x="416" y="737.333" width="29.3333" height="129.333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="243" name="Grass3" x="473.333" y="349.333" width="45.3333" height="34.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="244" name="Grass3" x="472" y="416" width="45.3333" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="247" name="Grass3" x="285.333" y="545.333" width="66.6667" height="29.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="248" name="Grass3" x="413.333" y="541.333" width="30.6667" height="29.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="245" name="Grass3" x="318.667" y="444" width="65.3333" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="246" name="Grass3" x="254.667" y="510.667" width="189.333" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="234" name="Grass3" x="94.6667" y="64" width="66.6667" height="53.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="238" name="Grass3" x="66.6667" y="222.667" width="30.6667" height="53.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="239" name="Grass3" x="286" y="222.667" width="30.6667" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="240" name="Grass3" x="223.667" y="287.333" width="30.6667" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="241" name="Grass3" x="91.6667" y="282" width="66.6667" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="235" name="Grass3" x="222.667" y="60" width="66.6667" height="53.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="237" name="Grass3" x="68" y="100" width="248" height="53.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="236" name="Grass3" x="64" y="245.333" width="190.667" height="37.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="231" name="Grass3" x="929.333" y="65.3333" width="120" height="61.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="232" name="Grass3" x="968" y="34.6667" width="120" height="61.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="230" name="Grass3" x="958.667" y="34.6667" width="254.667" height="26.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="223" name="Grass3" x="1057.33" y="289.333" width="94.6667" height="92">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="227" name="Grass3" x="926.667" y="222.667" width="94.6667" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="228" name="Grass3" x="960" y="257.333" width="61.3333" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="229" name="Grass3" x="990.667" y="289.333" width="61.3333" height="33.3333">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="224" name="Grass3" x="1024" y="192" width="30.6667" height="154.667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="225" name="Grass3" x="1056" y="221.333" width="30.6667" height="68">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="226" name="Grass3" x="1089.33" y="254.667" width="30.6667" height="38.6667">
+   <properties>
+    <property name="GrassType" value="Area 2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="263" name="SZA2_H1Door" x="1120" y="97.3333" width="32" height="20">
+   <properties>
+    <property name="Destination" value="Safari Zone A2RH"/>
+   </properties>
+  </object>
+  <object id="264" name="H1_SZA2Spawn" x="1120" y="185.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="8" name="Area 3" width="40" height="35">
+  <data encoding="csv">
+681,682,4,4,4,4,681,682,4,4,4,4,4,4,4,4,4,4,681,682,662,663,681,682,681,682,662,663,681,682,0,0,0,0,0,0,0,0,0,0,
+689,690,4,4,4,4,689,690,368,368,368,368,368,368,368,368,368,368,689,690,4,4,689,690,689,690,4,4,689,690,0,0,0,0,0,0,0,0,0,0,
+4,365,375,376,376,697,365,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,373,383,706,707,705,373,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,365,4,4,4,4,365,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,373,4,4,4,4,373,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,365,4,4,4,4,4,4,4,4,677,678,678,678,678,678,678,679,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,373,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,365,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,373,4,4,4,4,4,4,4,4,693,694,694,694,701,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,368,335,350,350,350,350,350,350,333,375,376,376,697,685,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,368,343,342,342,342,342,342,342,341,383,706,707,705,685,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,368,343,342,342,342,342,342,342,341,4,4,4,4,685,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+4,368,343,342,342,342,342,342,342,341,4,4,4,4,685,686,686,687,4,4,4,4,4,4,368,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+681,682,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,678,678,678,678,678,678,679,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+689,690,4,4,4,4,4,4,4,4,4,4,4,4,685,686,686,686,686,686,686,686,686,687,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,677,678,678,678,678,678,678,678,678,678,678,686,686,686,686,686,686,686,686,687,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,685,686,686,686,686,686,686,686,686,686,686,686,686,703,694,694,694,702,694,695,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,10,685,686,686,686,686,686,686,686,686,686,686,686,686,687,4,4,4,4,4,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,693,694,702,694,694,694,694,694,694,694,694,694,694,695,4,4,4,4,4,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,368,4,4,4,4,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,368,4,4,4,4,4,4,4,4,4,4,368,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,10,10,10,10,10,10,10,10,10,10,10,10,4,4,368,4,4,4,4,4,4,4,4,4,4,2147484312,0,0,0,0,0,0,0,0,0,0,
+368,4,4,4,4,10,10,10,10,10,10,4,4,10,10,4,4,4,368,4,4,4,4,4,4,4,4,4,4,2147484320,0,0,0,0,0,0,0,0,0,0,
+681,682,368,368,368,368,368,368,368,368,4,4,4,4,4,4,368,368,4,4,4,4,368,368,368,368,368,368,368,368,0,0,0,0,0,0,0,0,0,0,
+689,690,4,4,4,4,4,4,4,4,368,368,368,368,368,368,4,4,368,368,368,368,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="A3Objects">
+  <object id="269" name="Border4" x="1.33333" y="0" width="64" height="68"/>
+  <object id="274" name="Border4" x="7.10543e-15" y="445.333" width="64" height="68"/>
+  <object id="275" name="Border4" x="-1.33333" y="766.667" width="64" height="68"/>
+  <object id="270" name="Border4" x="193.333" y="-2.66667" width="64" height="68"/>
+  <object id="300" name="Border4" x="72" y="64" width="113.333" height="28"/>
+  <object id="301" name="Border4" x="326.667" y="317.333" width="113.333" height="28"/>
+  <object id="276" name="Border4" x="258.667" y="33.3333" width="321.333" height="29.3333"/>
+  <object id="287" name="Border4" x="225.333" y="606.667" width="348" height="29.3333"/>
+  <object id="298" name="Border4" x="120" y="93.3333" width="65.3333" height="29.3333"/>
+  <object id="302" name="Border4" x="378.667" y="351.333" width="65.3333" height="29.3333"/>
+  <object id="299" name="Border4" x="72" y="93.3333" width="26.6667" height="28"/>
+  <object id="303" name="Border4" x="325.667" y="351.667" width="26.6667" height="28"/>
+  <object id="288" name="Border4" x="542.667" y="444" width="202.667" height="6.66667"/>
+  <object id="289" name="Border4" x="538.667" y="202.667" width="37.3333" height="244"/>
+  <object id="290" name="Border4" x="440" y="296" width="37.3333" height="213.333"/>
+  <object id="291" name="Border4" x="148" y="501.333" width="296" height="13.3333"/>
+  <object id="292" name="Border4" x="125.333" y="522.667" width="30.6667" height="114.667"/>
+  <object id="293" name="Border4" x="545.333" y="553.333" width="30.6667" height="82.6667"/>
+  <object id="294" name="Border4" x="737.333" y="461.333" width="30.6667" height="104"/>
+  <object id="295" name="Border4" x="550.667" y="544" width="117.333" height="32"/>
+  <object id="304" name="Border4" x="156" y="608" width="34.6667" height="32"/>
+  <object id="296" name="Border4" x="706.667" y="542.667" width="61.3333" height="32"/>
+  <object id="277" name="Border4" x="65.3333" y="768" width="253.333" height="29.3333"/>
+  <object id="278" name="Border4" x="705.333" y="765.333" width="253.333" height="29.3333"/>
+  <object id="279" name="Border4" x="322" y="798.667" width="190.667" height="29.3333"/>
+  <object id="280" name="Border4" x="575.333" y="797.333" width="126.667" height="29.3333"/>
+  <object id="285" name="Border4" x="514" y="764" width="58.6667" height="29.3333"/>
+  <object id="283" name="Border4" x="574" y="634.667" width="33.3333" height="130.667"/>
+  <object id="297" name="Border4" x="0.666667" y="516" width="33.3333" height="242.667"/>
+  <object id="286" name="Border4" x="190" y="80" width="33.3333" height="114.667"/>
+  <object id="284" name="Border4" x="30" y="77.3333" width="33.3333" height="362.667"/>
+  <object id="281" name="Border4" x="770" y="62.6667" width="28" height="380"/>
+  <object id="282" name="Border4" x="930" y="61.3333" width="28" height="640"/>
+  <object id="271" name="Border4" x="577.333" y="-3.55271e-15" width="64" height="68"/>
+  <object id="272" name="Border4" x="704" y="-4" width="125.333" height="68"/>
+  <object id="273" name="Border4" x="893.333" y="-3.55271e-15" width="64" height="68"/>
+  <object id="305" name="Sign4" gid="660" x="832" y="165.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="Zone Exploration Campaign! The Search for the SECRET HOUSE!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="308" name="Sign4" gid="660" x="736" y="736" width="32" height="32">
+   <properties>
+    <property name="Text" value="AREA 3"/>
+    <property name="Text2" value="EAST: CENTER AREA"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="306" name="Sign4" gid="660" x="541.333" y="126.667" width="32" height="32">
+   <properties>
+    <property name="Text" value="REQUEST NOTICE"/>
+    <property name="Text2" value="Please find the SAFARI WARDEN's lost GOLD TEETH. They're around"/>
+    <property name="Text3">here somewhere. Reward offered! Contact: WARDEN
+</property>
+   </properties>
+  </object>
+  <object id="307" name="Sign4" gid="660" x="385.333" y="413.333" width="32" height="32">
+   <properties>
+    <property name="Text" value="Rest House"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="309" name="Ball4" gid="1330" x="610.333" y="224.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Gold Teeth"/>
+   </properties>
+  </object>
+  <object id="312" name="Ball4" gid="1330" x="583" y="608.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Revive"/>
+   </properties>
+  </object>
+  <object id="313" name="Ball4" gid="1330" x="248.333" y="671" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Potion"/>
+   </properties>
+  </object>
+  <object id="310" name="Ball4" gid="1330" x="286.333" y="225.667" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM32"/>
+   </properties>
+  </object>
+  <object id="311" name="Hidden" x="177.333" y="176" width="60" height="26.6667">
+   <properties>
+    <property name="Item" value="Revive"/>
+   </properties>
+  </object>
+  <object id="314" name="SZA3_SHDoor" x="100" y="94.6667" width="26.6667" height="20">
+   <properties>
+    <property name="Destination" value="Safari Zone SH"/>
+   </properties>
+  </object>
+  <object id="318" name="SZA3_RHDoor" x="352" y="352" width="26.6667" height="20">
+   <properties>
+    <property name="Destination" value="Safari Zone A3RH"/>
+   </properties>
+  </object>
+  <object id="315" name="SH_SZA3Spawn" x="113.333" y="188">
+   <point/>
+  </object>
+  <object id="316" name="SZA3_MZDoor" x="961.333" y="702.667" width="12" height="68">
+   <properties>
+    <property name="Destination" value="Safari Zone MA"/>
+   </properties>
+  </object>
+  <object id="327" name="SZA3_A2Door" x="641.333" y="-14.6667" width="64" height="14.6667">
+   <properties>
+    <property name="Destination" value="Safari Zone A2"/>
+   </properties>
+  </object>
+  <object id="328" name="SZA3_A2Door2" x="834" y="-13.3333" width="64" height="14.6667">
+   <properties>
+    <property name="Destination" value="Safari Zone A2"/>
+   </properties>
+  </object>
+  <object id="317" name="SZMZ_A3Spawn" x="884" y="737.333">
+   <point/>
+  </object>
+  <object id="329" name="SZA2_A3Spawn" x="668" y="104">
+   <point/>
+  </object>
+  <object id="330" name="SZA2_A3Spawn2" x="862.667" y="113.333">
+   <point/>
+  </object>
+  <object id="319" name="RH_SZA3Spawn" x="353.333" y="457.333">
+   <point/>
+  </object>
+  <object id="332" name="Grass4" x="280" y="632" width="290.667" height="70.6667">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="333" name="Grass4" x="97.3333" y="574.667" width="33.3333" height="124">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="334" name="Grass4" x="65.3333" y="601.333" width="65.3333" height="101.333">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="336" name="Grass4" x="125.333" y="638.667" width="178.667" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="337" name="Grass4" x="125.333" y="666.667" width="385.333" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="338" name="Grass4" x="156" y="700" width="192" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="339" name="Grass4" x="420" y="648" width="58.6667" height="113.333">
+   <properties>
+    <property name="GrassType" value="Area 3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

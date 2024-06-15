@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="32">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor 1" width="8" height="8" visible="0">
+  <data encoding="csv">
+528,528,129,468,129,468,129,468,
+536,536,137,490,137,137,137,183,
+137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,
+137,137,467,526,527,467,137,137,
+137,137,467,534,535,467,137,137,
+137,137,137,137,137,137,137,137,
+137,137,151,151,137,137,137,137
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="1" name="Border" x="1.19766" y="1.19766" width="62.2784" height="61.0807"/>
+  <object id="13" name="Border" x="96.7111" y="32.6363" width="31.738" height="31.4386"/>
+  <object id="6" name="Border" x="1.79649" y="256.299" width="62.2784" height="8.68304"/>
+  <object id="7" name="Border" x="128.449" y="255.701" width="128.15" height="8.68304"/>
+  <object id="4" name="Border" x="-7.7848" y="1.19766" width="7.7848" height="255.102"/>
+  <object id="5" name="Border" x="256" y="0.898246" width="7.7848" height="255.102"/>
+  <object id="2" name="Border" x="62.8772" y="1.19766" width="192.823" height="30.8398"/>
+  <object id="3" name="Border" x="97.0105" y="126.952" width="63.1766" height="62.5778"/>
+  <object id="8" name="O_SFH3F1Spawn" x="93.1181" y="237.137">
+   <point/>
+  </object>
+  <object id="9" name="SFH3F1_ODoor" x="64.3743" y="256.599" width="63.476" height="7.7848">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="14" name="SFH3F1_SFH3F2Door" x="236.538" y="32.3368" width="17.6655" height="30.5404">
+   <properties>
+    <property name="Destination" value="SFH3F2"/>
+   </properties>
+  </object>
+  <object id="10" name="F1Dad" gid="1395" x="160.655" y="157.725" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="My daughter likes to mimic people. Her mimicry has earned her the"/>
+    <property name="Dialouge2" value="nickname COPYCAT around here!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="11" name="F1Chansey" gid="1396" x="1.36608" y="224.692" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Chaan! Sii!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="F1Mum" gid="1428" x="63.345" y="98.4409" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="My daughter is so self-centered. She only has a few friends."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="SFH3F2_SFH3F1Spawn" x="191.925" y="64.9731">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor 2" width="8" height="8">
+  <data encoding="csv">
+850,129,129,129,129,468,129,468,
+858,488,2147484136,137,137,137,137,263,
+137,497,2147484145,137,137,137,137,137,
+137,137,137,137,137,137,137,137,
+137,137,137,490,137,137,137,137,
+137,137,137,498,137,137,137,137,
+524,137,137,137,137,137,1165,137,
+532,137,137,137,137,137,1173,137
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects">
+  <object id="16" name="CopyCat" gid="1360" x="96.8795" y="124.987" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="F2Doduo" gid="1343" x="99.7836" y="216.201" width="23" height="23">
+   <properties>
+    <property name="Dialouge" value="Giiih! MIRROR MIRROR ON THE WALL, WHO IS THE FAIREST ONE OF ALL?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="18" name="Doll" gid="1368" x="99.5743" y="63.0082" width="32" height="32">
+   <properties>
+    <property name="Text" value="This is a rare POKEMON! Huh? It's only a doll!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="19" name="Doll" gid="1396" x="31.607" y="156.725" width="33" height="32">
+   <properties>
+    <property name="Text" value="This is a rare POKEMON! Huh? It's only a doll!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="20" name="SFH3F2_SFH3F1Door" x="235.041" y="32.6363" width="20.6596" height="31.1392">
+   <properties>
+    <property name="Destination" value="SFH3F1"/>
+   </properties>
+  </object>
+  <object id="21" name="SFH3F1_SFH3F2Spawn" x="191.626" y="65.5719">
+   <point/>
+  </object>
+  <object id="23" name="Border2" x="0.898246" y="192.823" width="30.8398" height="61.9789"/>
+  <object id="27" name="Border2" x="192.32" y="191.823" width="30.8398" height="61.9789"/>
+  <object id="31" name="Border2" x="96.2077" y="126.251" width="30.8398" height="64.6736"/>
+  <object id="28" name="Border2" x="256.096" y="62.7754" width="17.0667" height="192.823"/>
+  <object id="30" name="Border2" x="-16.3718" y="63.6736" width="17.0667" height="192.823"/>
+  <object id="24" name="Border2" x="0.898246" y="1.19766" width="30.8398" height="61.9789"/>
+  <object id="25" name="Border2" x="32.3368" y="32.3368" width="62.8772" height="45.5111"/>
+  <object id="29" name="Border2" x="28.7438" y="255.701" width="227.855" height="12.276"/>
+  <object id="26" name="Border2" x="31.1392" y="-0.299415" width="224.262" height="27.2468"/>
+ </objectgroup>
+</map>

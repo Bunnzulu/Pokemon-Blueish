@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="15">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+194,194,174,194,194,194,194,194,
+166,166,166,166,166,166,166,166,
+166,166,166,166,166,166,166,166,
+166,166,166,166,166,167,184,204,
+166,166,166,166,166,166,208,2147483856,
+166,166,166,166,166,166,166,166,
+166,166,166,166,166,166,166,166,
+166,166,233,233,166,166,166,514
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="0.666667" y="0.666667" width="64.6667" height="22.6667"/>
+  <object id="2" name="Border" x="94.3333" y="0.333333" width="161.667" height="22.3333"/>
+  <object id="3" name="Border" x="256.333" y="0" width="9.33333" height="256.333"/>
+  <object id="4" name="Border" x="128" y="256" width="127.667" height="10.6667"/>
+  <object id="5" name="Border" x="0.333333" y="256" width="63" height="9.66667"/>
+  <object id="11" name="Border" x="192" y="97.3333" width="63" height="54.3333"/>
+  <object id="12" name="Border" x="227.333" y="226.333" width="27.6667" height="28.6667"/>
+  <object id="6" name="Border" x="-9.66667" y="-1" width="9.66667" height="258.333"/>
+  <object id="7" name="Door" x="63" y="257" width="65" height="6.33333">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="8" name="Spawn1" x="91" y="237.667">
+   <point/>
+  </object>
+  <object id="9" name="Spawn2" x="79.3333" y="49.3333">
+   <point/>
+  </object>
+  <object id="10" name="Door2" x="66.6667" y="1" width="27.3333" height="15">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="14" name="Old Man" gid="1369" x="159.333" y="125" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="POKEMON BADGES are owned only by skilled trainers."/>
+    <property name="Dialouge2" value="I see you have one. Those things have many secrets most don't know."/>
+    <property name="Dialouge3" value="From increasing stats to gaining loyalty from your pokemon."/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

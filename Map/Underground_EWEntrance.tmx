@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="20">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+251,249,249,249,249,249,249,251,
+259,257,257,257,257,257,257,259,
+257,273,267,257,257,265,274,257,
+257,283,257,257,257,257,283,257,
+257,283,257,257,263,257,283,257,
+257,283,257,257,257,257,283,257,
+251,265,267,257,257,265,267,251,
+259,257,257,250,250,257,257,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Woman" gid="1383" x="63.9439" y="160.019" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="The dept. store in CELADON has a great selection!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="Outside" x="94.6152" y="255.401" width="67.069" height="9.58129">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Man" gid="1369" x="63.6444" y="160.019" width="32" height="32" visible="0">
+   <properties>
+    <property name="Dialouge" value="I heard a sleepy POKEMON appeared near CELADON CITY."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="4" name="Spawn1" x="126.335" y="239.29">
+   <point/>
+  </object>
+  <object id="5" name="Border" x="34" y="64" width="30" height="152"/>
+  <object id="7" name="Border" x="223.667" y="0.333333" width="30" height="62"/>
+  <object id="9" name="Border" x="226.333" y="191" width="30" height="62"/>
+  <object id="10" name="Border" x="1" y="193.667" width="30" height="62"/>
+  <object id="11" name="Border" x="65" y="193" width="30" height="30"/>
+  <object id="12" name="Border" x="160.333" y="191.667" width="30" height="30"/>
+  <object id="13" name="Border" x="161" y="65" width="30" height="30"/>
+  <object id="14" name="Border" x="65" y="64.3333" width="30" height="30"/>
+  <object id="15" name="Border" x="31.6667" y="1" width="192" height="22.6667"/>
+  <object id="16" name="Border" x="32.3333" y="257" width="62.6667" height="22.6667"/>
+  <object id="17" name="Border" x="161" y="255.667" width="62.6667" height="22.6667"/>
+  <object id="8" name="Border" x="-7.10543e-15" y="4.26326e-14" width="30" height="62"/>
+  <object id="6" name="Border" x="192" y="63.3333" width="30" height="151.333"/>
+  <object id="18" name="Spawn2" x="109.333" y="179.333">
+   <point/>
+  </object>
+  <object id="19" name="Tunnel" x="126.667" y="128" width="18.6667" height="30">
+   <properties>
+    <property name="Destination" value="Underground TunnelWE"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

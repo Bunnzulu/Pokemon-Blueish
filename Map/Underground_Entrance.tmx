@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="22">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+251,249,249,249,249,249,249,251,
+259,257,257,257,257,257,257,259,
+257,273,267,257,257,265,274,257,
+257,283,257,257,257,257,283,257,
+257,283,257,257,263,257,283,257,
+257,283,257,257,257,257,283,257,
+251,265,267,257,257,265,267,251,
+259,257,257,250,250,257,257,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Girl" gid="1339" x="64.2433" y="128.484" width="32" height="35" visible="0">
+   <properties>
+    <property name="Dialouge" value="How is my old NIDORAN(Female)?"/>
+    <property name="Dialouge2" value="My NIDORAN(MALE) is doing great!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="NidoranF"/>
+    <property name="Nickname" value="Spot"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="NidoranM"/>
+   </properties>
+  </object>
+  <object id="2" name="Spawn1" x="126.653" y="239.532">
+   <point/>
+  </object>
+  <object id="4" name="Spawn2" x="142.222" y="176.356">
+   <point/>
+  </object>
+  <object id="5" name="Border" x="-1.77636e-15" y="-0.299415" width="31.1392" height="65.5719"/>
+  <object id="6" name="Border" x="223.166" y="-0.299415" width="32.0374" height="65.5719"/>
+  <object id="7" name="Border" x="224.46" y="192.32" width="30.8398" height="62.2784"/>
+  <object id="8" name="Border" x="0.101754" y="193.925" width="30.8398" height="62.2784"/>
+  <object id="15" name="Border" x="0.101754" y="257.102" width="96.4117" height="9.8807"/>
+  <object id="16" name="Border" x="162.385" y="257.401" width="93.4175" height="9.8807"/>
+  <object id="17" name="Door" x="98.1123" y="257.401" width="64.0749" height="9.8807">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="18" name="Door2" x="128.952" y="128.353" width="14.6713" height="30.2409">
+   <properties>
+    <property name="Destination" value="Underground RouteNS"/>
+   </properties>
+  </object>
+  <object id="9" name="Border" x="32.4386" y="1.10175" width="191.925" height="21.2585"/>
+  <object id="10" name="Border" x="195.32" y="66.6737" width="27.5462" height="124.257"/>
+  <object id="11" name="Border" x="34.2351" y="64.2784" width="27.5462" height="127.251"/>
+  <object id="19" name="Border" x="62.9789" y="63.6795" width="31.738" height="24.552"/>
+  <object id="20" name="Border" x="160.588" y="63.3801" width="36.2292" height="24.552"/>
+  <object id="12" name="Border" x="33.6363" y="194.225" width="58.6854" height="23.9532"/>
+  <object id="13" name="Border" x="161.786" y="192.129" width="58.6854" height="23.9532"/>
+  <object id="14" name="Border" x="195.32" y="64.2784" width="26.9474" height="125.754"/>
+  <object id="21" name="Woman" gid="1383" x="64.2433" y="128.58" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="People often lose things in that UNDERGROUND PATH."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

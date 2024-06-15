@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="17">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="First" width="10" height="8">
+  <data encoding="csv">
+129,129,129,262,268,268,262,129,129,129,
+166,166,166,270,276,277,270,166,166,166,
+166,166,166,166,276,277,166,166,166,166,
+166,166,166,166,276,277,166,166,166,166,
+166,166,166,166,276,277,166,166,166,166,
+166,166,166,166,276,277,166,166,166,166,
+166,166,166,261,276,277,261,166,166,166,
+166,166,166,269,276,277,269,166,166,166
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Guard1" gid="1346" x="191.556" y="94.269" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Sorry, But before I let you pass I need to check if your skilled enough."/>
+    <property name="Dialouge2" value="Do you have the BOULDER BADGE"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="-10.457" y="-0.316879" width="9.82324" height="257.622"/>
+  <object id="3" name="Border" x="319.097" y="-0.316879" width="15.5271" height="255.404"/>
+  <object id="4" name="Border" x="-0.633757" y="0.633757" width="128.653" height="31.371"/>
+  <object id="5" name="Border" x="191.078" y="0.633757" width="126.751" height="29.4697"/>
+  <object id="6" name="Border" x="96.648" y="209.457" width="30.1035" height="44.363"/>
+  <object id="7" name="Border" x="192.979" y="207.872" width="30.7372" height="45.6305"/>
+  <object id="8" name="PlayerPoint" x="156.221" y="212.309">
+   <point/>
+  </object>
+  <object id="16" name="R23_PLF1Spawn" x="157.155" y="49.878">
+   <point/>
+  </object>
+  <object id="9" name="Border" x="-0.316879" y="256.672" width="127.702" height="9.18948"/>
+  <object id="10" name="Border" x="191.395" y="256.038" width="128.019" height="10.457"/>
+  <object id="11" name="Door" x="128.97" y="256.355" width="61.7914" height="9.50636">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="12" name="Border" x="96.648" y="32.9554" width="30.7372" height="30.1035"/>
+  <object id="13" name="Border" x="193.296" y="32.0048" width="29.4697" height="16.7946"/>
+  <object id="14" name="Check" x="129.287" y="31.0541" width="59.5732" height="62.742"/>
+  <object id="15" name="PLF1_R23Door" x="129.136" y="1.55585" width="61.3006" height="28.9389">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

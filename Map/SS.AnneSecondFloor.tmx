@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="38" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="108">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1455" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Floor2" width="38" height="13">
+  <data encoding="csv">
+178,186,186,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,186,186,178,
+179,196,194,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,179,196,195,177,
+179,175,190,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,179,183,190,177,
+179,189,190,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,179,189,190,177,
+179,189,190,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,179,189,190,177,
+179,189,190,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,179,189,190,177,
+179,189,190,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,186,187,189,190,177,
+179,189,190,177,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,179,194,195,189,190,177,
+179,189,190,185,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,187,189,190,190,190,177,
+179,189,190,194,194,196,194,196,174,196,194,196,174,196,194,196,174,196,194,196,174,196,194,196,174,196,194,196,174,196,194,194,194,189,190,190,190,177,
+179,183,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,177,
+179,189,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,177,
+178,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,178
+</data>
+ </layer>
+ <objectgroup id="2" name="Floor2Objects" visible="0">
+  <object id="1" name="SAF2_SAF1Door" x="31.3076" y="67.4318" width="24.0828" height="22.8786">
+   <properties>
+    <property name="Destination" value="SS.Anne"/>
+   </properties>
+  </object>
+  <object id="19" name="SAF2_HWDoor" x="35.92" y="327.526" width="24.0828" height="22.8786">
+   <properties>
+    <property name="Destination" value="SAHallway"/>
+   </properties>
+  </object>
+  <object id="36" name="SAF2_R1Door" x="252.665" y="288.993" width="33.7159" height="19.2662">
+   <properties>
+    <property name="Destination" value="SAF2Rooms"/>
+   </properties>
+  </object>
+  <object id="37" name="SAF2_R2Door" x="385.12" y="286.585" width="33.7159" height="19.2662">
+   <properties>
+    <property name="Destination" value="SAF2Rooms"/>
+   </properties>
+  </object>
+  <object id="38" name="SAF2_R3Door" x="512.759" y="281.769" width="33.7159" height="19.2662">
+   <properties>
+    <property name="Destination" value="SAF2Rooms"/>
+   </properties>
+  </object>
+  <object id="39" name="SAF2_R4Door" x="636.786" y="281.769" width="33.7159" height="19.2662">
+   <properties>
+    <property name="Destination" value="SAF2Rooms"/>
+   </properties>
+  </object>
+  <object id="40" name="SAF2_R5Door" x="765.22" y="284.973" width="33.7159" height="19.2662">
+   <properties>
+    <property name="Destination" value="SAF2Rooms"/>
+   </properties>
+  </object>
+  <object id="41" name="SAF2_R6Door" x="894.267" y="283.769" width="33.7159" height="19.2662">
+   <properties>
+    <property name="Destination" value="SAF2Rooms"/>
+   </properties>
+  </object>
+  <object id="2" name="SAF1_SAF2Spawn" x="52.9821" y="137.272">
+   <point/>
+  </object>
+  <object id="20" name="HW_SAF2Spawn" x="91.5146" y="350.405">
+   <point/>
+  </object>
+  <object id="30" name="R1_SAF2Spawn" x="267.319" y="340.771">
+   <point/>
+  </object>
+  <object id="31" name="R2_SAF2Spawn" x="400.978" y="340.771">
+   <point/>
+  </object>
+  <object id="32" name="R3_SAF2Spawn" x="534.638" y="337.159">
+   <point/>
+  </object>
+  <object id="33" name="R4_SAF2Spawn" x="653.868" y="334.751">
+   <point/>
+  </object>
+  <object id="34" name="R5_SAF2Spawn" x="785.099" y="335.955">
+   <point/>
+  </object>
+  <object id="35" name="R6_SAF2Spawn" x="911.962" y="336.771">
+   <point/>
+  </object>
+  <object id="3" name="Border" x="99.556" y="36.1242" width="8.42897" height="248.053"/>
+  <object id="18" name="Border" x="26.3076" y="30.1035" width="8.42897" height="363.65"/>
+  <object id="4" name="Border" x="95.9436" y="280.564" width="157.742" height="26.4911"/>
+  <object id="5" name="Border" x="288.606" y="276.952" width="90.3104" height="26.4911"/>
+  <object id="6" name="Border" x="417.449" y="281.769" width="90.3104" height="26.4911"/>
+  <object id="7" name="Border" x="545.087" y="279.36" width="90.3104" height="26.4911"/>
+  <object id="8" name="Border" x="672.726" y="279.36" width="90.3104" height="26.4911"/>
+  <object id="9" name="Border" x="802.773" y="280.564" width="90.3104" height="26.4911"/>
+  <object id="10" name="Border" x="926.412" y="281.973" width="126.435" height="26.4911"/>
+  <object id="12" name="Border" x="1058.87" y="214.541" width="57.7987" height="26.4911"/>
+  <object id="13" name="Border" x="30.5325" y="381.712" width="1155.97" height="26.4911"/>
+  <object id="14" name="Border" x="1180.49" y="30.1035" width="12.0414" height="357.629"/>
+  <object id="15" name="Border" x="1111.85" y="21.6745" width="4.81656" height="219.153"/>
+  <object id="16" name="Border" x="1117.87" y="27.6952" width="57.7987" height="16.8579"/>
+  <object id="17" name="Border" x="32.9407" y="30.1035" width="57.7987" height="16.8579"/>
+  <object id="11" name="Border" x="1036.78" y="216.949" width="15.6538" height="59.0028"/>
+  <object id="87" name="Man" gid="1393" x="128.497" y="327.668" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="This ship, she is a luxury liner for trainers! At every port,"/>
+    <property name="Dialouge2" value="we hold parties with invited trainers!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="92" name="Battle" x="1118.65" y="238.42" width="62.6152" height="19.2662"/>
+  <object id="93" name="Spot" x="1146.34" y="264.911">
+   <point/>
+  </object>
+  <object id="95" name="CC_SAF2Spawn" x="1136.71" y="122.822">
+   <point/>
+  </object>
+  <object id="105" name="SAF2_CCDoor" x="1134.3" y="57.7987" width="16.8579" height="39.7366">
+   <properties>
+    <property name="Destination" value="Captain Cabin"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="CaptainCabin" width="38" height="13" visible="0">
+  <data encoding="csv">
+196,508,196,194,196,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+166,516,166,166,514,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+201,202,204,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+209,210,212,166,166,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+166,166,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+166,166,166,166,166,167,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+166,166,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+175,166,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="CaptainCabinObjects" visible="0">
+  <object id="96" name="Captain" gid="1394" x="129.701" y="95.4732" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Scrubbing decks is hard work!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="97" name="Border3" x="-10.8373" y="1.20414" width="9.63311" height="222.766"/>
+  <object id="98" name="Border3" x="191.458" y="-2.40828" width="9.63311" height="257.686"/>
+  <object id="99" name="Border3" x="3.61242" y="-3.61242" width="156.538" height="16.8579"/>
+  <object id="100" name="Border3" x="-1.20414" y="62.6152" width="93.9229" height="56.5945"/>
+  <object id="101" name="Border3" x="0" y="260.094" width="190.254" height="20.4704"/>
+  <object id="102" name="Border3" x="158.946" y="-2.40828" width="32.5118" height="56.5945"/>
+  <object id="103" name="Door" x="1.20414" y="228.786" width="15.6538" height="24.0828">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="104" name="Spawn" x="60.207" y="236.011">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor2Rooms" width="38" height="13" visible="0">
+  <data encoding="csv">
+205,206,194,196,0,0,0,0,0,0,0,0,0,0,0,0,205,206,194,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,205,206,194,196,
+213,214,166,522,0,0,0,0,0,0,0,0,0,0,0,0,213,214,166,522,0,0,0,0,0,0,0,0,0,0,0,0,0,0,213,214,166,522,
+166,166,166,530,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,530,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,530,
+167,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,167,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,166,166,166,
+166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,166,
+166,166,165,165,0,0,0,0,0,0,0,0,0,0,0,0,166,166,165,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,165,165,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+205,206,194,196,0,0,0,0,0,0,0,0,0,0,0,0,205,206,194,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,205,206,194,196,
+213,214,166,522,0,0,0,0,0,0,0,0,0,0,0,0,213,214,166,522,0,0,0,0,0,0,0,0,0,0,0,0,0,0,213,214,166,522,
+166,166,166,530,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,530,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,530,
+167,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,167,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,166,166,166,
+166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,166,166,
+166,166,165,165,0,0,0,0,0,0,0,0,0,0,0,0,166,166,165,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,166,165,165
+</data>
+ </layer>
+ <objectgroup id="4" name="Floor2RoomsObjects" visible="0">
+  <object id="21" name="F2Man" gid="1386" x="30.9614" y="93.0649" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="In all my travels I've never seen any POKEMON sleep like this one!"/>
+    <property name="Dialouge2">It was something like a big fella
+</property>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="22" name="Border2" x="-12.0414" y="-2.40828" width="9.63311" height="413.02"/>
+  <object id="23" name="Border2" x="127.639" y="-3.61242" width="9.63311" height="413.02"/>
+  <object id="69" name="Border2" x="642.01" y="-1.20414" width="9.63311" height="413.02"/>
+  <object id="79" name="Border2" x="515.576" y="225.174" width="121.618" height="15.6538"/>
+  <object id="80" name="Border2" x="512.78" y="243.236" width="65.0235" height="31.3076"/>
+  <object id="81" name="Border2" x="610.315" y="250.461" width="27.6952" height="67.4318"/>
+  <object id="82" name="Border2" x="510.372" y="414.224" width="60.207" height="21.6745"/>
+  <object id="70" name="Border2" x="502.697" y="-2.16275" width="9.63311" height="413.02"/>
+  <object id="71" name="Border2" x="513.534" y="-1.20414" width="131.251" height="16.8579"/>
+  <object id="72" name="Border2" x="514.738" y="19.2662" width="62.6152" height="31.3076"/>
+  <object id="73" name="Border2" x="607.457" y="27.8993" width="33.7159" height="63.8194"/>
+  <object id="74" name="Border2" x="512.534" y="193.071" width="65.0235" height="18.0621"/>
+  <object id="24" name="Border2" x="-9.63311" y="191.458" width="73.4525" height="25.2869"/>
+  <object id="44" name="Border2" x="-10.8373" y="414.224" width="73.4525" height="18.0621"/>
+  <object id="45" name="Border2" x="2.40828" y="226.378" width="124.026" height="18.0621"/>
+  <object id="25" name="Border2" x="95.127" y="32.5118" width="33.7159" height="62.6152"/>
+  <object id="46" name="Border2" x="95.127" y="252.869" width="33.7159" height="62.6152"/>
+  <object id="47" name="Border2" x="-4.81656" y="237.215" width="66.2277" height="38.5325"/>
+  <object id="26" name="Border2" x="2.40828" y="-8.42897" width="122.822" height="22.8786"/>
+  <object id="27" name="Border2" x="2.40828" y="12.0414" width="60.207" height="30.1035"/>
+  <object id="28" name="SAF2_R1Spawn" x="91.5146" y="180.621">
+   <point/>
+  </object>
+  <object id="75" name="SAF2_R5Spawn" x="609.294" y="180.621">
+   <point/>
+  </object>
+  <object id="83" name="SAF2_R6Spawn" x="606.886" y="405.999">
+   <point/>
+  </object>
+  <object id="43" name="SAF2_R2Spawn" x="97.5353" y="401.999">
+   <point/>
+  </object>
+  <object id="57" name="SAF2_R3Spawn" x="1183.67" y="181.642">
+   <point/>
+  </object>
+  <object id="63" name="SAF2_R4Spawn" x="1186.08" y="404.407">
+   <point/>
+  </object>
+  <object id="29" name="R1_SAF2Door" x="66.2277" y="190.254" width="59.0028" height="15.6538">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="76" name="R5_SAF2Door" x="581.599" y="191.458" width="59.0028" height="15.6538">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="84" name="R6_SAF2Door" x="574.17" y="416.836" width="69.8401" height="15.6538">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="42" name="R2_SAF2Door" x="65.8194" y="416.632" width="59.0028" height="15.6538">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="56" name="R3_SAF2Door" x="1153.16" y="191.662" width="60.207" height="15.6538">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="62" name="R4_SAF2Door" x="1151.95" y="414.428" width="60.207" height="15.6538">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="48" name="SAF21Gentleman" gid="1381" x="-0.34619" y="318.035" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="15 years ago, I would have won!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Good fight! Ah, I feel young again!"/>
+    <property name="BattleStart" value="Competing against the young keeps me youthful."/>
+    <property name="Money" type="int" value="1640"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Pikachu-23-ThunderShock_Growl_Thunder Wave_Quick Attack-Gentleman-Pikachu"/>
+   </properties>
+  </object>
+  <object id="49" name="SAF21Fisherman" gid="1387" x="97.1891" y="380.854" width="33" height="32">
+   <properties>
+    <property name="AfterBattle">Party? The cruise ship's party should be over by now.
+</property>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I'm all out!"/>
+    <property name="BattleStart" value="Check out what I fished up!"/>
+    <property name="Money" type="int" value="530"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Goldeen-17-Peck_Tail Whip-Fisherman-Goldeen,Tentacool-17-Acid_Supersonic_Wrap-Fisherman-Tentacool,Goldeen-17-Peck_Tail Whip-Fisherman-Goldeen"/>
+   </properties>
+  </object>
+  <object id="50" name="Border2" x="1065.66" y="-1.20414" width="20.4704" height="423.857"/>
+  <object id="54" name="Border2" x="1088.75" y="190.029" width="62.6152" height="25.2869"/>
+  <object id="60" name="Border2" x="1088.75" y="223.745" width="131.251" height="14.4497"/>
+  <object id="61" name="Border2" x="1087.54" y="416.407" width="59.0028" height="14.4497"/>
+  <object id="51" name="Border2" x="1217.59" y="3.61242" width="20.4704" height="414.224"/>
+  <object id="52" name="Border2" x="1086.95" y="-3.0207" width="136.068" height="18.0621"/>
+  <object id="55" name="Border2" x="1089.36" y="16.2455" width="60.207" height="38.5325"/>
+  <object id="64" name="Border2" x="1089.15" y="237.807" width="60.207" height="38.5325"/>
+  <object id="65" name="Border2" x="1181.87" y="255.869" width="34.92" height="62.6152"/>
+  <object id="53" name="Border2" x="1184.49" y="28.2869" width="34.92" height="65.0235"/>
+  <object id="58" name="F2Gentleman" gid="1386" x="1120.71" y="90.6566" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Ah yes, I have seen some POKEMON ferry people across the water!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="59" name="F2Old Man" gid="1350" x="1153.22" y="58.1449" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="POKEMON can CUT down small bushes."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="66" name="SAF22Gentleman" gid="1381" x="1085.79" y="381.854" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="I prefer strong and rare POKEMON."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I must salute you!"/>
+    <property name="BattleStart" value="Which do you like, a strong or a rare POKEMON?"/>
+    <property name="Money" type="int" value="1190"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Growlithe-17-Bite_Roar-Gentleman-Growlithe,Ponyta-17-Ember-Gentleman-Ponyta"/>
+   </properties>
+  </object>
+  <object id="67" name="SAF21Lass" gid="1338" x="1149.4" y="278.911" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Oh, I adore your strong POKEMON!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Take it easy!"/>
+    <property name="BattleStart" value="I never saw you at the party."/>
+    <property name="Money" type="int" value="270"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Rattata-18-Tackle_Tail Whip_Quick Attack_Hyper Fang-Lass-Rattata,Pikachu-18-ThunderShock_Growl_Thunder Wave_Quick Attack-Lass-Pikachu"/>
+   </properties>
+  </object>
+  <object id="77" name="F2Dad" gid="1386" x="572.824" y="90.6566" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Have you gone to the SAFARI ZONE in FUCHSIA CITY? It had many rare"/>
+    <property name="Dialouge2" value="kinds of POKEMON!!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="78" name="F2Kid" gid="1339" x="513.821" y="120.352" width="32" height="35">
+   <properties>
+    <property name="Dialouge" value="Me and my Daddy think the SAFARI ZONE is awesome!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="85" name="F2Woman" gid="1385" x="511.23" y="317.239" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="I hear many people get seasick!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="86" name="F2Woman" gid="1361" x="578.845" y="317.035" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="The CAPTAIN looked really sick and pale!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="88" name="Eyes" x="1.20414" y="351.609" width="96.3311" height="32.5118">
+   <properties>
+    <property name="Trainer" value="SAF21Fisherman"/>
+   </properties>
+  </object>
+  <object id="90" name="Eyes" x="1118.65" y="349.2" width="66.2277" height="32.5118">
+   <properties>
+    <property name="Trainer" value="SAF22Gentleman"/>
+   </properties>
+  </object>
+  <object id="91" name="Eyes" x="1146.34" y="276.952" width="36.1242" height="72.2484">
+   <properties>
+    <property name="Trainer" value="SAF21Lass"/>
+   </properties>
+  </object>
+  <object id="89" name="Eyes" x="31.92" y="283.973" width="63.8194" height="32.5118">
+   <properties>
+    <property name="Trainer" value="SAF21Gentleman"/>
+   </properties>
+  </object>
+  <object id="106" name="Ball" gid="1464" x="64.4732" y="282.319" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Ether"/>
+   </properties>
+  </object>
+  <object id="107" name="Ball" gid="1464" x="1090.6" y="313.627" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="17">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+555,217,228,190,190,228,217,555,
+563,190,236,190,190,236,190,563,
+555,190,190,190,190,190,190,555,
+563,190,190,190,190,190,190,563,
+555,190,190,190,190,190,190,555,
+563,190,190,190,190,190,190,563,
+555,190,228,190,190,228,190,555,
+248,578,236,190,190,236,256,565
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="226.667" y="2.66667" width="26" height="250.667"/>
+  <object id="2" name="Border" x="2" y="2.66667" width="27.3333" height="250.667"/>
+  <object id="3" name="Border" x="31.3333" y="1.33333" width="34.6667" height="30.6667"/>
+  <object id="4" name="Border" x="190" y="0.666667" width="34.6667" height="30.6667"/>
+  <object id="5" name="Border" x="90.6667" y="257.333" width="76" height="30.6667"/>
+  <object id="9" name="Border" x="64.6667" y="192" width="30" height="62.6667"/>
+  <object id="10" name="Border" x="64.6667" y="-0.666667" width="30" height="62.6667"/>
+  <object id="11" name="Border" x="160.667" y="-0.666667" width="30" height="62.6667"/>
+  <object id="12" name="Border" x="160" y="192.667" width="30" height="62.6667"/>
+  <object id="6" name="Border" x="30.6667" y="223.333" width="34" height="30.6667"/>
+  <object id="7" name="Border" x="192.667" y="222.667" width="34" height="30.6667"/>
+  <object id="8" name="CSpawn" x="126" y="196">
+   <point/>
+  </object>
+  <object id="13" name="Champion" gid="1330" x="156.667" y="96" width="32" height="32"/>
+  <object id="14" name="FinalBattleLine" x="30" y="127.333" width="201.333" height="8.66667"/>
+  <object id="16" name="Oak" gid="1328" x="53.3333" y="143.333" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="i"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

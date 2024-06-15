@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="44" height="38" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="245">
+ <tileset firstgid="1" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="84" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1404" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="First Floor" width="44" height="38" visible="0">
+  <data encoding="csv">
+483,804,805,806,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,808,
+491,812,813,814,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,816,
+491,812,813,822,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,824,
+491,812,813,475,475,475,475,475,475,475,475,475,475,806,808,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,483,804,805,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,799,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,806,807,807,808,806,807,807,808,806,807,807,808,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,822,823,823,824,822,823,823,824,822,823,823,824,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,806,808,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,799,814,816,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,806,808,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,822,824,475,475,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,806,808,475,475,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,822,824,475,475,475,475,814,816,475,475,475,475,475,799,475,475,475,475,475,475,822,824,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,814,816,475,475,806,808,475,475,475,475,475,475,475,475,806,808,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,822,824,475,475,814,816,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,806,807,807,807,807,808,806,808,475,475,475,475,475,475,475,475,806,808,475,475,814,816,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,822,823,823,823,823,824,814,816,475,475,475,475,475,475,475,475,814,816,475,475,822,824,475,475,475,475,475,475,475,475,822,824,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,814,816,806,807,807,807,807,807,807,808,814,816,475,475,806,808,475,475,475,475,475,475,475,475,806,808,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,814,816,822,823,823,823,823,823,823,824,822,824,475,475,814,816,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,822,824,475,475,475,475,475,475,475,475,475,475,475,475,822,824,475,475,475,475,475,475,475,475,822,824,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,806,808,475,475,475,475,475,475,475,475,806,808,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,822,824,475,475,475,475,475,475,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,483,804,804,805,806,807,807,808,475,475,483,804,804,805,475,475,814,816,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,812,813,822,823,823,824,475,475,491,812,812,813,475,475,822,824,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,812,813,475,475,475,475,475,475,491,812,812,813,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,483,804,804,805,475,475,491,812,812,813,475,475,475,475,475,475,491,812,812,813,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,491,812,812,813,475,475,491,812,812,813,475,475,475,475,475,475,499,820,820,821,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,491,812,812,813,475,475,491,812,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,491,812,813,
+491,812,813,475,475,475,475,475,475,475,475,491,812,812,813,475,475,491,812,812,813,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,499,820,821,
+491,812,813,806,807,807,807,807,807,807,808,491,812,812,813,475,475,491,812,812,813,806,804,804,804,804,804,804,807,807,807,807,807,807,807,807,807,807,807,807,807,807,807,808,
+491,812,813,814,812,812,812,812,812,812,816,491,812,812,813,475,475,491,812,812,813,814,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,816,
+499,820,821,822,823,823,823,823,823,823,824,499,820,820,821,324,324,499,820,820,821,822,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,823,824
+</data>
+ </layer>
+ <layer id="3" name="Second Floor" width="44" height="38" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,820,820,820,820,820,820,820,820,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+820,820,820,820,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,799,812,812,812,800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,800,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,820,820,820,820,820,820,820,820,820,820,820,820,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,812,812,812,812,812,812,812,812,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,812,812,812,812,812,812,812,812,812,812,812,800,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,812,812,812,812,812,812,812,812,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,812,812,812,799,812,812,812,812,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,820,820,820,820,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,820,820,820,820,820,820,820,820,820,820,820,820,820,820,0,0,812,800,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,799,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,812,812,812,799,812,812,812,812,812,812,812,812,812,812,812,812,812,812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="Third Floor" width="44" height="38">
+  <data encoding="csv">
+820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,812,0,0,0,0,
+820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,812,0,0,0,0,
+815,815,483,807,807,807,807,807,807,807,807,807,807,807,807,807,807,805,815,815,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,812,0,0,0,0,
+815,815,491,812,812,812,812,812,812,812,812,812,812,812,812,812,812,813,815,815,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,812,0,0,0,0,
+815,815,491,812,812,812,812,812,812,812,812,812,812,812,812,812,812,813,815,815,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,812,0,0,0,0,
+815,815,499,785,820,820,820,820,820,820,820,820,814,816,820,820,820,821,815,815,812,812,812,829,820,820,507,812,812,812,812,829,475,475,475,475,812,812,812,812,0,0,0,0,
+815,815,812,812,812,812,812,812,483,812,812,812,812,812,812,812,812,805,815,815,812,812,812,813,475,475,491,812,812,812,812,813,475,475,475,475,812,812,812,812,0,0,0,0,
+815,815,812,812,812,799,812,812,491,812,812,812,812,812,812,812,812,813,815,815,812,812,812,813,475,475,499,820,785,785,820,821,475,475,475,475,812,812,812,812,0,0,0,0,
+815,815,812,812,812,812,812,812,491,812,812,812,812,812,812,812,812,813,815,815,812,812,812,813,475,475,475,475,475,475,475,475,475,475,475,475,820,820,820,820,0,0,0,0,
+815,815,815,815,815,815,815,815,499,820,820,820,785,785,507,812,812,813,815,815,812,812,812,813,475,800,475,475,475,475,475,475,475,796,475,475,820,820,820,820,0,0,0,0,
+820,820,820,820,820,820,815,815,812,812,812,812,812,812,491,812,812,813,815,815,812,812,812,813,475,475,475,475,475,475,475,475,475,475,475,475,820,820,820,820,0,0,0,0,
+820,820,820,820,820,820,815,815,812,812,812,812,812,812,499,820,820,821,815,815,812,812,812,813,475,475,475,475,475,475,475,475,475,475,475,475,820,820,820,820,0,0,0,0,
+475,475,475,475,475,475,815,815,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,812,812,804,804,804,804,805,483,804,804,804,804,804,804,804,804,829,0,0,0,0,
+475,475,475,475,475,475,815,815,815,815,815,815,812,812,815,815,815,815,815,815,812,812,812,812,812,812,812,812,812,813,491,812,812,812,812,812,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,820,820,820,820,820,820,812,812,820,820,820,820,815,815,812,812,812,812,812,812,812,812,812,813,491,812,812,812,812,812,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,820,820,820,820,820,820,812,812,820,820,820,820,815,815,812,812,812,812,829,820,785,785,820,821,499,820,785,785,820,507,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,812,813,475,475,475,475,475,475,475,475,475,475,491,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,815,815,812,799,812,812,813,475,475,475,475,475,475,475,475,475,475,491,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,812,813,475,475,475,475,475,475,475,475,475,475,491,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,815,815,820,820,820,820,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,820,820,820,820,820,820,820,820,507,812,812,812,812,829,820,820,815,815,820,820,820,820,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,812,812,812,812,812,812,812,812,491,812,812,812,812,813,812,812,815,815,812,812,812,812,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,812,812,812,812,812,812,812,812,499,820,785,785,820,821,812,812,815,815,812,812,812,812,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,812,812,812,812,813,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,829,820,820,820,821,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,812,800,812,812,812,812,812,812,812,812,812,812,812,812,812,812,815,815,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,815,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,491,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,812,813,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,499,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,820,821,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,0,0,0,0,
+475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,475,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="First Floor Objects" visible="0">
+  <object id="1" name="Mt.Moon_R3Door" x="476" y="1217.33" width="80" height="28">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="2" name="R3_Mt.MoonSpawn" x="504" y="1186.67">
+   <point/>
+  </object>
+  <object id="3" name="Rocks" x="6.66667" y="1128" width="337.333" height="81.3333" visible="0"/>
+  <object id="4" name="Rocks" x="365.333" y="1002.67" width="98.6667" height="205.333" visible="0"/>
+  <object id="5" name="Rocks" x="554.667" y="897.333" width="102.667" height="310.667" visible="0"/>
+  <object id="6" name="Rocks" x="674.667" y="1122.67" width="729.333" height="92" visible="0"/>
+  <object id="7" name="Rocks" x="876" y="902" width="101.333" height="142" visible="0"/>
+  <object id="8" name="Rocks" x="677.333" y="898.667" width="113.333" height="53.3333" visible="0"/>
+  <object id="9" name="Rocks" x="741.333" y="580" width="52.6667" height="312.667" visible="0"/>
+  <object id="10" name="Rocks" x="1062.67" y="448" width="49.3333" height="506.667" visible="0"/>
+  <object id="11" name="Rocks" x="614.667" y="326.667" width="373.333" height="50.6667" visible="0"/>
+  <object id="12" name="Rocks" x="614.667" y="390.667" width="49.3333" height="365.333" visible="0"/>
+  <object id="13" name="Rocks" x="353.333" y="708" width="249.333" height="53.3333" visible="0"/>
+  <object id="14" name="Rocks" x="294.667" y="646.667" width="49.3333" height="177.333" visible="0"/>
+  <object id="15" name="Rocks" x="97.3333" y="642.667" width="178.667" height="53.3333" visible="0"/>
+  <object id="16" name="Rocks" x="5.33333" y="8" width="80" height="1110.67" visible="0"/>
+  <object id="17" name="Rocks" x="104" y="1.33333" width="1298.67" height="86.6667" visible="0"/>
+  <object id="18" name="Rocks" x="424" y="100" width="46.6667" height="466.667" visible="0"/>
+  <object id="19" name="Rocks" x="1326.67" y="93.3333" width="64" height="1017.33" visible="0"/>
+  <object id="21" name="R3_ATunnel" x="836" y="544" width="22.6667" height="20">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="22" name="R3_BTunnel" x="578.334" y="424.667" width="28" height="12">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="24" name="R3_CTunnel" x="198.667" y="196" width="18.6667" height="20">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="25" name="C_R3Spawn" x="256" y="217.333">
+   <point/>
+  </object>
+  <object id="26" name="B_R3Spawn" x="534.667" y="438.666">
+   <point/>
+  </object>
+  <object id="27" name="A_R3Spawn" x="878.333" y="592.667">
+   <point/>
+  </object>
+  <object id="28" name="Wild Rocks" x="98.6667" y="708" width="186.667" height="409.333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="29" name="Wild Rocks" x="354.667" y="644" width="49.3333" height="65.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="49" name="Wild Rocks" x="417.333" y="573.333" width="65.3333" height="130.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="30" name="Wild Rocks" x="290.667" y="824" width="64" height="292" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="31" name="Wild Rocks" x="473.333" y="765.333" width="64" height="424" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="32" name="Wild Rocks" x="540" y="766.667" width="126.667" height="126.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="46" name="Wild Rocks" x="670.667" y="689.333" width="62.6667" height="198.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="34" name="Wild Rocks" x="672" y="386.667" width="388" height="126.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="47" name="Wild Rocks" x="101.333" y="90.6667" width="308" height="534.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="48" name="Wild Rocks" x="360" y="772" width="98.6667" height="226.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="35" name="Wild Rocks" x="804" y="544" width="253.333" height="362.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="36" name="Wild Rocks" x="677.333" y="962.667" width="186.667" height="150.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="37" name="Wild Rocks" x="869.333" y="1046.33" width="438.667" height="72" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="43" name="Wild Rocks" x="996" y="915.667" width="66.6667" height="128" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="44" name="Wild Rocks" x="1068" y="946.333" width="50.6667" height="96" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="45" name="Wild Rocks" x="805.333" y="905" width="62.6667" height="54.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="38" name="Wild Rocks" x="1114.67" y="85" width="197.333" height="958.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="39" name="Wild Rocks" x="484" y="99.6667" width="125.333" height="602.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="40" name="Wild Rocks" x="616" y="86.3333" width="490.667" height="229.333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="41" name="Wild Rocks" x="990.667" y="329" width="121.333" height="58.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="42" name="Wild Rocks" x="1064" y="389" width="50.6667" height="58.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="33" name="Wild Rocks" x="670.667" y="556" width="126.667" height="126.667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(1)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="50" name="Sign" gid="832" x="513.333" y="830.667" width="32" height="32">
+   <properties>
+    <property name="Text" value="Beware! ZUBAT is a blood sucker!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="51" name="Ball" gid="1413" x="191.667" y="1056.33" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM12"/>
+   </properties>
+  </object>
+  <object id="52" name="Ball" gid="1413" x="677" y="1109.67" width="30" height="30">
+   <properties>
+    <property name="Item" value="Potion"/>
+   </properties>
+  </object>
+  <object id="55" name="Ball" gid="1413" x="1206.33" y="959" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="57" name="Ball" gid="1413" x="101" y="124.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Moon Stone"/>
+   </properties>
+  </object>
+  <object id="56" name="Ball" gid="1413" x="1238.33" y="827" width="30" height="30">
+   <properties>
+    <property name="Item" value="Escape Rope"/>
+   </properties>
+  </object>
+  <object id="54" name="Ball" gid="1413" x="101" y="731" width="30" height="30">
+   <properties>
+    <property name="Item" value="Potion"/>
+   </properties>
+  </object>
+  <object id="58" name="Mt.MoonF11Bug Catcher" gid="11" x="256" y="828" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="I saw them! I'm sure they're from TEAM ROCKET!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You got me!"/>
+    <property name="BattleStart" value="Suspicious men are in the cave. What about you?"/>
+    <property name="Money" type="int" value="110"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Weedle-11-Poison Sting_String Shot-Bug Catcher-Weedle,Kakuna-11-Harden-Bug Catcher-Kakuna"/>
+   </properties>
+  </object>
+  <object id="59" name="Mt.MoonF11Lass" gid="18" x="554.667" y="833" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="I heard there are some very rare fossils here."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I lost?"/>
+    <property name="BattleStart" value="What? I'm waiting for my friends to find me here."/>
+    <property name="Money" type="int" value="210"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Clefairy-14-Pound_Growl_Sing-Lass-Clefairy"/>
+   </properties>
+  </object>
+  <object id="60" name="Mt.MoonF11Super Nerd" gid="31" x="796" y="1047.67" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="I have to find stronger POKEMON."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="My POKEMON won't do!"/>
+    <property name="BattleStart" value="What! Don't sneak up on me!"/>
+    <property name="Money" type="int" value="275"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Magnemite-11-Tackle-Super Nerd-Magnemite,Voltorb-11-Tackle_Screech-Super Nerd-Voltorb"/>
+   </properties>
+  </object>
+  <object id="61" name="Mt.MoonF12Bug Catcher" gid="28" x="994.667" y="951.667" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="ZUBAT is tough! But, it can be useful if you catch one."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I lost."/>
+    <property name="BattleStart" value="Go through this cave to get to CERULEAN CITY!"/>
+    <property name="Money" type="int" value="100"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Caterpie-10-Tackle_String Shot-Bug Catcher-Caterpie,Metapod-10-Harden-Bug Catcher-Metapod,Caterpie-10-Tackle_String Shot-Bug Catcher-Caterpie"/>
+   </properties>
+  </object>
+  <object id="62" name="Mt.MoonF11Youngster" gid="28" x="420" y="611.667" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="I came down here to show off to girls."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Losing stinks!"/>
+    <property name="BattleStart" value="Did you come to explore too?"/>
+    <property name="Money" type="int" value="150"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Rattata-10-Tackle_Tail Whip_Quick Attack-Youngster-Rattata,Rattata-10-Tackle_Tail Whip_Quick Attack-Youngster-Rattata,Zubat-10-Leech Life_Supersonic-Youngster-Zubat"/>
+   </properties>
+  </object>
+  <object id="63" name="Mt.MoonF12Lass" gid="18" x="990.667" y="191.667" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="How do you get out of here?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh! I lost it!"/>
+    <property name="BattleStart" value="Wow! It's way bigger in here than I thought!"/>
+    <property name="Money" type="int" value="165"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Oddish-11-Absorb-Lass-Oddish,Bellsprout-11-Vine Whip_Growth-Lass-Bellsprout"/>
+   </properties>
+  </object>
+  <object id="64" name="Mt.MoonF11Hiker" gid="39" x="189.333" y="256" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="I saw them! I'm sure they're from TEAM ROCKET!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You got me!"/>
+    <property name="BattleStart" value="Suspicious men are in the cave. What about you?"/>
+    <property name="Money" type="int" value="350"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Geodude-10-Tackle-Hiker-Geodude,Geodude-10-Tackle-Hiker-Geodude,Onix-10-Tackle_Screech-Hiker-Onix"/>
+   </properties>
+  </object>
+  <object id="65" name="Vision" x="557.333" y="836" width="29.3333" height="58.6667">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF11Lass"/>
+   </properties>
+  </object>
+  <object id="69" name="Vision" x="993.333" y="213.333" width="29.3333" height="104">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF12Lass"/>
+   </properties>
+  </object>
+  <object id="70" name="Vision" x="456" y="579.333" width="98.6667" height="29.3333">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF11Youngster"/>
+   </properties>
+  </object>
+  <object id="71" name="Vision" x="186.667" y="263.333" width="25.3333" height="80">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF11Hiker"/>
+   </properties>
+  </object>
+  <object id="67" name="Vision" x="798.667" y="1042.67" width="29.3333" height="77.3333">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF11Super Nerd"/>
+   </properties>
+  </object>
+  <object id="68" name="Vision" x="1022.67" y="910" width="56.6667" height="44.6667">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF12Bug Catcher"/>
+   </properties>
+  </object>
+  <object id="66" name="Vision" x="254.667" y="826.667" width="29.3333" height="58.6667">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF11Bug Catcher"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Second Floor Objects" visible="0">
+  <object id="72" name="Rocks2" x="193" y="1090" width="439" height="21"/>
+  <object id="77" name="Rocks2" x="181" y="1118" width="13" height="65"/>
+  <object id="73" name="Rocks2" x="629" y="714" width="10" height="373"/>
+  <object id="78" name="Rocks2" x="129" y="772" width="443" height="16"/>
+  <object id="91" name="Rocks2" x="578" y="763" width="10" height="119"/>
+  <object id="79" name="Rocks2" x="1" y="865" width="576" height="16"/>
+  <object id="80" name="Rocks2" x="2" y="384" width="127" height="21"/>
+  <object id="81" name="Rocks2" x="126" y="411" width="23" height="356"/>
+  <object id="83" name="Rocks2" x="322" y="512" width="382" height="27"/>
+  <object id="84" name="Rocks2" x="296" y="522" width="23" height="149"/>
+  <object id="85" name="Rocks2" x="319" y="671" width="384" height="24"/>
+  <object id="86" name="Rocks2" x="706" y="514" width="26" height="164"/>
+  <object id="87" name="Rocks2" x="515" y="319" width="253" height="23"/>
+  <object id="89" name="Rocks2" x="514" y="415" width="253" height="23" visible="0"/>
+  <object id="90" name="Rocks2" x="769" y="334" width="20" height="96"/>
+  <object id="88" name="Rocks2" x="503" y="343" width="10" height="75"/>
+  <object id="82" name="Rocks2" x="-24" y="388" width="23" height="482"/>
+  <object id="74" name="Rocks2" x="192" y="1187" width="576" height="13"/>
+  <object id="75" name="Rocks2" x="769" y="709" width="30" height="483"/>
+  <object id="76" name="Rocks2" x="642" y="707" width="126" height="16"/>
+  <object id="92" name="A_R3Tunnel" x="671" y="766" width="33" height="17">
+   <properties>
+    <property name="Destination" value="Mt.Moon"/>
+   </properties>
+  </object>
+  <object id="93" name="R3_ASpawn" x="687" y="818">
+   <point/>
+  </object>
+  <object id="102" name="R3_ASpawn" x="687" y="818">
+   <point/>
+  </object>
+  <object id="94" name="B_R3Tunnel" x="677.333" y="578.667" width="22.6667" height="26.6667">
+   <properties>
+    <property name="Destination" value="Mt.Moon"/>
+   </properties>
+  </object>
+  <object id="95" name="R3_BSpawn" x="634.667" y="598.667">
+   <point/>
+  </object>
+  <object id="96" name="C_R3Tunnel" x="41.3333" y="452" width="20" height="17.3333">
+   <properties>
+    <property name="Destination" value="Mt.Moon"/>
+   </properties>
+  </object>
+  <object id="97" name="R3_CSpawn" x="50.6667" y="521.333">
+   <point/>
+  </object>
+  <object id="98" name="Wild Rocks2" x="4" y="800" width="540" height="68">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="103" name="Wild Rocks2" x="-1.13687e-13" y="470.667" width="125.333" height="329.333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="104" name="Wild Rocks2" x="320" y="541.333" width="240" height="92">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="105" name="Wild Rocks2" x="456" y="624" width="250.667" height="50.6667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="106" name="Wild Rocks2" x="565.333" y="540" width="108" height="86.6667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="100" name="Wild Rocks2" x="193.333" y="1118.67" width="90.6667" height="61.3333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="101" name="Wild Rocks2" x="322.667" y="1118.67" width="334.667" height="61.3333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(2)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="107" name="D_M3Tunnel" x="294.667" y="1157.33" width="18.6667" height="17.3333">
+   <properties>
+    <property name="Destination" value="Mt.Moon3"/>
+   </properties>
+  </object>
+  <object id="108" name="M3_DSpawn" x="300" y="1136">
+   <point/>
+  </object>
+  <object id="113" name="F_M3Tunnel" x="554" y="838" width="22" height="18">
+   <properties>
+    <property name="Destination" value="Mt.Moon3"/>
+   </properties>
+  </object>
+  <object id="114" name="M3_FSpawn" x="550" y="812">
+   <point/>
+  </object>
+  <object id="115" name="E_M3Tunnel" x="416" y="642" width="30" height="24">
+   <properties>
+    <property name="Destination" value="Mt.Moon3"/>
+   </properties>
+  </object>
+  <object id="116" name="M3_ESpawn" x="390" y="654">
+   <point/>
+  </object>
+  <object id="121" name="G_M3Tunnel" x="614.667" y="393.333" width="20" height="16">
+   <properties>
+    <property name="Destination" value="Mt.Moon3"/>
+   </properties>
+  </object>
+  <object id="122" name="M3_GSpawn" x="654.667" y="400">
+   <point/>
+  </object>
+  <object id="234" name="Mt.Moon_R4Tunnel" x="743" y="393.333" width="17.3333" height="15.3333">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="235" name="R4_Mt.MoonSpawn" x="748.667" y="371.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Third Floor Objects">
+  <object id="109" name="M3_DTunnel" x="484" y="866.667" width="22.6667" height="22.6667">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="110" name="D_M3Spawn" x="532" y="880">
+   <point/>
+  </object>
+  <object id="111" name="M3_FTunnel" x="678" y="548" width="20" height="26" visible="0">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="112" name="F_M3Spawn" x="722" y="564" visible="0">
+   <point/>
+  </object>
+  <object id="117" name="M3_ETunnel" x="806" y="288.667" width="20" height="23.3333">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="118" name="E_M3Spawn" x="820" y="254">
+   <point/>
+  </object>
+  <object id="221" name="E_M3Spawn" x="814" y="340.667" visible="0">
+   <point/>
+  </object>
+  <object id="119" name="M3_GTunnel" x="160" y="222.667" width="29.3333" height="29.3333">
+   <properties>
+    <property name="Destination" value="Mt.Moon2"/>
+   </properties>
+  </object>
+  <object id="120" name="G_M3Spawn" x="133.333" y="249.333">
+   <point/>
+  </object>
+  <object id="212" name="G_M3Spawn" x="133.333" y="249.333">
+   <point/>
+  </object>
+  <object id="123" name="Rocks3" x="-13.3333" y="6.66667" width="13.3333" height="1210.67"/>
+  <object id="124" name="Rocks3" x="-4" y="1221.33" width="1285.33" height="50.6667"/>
+  <object id="125" name="Rocks3" x="1280" y="1.33333" width="52" height="1214.67"/>
+  <object id="127" name="Rocks3" x="385.333" y="900" width="632" height="70.6667"/>
+  <object id="128" name="Rocks3" x="385.333" y="608" width="762.667" height="32"/>
+  <object id="129" name="Rocks3" x="382.667" y="645.333" width="64" height="252"/>
+  <object id="137" name="Rocks3" x="190.667" y="445.333" width="185.333" height="53.3333"/>
+  <object id="138" name="Rocks3" x="449.333" y="448" width="124" height="45.3333"/>
+  <object id="139" name="Rocks3" x="193.333" y="417.333" width="188" height="29.3333"/>
+  <object id="141" name="Rocks3" x="-1.33333" y="64" width="62.6667" height="256"/>
+  <object id="142" name="Rocks3" x="65.3333" y="288" width="186.667" height="30.6667"/>
+  <object id="143" name="Rocks3" x="190.667" y="320" width="58.6667" height="93.3333"/>
+  <object id="144" name="Rocks3" x="2.66667" y="320" width="182.667" height="50.6667"/>
+  <object id="145" name="Rocks3" x="133.333" y="161.333" width="241.333" height="20"/>
+  <object id="243" name="Rocks3" x="64.6667" y="69.9997" width="24" height="119.333"/>
+  <object id="146" name="Rocks3" x="472" y="156" width="76" height="28"/>
+  <object id="147" name="Rocks3" x="262.667" y="292" width="116" height="22.6667"/>
+  <object id="148" name="Rocks3" x="468" y="356" width="77.3333" height="18.6667"/>
+  <object id="149" name="Rocks3" x="578.667" y="62.6667" width="58.6667" height="544"/>
+  <object id="150" name="Rocks3" x="646.667" y="2.66667" width="500" height="148"/>
+  <object id="151" name="Rocks3" x="2.66667" y="1.33333" width="645.333" height="66.6667"/>
+  <object id="152" name="Rocks3" x="1154.67" y="258.667" width="126.667" height="126.667"/>
+  <object id="171" name="Rocks3" x="1058.67" y="289.333" width="30.6667" height="29.3333"/>
+  <object id="153" name="Rocks3" x="1152" y="2.66667" width="128" height="256"/>
+  <object id="154" name="Rocks3" x="964" y="218.667" width="56" height="33.3333"/>
+  <object id="158" name="Rocks3" x="742.667" y="166.667" width="17.3333" height="214.667"/>
+  <object id="159" name="Rocks3" x="936" y="390.667" width="17.3333" height="108" visible="0"/>
+  <object id="160" name="Rocks3" x="896" y="481.333" width="33.3333" height="28"/>
+  <object id="236" name="Rocks3" x="739.333" y="382.666" width="194.667" height="9.33333"/>
+  <object id="237" name="Rocks3" x="979.667" y="384" width="181.333" height="9.33333"/>
+  <object id="238" name="Rocks3" x="932.333" y="407.333" width="50" height="90.6667"/>
+  <object id="161" name="Rocks3" x="798.667" y="478.667" width="33.3333" height="28"/>
+  <object id="165" name="Rocks3" x="770.667" y="496" width="20" height="112"/>
+  <object id="162" name="Rocks3" x="990.667" y="482.667" width="33.3333" height="28"/>
+  <object id="163" name="Rocks3" x="1088" y="482.667" width="33.3333" height="28"/>
+  <object id="164" name="Rocks3" x="1132" y="498.667" width="18.6667" height="110.667"/>
+  <object id="155" name="Rocks3" x="838.667" y="221.333" width="56" height="33.3333"/>
+  <object id="156" name="Rocks3" x="997.333" y="160" width="25.3333" height="54.6667"/>
+  <object id="157" name="Rocks3" x="837.333" y="165.333" width="25.3333" height="54.6667"/>
+  <object id="240" name="Rocks3" x="763.333" y="153.333" width="73.3333" height="27.3334"/>
+  <object id="140" name="Rocks3" x="448" y="417.333" width="126.667" height="29.3333"/>
+  <object id="130" name="Rocks3" x="956" y="642.667" width="64" height="249.333"/>
+  <object id="131" name="Rocks3" x="1026.67" y="640" width="117.333" height="49.3333"/>
+  <object id="132" name="Rocks3" x="450.667" y="640" width="265.333" height="49.3333"/>
+  <object id="133" name="Rocks3" x="709.333" y="736" width="56" height="20" visible="0"/>
+  <object id="166" name="Rocks3" x="212" y="1118.67" width="918.667" height="32"/>
+  <object id="167" name="Rocks3" x="1141.33" y="802.667" width="134.667" height="28"/>
+  <object id="170" name="Rocks3" x="1132" y="828" width="16" height="290.667"/>
+  <object id="168" name="Rocks3" x="1249.33" y="388" width="20" height="413.333"/>
+  <object id="169" name="Rocks3" x="197.333" y="513.333" width="20" height="602.667"/>
+  <object id="134" name="Rocks3" x="720" y="642.667" width="233.333" height="21.3333"/>
+  <object id="135" name="Rocks3" x="894.667" y="674.667" width="60" height="30.6667"/>
+  <object id="136" name="Rocks3" x="832" y="733.333" width="60" height="30.6667" visible="0"/>
+  <object id="173" name="Rocks3" x="868" y="668.666" width="24" height="76.0001"/>
+  <object id="174" name="Rocks3" x="702.667" y="675.333" width="24" height="78.6667"/>
+  <object id="126" name="Rocks3" x="2.66667" y="-16" width="1277.33" height="14.6667"/>
+  <object id="175" name="Mt.MoonF31Rocket" gid="44" x="480" y="734.667" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Darn it all! My associates won't stand for this!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I blew it!"/>
+    <property name="BattleStart" value="We, TEAM ROCKET, are POKEMON gangsters!"/>
+    <property name="Money" type="int" value="330"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Sandshrew-11-Scratch_Sand Attack-Rocket-Sandshrew,Rattata-11-Quick Attack_Tail Whip_Tackle-Rocket-Rattata,Zubat-11-Leech Life_Supersonic-Rocket-Zubat"/>
+   </properties>
+  </object>
+  <object id="176" name="Mt.MoonF32Rocket" gid="44" x="350.667" y="542.667" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="You made me mad! TEAM ROCKET will blacklist you!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Urgh! Now I'm mad!"/>
+    <property name="BattleStart" value="We will find the fossils,revive and sell them for cash!"/>
+    <property name="Money" type="int" value="390"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Rattata-13-Quick Attack_Tail Whip_Tackle-Rocket-Rattata,Zubat-13-Leech Life_Supersonic-Rocket-Zubat"/>
+   </properties>
+  </object>
+  <object id="177" name="Mt.MoonF33Rocket" gid="45" x="926.667" y="566.333" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="POKEMON lived here long before people came."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I'm steamed!"/>
+    <property name="BattleStart" value="Little kids should leave grown-ups alone!"/>
+    <property name="Money" type="int" value="390"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Raticate-16-Hyper Fang_Quick Attack_Tail Whip_Tackle-Rocket-Raticate"/>
+   </properties>
+  </object>
+  <object id="178" name="Mt.MoonF34Rocket" gid="46" x="930.667" y="368" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="If you find a fossil, give it to me and scram!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="So, you are good."/>
+    <property name="BattleStart" value="We're pulling a big job here! Get lost, kid!"/>
+    <property name="Money" type="int" value="360"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Zubat-12-Leech Life_Supersonic-Rocket-Zubat,Ekans-12-Wrap_Leer_Poison Sting-Rocket-Ekans"/>
+   </properties>
+  </object>
+  <object id="179" name="Mt.MoonF31Super Nerd" gid="37" x="377.333" y="288" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="We'll each take one! No being greedy!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="OK! I'll share!"/>
+    <property name="BattleStart" value="Hey, stop! I found these fossils! They're both mine!"/>
+    <property name="Money" type="int" value="300"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Grimer-12-Pound_Disable-Super Nerd-Grimer,Voltorb-12-Tackle_Screech-Super Nerd-Voltorb,Koffing-12-Tackle_Smog-Super Nerd-Koffing"/>
+   </properties>
+  </object>
+  <object id="180" name="Vision" x="349.334" y="544" width="32" height="63.3334">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF32Rocket"/>
+   </properties>
+  </object>
+  <object id="184" name="Vision" x="408" y="251.333" width="68" height="38" visible="0">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF31Super Nerd"/>
+   </properties>
+  </object>
+  <object id="181" name="Vision" x="482.667" y="732" width="26.6667" height="113.333">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF31Rocket"/>
+   </properties>
+  </object>
+  <object id="182" name="Vision" x="856" y="537.333" width="72" height="25.3333">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF33Rocket"/>
+   </properties>
+  </object>
+  <object id="183" name="Vision" x="930.667" y="261.333" width="30.6667" height="73.3333">
+   <properties>
+    <property name="Trainer" value="Mt.MoonF34Rocket"/>
+   </properties>
+  </object>
+  <object id="185" name="Wild Rocks3" x="4" y="393.333" width="185.333" height="813.333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="188" name="Wild Rocks3" x="222.667" y="512" width="125.333" height="604">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="189" name="Wild Rocks3" x="350.667" y="614.667" width="32" height="506.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="190" name="Wild Rocks3" x="385.333" y="989.333" width="729.333" height="130.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="191" name="Wild Rocks3" x="1025.33" y="698.667" width="88" height="289.333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="195" name="Wild Rocks3" x="514.667" y="674.667" width="185.333" height="218.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="200" name="Wild Rocks3" x="641.333" y="162.667" width="90.6667" height="376">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="215" name="Wild Rocks3" x="857.333" y="153.333" width="145.333" height="65.3333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="216" name="Wild Rocks3" x="1021.33" y="157.333" width="129.333" height="134.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="217" name="Wild Rocks3" x="765.333" y="322.667" width="160" height="58.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="218" name="Wild Rocks3" x="968" y="324" width="184" height="58.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="219" name="Wild Rocks3" x="966.667" y="256" width="54.6667" height="58.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="220" name="Wild Rocks3" x="762.667" y="185.333" width="62.6667" height="84" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="222" name="Wild Rocks3" x="764" y="257.333" width="34.6667" height="84" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="227" name="Wild Rocks3" x="804" y="317.333" width="34.6667" height="28" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="223" name="Wild Rocks3" x="797.333" y="505.333" width="53.3333" height="84" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="224" name="Wild Rocks3" x="961.333" y="514.667" width="158.667" height="84" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="225" name="Wild Rocks3" x="854.667" y="572" width="122.667" height="29.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="226" name="Wild Rocks3" x="854.667" y="505.333" width="122.667" height="29.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="204" name="Wild Rocks3" x="388" y="512" width="185.333" height="93.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="205" name="Wild Rocks3" x="384" y="418.667" width="64" height="93.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="206" name="Wild Rocks3" x="249.333" y="318.667" width="201.333" height="93.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="208" name="Wild Rocks3" x="288" y="192" width="253.333" height="62.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="209" name="Wild Rocks3" x="482.667" y="256" width="58.6667" height="62.6667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="210" name="Wild Rocks3" x="89.3333" y="65.3333" width="456" height="90.6667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="211" name="Wild Rocks3" x="193.333" y="189.333" width="58.6667" height="104">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="213" name="Wild Rocks3" x="145.333" y="185.333" width="58.6667" height="36">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="214" name="Wild Rocks3" x="144" y="250.333" width="58.6667" height="36">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="207" name="Wild Rocks3" x="457.333" y="384" width="118.667" height="32">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="201" name="Wild Rocks3" x="734.667" y="385.333" width="200" height="97.3333" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="202" name="Wild Rocks3" x="736" y="486.667" width="37.3333" height="118.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="203" name="Wild Rocks3" x="637.333" y="574.667" width="98.6667" height="29.3333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="199" name="Wild Rocks3" x="452" y="676" width="33.3333" height="218.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="196" name="Wild Rocks3" x="705.333" y="765.333" width="253.333" height="133.333">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="197" name="Wild Rocks3" x="733.333" y="669.333" width="125.333" height="66.6667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="198" name="Wild Rocks3" x="896" y="705.333" width="56" height="64">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="192" name="Wild Rocks3" x="1157.33" y="392" width="88" height="402.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="193" name="Wild Rocks3" x="1118.67" y="690.667" width="37.3333" height="94.6667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="194" name="Wild Rocks3" x="994.667" y="385.333" width="164" height="94.6667" visible="0">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="186" name="Wild Rocks3" x="192" y="1153.33" width="1092" height="60">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="187" name="Wild Rocks3" x="1152" y="830.667" width="124" height="318.667">
+   <properties>
+    <property name="GrassType" value="Mt.Moon(3)"/>
+    <property name="HighChance" type="int" value="15"/>
+    <property name="LowChance" type="int" value="10"/>
+   </properties>
+  </object>
+  <object id="228" name="Fossil" gid="1416" x="378.333" y="224" width="32" height="33">
+   <properties>
+    <property name="Fossil" value="Dome Fossil"/>
+   </properties>
+  </object>
+  <object id="229" name="Fossil" gid="1416" x="413.667" y="224.667" width="32" height="33">
+   <properties>
+    <property name="Fossil" value="Helix Fossil"/>
+   </properties>
+  </object>
+  <object id="232" name="Ball3" gid="1413" x="811.667" y="703" width="30" height="30" visible="0">
+   <properties>
+    <property name="Item" value="HP UP"/>
+   </properties>
+  </object>
+  <object id="233" name="Ball3" gid="1413" x="931.667" y="185.667" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM01"/>
+   </properties>
+  </object>
+  <object id="241" name="HF" gid="55" x="417" y="246.667" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Far away, on CINNABAR ISLAND, there's a POKEMON LAB."/>
+    <property name="Dialouge2" value="They do research on regenerating fossils."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="242" name="DF" gid="55" x="374.667" y="244.667" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Far away, on CINNABAR ISLAND, there's a POKEMON LAB."/>
+    <property name="Dialouge2" value="They do research on regenerating fossils."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="244" name="Hidden" x="1053.33" y="293.333" width="17.3333" height="21.3333">
+   <properties>
+    <property name="Item" value="Ether"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="20">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1455" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,151,151,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="3" name="Object Layer 1">
+  <object id="1" name="Border" x="63.7754" y="4.44089e-16" width="158.989" height="30.2409"/>
+  <object id="2" name="Border" x="0.898246" y="0.898246" width="62.2784" height="62.2784"/>
+  <object id="3" name="Border" x="224.262" y="1.19766" width="30.2409" height="62.2784"/>
+  <object id="4" name="Border" x="96.7111" y="97.9088" width="62.8772" height="62.2784"/>
+  <object id="7" name="Border" x="130.246" y="255.401" width="104.196" height="12.8749"/>
+  <object id="11" name="Door" x="63.7754" y="256.299" width="66.4702" height="12.8749">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="8" name="Border" x="26.9474" y="256.299" width="37.1275" height="12.8749"/>
+  <object id="9" name="Border" x="0.59883" y="194.919" width="31.1392" height="59.883"/>
+  <object id="10" name="Border" x="225.16" y="194.62" width="31.1392" height="59.883"/>
+  <object id="5" name="Border" x="-6.58713" y="61.6795" width="7.48538" height="141.025"/>
+  <object id="6" name="Border" x="256" y="56.2901" width="7.48538" height="141.025"/>
+  <object id="12" name="Spawn" x="95.5135" y="241.029">
+   <point/>
+  </object>
+  <object id="16" name="Girl" gid="1412" x="61.848" y="122.891" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Thank you for writing. I hope to see you soon!"/>
+    <property name="Dialouge2" value="Hey! Don't look at my letter!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Boy" gid="1331" x="129.216" y="63.0082" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="The COPYCAT is cute! I'm getting her a POKE DOLL!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="18" name="Pidgey" gid="1343" x="197.692" y="92.8421" width="23" height="23">
+   <properties>
+    <property name="Dialouge" value="Kurukkoo!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="19" name="Letter" gid="1469" x="96.8795" y="118.502" width="32" height="33">
+   <properties>
+    <property name="Text" value="I was given a PP UP as a gift. It's used for increasing the PP"/>
+    <property name="Text2" value="of techniques!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="6" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="6" height="8">
+  <data encoding="csv">
+258,258,258,258,258,258,
+258,257,257,257,257,258,
+257,265,266,266,267,257,
+284,257,257,257,257,284,
+292,257,257,257,257,292,
+257,265,266,266,267,257,
+258,257,257,257,257,258,
+258,258,258,258,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Guard" gid="1367" x="62.7462" y="63.607" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="The dept. store in CELADON has a great selection!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="Entrance" x="192.225" y="96.1123" width="9.28187" height="61.6795">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Exit" x="-9.28187" y="95.8129" width="9.28187" height="61.6795">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="4" name="O_ExitSpawn" x="14.6713" y="126.054">
+   <point/>
+  </object>
+  <object id="5" name="O_EntranceSpawn" x="174.559" y="126.952">
+   <point/>
+  </object>
+  <object id="6" name="Border" x="32.6363" y="160.187" width="126.353" height="30.2409"/>
+  <object id="14" name="Border" x="192.136" y="157.187" width="9.85322" height="35.7409"/>
+  <object id="15" name="Border" x="191.136" y="59.1871" width="9.85322" height="35.7409"/>
+  <object id="16" name="Border" x="-8.86374" y="61.1871" width="9.85322" height="35.7409"/>
+  <object id="17" name="Border" x="-9.86374" y="158.687" width="9.85322" height="35.7409"/>
+  <object id="7" name="Border" x="1.49708" y="223.364" width="190.129" height="30.2409"/>
+  <object id="8" name="Border" x="1.19766" y="192.524" width="190.129" height="30.2409"/>
+  <object id="9" name="Border" x="1.79649" y="1.41243" width="30.4412" height="58.6784"/>
+  <object id="10" name="Border" x="161.296" y="4.91243" width="30.4412" height="58.6784"/>
+  <object id="11" name="Border" x="32.7965" y="0.912427" width="127.941" height="30.1784"/>
+  <object id="12" name="Border" x="32.7965" y="66.4124" width="127.941" height="30.1784"/>
+  <object id="13" name="Boundry" x="75.5" y="78.5" width="3.5" height="81"/>
+ </objectgroup>
+</map>

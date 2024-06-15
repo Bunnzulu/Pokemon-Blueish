@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="38">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor1" width="8" height="10" visible="0">
+  <data encoding="csv">
+258,258,258,258,258,258,258,258,
+258,166,166,166,166,166,166,258,
+258,265,266,266,266,266,267,258,
+166,166,166,166,166,166,166,166,
+284,166,166,166,166,166,166,284,
+292,166,166,166,166,166,166,292,
+166,166,166,166,166,166,166,166,
+258,265,266,266,267,166,258,258,
+258,166,166,166,283,166,183,258,
+258,258,258,258,258,258,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="Floor1Objects" visible="0">
+  <object id="1" name="Guard" gid="1367" x="127.719" y="64.655" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="When you catch lots of POKEMON, isn't it hard to think up names?"/>
+    <property name="Dialouge2" value="In LAVENDER TOWN, there's a man who rates POKEMON nicknames."/>
+    <property name="Dialouge3" value="He'll help you rename them too!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="33.3099" y="64" width="93.9415" height="31.4386"/>
+  <object id="3" name="Border" x="161.064" y="64.6257" width="64.3743" height="31.4386"/>
+  <object id="4" name="Border" x="1.62573" y="222.567" width="153.821" height="31.4386"/>
+  <object id="13" name="Border" x="-11.0994" y="95.6901" width="11.6023" height="31.4386"/>
+  <object id="14" name="Border" x="-11.0994" y="193.749" width="11.6023" height="31.4386"/>
+  <object id="5" name="Border" x="1.25146" y="-1.24561" width="254.129" height="31.4386"/>
+  <object id="6" name="Border" x="1.62573" y="255.877" width="154.571" height="31.4386"/>
+  <object id="7" name="Border" x="2" y="289.564" width="253.754" height="28.4423"/>
+  <object id="8" name="Border" x="191.006" y="224.439" width="64.7485" height="31.4386"/>
+  <object id="11" name="Border" x="255.754" y="88.2047" width="4.49123" height="43.4152"/>
+  <object id="12" name="Border" x="255.38" y="193.251" width="4.49123" height="34.807"/>
+  <object id="9" name="Border" x="0.502924" y="32.4386" width="32.1871" height="62.8772"/>
+  <object id="10" name="Border" x="224.561" y="30.193" width="32.1871" height="62.8772"/>
+  <object id="15" name="Desk" x="128.749" y="64" width="30.6901" height="22.0819"/>
+  <object id="16" name="VCO_R11HSpawn" x="17.9649" y="160.561">
+   <point/>
+  </object>
+  <object id="17" name="R11H_VCODoor" x="-10.4795" y="132.865" width="10.8538" height="60.2573">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="18" name="R11H_R12Door" x="256" y="132.497" width="10.8538" height="60.2573">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="19" name="R12_R11HSpawn" x="237.661" y="160.936">
+   <point/>
+  </object>
+  <object id="32" name="R11H_R11HF2Door" x="206.742" y="254.307" width="15.7303" height="32.2097">
+   <properties>
+    <property name="Destination" value="R11HF2"/>
+   </properties>
+  </object>
+  <object id="33" name="R11HF2_R11HSpawn" x="176.03" y="271.536">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor2" width="8" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+586,587,586,594,586,594,264,594,
+594,595,594,586,594,593,272,593,
+166,588,166,166,166,166,588,166,
+166,596,166,166,166,166,596,166,
+166,239,239,166,166,239,239,166,
+166,166,166,166,166,166,166,166,
+509,166,166,166,166,166,166,166,
+517,166,166,166,166,166,166,263
+</data>
+ </layer>
+ <objectgroup id="4" name="Objects2">
+  <object id="21" name="Boy" gid="1349" x="128.071" y="146.963" width="31" height="33">
+   <properties>
+    <property name="Dialouge" value="Isn't my old NIDORINA great?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Nidorina"/>
+    <property name="Nickname" value="Terry"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Nidorino"/>
+   </properties>
+  </object>
+  <object id="24" name="Aide" gid="1405" x="35.3109" y="302.768" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Good luck on your Journey"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="25" name="Border2" x="0.749064" y="63.6704" width="253.933" height="50.5618"/>
+  <object id="26" name="Border2" x="-7.49064" y="62.9213" width="7.49064" height="261.049"/>
+  <object id="27" name="Border2" x="256.427" y="60.5543" width="7.49064" height="261.049"/>
+  <object id="30" name="Scope" x="31.8352" y="127.341" width="33.7079" height="32.2097">
+   <properties>
+    <property name="Text" value="A big Pokémon is asleep on the road"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="31" name="Scope" x="191.011" y="126.966" width="33.7079" height="32.2097">
+   <properties>
+    <property name="Text" value="The only way to get from Cerulean City to Lavender is "/>
+    <property name="Text2" value="by way of the Rock Tunnel"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="34" name="R11HF2_R11HDoor" x="236.704" y="291.76" width="17.9775" height="27.7154">
+   <properties>
+    <property name="Destination" value="R11H"/>
+   </properties>
+  </object>
+  <object id="35" name="R11H_R11HF2Spawn" x="205.993" y="304.869">
+   <point/>
+  </object>
+  <object id="36" name="Border2" x="0.749064" y="319.974" width="255.431" height="8.98876"/>
+  <object id="37" name="Border2" x="0" y="255.431" width="32.9588" height="62.5468"/>
+ </objectgroup>
+</map>

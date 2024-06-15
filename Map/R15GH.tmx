@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="30">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor 1" width="8" height="10" visible="0">
+  <data encoding="csv">
+258,258,258,258,258,258,258,258,
+258,257,257,257,257,257,257,258,
+258,265,266,266,266,266,267,258,
+257,257,257,257,257,257,257,257,
+284,257,257,257,257,257,257,284,
+292,257,257,257,257,257,257,292,
+257,257,257,257,257,257,257,257,
+258,265,266,266,267,257,258,258,
+258,257,257,257,283,257,271,258,
+258,258,258,258,258,258,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="1" name="GH_FCDoor" x="-10.1053" y="129.497" width="11.2281" height="61.0058">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="GH_R15Door" x="255.251" y="130.246" width="11.2281" height="61.0058">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="14" name="R15GH_F2Door" x="200.234" y="253.754" width="24.7018" height="33.6842">
+   <properties>
+    <property name="Destination" value="R15GHF2"/>
+   </properties>
+  </object>
+  <object id="2" name="FC_GHSpawn" x="16.0936" y="164.304">
+   <point/>
+  </object>
+  <object id="4" name="R15_GHSpawn" x="237.661" y="164.304">
+   <point/>
+  </object>
+  <object id="19" name="F2_R15GHSpawn" x="176.281" y="272.468">
+   <point/>
+  </object>
+  <object id="5" name="Border" x="1.49708" y="224.561" width="158.69" height="94.6901"/>
+  <object id="6" name="Border" x="192" y="224.936" width="67.7427" height="29.193"/>
+  <object id="7" name="Border" x="160.936" y="289.684" width="64.7485" height="29.193"/>
+  <object id="8" name="Border" x="1.49708" y="1.87135" width="30.6901" height="94.3158"/>
+  <object id="16" name="Border" x="33.3099" y="64" width="96.1871" height="31.4386"/>
+  <object id="17" name="Border" x="161.31" y="62.8772" width="63.2515" height="31.4386"/>
+  <object id="18" name="Talk" x="129.871" y="64.3743" width="30.6901" height="31.4386"/>
+  <object id="9" name="Border" x="224.187" y="0" width="30.6901" height="94.3158"/>
+  <object id="10" name="Border" x="-30.6901" y="192.374" width="30.6901" height="33.6842"/>
+  <object id="11" name="Border" x="-29.9415" y="97.3099" width="30.6901" height="33.6842"/>
+  <object id="13" name="Border" x="256" y="191.129" width="30.6901" height="33.6842"/>
+  <object id="12" name="Border" x="257.497" y="93.9415" width="30.6901" height="33.6842"/>
+  <object id="15" name="Guard" gid="1367" x="129.965" y="64.655" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Are you working on a Pokedex. Prof.Oak Aide came by here"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor 2" width="8" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+586,587,586,585,586,585,264,585,
+594,595,585,586,594,593,272,593,
+257,588,257,257,257,257,588,257,
+257,596,257,257,257,257,596,257,
+257,239,239,257,257,239,239,257,
+257,257,257,257,257,257,257,257,
+251,257,257,257,257,257,257,257,
+259,257,257,257,257,257,257,263
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects">
+  <object id="20" name="Aide" gid="1329" x="128.094" y="158.971" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Good luck on your Journey"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="21" name="Border" x="0.748538" y="64" width="254.129" height="62.5029"/>
+  <object id="29" name="Border" x="-1.12281" y="320.497" width="254.129" height="7.85965"/>
+  <object id="22" name="Border" x="1.12281" y="257.497" width="32.5614" height="62.5029"/>
+  <object id="23" name="Border" x="255.626" y="127.626" width="22.0819" height="160.561"/>
+  <object id="25" name="F2_R15GHDoor" x="227.556" y="292.304" width="27.6959" height="28.4444">
+   <properties>
+    <property name="Destination" value="R15GH"/>
+   </properties>
+  </object>
+  <object id="24" name="Border" x="-22.8304" y="123.883" width="22.0819" height="160.561"/>
+  <object id="26" name="R15GH_F2Spawn" x="191.251" y="273.965">
+   <point/>
+  </object>
+  <object id="27" name="Scope" x="193.123" y="127.626" width="29.9415" height="45.2865">
+   <properties>
+    <property name="Text" value="It looks like a small island"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="28" name="Scope" x="32.5614" y="126.129" width="29.9415" height="45.2865">
+   <properties>
+    <property name="Text" value="A large, shining bird is flying towards the sea"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

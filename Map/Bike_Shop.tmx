@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="21">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+295,296,225,293,294,225,225,225,
+617,618,619,620,166,1233,166,166,
+619,620,619,620,166,1233,166,166,
+166,166,166,166,166,290,266,266,
+619,620,166,166,166,166,166,166,
+619,620,166,166,166,166,166,166,
+166,166,166,166,166,166,621,166,
+166,166,1136,1136,166,166,166,621
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Shop Owner" gid="1374" x="191.495" y="95.6444" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Hi! Welcome to our BIKE SHOP. I would ask if you wanted a bike"/>
+    <property name="Dialouge2" value="But Looking at your broke ass I don't see the point. Bye. Come again"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="Lady" gid="1373" x="162.155" y="222.794" width="32" height="30">
+   <properties>
+    <property name="Dialouge" value="A plain city BIKE is good enough for me!"/>
+    <property name="Dialouge2" value="You can't put a shopping basket on an MTB!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="3" name="Boy" gid="1372" x="15.738" y="128.281" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="These BIKEs are cool, but they're way expensive!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="4" name="Border" x="0" y="256.5" width="63.5" height="17"/>
+  <object id="5" name="Border" x="128" y="256" width="127" height="17"/>
+  <object id="6" name="Border" x="256.5" y="128" width="21.5" height="129"/>
+  <object id="7" name="Border" x="1" y="1" width="254.5" height="20"/>
+  <object id="9" name="Border" x="2.5" y="32" width="46.5" height="30.5"/>
+  <object id="10" name="Border" x="16.5" y="66.5" width="46.5" height="30.5"/>
+  <object id="11" name="Border" x="80" y="66" width="46.5" height="30.5"/>
+  <object id="12" name="Border" x="80" y="34.5" width="46.5" height="30.5"/>
+  <object id="13" name="Border" x="14.5" y="127.5" width="50" height="34.5"/>
+  <object id="14" name="Border" x="15.5" y="159" width="50" height="34.5"/>
+  <object id="15" name="Border" x="160.5" y="98" width="94.5" height="25.5"/>
+  <object id="16" name="Border" x="196.5" y="192.5" width="25" height="31.5"/>
+  <object id="17" name="Border" x="226.5" y="223.5" width="27" height="31.5"/>
+  <object id="8" name="Border" x="-7.5" y="0" width="8.5" height="257"/>
+  <object id="18" name="Spawn" x="97.5" y="239.5">
+   <point/>
+  </object>
+  <object id="19" name="Door" x="64" y="257.5" width="65" height="15">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="20" name="Desk" x="160.5" y="29.5" width="31.5" height="69"/>
+ </objectgroup>
+</map>

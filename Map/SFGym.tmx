@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="95">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="20" height="18">
+  <data encoding="csv">
+162,162,162,162,162,162,215,162,162,162,162,162,162,2147483863,162,162,162,162,162,162,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,147,462,462,462,147,164,462,462,147,462,147,462,164,462,147,462,462,462,147,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,147,462,462,462,147,164,462,462,147,462,147,462,164,462,147,462,462,462,147,
+162,162,162,162,162,162,215,162,162,162,162,162,162,2147483863,162,162,162,162,162,162,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,147,462,462,462,147,164,462,462,462,462,462,462,164,462,147,462,462,462,147,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,147,462,462,462,147,164,462,462,462,462,147,462,164,462,147,462,462,462,147,
+162,162,162,162,162,162,215,162,162,162,162,162,162,216,162,162,162,162,162,162,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,462,462,462,462,462,164,462,462,826,462,462,462,164,462,462,462,462,462,462,
+462,147,462,462,462,147,164,462,462,834,462,147,462,164,462,147,462,462,462,147,
+462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,
+462,147,462,462,462,147,164,462,480,2147484128,462,462,462,164,462,147,462,462,462,147
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="-1" y="-1" width="641" height="28"/>
+  <object id="6" name="Border" x="-1" y="193" width="641" height="28"/>
+  <object id="7" name="Border" x="0" y="385" width="641" height="28"/>
+  <object id="2" name="Border" x="-2" y="575" width="254" height="28"/>
+  <object id="3" name="Border" x="320" y="576" width="323" height="28"/>
+  <object id="4" name="Border" x="-21" y="0" width="20" height="599"/>
+  <object id="5" name="Border" x="642" y="-4" width="20" height="599"/>
+  <object id="8" name="Border" x="418" y="-19" width="25" height="599"/>
+  <object id="9" name="Border" x="197" y="-8" width="25" height="599"/>
+  <object id="10" name="Door" x="254.6" y="576.7" width="61" height="20">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="13" name="A1_A2Door" x="357" y="485" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="18" name="B1_B2Door" x="614" y="485" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="23" name="C1_C2Door" x="485" y="485" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="55" name="O1_O2Door" x="166" y="549" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="63" name="L1_L2Door" x="165" y="294" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="75" name="M1_M2Door" x="37" y="166" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="67" name="N1_N2Door" x="37" y="358" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="59" name="K1_K2Door" x="37" y="550" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="27" name="D1_D2Door" x="484" y="549" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="15" name="A2_A1Door" x="613" y="550" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="21" name="B2_B1Door" x="613" y="294" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="49" name="H2_H1Door" x="36" y="485" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="45" name="G2_G1Door" x="293" y="102" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="73" name="J2_J1Door" x="165" y="102" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="38" name="F2_F1Door" x="485" y="100" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="34" name="E2_E1Door" x="37" y="293" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="32" name="E1_E2Door" x="614" y="358" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="36" name="F2_F1Door" x="485" y="293" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="40" name="F1_F2Door" x="485" y="293" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="47" name="H1_H2Door" x="613" y="166" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="51" name="I1_I2Door" x="484" y="165" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="71" name="J1_J2Door" x="357" y="101" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="42" name="G1_G2Door" x="485" y="357" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="29" name="D2_D1Door" x="165" y="485" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="61" name="K2_K1Door" x="356" y="166" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="57" name="O2_O1Door" x="165" y="358" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="78" name="M2_M1Door" x="357" y="357" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="69" name="N2_N1Door" x="165" y="165" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="65" name="L2_L1Door" x="293" y="166" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="25" name="C2_C1Door" x="614" y="101" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="53" name="I2_I1Door" x="38" y="100" width="20" height="20">
+   <properties>
+    <property name="Destination" value="SFGym"/>
+   </properties>
+  </object>
+  <object id="11" name="Spawn" x="287" y="556">
+   <point/>
+  </object>
+  <object id="12" name="Totem" x="289" y="465" width="29" height="50">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="14" name="A2_A1Spawn" x="365" y="550">
+   <point/>
+  </object>
+  <object id="19" name="B2_B1Spawn" x="582" y="512">
+   <point/>
+  </object>
+  <object id="33" name="E2_E1Spawn" x="581" y="368">
+   <point/>
+  </object>
+  <object id="37" name="F2_F1Spawn" x="468" y="282">
+   <point/>
+  </object>
+  <object id="48" name="H2_H1Spawn" x="583" y="171">
+   <point/>
+  </object>
+  <object id="72" name="J2_J1Spawn" x="395" y="88">
+   <point/>
+  </object>
+  <object id="52" name="I2_I1Spawn" x="465" y="159">
+   <point/>
+  </object>
+  <object id="43" name="G2_G1Spawn" x="468" y="352">
+   <point/>
+  </object>
+  <object id="24" name="C2_C1Spawn" x="474" y="470">
+   <point/>
+  </object>
+  <object id="28" name="D2_D1Spawn" x="470" y="540">
+   <point/>
+  </object>
+  <object id="56" name="O2_O1Spawn" x="137" y="548">
+   <point/>
+  </object>
+  <object id="64" name="L2_L1Spawn" x="144" y="297">
+   <point/>
+  </object>
+  <object id="77" name="M2_M1Spawn" x="24" y="161">
+   <point/>
+  </object>
+  <object id="68" name="N2_N1Spawn" x="18" y="351">
+   <point/>
+  </object>
+  <object id="60" name="K2_K1Spawn" x="20" y="544">
+   <point/>
+  </object>
+  <object id="16" name="A1_A2Spawn" x="583" y="564">
+   <point/>
+  </object>
+  <object id="22" name="B1_B2Spawn" x="581" y="318">
+   <point/>
+  </object>
+  <object id="46" name="G1_G2Spawn" x="265" y="104">
+   <point/>
+  </object>
+  <object id="74" name="J1_J2Spawn" x="147" y="103">
+   <point/>
+  </object>
+  <object id="39" name="F1_F2Spawn" x="467" y="97">
+   <point/>
+  </object>
+  <object id="35" name="E1_E2Spawn" x="20" y="294">
+   <point/>
+  </object>
+  <object id="30" name="D1_D2Spawn" x="140" y="498">
+   <point/>
+  </object>
+  <object id="62" name="K1_K2Spawn" x="391" y="156">
+   <point/>
+  </object>
+  <object id="58" name="O1_O2Spawn" x="135" y="356">
+   <point/>
+  </object>
+  <object id="76" name="M1_M2Spawn" x="315" y="364">
+   <point/>
+  </object>
+  <object id="70" name="N1_N2Spawn" x="139" y="163">
+   <point/>
+  </object>
+  <object id="66" name="L1_L2Spawn" x="256" y="166">
+   <point/>
+  </object>
+  <object id="26" name="C1_C2Spawn" x="586" y="108">
+   <point/>
+  </object>
+  <object id="54" name="I1_I2Spawn" x="18" y="92">
+   <point/>
+  </object>
+  <object id="50" name="H1_H2Spawn" x="19" y="481">
+   <point/>
+  </object>
+  <object id="31" name="Announcer" gid="1356" x="236" y="515" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value="Psychic power, huh? If I had that, I'd make a bundle at the slots!"/>
+    <property name="Dialouge" value="Yo! Champ in making! SABRINA's POKEMON use psychic power"/>
+    <property name="Dialouge2" value="instead of force! Fighting POKEMON are weak against psychic POKEMON! They get"/>
+    <property name="Dialouge3" value="creamed before they can even aim a punch!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="79" name="SF1Psychic" gid="1331" x="82" y="63" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="That's right! I used telepathy to read your mind!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Arrrgh!"/>
+    <property name="BattleStart" value="SAFFRON POKEMON GYM is famous for its psychics! You want to see-SABRINA! I can tell!"/>
+    <property name="Money" type="int" value="380"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Slowbro-38-Water Gun_Growl_Headbutt_Withdraw-Psychic-Slowbro"/>
+   </properties>
+  </object>
+  <object id="80" name="SF4Psychic" gid="1331" x="528" y="449" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="There used to be 2 POKEMON GYMs in SAFFRON. The FIGHTING DOJO-next door lost its GYM status when we went and creamed them!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I lost my concentration!"/>
+    <property name="BattleStart" value="SABRINA is young, but she's also our LEADER! You won't reach her-easily!"/>
+    <property name="Money" type="int" value="330"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Slowpoke-33-Water Gun_Growl_Headbutt_Disable-Psychic-Slowpoke,Slowpoke-33-Water Gun_Growl_Headbutt_Disable-Psychic-Slowpoke,Slowbro-33-Water Gun_Growl_Headbutt_Disable-Psychic-Slowbro"/>
+   </properties>
+  </object>
+  <object id="81" name="SF3Psychic" gid="1331" x="527" y="249" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="SABRINA just wiped out the KARATE MASTER next door!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I don't believe this!"/>
+    <property name="BattleStart" value="You know that power alone isn't enough!"/>
+    <property name="Money" type="int" value="340"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Mr.Mime-34-DoubleSlap_Light Screen_Confusion_Barrier-Psychic-Mr.Mime,Kadabra-34-Recover_Psybeam_Disable_Confusion-Psychic-Kadabra"/>
+   </properties>
+  </object>
+  <object id="86" name="SF2Psychic" gid="1331" x="530" y="57" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Psychic POKEMON fear only ghosts and bugs!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I never foresaw this!"/>
+    <property name="BattleStart" value="Does our unseen power scare you?"/>
+    <property name="Money" type="int" value="310"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Kadabra-31-Recover_Psybeam_Disable_Confusion-Psychic-Kadabra,Slowpoke-31-Confusion_Growl_Headbutt_Disable-Psychic-Slowpoke,Mr.Mime-31-DoubleSlap_Light Screen_Confusion_Barrier-Psychic-Mr.Mime,Kadabra-31-Recover_Psybeam_Disable_Confusion-Psychic-Kadabra"/>
+   </properties>
+  </object>
+  <object id="82" name="SF1Channeler" gid="1429" x="78" y="254" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="I must teach better techniques to my POKEMON!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I knew it!"/>
+    <property name="BattleStart" value="POKEMON take on the appearance of their trainers. Your POKEMON-must be tough, then!"/>
+    <property name="Money" type="int" value="1140"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-38-Hypnosis_Night Shade_Confuse Ray_Dream Eater-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="83" name="SF3Channeler" gid="1429" x="319" y="58" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="In a battle of equals, the one with the stronger will wins!-If you wish to beat SABRINA, focus on winning!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Not good enough!"/>
+    <property name="BattleStart" value="SABRINA is younger than I, but I respect her!"/>
+    <property name="Money" type="int" value="1020"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-34-Hypnosis_Night Shade_Confuse Ray_Lick-Channeler-Gastly,Haunter-34-Hypnosis_Night Shade_Confuse Ray_Lick-Channeler-Haunter"/>
+   </properties>
+  </object>
+  <object id="85" name="SF2Channeler" gid="1429" x="81" y="447" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="I knew that this was going to take place."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I lost after all!"/>
+    <property name="BattleStart" value="You and I, our POKEMON shall fight!"/>
+    <property name="Money" type="int" value="990"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-33-Hypnosis_Night Shade_Confuse Ray_Lick-Channeler-Gastly,Gastly-33-Hypnosis_Night Shade_Confuse Ray_Lick-Channeler-Gastly,Haunter-33-Hypnosis_Night Shade_Confuse Ray_Lick-Channeler-Haunter"/>
+   </properties>
+  </object>
+  <object id="87" name="Sabrina" gid="1383" x="301" y="292" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="TM46 is PSYWAVE! It uses powerful psychic waves to inflict damage!"/>
+    <property name="AfterBattle2" value="progresses! It will surely terrorize foes!"/>
+    <property name="AfterBattle3" value="Everyone has psychic power! People just don't realize it!"/>
+    <property name="Bag" value="X Defense-4"/>
+    <property name="Dialouge" value="I had a vision of your arrival! I have had psychic powers since I"/>
+    <property name="Dialouge2" value="was a child. I first learned to bend spoons with my mind."/>
+    <property name="Dialouge3" value="I dislike fighting, but if you wish, I will show you my powers!"/>
+    <property name="Money" type="int" value="4257"/>
+    <property name="Team" value="Kadabra-38-Recover_Psybeam_Disable_Psychic-Sabrina-Kadabra,Mr.Mime-37-DoubleSlap_Light Screen_Confusion_Barrier-Sabrina-Mr.Mime,Venomoth-38-Poison Powder_Leech Life_Stun Spore_Psybeam-Sabrina-Venomoth,Alakazam-43-Psybeam_Recover_PsyWave_Reflect-Sabrina-Alakazam"/>
+    <property name="WonBattle1" value="I'm shocked! But, a loss is a loss. I admit I didn't work hard"/>
+    <property name="WonBattle2" value="enough to win! You earned the MARSHBADGE!"/>
+    <property name="WonBattle3" value=""/>
+    <property name="WonBattle4" value="The MARSHBADGE makes POKEMON up to L70 obey you! Stronger POKEMON"/>
+    <property name="WonBattle5" value="will become wild, ignoring your orders in battle! Just don't"/>
+    <property name="WonBattle6" value="raise your POKEMON too much! Wait, please take this TM with you!"/>
+   </properties>
+  </object>
+  <object id="88" name="Eyes" x="526" y="447" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF4Psychic"/>
+   </properties>
+  </object>
+  <object id="91" name="Eyes" x="77" y="445" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF2Channeler"/>
+   </properties>
+  </object>
+  <object id="89" name="Eyes" x="525" y="247" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF3Psychic"/>
+   </properties>
+  </object>
+  <object id="90" name="Eyes" x="528" y="56" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF2Psychic"/>
+   </properties>
+  </object>
+  <object id="92" name="Eyes" x="319" y="56" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF3Channeler"/>
+   </properties>
+  </object>
+  <object id="93" name="Eyes" x="80" y="61" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF1Psychic"/>
+   </properties>
+  </object>
+  <object id="94" name="Eyes" x="78" y="255" width="38" height="88">
+   <properties>
+    <property name="Trainer" value="SF1Channeler"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

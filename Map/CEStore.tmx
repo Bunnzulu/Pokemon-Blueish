@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="153">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor1" width="20" height="8" visible="0">
+  <data encoding="csv">
+1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,
+1126,1127,1128,1126,1126,1126,1126,1126,1126,1126,1126,1126,791,1126,1235,1126,1135,1135,1126,1126,
+1134,1134,1134,1134,1134,1134,1154,1134,1134,1134,1134,1154,1134,1134,1134,1134,1251,1251,1134,1257,
+1134,1134,1134,1134,1134,1134,1162,1134,1134,1134,1134,1162,1134,1134,1134,1134,1134,1134,1134,1257,
+1134,1134,1134,1134,1134,1134,1158,1159,1159,1159,1159,1265,1134,1134,1134,1134,1134,1134,1134,1257,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1257,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1136,1136,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1136,1136,1134,1134
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="1" name="Border" x="0.643442" y="0" width="637.651" height="29.5984"/>
+  <object id="4" name="Border" x="126.758" y="255.447" width="385.422" height="29.5984"/>
+  <object id="7" name="Border" x="1.28688" y="31.5287" width="31.5287" height="29.5984"/>
+  <object id="8" name="Border" x="64.9877" y="31.5287" width="317.861" height="29.5984"/>
+  <object id="9" name="Border" x="416.238" y="30.8852" width="31.5287" height="29.5984"/>
+  <object id="10" name="Border" x="481.869" y="31.5287" width="31.5287" height="29.5984"/>
+  <object id="11" name="Border" x="576.455" y="29.5984" width="61.127" height="29.5984"/>
+  <object id="12" name="Border" x="515.328" y="30.8852" width="61.127" height="48.9016"/>
+  <object id="2" name="Border" x="-15.3566" y="30.2418" width="15.4426" height="226.492"/>
+  <object id="3" name="Border" x="640.955" y="28.9549" width="15.4426" height="226.492"/>
+  <object id="5" name="Border" x="577.897" y="256.09" width="63.0574" height="50.1885"/>
+  <object id="6" name="Border" x="0.65983" y="257.377" width="63.0574" height="50.1885"/>
+  <object id="13" name="Border" x="192.406" y="64.9877" width="30.8852" height="63.0574"/>
+  <object id="14" name="Border" x="351.693" y="63.7008" width="30.8852" height="63.0574"/>
+  <object id="15" name="F1Desk" x="192.119" y="126.758" width="160.217" height="26.3811"/>
+  <object id="16" name="F1Sign" x="448.479" y="30.2418" width="32.1721" height="25.0943">
+   <properties>
+    <property name="Text" value="1F: SERVICE COUNTER"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="17" name="F1Sign" x="352.18" y="128.688" width="32.1721" height="25.0943">
+   <properties>
+    <property name="Text" value="1F: SERVICE COUNTER, 2F: TRAINER'S MARKET"/>
+    <property name="Text2" value="3F: TV GAME SHOP, 4F: WISEMAN GIFTS"/>
+    <property name="Text3" value="5F: DRUG STORE, ROOFTOP SQUARE: VENDING MACHINES"/>
+   </properties>
+  </object>
+  <object id="18" name="F1Woman" gid="1390" x="255.533" y="125.742" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Hello! Welcome to CELADON DEPT. STORE. The board on the right"/>
+    <property name="Dialouge2" value="describes the store layout."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="19" name="CEStoreF1Left_ODoor" x="64.9877" y="256.734" width="62.4139" height="17.3729">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="23" name="CEStoreF1_ElevatorDoor" x="33.459" y="31.5287" width="28.3115" height="17.3729">
+   <properties>
+    <property name="Destination" value="CEStoreElevator"/>
+   </properties>
+  </object>
+  <object id="25" name="CEStoreF1_CEStoreF2Door" x="385.422" y="32.1721" width="28.3115" height="17.3729">
+   <properties>
+    <property name="Destination" value="CEStoreF2"/>
+   </properties>
+  </object>
+  <object id="20" name="CEStoreF1Right_ODoor" x="513.11" y="253.516" width="62.4139" height="17.3729">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="21" name="O_CEStoreF1LeftSpawn" x="92.6557" y="237.43">
+   <point/>
+  </object>
+  <object id="22" name="O_CEStoreF1RightSpawn" x="542.422" y="236.143">
+   <point/>
+  </object>
+  <object id="24" name="Elevator_CEStoreF1Spawn" x="46.3279" y="91.3688">
+   <point/>
+  </object>
+  <object id="26" name="CEStoreF2_CEStoreF1Spawn" x="399.578" y="84.291">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="11" name="Elevator" width="20" height="8" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1126,1126,1126,1120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1174,1174,1174,1174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1174,1174,1174,1174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1174,1136,1136,1174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="ElevatorObjects" visible="0">
+  <object id="131" name="BorderE" x="128.045" y="126.758" width="10.2951" height="127.402"/>
+  <object id="136" name="BorderE" x="1.28688" y="126.758" width="92.6557" height="30.8852"/>
+  <object id="137" name="Elevator_Menu" x="95.8729" y="127.402" width="33.459" height="27.0246"/>
+  <object id="132" name="BorderE" x="-11.582" y="128.045" width="10.2951" height="127.402"/>
+  <object id="133" name="BorderE" x="-0.643442" y="255.447" width="131.262" height="10.2951"/>
+  <object id="135" name="ElevatorSpawn" x="61.127" y="240.004">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor2" width="20" height="8" visible="0">
+  <data encoding="csv">
+1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,
+1126,1127,1128,1126,1126,1126,1126,1126,1126,1126,1126,1126,792,1126,1235,1126,791,1126,1126,1126,
+1134,1134,1134,1134,1154,1134,1134,1154,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1134,1134,1162,1134,1134,1162,1134,1134,1241,1242,1241,1242,1134,1134,1241,1242,1241,1242,
+1134,1134,1134,1134,1158,1159,1159,1160,1134,1134,1249,1250,1249,1250,1134,1134,1249,1250,1249,1250,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1241,1242,1241,1242,1134,1134,1241,1242,1241,1242,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1249,1250,1249,1250,1134,1134,1249,1250,1249,1250
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects" visible="0">
+  <object id="27" name="Border2" x="321.721" y="102.951" width="124.184" height="55.9795"/>
+  <object id="28" name="Border2" x="321.721" y="191.529" width="124.184" height="63.0574"/>
+  <object id="29" name="Border2" x="512.18" y="95.6557" width="124.184" height="63.0574"/>
+  <object id="30" name="Border2" x="514.11" y="190.885" width="124.184" height="63.0574"/>
+  <object id="31" name="Border2" x="128.045" y="63.4836" width="29.5984" height="63.0574"/>
+  <object id="37" name="Border2" x="63.7008" y="28.7377" width="319.791" height="32.8156"/>
+  <object id="41" name="Border2" x="4.26326e-14" y="254.586" width="642.156" height="32.8156"/>
+  <object id="38" name="Border2" x="416.307" y="30.0246" width="30.2418" height="32.8156"/>
+  <object id="48" name="F2Sign" x="447.836" y="29.3811" width="30.2418" height="32.8156">
+   <properties>
+    <property name="Text" value="Top Grade Items for Trainers!"/>
+    <property name="Text2" value="2F: TRAINER'S MARKET"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="39" name="Border2" x="480.365" y="29.668" width="30.2418" height="32.8156"/>
+  <object id="40" name="Border2" x="543.352" y="29.0246" width="96.5164" height="32.8156"/>
+  <object id="35" name="Border2" x="0.643442" y="-2.14754" width="29.5984" height="63.0574"/>
+  <object id="36" name="Border2" x="30.8852" y="-2.14754" width="608.697" height="33.459"/>
+  <object id="32" name="Border2" x="224.561" y="63.4836" width="29.5984" height="63.0574"/>
+  <object id="46" name="F2LeftDesk" x="126.758" y="126.541" width="64.9877" height="29.5984"/>
+  <object id="47" name="F2RightDesk" x="191.746" y="127.184" width="63.0574" height="29.5984"/>
+  <object id="33" name="Border2" x="-28.9549" y="-2.79098" width="29.5984" height="258.664"/>
+  <object id="34" name="Border2" x="639.582" y="-2.79098" width="29.5984" height="258.664"/>
+  <object id="42" name="F2Seller" gid="1417" x="192.119" y="128.602" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="43" name="F2Seller" gid="1417" x="158.66" y="127.316" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="44" name="F2Woman" gid="1383" x="447.922" y="129.889" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="For long outings, you should buy REVIVE."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="45" name="F2Man" gid="1395" x="604.922" y="188.799" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="SUPER REPEL keeps weak POKEMON at bay... Hmm, it's a more powerful"/>
+    <property name="Dialouge2" value="REPEL!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="49" name="CEStoreF2_ElevatorDoor" x="32.8156" y="33.459" width="29.5984" height="19.3033">
+   <properties>
+    <property name="Destination" value="CEStoreElevator"/>
+   </properties>
+  </object>
+  <object id="53" name="CEStoreF2_CEStoreF1Door" x="384.135" y="32.8156" width="29.5984" height="19.3033">
+   <properties>
+    <property name="Destination" value="CEStoreF1"/>
+   </properties>
+  </object>
+  <object id="54" name="CEStoreF2_CEStoreF3Door" x="512.18" y="30.2418" width="29.5984" height="19.3033">
+   <properties>
+    <property name="Destination" value="CEStoreF3"/>
+   </properties>
+  </object>
+  <object id="50" name="Elevator_CEStoreF2Spawn" x="45.6844" y="88.1516">
+   <point/>
+  </object>
+  <object id="51" name="CEStoreF1_CEStoreF2Spawn" x="397.004" y="81.0737">
+   <point/>
+  </object>
+  <object id="52" name="CEStoreF3_CEStoreF2Spawn" x="525.692" y="84.9344">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Floor3" width="20" height="8">
+  <data encoding="csv">
+1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,
+1126,1127,1128,1126,1236,1126,1236,1126,1236,1126,1236,1126,791,1126,1235,1126,792,1126,1143,1143,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1251,1251,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1142,1143,1144,1142,1143,1134,1134,1134,1134,1134,1225,1159,1159,1159,1159,1159,1159,1159,
+1134,1134,1150,1151,1151,1151,1152,1134,1134,1134,1134,1134,1233,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1142,1143,1144,1142,1143,1134,1134,1134,1134,1134,1233,1134,1134,1134,1241,1242,1241,1242,
+1134,1134,1150,1151,1151,1151,1152,1134,1134,1134,1134,1134,1233,1134,1134,1134,1249,1250,1249,1250
+</data>
+ </layer>
+ <objectgroup id="6" name="F3Objects">
+  <object id="55" name="Border3" x="0.643442" y="-1.93033" width="638.295" height="32.8156"/>
+  <object id="56" name="Border3" x="63.0574" y="125.471" width="160.217" height="108.742"/>
+  <object id="62" name="Border3" x="575.238" y="29.5984" width="66.2746" height="64.9877"/>
+  <object id="63" name="Border3" x="415.664" y="30.8852" width="31.5287" height="30.2418"/>
+  <object id="72" name="F3Sign" x="447.192" y="31.5287" width="31.5287" height="30.2418">
+   <properties>
+    <property name="Text" value="3F: TV GAME SHOP"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="64" name="Border3" x="479.434" y="29.9549" width="31.5287" height="30.2418"/>
+  <object id="65" name="Border3" x="543.492" y="31.8852" width="31.5287" height="30.2418"/>
+  <object id="66" name="Border3" x="384.561" y="127.115" width="31.5287" height="127.402"/>
+  <object id="67" name="F3Desk" x="416.09" y="128.402" width="222.631" height="29.5984"/>
+  <object id="57" name="Border3" x="63.7008" y="30.2418" width="317.861" height="30.8852"/>
+  <object id="61" name="Border3" x="-0.643442" y="255.803" width="643.442" height="30.8852"/>
+  <object id="58" name="Border3" x="-0.286885" y="32.1721" width="34.1024" height="30.8852"/>
+  <object id="59" name="Border3" x="-33.7459" y="-1.93033" width="34.1024" height="258.664"/>
+  <object id="60" name="Border3" x="641.225" y="-4.5041" width="34.1024" height="258.664"/>
+  <object id="68" name="F3Boy" gid="1404" x="256.176" y="95.5" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Come on GRAVELER! I love GRAVELER! I collect them!"/>
+    <property name="Dialouge2" value="Huh? GRAVELER turned into a different POKEMON!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="69" name="F3Boy" gid="1404" x="208.561" y="96.1434" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="All right! My buddy's going to trade me his KANGASKHAN for my"/>
+    <property name="Dialouge2" value="GRAVELER!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="70" name="F3Worker" gid="1423" x="478.807" y="189.729" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Oh, hi! I finally finished BLUEISH! Not done yet? This might be"/>
+    <property name="Dialouge2" value="useful!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="TM18"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="71" name="F3Man" gid="1422" x="350.762" y="193.303" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Captured POKEMON are registered with an OT the name"/>
+    <property name="Dialouge2" value="of the Original Trainer that caught it!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="73" name="Elevator_CEStoreF3Spawn" x="49.5451" y="93.9426">
+   <point/>
+  </object>
+  <object id="74" name="CEStoreF3_CEStoreF4Spawn" x="398.934" y="84.9344">
+   <point/>
+  </object>
+  <object id="75" name="CEStoreF2_CEStoreF3Spawn" x="527.623" y="86.2213">
+   <point/>
+  </object>
+  <object id="76" name="CEStoreF3_ElevatorDoor" x="34.7459" y="32.8156" width="28.3115" height="20.5902">
+   <properties>
+    <property name="Destination" value="CEStoreElevator"/>
+   </properties>
+  </object>
+  <object id="77" name="CEStoreF3_CEStoreF4Door" x="384.135" y="30.8852" width="28.3115" height="20.5902">
+   <properties>
+    <property name="Destination" value="CEStoreF4"/>
+   </properties>
+  </object>
+  <object id="78" name="CEStoreF3_CEStoreF2Door" x="512.824" y="30.8852" width="28.3115" height="20.5902">
+   <properties>
+    <property name="Destination" value="CEStoreF2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Floor4" width="20" height="8" visible="0">
+  <data encoding="csv">
+1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,
+1126,1127,1128,1126,1126,1126,1126,1126,1126,1126,1126,1126,792,1126,1235,1126,791,1126,1126,1126,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1241,1242,1241,1242,1241,1242,1241,1242,1134,1134,1241,1242,1241,1242,1241,1242,1134,1134,
+1134,1134,1249,1250,1249,1250,1249,1250,1249,1250,1134,1134,1249,1250,1249,1250,1249,1250,1134,1134,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1159,1159,1159,1159,1159,1159,1159,1159,1159,1226,1134,1134,1241,1242,1241,1242,1241,1242,1134,1134,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1233,1134,1134,1249,1250,1249,1250,1249,1250,1134,1134
+</data>
+ </layer>
+ <objectgroup id="8" name="F4Objects" visible="0">
+  <object id="79" name="Border4" x="-0.643442" y="0.643442" width="638.938" height="31.5287"/>
+  <object id="80" name="Border4" x="-0.643442" y="29.5984" width="34.1024" height="31.5287"/>
+  <object id="81" name="Border4" x="64.3442" y="31.5287" width="317.861" height="31.5287"/>
+  <object id="82" name="Border4" x="414.377" y="30.8852" width="33.459" height="31.5287"/>
+  <object id="96" name="F4Sign" x="447.192" y="30.8852" width="33.459" height="31.5287">
+   <properties>
+    <property name="Text" value="Express yourself with gifts!"/>
+    <property name="Text2" value="4F: WISEMAN GIFTS"/>
+    <property name="Text3" value="Evolution Special! Element STONEs on sale now!"/>
+   </properties>
+  </object>
+  <object id="83" name="Border4" x="479.365" y="30.8852" width="33.459" height="31.5287"/>
+  <object id="84" name="Border4" x="543.709" y="30.8852" width="96.5164" height="31.5287"/>
+  <object id="85" name="Border4" x="64.9877" y="96.5164" width="252.229" height="62.4139"/>
+  <object id="91" name="Border4" x="289.549" y="191.102" width="28.9549" height="62.4139"/>
+  <object id="92" name="F4Desk" x="-1.28688" y="190.459" width="287.619" height="28.9549"/>
+  <object id="90" name="Border4" x="-1.5041" y="256.664" width="644.729" height="15.4426"/>
+  <object id="86" name="Border4" x="385.709" y="95.8729" width="189.816" height="62.4139"/>
+  <object id="87" name="Border4" x="384.422" y="189.172" width="189.816" height="62.4139"/>
+  <object id="88" name="Border4" x="639.869" y="-1.93033" width="18.6598" height="258.02"/>
+  <object id="89" name="Border4" x="-20.3033" y="-3.86065" width="18.6598" height="258.02"/>
+  <object id="93" name="F4Man" gid="1423" x="156.443" y="256.004" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="94" name="F4Boy" gid="1349" x="192.832" y="96.1434" width="31" height="33">
+   <properties>
+    <property name="Dialouge" value="I heard something useful. You can run from wild POKEMON by"/>
+    <property name="Dialouge2" value="distracting them with a POKE DOLL!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="95" name="F4Man" gid="1352" x="606.852" y="191.66" width="32" height="31" visible="0">
+   <properties>
+    <property name="Dialouge" value="I'm getting a POKE DOLL for my girl friend!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="97" name="Elevator_CEStoreF4Spawn" x="46.3279" y="85.5778">
+   <point/>
+  </object>
+  <object id="98" name="CEStoreF3_CEStoreF4Spawn" x="395.717" y="84.291">
+   <point/>
+  </object>
+  <object id="99" name="CEStoreF5_CEStoreF4Spawn" x="526.979" y="82.3606">
+   <point/>
+  </object>
+  <object id="100" name="CEStoreF4_ElevatorDoor" x="32.8156" y="31.5287" width="31.5287" height="19.3033">
+   <properties>
+    <property name="Destination" value="CEStoreElevator"/>
+   </properties>
+  </object>
+  <object id="101" name="CEStoreF4_CEStoreF3Door" x="384.135" y="32.1721" width="31.5287" height="19.3033">
+   <properties>
+    <property name="Destination" value="CEStoreF3"/>
+   </properties>
+  </object>
+  <object id="102" name="CEStoreF4_CEStoreF5Door" x="513.467" y="32.8156" width="31.5287" height="19.3033">
+   <properties>
+    <property name="Destination" value="CEStoreF5"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Floor5" width="20" height="8" visible="0">
+  <data encoding="csv">
+1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,1118,
+1126,1127,1128,1126,1126,1126,1126,1126,1126,1126,1126,1126,791,1126,1235,1126,792,1126,1126,1126,
+1134,1134,1134,1134,1162,1134,1134,1162,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1134,1134,1162,1134,1134,1162,1134,1134,1241,1242,1241,1242,1134,1134,1241,1242,1241,1242,
+1134,1134,1134,1134,1158,1159,1159,1160,1134,1134,1249,1250,1249,1250,1134,1134,1249,1250,1249,1250,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1241,1242,1241,1242,1134,1134,1241,1242,1241,1242,
+1134,1134,1134,1134,1134,1134,1134,1134,1134,1134,1249,1250,1249,1250,1134,1134,1249,1250,1249,1250
+</data>
+ </layer>
+ <objectgroup id="10" name="F5Objects" visible="0">
+  <object id="103" name="Border5" x="0.643442" y="-1.28688" width="638.295" height="36.0328"/>
+  <object id="104" name="Border5" x="0.643442" y="33.459" width="31.5287" height="27.668"/>
+  <object id="113" name="Border5" x="127.402" y="61.7705" width="31.5287" height="65.6311"/>
+  <object id="127" name="F5LeftDesk" x="129.332" y="129.975" width="61.127" height="23.8074"/>
+  <object id="128" name="F5RightDesk" x="191.102" y="129.332" width="63.7008" height="23.8074"/>
+  <object id="114" name="Border5" x="223.275" y="61.7705" width="31.5287" height="65.6311"/>
+  <object id="115" name="Border5" x="-30.2418" y="-3.86065" width="31.5287" height="259.951"/>
+  <object id="116" name="Border5" x="638.938" y="-0.643442" width="31.5287" height="259.951"/>
+  <object id="106" name="Border5" x="415.664" y="32.7459" width="31.5287" height="27.668"/>
+  <object id="118" name="F5Sign" x="448.479" y="34.0328" width="31.5287" height="27.668">
+   <properties>
+    <property name="Text" value="5F:DRUG STORE"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="107" name="Border5" x="478.721" y="32.1024" width="31.5287" height="27.668"/>
+  <object id="109" name="Border5" x="321.078" y="95.8032" width="126.115" height="62.4139"/>
+  <object id="110" name="Border5" x="320.434" y="193.606" width="126.115" height="62.4139"/>
+  <object id="111" name="Border5" x="512.824" y="95.1598" width="126.115" height="62.4139"/>
+  <object id="112" name="Border5" x="513.467" y="193.606" width="126.115" height="62.4139"/>
+  <object id="108" name="Border5" x="542.422" y="34.0328" width="96.5164" height="27.668"/>
+  <object id="105" name="Border5" x="64.3442" y="35.3893" width="319.147" height="27.668"/>
+  <object id="117" name="Border5" x="3.21721" y="255.447" width="636.365" height="27.668"/>
+  <object id="119" name="CEStoreF5_ElevatorDoor" x="34.1024" y="32.8156" width="28.3115" height="20.5902">
+   <properties>
+    <property name="Destination" value="CEStoreElevator"/>
+   </properties>
+  </object>
+  <object id="123" name="CEStoreF5_CEStoreRoofDoor" x="384.135" y="32.8156" width="28.3115" height="20.5902">
+   <properties>
+    <property name="Destination" value="CEStoreRoof"/>
+   </properties>
+  </object>
+  <object id="124" name="CEStoreF5_CEStoreF4Door" x="511.537" y="34.1024" width="28.3115" height="20.5902">
+   <properties>
+    <property name="Destination" value="CEStoreF4"/>
+   </properties>
+  </object>
+  <object id="120" name="Elevator_CEStoreF5Spawn" x="46.3279" y="86.2213">
+   <point/>
+  </object>
+  <object id="121" name="CEStoreRoof_CEStoreF5Spawn" x="397.004" y="81.0737">
+   <point/>
+  </object>
+  <object id="122" name="CEStoreF4_CEStoreF5Spawn" x="528.266" y="80.4303">
+   <point/>
+  </object>
+  <object id="125" name="F5Man" gid="1417" x="191.475" y="126.029" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="126" name="F5Man" gid="1417" x="159.303" y="126.672" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="129" name="F5Man" gid="1394" x="448.565" y="191.016" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="POKEMON ability enhancers can be bought only here. Use CALCIUM to"/>
+    <property name="Dialouge2" value="increase SPECIAL abilities. Use CARBOS to increase SPEED."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="130" name="F5Man" gid="1391" x="61.2131" y="210.033" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="I'm here for POKEMON ability enhancers. PROTEIN increases ATTACK"/>
+    <property name="Dialouge2" value="power. IRON increases DEFENSE!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="13" name="Rooftop" width="20" height="8" visible="0">
+  <data encoding="csv">
+0,0,1273,1174,1174,1174,1174,1174,1174,1174,1174,1243,1243,1226,1274,1274,1274,1274,1274,1167,
+0,0,1273,1174,1174,1174,1174,1174,1174,1174,1174,1251,1251,1243,1282,1282,1282,1282,1282,1167,
+0,0,1273,1174,1257,1258,1259,1257,1174,1174,1174,1174,1174,1251,1235,1126,792,1126,1126,1167,
+0,0,1273,1174,1257,1266,1267,1257,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1167,
+0,0,1273,1174,1174,1174,1174,1174,1257,1258,1259,1257,1174,1174,1174,1174,1174,1174,1174,1167,
+0,0,1273,1174,1174,1174,1174,1174,1257,1266,1267,1257,1174,1174,1174,1174,1174,1174,1174,1167,
+0,0,1273,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1167,
+0,0,1273,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1234,1167
+</data>
+ </layer>
+ <objectgroup id="14" name="RooftopObjects" visible="0">
+  <object id="138" name="BorderR" x="64.3442" y="-10.9385" width="549.5" height="10.2951"/>
+  <object id="139" name="BorderR" x="61.127" y="225.561" width="578.455" height="29.5984"/>
+  <object id="140" name="BorderR" x="61.127" y="1" width="32.1721" height="258.664"/>
+  <object id="141" name="BorderR" x="157.643" y="65.3442" width="68.2049" height="60.4836"/>
+  <object id="142" name="BorderR" x="285.045" y="128.402" width="68.2049" height="60.4836"/>
+  <object id="143" name="BorderR" x="542.422" y="-0.286885" width="68.2049" height="86.8647"/>
+  <object id="144" name="BorderR" x="480.008" y="-4.79098" width="32.1721" height="86.8647"/>
+  <object id="148" name="Vending Machine" x="351.963" y="-0.930327" width="63.0574" height="63.0574"/>
+  <object id="149" name="Vending Machine" x="416.951" y="31.2418" width="30.2418" height="63.0574"/>
+  <object id="145" name="CEStoreF5_CEStoreRoofSpawn" x="525.692" y="131.906">
+   <point/>
+  </object>
+  <object id="146" name="CEStoreRoof_CEStoreF5Door" x="514.11" y="64.3442" width="25.7377" height="16.0861">
+   <properties>
+    <property name="Destination" value="CEStoreF5"/>
+   </properties>
+  </object>
+  <object id="147" name="RSign" x="448.479" y="50.832" width="30.8852" height="32.8156">
+   <properties>
+    <property name="Text" value="ROOFTOP SQUARE: VENDING MACHINES"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="151" name="RTSister" gid="1355" x="129.418" y="190.729" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="152" name="RTBrother" gid="1352" x="352.693" y="149.836" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="My sister is a trainer, believe it or not. But, she's so immature,"/>
+    <property name="Dialouge2" value="she drives me nuts!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

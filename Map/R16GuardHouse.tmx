@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="13" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="42">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor1" width="8" height="13">
+  <data encoding="csv">
+258,258,258,258,258,258,258,258,
+464,166,166,166,166,166,166,464,
+472,166,166,166,166,166,166,472,
+258,258,258,258,258,258,258,258,
+258,166,166,166,166,166,166,258,
+258,266,266,266,266,266,266,258,
+166,166,166,166,166,166,166,166,
+464,166,166,166,166,166,166,464,
+472,166,166,166,166,166,166,472,
+166,166,166,166,166,166,166,166,
+258,265,266,266,267,166,258,258,
+258,166,166,166,283,166,271,258,
+258,258,258,258,258,258,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects">
+  <object id="1" name="Border" x="1.9462" y="160.561" width="222.84" height="30.6526"/>
+  <object id="4" name="Border" x="159.102" y="382.428" width="95.3637" height="30.6526"/>
+  <object id="6" name="Border" x="192.187" y="319.663" width="62.7649" height="30.6526"/>
+  <object id="7" name="Border" x="224.786" y="350.802" width="30.1661" height="30.6526"/>
+  <object id="8" name="Border" x="225.273" y="129.909" width="30.1661" height="61.3053"/>
+  <object id="10" name="Border" x="255.925" y="163.481" width="30.1661" height="61.3053"/>
+  <object id="11" name="Border" x="255.925" y="287.064" width="30.1661" height="32.5988"/>
+  <object id="13" name="Border" x="-30.1392" y="288.524" width="30.1661" height="32.5988"/>
+  <object id="14" name="Border" x="-30.6257" y="192.674" width="30.1661" height="32.5988"/>
+  <object id="15" name="4R16H1_ODoor" x="-12.1368" y="225.273" width="12.6503" height="60.8187">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="17" name="3R16H1_ODoor" x="255.952" y="225.273" width="12.6503" height="60.8187">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="19" name="R16H1_ODoor" x="255.952" y="34.545" width="12.6503" height="60.8187">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="21" name="2R16H1_ODoor" x="-11.1637" y="31.6257" width="12.6503" height="63.738">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="5" name="Border" x="0.973099" y="318.69" width="156.182" height="66.1708"/>
+  <object id="2" name="Border" x="1.45965" y="96.3368" width="253.979" height="30.6526"/>
+  <object id="3" name="Border" x="0.48655" y="0.48655" width="253.979" height="30.6526"/>
+  <object id="12" name="F1Guard" gid="1367" x="129.965" y="160.992" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="CYCLING ROAD is a downhill course by the sea. It's a great ride."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="16" name="4O_R16H1Spawn" x="16.0561" y="256.898">
+   <point/>
+  </object>
+  <object id="18" name="3O_R16H1Spawn" x="239.382" y="262.25">
+   <point/>
+  </object>
+  <object id="20" name="O_R16H1Spawn" x="241.329" y="68.6035">
+   <point/>
+  </object>
+  <object id="22" name="2O_R16H1Spawn" x="18.4889" y="67.6304">
+   <point/>
+  </object>
+  <object id="23" name="F1Old Man" gid="1406" x="128.992" y="100.2" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="How'd you get in? Good effort!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="24" name="BikeLine" x="137.207" y="183.916" width="6.32515" height="153.263"/>
+  <object id="25" name="R16H1_R16H1F2Door" x="210.189" y="346.91" width="12.1637" height="38.4374">
+   <properties>
+    <property name="Destination" value="R16GuardTowerF2"/>
+   </properties>
+  </object>
+  <object id="26" name="R16H1F2_R16H1Spawn" x="176.131" y="369.291">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor2" width="8" height="13" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+586,587,586,585,586,585,264,585,
+594,595,594,593,594,593,272,593,
+166,588,166,166,166,166,588,166,
+166,596,166,166,166,166,596,166,
+166,239,239,166,166,239,239,166,
+166,166,166,166,166,166,166,166,
+251,166,166,166,166,166,166,166,
+259,166,166,166,166,166,166,263
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects" visible="0">
+  <object id="27" name="F2Girl" gid="1339" x="96.8795" y="259.329" width="32" height="35">
+   <properties>
+    <property name="Dialouge" value="We're going riding together!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="28" name="F2Boy" gid="1355" x="160.618" y="309.903" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="I'm going for a ride with my girl friend!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="29" name="Border2" x="254.952" y="158.615" width="12.1637" height="258.358"/>
+  <object id="34" name="Border2" x="-10.2175" y="158.615" width="11.6772" height="258.358"/>
+  <object id="35" name="Border2" x="0.48655" y="159.588" width="253.006" height="54.9801"/>
+  <object id="36" name="Border2" x="1.45965" y="353.235" width="31.1392" height="61.3053"/>
+  <object id="38" name="Scope" x="32.1123" y="223.326" width="31.1392" height="32.5988">
+   <properties>
+    <property name="Text" value="It's CELADON DEPT.STORE"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="39" name="Scope" x="192.674" y="224.299" width="31.1392" height="32.5988">
+   <properties>
+    <property name="Text" value="There's a long path over water!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="37" name="Border2" x="2.9193" y="416.487" width="250.573" height="12.1637"/>
+  <object id="40" name="R16H1F2_R16H1Door" x="241.815" y="383.888" width="14.1099" height="34.545">
+   <properties>
+    <property name="Destination" value="R16GuardTower"/>
+   </properties>
+  </object>
+  <object id="41" name="R16H1_R16H1F2Spawn" x="188.295" y="397.998">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

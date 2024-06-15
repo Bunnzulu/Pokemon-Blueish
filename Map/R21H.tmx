@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,1185,
+857,857,137,137,137,137,137,1193,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,250,250,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Boy" gid="1404" x="127.42" y="50.5345" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Isn't my old MR.MIME great?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Mr.Mime"/>
+    <property name="Nickname" value="Marcel"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Abra"/>
+   </properties>
+  </object>
+  <object id="2" name="Man" gid="1405" x="63.345" y="125.987" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="A fainted POKEMON can't fight."/>
+    <property name="Dialouge2" value="But, it can still use moves like CUT!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="1.79649" y="0.898246" width="59.2842" height="42.517"/>
+  <object id="4" name="Border" x="224.861" y="0.299415" width="30.5404" height="42.517"/>
+  <object id="5" name="Border" x="-7.94444" y="0.700585" width="9.04035" height="256.517"/>
+  <object id="6" name="Border" x="255.556" y="1.70058" width="9.04035" height="256.517"/>
+  <object id="7" name="Border" x="64.5556" y="0.200585" width="159.04" height="20.017"/>
+  <object id="8" name="Border" x="223.056" y="191.201" width="31.5404" height="62.517"/>
+  <object id="9" name="Border" x="0.0555556" y="192.701" width="31.5404" height="62.517"/>
+  <object id="10" name="Border" x="131.056" y="255.201" width="127.54" height="12.517"/>
+  <object id="11" name="Border" x="-2.44444" y="258.201" width="65.5404" height="12.517"/>
+  <object id="12" name="Spawn" x="91" y="237">
+   <point/>
+  </object>
+  <object id="13" name="Door" x="64" y="257" width="66.5" height="13.5">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="29">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="16" height="12">
+  <data encoding="csv">
+816,816,1117,1117,790,790,790,790,792,790,178,178,178,178,178,178,
+824,824,1125,1125,798,798,798,798,798,798,178,178,178,178,178,178,
+799,798,798,798,798,798,798,798,798,798,178,178,178,178,178,178,
+1139,1140,798,798,1155,1156,1156,1156,1156,1156,1156,1156,1156,1156,1156,1156,
+790,1124,798,798,1132,1113,1114,1115,1116,1132,1113,1114,792,790,792,790,
+798,1133,798,798,1132,1121,1122,798,798,1132,1121,1122,798,798,798,798,
+1147,1148,798,798,1131,808,1129,1130,1129,1131,1129,1129,807,807,807,1129,
+799,798,798,798,798,798,798,798,798,798,798,798,798,798,798,1141,
+1137,1138,1137,1138,798,798,798,798,798,798,798,798,798,798,798,1149,
+1145,1146,1145,1146,798,798,798,798,798,798,798,798,798,798,798,798,
+799,798,798,798,798,798,798,798,798,798,798,798,1165,1165,1165,1165,
+799,798,798,798,798,798,798,806,806,798,798,798,1173,1173,1173,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Nurse" gid="1336" x="225.597" y="190.009" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Welcome to our POKEMON Center! "/>
+    <property name="Dialouge2" value="We'll heal your pokemon back to Perfect Health!"/>
+    <property name="Dialouge3" value="Thank you for your time."/>
+    <property name="Type" value="Healer"/>
+   </properties>
+  </object>
+  <object id="5" name="HealDesk" x="224.561" y="193.587" width="33.5552" height="27.8766"/>
+  <object id="25" name="MartDesk" x="34.5614" y="142.921" width="29.5552" height="77.8766"/>
+  <object id="6" name="Border" x="129.058" y="96.0194" width="187.909" height="64.5291"/>
+  <object id="24" name="Border" x="129.725" y="163.353" width="93.2422" height="57.1958"/>
+  <object id="7" name="Border" x="2.58117" y="-0.516233" width="124.412" height="62.4642"/>
+  <object id="8" name="Border" x="128.026" y="1.03247" width="129.575" height="30.974"/>
+  <object id="9" name="Border" x="287.026" y="1.03247" width="32.5227" height="30.974"/>
+  <object id="10" name="Border" x="320.581" y="20.6493" width="32.5227" height="76.9187"/>
+  <object id="11" name="Border" x="257.6" y="144.545" width="253.47" height="76.9187"/>
+  <object id="26" name="Border" x="1.60032" y="191.212" width="31.4705" height="32.9187"/>
+  <object id="27" name="Border" x="2.93366" y="97.2119" width="60.1371" height="47.5854"/>
+  <object id="13" name="Border" x="383.6" y="319.879" width="126.804" height="64.9187"/>
+  <object id="14" name="Border" x="1.60032" y="253.879" width="126.804" height="64.9187"/>
+  <object id="15" name="Border" x="-1.06634" y="383.879" width="224.137" height="27.5854"/>
+  <object id="17" name="Border" x="287.6" y="386.545" width="224.137" height="27.5854"/>
+  <object id="18" name="Border" x="512.934" y="223.212" width="61.4705" height="149.585"/>
+  <object id="16" name="Border" x="-33.733" y="0.545271" width="33.4705" height="388.919"/>
+  <object id="12" name="PC" x="482" y="225.333" width="30.6667" height="45.3333"/>
+  <object id="19" name="O_ILESpawn" x="256" y="366.667">
+   <point/>
+  </object>
+  <object id="20" name="ILE_ODoor" x="221.333" y="385.333" width="68.6667" height="22">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="21" name="ILE_E4Door" x="258" y="1.33333" width="28.6667" height="22">
+   <properties>
+    <property name="Destination" value="Indigo Plateau E1"/>
+   </properties>
+  </object>
+  <object id="22" name="Store Clerk" gid="1334" x="0.666667" y="188.167" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Hello"/>
+   </properties>
+  </object>
+  <object id="23" name="Girl" gid="1338" x="159.333" y="55.6667" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="From here on, you face the ELITE FOUR one by one! If you win,"/>
+    <property name="Dialouge2" value="a door opens to the next trainer! Good luck!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="28" name="Man" gid="1463" x="128.667" y="320" width="32" height="35">
+   <properties>
+    <property name="Dialouge" value="Yo! Champ in making! At POKEMON LEAGUE, you have to face the ELITE"/>
+    <property name="Dialouge2" value="FOUR in succession. If you lose, you have to start all over again!"/>
+    <property name="Dialouge3" value="This is it! Go for it!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

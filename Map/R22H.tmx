@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="21">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="8">
+  <data encoding="csv">
+589,589,589,589,589,268,589,589,589,589,
+257,257,257,257,257,257,257,257,257,257,
+251,257,257,257,257,257,275,257,275,251,
+259,257,257,257,257,257,291,257,291,259,
+251,257,257,257,257,257,257,257,257,251,
+259,257,257,257,257,257,275,257,275,259,
+251,257,257,257,257,257,291,257,291,251,
+259,257,257,257,250,250,257,257,257,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Door2" x="161.608" y="0.633757" width="28.836" height="12.6751">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="2" name="Door" x="127.702" y="256.355" width="63.6926" height="27.2516">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="5" name="Spawn2" x="167" y="64.6667">
+   <point/>
+  </object>
+  <object id="6" name="Spawn" x="152.188" y="233.84">
+   <point/>
+  </object>
+  <object id="7" name="Border" x="1.33333" y="65.3333" width="29.3333" height="186.667"/>
+  <object id="8" name="Border" x="288" y="64.6667" width="31.3333" height="190"/>
+  <object id="9" name="Border" x="0.666667" y="258.667" width="125.333" height="19.3333"/>
+  <object id="10" name="Border" x="192.667" y="255.333" width="128" height="13.3333"/>
+  <object id="11" name="Border" x="-16" y="0" width="14.6667" height="260.667"/>
+  <object id="12" name="Border" x="-0.666667" y="1.33333" width="158" height="8"/>
+  <object id="18" name="Border" x="192.667" y="-1.33227e-15" width="128.667" height="8"/>
+  <object id="13" name="Border" x="321.333" y="8.88178e-15" width="18" height="258"/>
+  <object id="14" name="Border" x="193.333" y="64" width="29.3333" height="64.6667"/>
+  <object id="15" name="Border" x="191.333" y="158.667" width="32" height="64"/>
+  <object id="16" name="Border" x="256.667" y="158.667" width="30.6667" height="66"/>
+  <object id="17" name="Border" x="255.333" y="63.3333" width="31.3333" height="63.3333"/>
+  <object id="19" name="Boy" gid="1349" x="159.667" y="160.333" width="31" height="33">
+   <properties>
+    <property name="Dialouge" value="Once a POKEMON learns FLASH, you can get through ROCK TUNNEL."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="20" name="Aide" gid="1405" x="33.3333" y="164.333" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Good luck on your Journey"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

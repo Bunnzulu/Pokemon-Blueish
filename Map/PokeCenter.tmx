@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="14" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="24">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="14" height="8">
+  <data encoding="csv">
+1132,1113,1114,1115,1116,1132,1113,1114,790,790,792,790,792,790,
+1132,1121,1122,798,798,1132,1121,1122,798,798,798,798,798,798,
+1131,808,1129,1130,1129,1131,1129,1129,1129,1129,267,266,265,1129,
+798,798,798,798,798,798,798,798,798,798,798,798,798,798,
+814,815,798,798,798,798,798,798,798,798,798,798,798,1141,
+822,823,798,798,798,798,798,798,798,798,798,798,798,1149,
+1165,1165,798,798,798,798,1165,1165,798,798,798,798,798,798,
+1173,1173,798,1136,1136,798,1173,1173,798,798,798,798,798,798
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="PlayerPoint" x="124.216" y="216.048">
+   <point/>
+  </object>
+  <object id="2" name="Door" x="95.3805" y="254.915" width="65.8828" height="26.6178">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="450.667" y="-1.33333" width="19.3333" height="258.667"/>
+  <object id="4" name="Border" x="163.667" y="258" width="282.667" height="20.6667"/>
+  <object id="21" name="Border" x="0.33333" y="259.333" width="92.6667" height="20.6667"/>
+  <object id="5" name="Border" x="-10.6667" y="0" width="9.33333" height="256.667" visible="0"/>
+  <object id="6" name="Border" x="1.33333" y="192.667" width="62" height="59.3333" visible="0"/>
+  <object id="7" name="Border" x="193.333" y="192.667" width="62" height="62" visible="0"/>
+  <object id="8" name="Border" x="3.33333" y="1.33333" width="25.3333" height="83.3333"/>
+  <object id="9" name="Border" x="33.3333" y="66.6667" width="122.667" height="28" visible="0"/>
+  <object id="10" name="Border" x="194" y="64.6667" width="253.334" height="30.6667" visible="0"/>
+  <object id="12" name="Border" x="161.333" y="1.33333" width="28" height="93.3333"/>
+  <object id="13" name="Border" x="2" y="126.667" width="31.3333" height="67.3333" visible="0"/>
+  <object id="14" name="Nurse" gid="1336" x="103.333" y="63.6667" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Welcome to our POKEMON Center! "/>
+    <property name="Dialouge2" value="We'll heal your pokemon back to Perfect Health!"/>
+    <property name="Dialouge3" value="Thank you for your time."/>
+    <property name="Type" value="Healer"/>
+   </properties>
+  </object>
+  <object id="15" name="Desk" x="102.667" y="64" width="38" height="32.6667"/>
+  <object id="20" name="PC" x="416.667" y="126" width="30.6667" height="48.6667"/>
+ </objectgroup>
+</map>

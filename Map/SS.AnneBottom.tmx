@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="28" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="83">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1339" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor0" width="28" height="6" visible="0">
+  <data encoding="csv">
+178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,
+178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,178,
+179,196,194,196,194,196,174,196,194,196,174,196,194,196,174,196,194,196,174,196,194,196,174,196,194,196,195,177,
+179,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,177,
+179,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,183,177,
+178,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,170,178
+</data>
+ </layer>
+ <objectgroup id="2" name="Floor0Objects" visible="0">
+  <object id="1" name="Border" x="31.0541" y="62.1082" width="160.594" height="23.0688"/>
+  <object id="2" name="Border" x="222.702" y="63.6573" width="97.5987" height="23.0688"/>
+  <object id="3" name="Border" x="350.581" y="62.77" width="97.5987" height="23.0688"/>
+  <object id="4" name="Border" x="477.459" y="64.4318" width="97.5987" height="23.0688"/>
+  <object id="5" name="Border" x="606.886" y="61.77" width="97.5987" height="23.0688"/>
+  <object id="6" name="Border" x="735.539" y="64.4318" width="128.653" height="23.0688"/>
+  <object id="7" name="Border" x="-1.9007e-13" y="2.32356" width="31.0541" height="188.986"/>
+  <object id="8" name="Border" x="33.7159" y="162.03" width="861.53" height="27.5051"/>
+  <object id="9" name="Border" x="866.741" y="0.549042" width="26.6178" height="173.016"/>
+  <object id="10" name="SAF1_SAF0Spawn" x="811.843" y="147.285">
+   <point/>
+  </object>
+  <object id="11" name="SAF0_SAF1Door" x="842.01" y="133.089" width="20.407" height="23.0688">
+   <properties>
+    <property name="Destination" value="SS.Anne"/>
+   </properties>
+  </object>
+  <object id="12" name="R1_SAF0Spawn" x="716.906" y="110.02">
+   <point/>
+  </object>
+  <object id="15" name="R2_SAF0Spawn" x="590.028" y="107.359">
+   <point/>
+  </object>
+  <object id="16" name="R3_SAF0Spawn" x="460.488" y="107.359">
+   <point/>
+  </object>
+  <object id="17" name="R4_SAF0Spawn" x="333.61" y="107.359">
+   <point/>
+  </object>
+  <object id="18" name="R5_SAF0Spawn" x="206.732" y="108.246">
+   <point/>
+  </object>
+  <object id="13" name="SAF0_R1Door" x="704.485" y="66.5445" width="27.5051" height="13.3089">
+   <properties>
+    <property name="Destination" value="SAF0Rooms"/>
+   </properties>
+  </object>
+  <object id="14" name="SAF0_R2Door" x="577.607" y="66.5445" width="27.5051" height="13.3089">
+   <properties>
+    <property name="Destination" value="SAF0Rooms"/>
+   </properties>
+  </object>
+  <object id="19" name="SAF0_R3Door" x="447.179" y="62.9955" width="27.5051" height="13.3089">
+   <properties>
+    <property name="Destination" value="SAF0Rooms"/>
+   </properties>
+  </object>
+  <object id="20" name="SAF0_R4Door" x="321.188" y="63.8828" width="27.5051" height="13.3089">
+   <properties>
+    <property name="Destination" value="SAF0Rooms"/>
+   </properties>
+  </object>
+  <object id="21" name="SAF0_R5Door" x="191.536" y="65.6573" width="27.5051" height="13.3089">
+   <properties>
+    <property name="Destination" value="SAF0Rooms"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor0Rooms" width="28" height="6">
+  <data encoding="csv">
+205,206,194,196,0,0,205,206,194,196,0,0,205,206,194,196,0,0,205,206,194,196,0,0,205,206,194,196,
+213,214,166,522,0,0,213,214,166,522,0,0,213,214,166,522,0,0,213,214,166,522,0,0,213,214,166,522,
+166,166,166,530,0,0,166,166,166,530,0,0,166,166,166,530,0,0,166,166,166,530,0,0,166,166,166,530,
+167,166,166,166,0,0,167,166,166,166,0,0,167,166,166,166,0,0,167,166,166,166,0,0,167,166,166,166,
+166,166,166,166,0,0,166,166,166,166,0,0,166,166,166,166,0,0,166,166,166,166,0,0,166,166,166,166,
+166,166,165,165,0,0,166,166,165,165,0,0,166,166,165,165,0,0,166,166,165,165,0,0,166,166,165,165
+</data>
+ </layer>
+ <objectgroup id="4" name="F0RoomsObjects">
+  <object id="23" name="Border2" x="757.72" y="1.77452" width="8.8726" height="187.212"/>
+  <object id="29" name="Border2" x="566.41" y="2.77452" width="8.8726" height="187.212"/>
+  <object id="35" name="Border2" x="374.762" y="4.54904" width="8.8726" height="187.212"/>
+  <object id="36" name="Border2" x="512.288" y="4.54904" width="8.8726" height="187.212"/>
+  <object id="37" name="Border2" x="384.522" y="192.634" width="65.6573" height="12.4216"/>
+  <object id="38" name="Border2" x="385.409" y="14.2943" width="60.3337" height="35.4904"/>
+  <object id="39" name="Border2" x="479.459" y="29.3777" width="31.9414" height="60.3337"/>
+  <object id="40" name="Border2" x="396.944" y="0.0980839" width="114.457" height="15.9707"/>
+  <object id="41" name="Border2" x="193.761" y="1.8726" width="114.457" height="15.9707"/>
+  <object id="48" name="Border2" x="2.11274" y="0.0980839" width="114.457" height="15.9707"/>
+  <object id="49" name="Border2" x="0.338219" y="193.521" width="60.3337" height="15.9707"/>
+  <object id="50" name="Border2" x="128.104" y="-0.789177" width="16.8579" height="193.423"/>
+  <object id="51" name="Border2" x="-18.2943" y="2.75987" width="16.8579" height="193.423"/>
+  <object id="52" name="Border2" x="96.1624" y="22.2796" width="29.2796" height="70.0936"/>
+  <object id="53" name="Border2" x="1.22548" y="15.5197" width="64.77" height="31.9414"/>
+  <object id="42" name="Border2" x="190.212" y="194.408" width="67.4318" height="15.9707"/>
+  <object id="43" name="Border2" x="177.79" y="0.0980839" width="14.1962" height="188.099"/>
+  <object id="44" name="Border2" x="321.301" y="1.8726" width="14.1962" height="188.099"/>
+  <object id="45" name="Border2" x="285.811" y="21.3923" width="35.4904" height="71.8681"/>
+  <object id="46" name="Border2" x="189.986" y="16.0688" width="62.9955" height="34.6032"/>
+  <object id="47" name="Border2" x="197.972" y="1.8726" width="119.78" height="14.1962"/>
+  <object id="24" name="Border2" x="766.593" y="193.423" width="62.9955" height="9.75987"/>
+  <object id="25" name="Border2" x="897.02" y="-2.66178" width="13.3089" height="194.31"/>
+  <object id="30" name="Border2" x="578.494" y="11.5344" width="59.4465" height="39.0395"/>
+  <object id="31" name="Border2" x="672.543" y="32.8286" width="29.2796" height="55.8974"/>
+  <object id="32" name="Border2" x="614.999" y="1.45096" width="87.8388" height="14.1962"/>
+  <object id="33" name="Border2" x="575.959" y="193.099" width="62.1082" height="14.1962"/>
+  <object id="34" name="Border2" x="704.612" y="-2.98534" width="18.6325" height="195.197"/>
+  <object id="26" name="Border2" x="768.368" y="14.1962" width="64.77" height="38.1522"/>
+  <object id="27" name="Border2" x="863.304" y="28.3923" width="31.0541" height="62.1082"/>
+  <object id="28" name="Border2" x="792.324" y="-0.88726" width="100.26" height="13.3089"/>
+  <object id="54" name="Ball" gid="1330" x="834.447" y="56.7012" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Potion"/>
+   </properties>
+  </object>
+  <object id="55" name="F0Machoke" gid="1372" x="797.505" y="86.0936" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="Gwoh! Goggoh!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="56" name="F0Man" gid="1375" x="769.226" y="117.148" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="My buddy, MACHOKE, is super strong! He has enough"/>
+    <property name="Dialouge2" value="STRENGTH to move big rocks!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="57" name="SAF01Sailor" gid="1419" x="641.46" y="56.814" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Did you see the FISHING GURU in VERMILION CITY?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Your spirit sank me!"/>
+    <property name="BattleStart" value="My sailor's pride is at stake!"/>
+    <property name="Money" type="int" value="510"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Horsea-17-Bubble-Sailor-Horsea,Shellder-17-Tackle_Withdraw-Sailor-Shellder,Tentacool-17-Acid_Supersonic_Wrap-Sailor-Tentacool"/>
+   </properties>
+  </object>
+  <object id="58" name="SAF02Sailor" gid="1419" x="576.69" y="118.035" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Haha! Want to be a sailor, mate?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Right! Good fight, mate!"/>
+    <property name="BattleStart" value="You know what they say about sailors and fighting!"/>
+    <property name="Money" type="int" value="630"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Shellder-21-Tackle_Withdraw_Supersonic-Sailor-Shellder"/>
+   </properties>
+  </object>
+  <object id="59" name="SAF03Sailor" gid="1419" x="448.924" y="94.0789" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Sea POKEMON live in deep water. You'll need a ROD!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Argh! Lost it!"/>
+    <property name="BattleStart" value="I like feisty kids like you!"/>
+    <property name="Money" type="int" value="510"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Horsea-17-Bubble-Sailor-Horsea,Horsea-17-Bubble-Sailor-Horsea,Horsea-17-Bubble-Sailor-Horsea"/>
+   </properties>
+  </object>
+  <object id="60" name="SAF04Sailor" gid="1419" x="252.84" y="125.133" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="We caught all our POKEMON while out at sea!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="OK, you're not bad."/>
+    <property name="BattleStart" value="Us sailors have POKEMON too!"/>
+    <property name="Money" type="int" value="540"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Tentacool-18-Acid_Supersonic_Wrap_Poison Sting-Sailor-Tentacool,Staryu-18-Tackle_Water Gun-Sailor-Staryu"/>
+   </properties>
+  </object>
+  <object id="61" name="SAF05Sailor" gid="1409" x="-1.80383" y="94.1917" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Jellyfish sometimes drift into the ship."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Argh! Beaten by a kid!"/>
+    <property name="BattleStart" value="Matey, you're walking the plank if you lose!"/>
+    <property name="Money" type="int" value="600"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Machop-20-Karate Chop_Low Kick-Sailor-Machop"/>
+   </properties>
+  </object>
+  <object id="62" name="SAF01Fisherman" gid="1420" x="-4.57835" y="159.736" width="35" height="32">
+   <properties>
+    <property name="AfterBattle" value="I was going to make you my assistant too!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Darn! I let that one get away!"/>
+    <property name="BattleStart" value="Hello stranger! Stop and chat! All my POKEMON are from the sea!"/>
+    <property name="Money" type="int" value="595"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Tentacool-17-Acid_Supersonic_Wrap-Fisherman-Tentacool,Staryu-17-Tackle_Water Gun-Fisherman-Staryu,Shellder-17-Tackle_Withdraw-Fisherman-Shellder"/>
+   </properties>
+  </object>
+  <object id="63" name="R1_SAF0Door" x="829.589" y="193.423" width="75.4171" height="10.6471">
+   <properties>
+    <property name="Destination" value="SS.AnneF0"/>
+   </properties>
+  </object>
+  <object id="69" name="R2_SAF0Door" x="639.828" y="192.536" width="75.4171" height="10.6471">
+   <properties>
+    <property name="Destination" value="SS.AnneF0"/>
+   </properties>
+  </object>
+  <object id="70" name="R3_SAF0Door" x="452.616" y="191.648" width="75.4171" height="10.6471">
+   <properties>
+    <property name="Destination" value="SS.AnneF0"/>
+   </properties>
+  </object>
+  <object id="71" name="R4_SAF0Door" x="257.531" y="193.423" width="75.4171" height="10.6471">
+   <properties>
+    <property name="Destination" value="SS.AnneF0"/>
+   </properties>
+  </object>
+  <object id="72" name="R5_SAF0Door" x="63.221" y="194.31" width="75.4171" height="10.6471">
+   <properties>
+    <property name="Destination" value="SS.AnneF0"/>
+   </properties>
+  </object>
+  <object id="64" name="SAF0_R1Spawn" x="862.417" y="169.467">
+   <point/>
+  </object>
+  <object id="65" name="SAF0_R2Spawn" x="676.092" y="176.565">
+   <point/>
+  </object>
+  <object id="66" name="SAF0_R3Spawn" x="476.459" y="180.114">
+   <point/>
+  </object>
+  <object id="67" name="SAF0_R4Spawn" x="285.698" y="179.227">
+   <point/>
+  </object>
+  <object id="68" name="SAF0_R5Spawn" x="95.8241" y="173.903">
+   <point/>
+  </object>
+  <object id="73" name="Eyes" x="641.489" y="53.2356" width="28.3923" height="75.4171">
+   <properties>
+    <property name="Trainer" value="SAF01Sailor"/>
+   </properties>
+  </object>
+  <object id="74" name="Eyes" x="577.607" y="123.329" width="28.3923" height="68.3191">
+   <properties>
+    <property name="Trainer" value="SAF02Sailor"/>
+   </properties>
+  </object>
+  <object id="75" name="Eyes" x="449.067" y="90.5006" width="28.3923" height="68.3191">
+   <properties>
+    <property name="Trainer" value="SAF03Sailor"/>
+   </properties>
+  </object>
+  <object id="76" name="Eyes" x="252.095" y="123.329" width="32.8286" height="37.2649">
+   <properties>
+    <property name="Trainer" value="SAF04Sailor"/>
+   </properties>
+  </object>
+  <object id="77" name="Eyes" x="29.3923" y="56.7847" width="66.5445" height="36.3777">
+   <properties>
+    <property name="Trainer" value="SAF05Sailor"/>
+   </properties>
+  </object>
+  <object id="78" name="Eyes" x="31.1669" y="123.329" width="104.697" height="33.7159">
+   <properties>
+    <property name="Trainer" value="SAF01Fisherman"/>
+   </properties>
+  </object>
+  <object id="79" name="Ball" gid="1330" x="193.506" y="85.9808" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM44"/>
+   </properties>
+  </object>
+  <object id="80" name="Ball" gid="1330" x="386.042" y="85.9808" width="30" height="30">
+   <properties>
+    <property name="Item" value="Ether"/>
+   </properties>
+  </object>
+  <object id="82" name="Hidden" x="89.6133" y="27.5051" width="34.6032" height="29.2796">
+   <properties>
+    <property name="Item" value="Hyper Potion"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

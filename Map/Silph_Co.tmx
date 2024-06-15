@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="30" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="25" nextobjectid="587">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1461" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Floor 1" width="30" height="18">
+  <data encoding="csv">
+156,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,249,460,249,249,249,249,249,791,249,249,156,
+563,462,462,462,462,462,1162,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,1162,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,486,462,563,
+563,1159,1159,1159,1159,1159,1170,462,462,462,462,462,830,830,462,462,462,462,830,830,462,462,462,462,462,462,462,494,462,563,
+563,462,462,462,462,462,462,462,462,462,462,830,342,342,830,462,462,830,342,342,830,462,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,462,462,462,462,830,830,342,342,830,830,830,830,342,342,830,830,462,462,462,462,462,462,462,563,
+563,462,486,462,462,462,462,462,462,830,342,342,342,342,342,342,342,342,342,342,342,342,830,462,462,462,462,486,462,563,
+563,462,494,462,462,462,462,462,462,830,342,342,342,342,342,342,342,342,342,342,342,342,830,462,462,462,462,494,462,563,
+563,462,462,462,462,462,462,462,462,462,830,830,342,342,830,830,830,830,342,342,830,830,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,462,462,462,462,462,830,342,342,830,462,462,830,342,342,830,462,462,462,462,462,462,462,462,563,
+563,462,486,462,462,462,462,462,462,462,462,462,830,830,462,462,462,462,830,830,462,462,462,462,462,462,462,486,462,563,
+563,462,494,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,494,462,563,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,563,
+563,462,486,486,486,486,486,486,462,462,462,462,462,462,462,462,462,462,462,462,462,462,486,486,486,486,486,486,462,563,
+563,462,494,494,494,494,494,494,462,462,462,462,462,462,462,462,462,462,462,462,462,462,494,494,494,494,494,494,462,563,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,563,
+256,577,577,577,577,577,577,577,577,578,2147484449,801,256,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,578
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects">
+  <object id="1" name="Border" x="384.271" y="541.077" width="573.987" height="33.8778"/>
+  <object id="4" name="Border" x="0.967937" y="543.981" width="316.515" height="29.0381"/>
+  <object id="7" name="Border" x="29.0381" y="92.922" width="161.645" height="29.0381"/>
+  <object id="8" name="Border" x="190.684" y="28.0702" width="32.9099" height="97.7616"/>
+  <object id="9" name="Border" x="29.0381" y="-0.967937" width="610.768" height="32.9099"/>
+  <object id="10" name="Border" x="670.684" y="0.967937" width="163.581" height="28.0702"/>
+  <object id="11" name="Border" x="864.272" y="0.967937" width="62.9159" height="28.0702"/>
+  <object id="12" name="Border" x="865.24" y="65.8197" width="29.0381" height="60.98"/>
+  <object id="13" name="Border" x="865.24" y="190.652" width="29.0381" height="60.98"/>
+  <object id="19" name="Border" x="704.562" y="190.652" width="29.0381" height="60.98"/>
+  <object id="20" name="Border" x="640.678" y="256.471" width="29.0381" height="60.98"/>
+  <object id="21" name="Border" x="674.556" y="254.535" width="29.0381" height="30.006"/>
+  <object id="22" name="Border" x="638.742" y="159.678" width="63.8838" height="30.006"/>
+  <object id="23" name="Border" x="638.742" y="129.672" width="33.8778" height="30.006"/>
+  <object id="24" name="Border" x="576.794" y="91.922" width="62.9159" height="30.006"/>
+  <object id="25" name="Border" x="449.027" y="156.774" width="126.8" height="30.006"/>
+  <object id="26" name="Border" x="542.917" y="126.768" width="33.8778" height="30.006"/>
+  <object id="27" name="Border" x="447.091" y="125.8" width="31" height="30.006"/>
+  <object id="35" name="Border" x="385.143" y="319.387" width="61.006" height="30.006"/>
+  <object id="36" name="Border" x="322.227" y="252.6" width="61.006" height="30.006"/>
+  <object id="37" name="Border" x="481.936" y="254.567" width="61.006" height="30.006"/>
+  <object id="38" name="Border" x="577.762" y="318.451" width="61.006" height="30.006"/>
+  <object id="30" name="Border" x="352.233" y="126.768" width="31" height="30.006"/>
+  <object id="31" name="Border" x="289.317" y="192.587" width="31" height="60.98"/>
+  <object id="32" name="Border" x="449.027" y="256.471" width="31" height="60.98"/>
+  <object id="33" name="Border" x="545.852" y="257.471" width="31" height="60.98"/>
+  <object id="34" name="Border" x="354.201" y="255.535" width="31" height="60.98"/>
+  <object id="28" name="Border" x="384.175" y="96.7616" width="62.9419" height="30.006"/>
+  <object id="29" name="Border" x="320.291" y="160.645" width="62.9419" height="30.006"/>
+  <object id="14" name="Border" x="866.208" y="324.227" width="29.0381" height="60.98"/>
+  <object id="17" name="Border" x="65.7877" y="320.355" width="29.0381" height="60.98"/>
+  <object id="18" name="Border" x="63.8518" y="194.523" width="29.0381" height="60.98"/>
+  <object id="15" name="Border" x="705.562" y="447.187" width="186.812" height="60.98"/>
+  <object id="16" name="Border" x="63.8838" y="447.187" width="186.812" height="60.98"/>
+  <object id="5" name="Border" x="1.93587" y="0.967937" width="27.1022" height="541.077"/>
+  <object id="6" name="Border" x="929.22" y="3.87175" width="27.1022" height="541.077"/>
+  <object id="39" name="O_SilCoF1Spawn" x="343.618" y="531.397">
+   <point/>
+  </object>
+  <object id="42" name="SilCoF2_SilCoF1Spawn" x="835.33" y="76.467">
+   <point/>
+  </object>
+  <object id="464" name="SilCoE_SilCoF1Spawn" x="652.39" y="74.5312">
+   <point/>
+  </object>
+  <object id="40" name="SilCoF1_ODoor" x="319.419" y="573.987" width="68.7235" height="16.4549">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="41" name="SilCoF1_SilCoF2Door" x="833.394" y="5.80762" width="28.0702" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+  <object id="43" name="SilCoF1_SilCoEDoor" x="639.806" y="1.27898e-13" width="31.9419" height="21.2946">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor 2" width="30" height="18" visible="0">
+  <data encoding="csv">
+215,577,811,811,811,811,811,811,811,811,577,216,225,225,225,225,225,225,225,225,460,225,225,225,832,225,791,225,225,156,
+563,462,818,818,818,818,818,818,818,818,462,563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+563,462,462,462,462,462,462,462,462,462,462,563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+563,462,462,147,462,462,462,462,462,462,462,563,462,147,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+215,577,577,578,462,462,256,577,811,811,811,811,811,811,811,811,811,811,811,811,577,577,577,578,462,462,256,577,577,216,
+563,462,462,462,462,462,462,462,818,818,818,818,818,818,818,818,818,818,818,818,462,462,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,563,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,488,2147484136,462,462,488,2147484136,462,486,215,577,811,811,811,811,811,216,
+563,462,462,462,462,462,462,462,462,462,462,462,462,462,2147484131,483,462,462,2147484131,483,462,494,164,462,818,818,818,818,819,164,
+215,577,577,578,462,462,256,577,577,577,577,216,462,462,2147484131,483,462,462,2147484131,483,462,486,164,462,462,462,462,462,818,164,
+563,462,462,462,462,462,462,462,462,462,462,164,462,462,2147484131,483,462,462,2147484131,483,462,494,172,462,462,462,462,462,462,164,
+563,462,488,2147484136,462,462,486,486,486,486,462,164,462,462,2147484131,483,462,462,2147484131,483,462,462,462,462,462,462,462,462,462,164,
+563,462,2147484131,483,462,462,494,494,494,494,462,164,462,462,2147484131,483,462,462,2147484131,483,462,462,462,462,462,462,462,462,462,164,
+563,462,496,2147484144,462,462,462,462,462,462,462,164,462,462,496,2147484144,462,462,496,2147484144,462,462,156,462,488,2147484136,462,462,462,164,
+563,462,462,462,462,462,462,462,462,147,462,164,462,462,462,462,462,462,462,462,462,462,164,462,496,2147484144,462,147,462,164,
+563,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,164,
+256,577,577,577,577,577,577,577,577,577,577,578,577,577,577,577,577,577,577,577,577,577,256,577,577,577,577,577,577,578
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects" visible="0">
+  <object id="44" name="Border2" x="447.187" y="256.503" width="63.8838" height="221.658"/>
+  <object id="52" name="Border2" x="2.90381" y="-1.93587" width="27.1022" height="541.077"/>
+  <object id="45" name="Border2" x="573.987" y="256.503" width="63.8838" height="221.658"/>
+  <object id="46" name="Border2" x="36.7816" y="-1.93587" width="603.025" height="30.006"/>
+  <object id="47" name="Border2" x="671.748" y="1.42109e-14" width="96.7937" height="30.006"/>
+  <object id="53" name="Border2" x="833.394" y="128.736" width="98.7296" height="30.006"/>
+  <object id="54" name="Border2" x="192.619" y="127.768" width="570.115" height="30.006"/>
+  <object id="55" name="Border2" x="255.535" y="145.191" width="382.335" height="46.461"/>
+  <object id="63" name="Border2" x="671.748" y="259.407" width="34.8457" height="119.056"/>
+  <object id="64" name="Border2" x="700.786" y="446.219" width="34.8457" height="95.8258"/>
+  <object id="65" name="Border2" x="766.606" y="443.315" width="65.8197" height="65.8197"/>
+  <object id="66" name="Border2" x="768.542" y="275.862" width="157.774" height="43.5572"/>
+  <object id="67" name="Border2" x="897.278" y="305.868" width="31.9419" height="43.5572"/>
+  <object id="56" name="Border2" x="63.8838" y="16.4549" width="254.567" height="46.461"/>
+  <object id="57" name="Border2" x="62.9159" y="384.271" width="65.8197" height="91.954"/>
+  <object id="58" name="Border2" x="188.748" y="384.271" width="128.736" height="61.948"/>
+  <object id="59" name="Border2" x="190.684" y="320.387" width="169.389" height="31.9419"/>
+  <object id="76" name="Wall2" x="126.8" y="319.419" width="63.8838" height="31.9419"/>
+  <object id="77" name="Wall2" x="127.768" y="126.8" width="63.8838" height="31.9419"/>
+  <object id="60" name="Border2" x="30.974" y="317.483" width="96.7937" height="31.9419"/>
+  <object id="61" name="Border2" x="30.006" y="126.8" width="96.7937" height="31.9419"/>
+  <object id="62" name="Border2" x="353.297" y="320.387" width="29.0381" height="223.593"/>
+  <object id="48" name="Border2" x="864.368" y="1.42109e-14" width="63.8838" height="30.006"/>
+  <object id="51" name="Border2" x="1.93587" y="542.045" width="958.258" height="30.006"/>
+  <object id="49" name="Border2" x="801.452" y="1.42109e-14" width="31.9419" height="30.006"/>
+  <object id="50" name="Border2" x="929.22" y="2.90381" width="28.0702" height="544.949"/>
+  <object id="68" name="SilCoF2_SilCoF1Door" x="769.51" y="1.93587" width="33.8778" height="28.0702">
+   <properties>
+    <property name="Destination" value="Silph Co. F1"/>
+   </properties>
+  </object>
+  <object id="470" name="SilCoA1_SilCoA2Door" x="868.24" y="483.969" width="22.2626" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F8"/>
+   </properties>
+  </object>
+  <object id="474" name="SilCoB1_SilCoB2Door" x="420.053" y="100.698" width="22.2626" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F8"/>
+   </properties>
+  </object>
+  <object id="478" name="SilCoD1_SilCoD2Door" x="100.601" y="100.698" width="22.2626" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="482" name="SilCoI1_SilCoI2Door" x="292.221" y="485.001" width="22.2626" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F6"/>
+   </properties>
+  </object>
+  <object id="465" name="SilCoF2_SilCoEDoor" x="640.774" y="-2.90381" width="30.974" height="28.0702">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="69" name="SilCoF2_SilCoF3Door" x="832.426" y="-2.90381" width="33.8778" height="22.2626">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="70" name="SilCoF1_SilCoF2Spawn" x="786.933" y="58.0762">
+   <point/>
+  </object>
+  <object id="71" name="SilCoF3_SilCoF2Spawn" x="852.753" y="61.948">
+   <point/>
+  </object>
+  <object id="72" name="F21Rocket" gid="1366" x="765.125" y="252.177" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="SILPH CO. will be merged with TEAM ROCKET!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I goofed!"/>
+    <property name="BattleStart" value="Hey kid! What are you doing here?"/>
+    <property name="Money" type="int" value="750"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Golbat-25-Confuse Ray_Bite_Supersonic_Screech-Rocket-Golbat,Zubat-25-Confuse Ray_Bite_Supersonic_Leech Life-Rocket-Zubat,Zubat-25-Confuse Ray_Bite_Supersonic_Leech Life-Rocket-Zubat,Raticate-25-Hyper Fang_Quick Attack_Tail Whip_Tackle-Raticate-Zubat,Zubat-25-Confuse Ray_Bite_Supersonic_Leech Life-Rocket-Zubat"/>
+   </properties>
+  </object>
+  <object id="73" name="F22Rocket" gid="1366" x="512.494" y="348.97" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Diamond shaped tiles are teleport blocks! They're hi-tech-transporters!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Tough!"/>
+    <property name="BattleStart" value="No kids are allowed in here!"/>
+    <property name="Money" type="int" value="870"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Cubone-29-Growl_Bone Club_Leer-Rocket-Cubone,Zubat-29-Confuse Ray_Bite_Supersonic_Wing Attack-Rocket-Zubat"/>
+   </properties>
+  </object>
+  <object id="74" name="F21Scientist" gid="1358" x="768.029" y="439.956" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Can you solve the maze in here?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You're good."/>
+    <property name="BattleStart" value="It's off limits here! Go home!"/>
+    <property name="Money" type="int" value="1400"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Magnemite-28-Tackle_SonicBoom_ThunderShock-Scientist-Magnemite,Voltorb-28-Selfdestruct_SonicBoom_Screech_Tackle-Scientist-Voltorb,Magneton-28-Tackle_SonicBoom_ThunderShock-Scientist-Magneton"/>
+   </properties>
+  </object>
+  <object id="75" name="F22Scientist" gid="1329" x="157.261" y="415.758" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="I work for both SILPH and TEAM ROCKET!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="How did you know I was a ROCKET?"/>
+    <property name="BattleStart" value="Help! I'm a SILPH employee."/>
+    <property name="Money" type="int" value="1300"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Grimer-26-Pound_Disable-Scientist-Grimer,Weezing-26-Tackle_Smog_Sludge-Scientist-Weezing,Koffing-26-Tackle_Smog-Scientist-Koffing,Weezing-26-Tackle_Smog_Sludge-Scientist-Weezing"/>
+   </properties>
+  </object>
+  <object id="78" name="2Woman" gid="1424" x="320.842" y="93.467" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Eeek! No! Stop! Help! Oh, you're not with TEAM ROCKET. I thought..."/>
+    <property name="Dialouge2" value="I'm sorry. Here, please take this!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="TM36"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="466" name="SilCoE_SilCoF2Spawn" x="654.325" y="63.8838">
+   <point/>
+  </object>
+  <object id="467" name="Eyes2" x="766.606" y="128.736" width="35.8137" height="90.0181">
+   <properties>
+    <property name="Trainer" value="F21Rocket"/>
+   </properties>
+  </object>
+  <object id="468" name="Eyes2" x="512.039" y="254.567" width="44.5251" height="60.0121">
+   <properties>
+    <property name="Trainer" value="F22Rocket"/>
+   </properties>
+  </object>
+  <object id="486" name="Eyes2" x="144.223" y="413.309" width="41.6213" height="82.2747">
+   <properties>
+    <property name="Trainer" value="F22Scientist"/>
+   </properties>
+  </object>
+  <object id="469" name="Eyes2" x="638.838" y="404.598" width="128.736" height="37.7495">
+   <properties>
+    <property name="Trainer" value="F21Scientist"/>
+   </properties>
+  </object>
+  <object id="471" name="SilCoA2_SilCoA1Spawn" x="878.887" y="452.027">
+   <point/>
+  </object>
+  <object id="475" name="SilCoB2_SilCoB1Spawn" x="480.097" y="85.1785">
+   <point/>
+  </object>
+  <object id="479" name="SilCoD2_SilCoD1Spawn" x="150.03" y="90.9861">
+   <point/>
+  </object>
+  <object id="483" name="SilCoI2_SilCoI1Spawn" x="249.728" y="500.423">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Floor 3" width="30" height="18" visible="0">
+  <data encoding="csv">
+156,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,129,460,129,249,129,791,129,461,249,129,156,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,147,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,147,462,164,
+215,811,811,811,811,811,162,162,162,216,811,811,162,162,811,811,162,216,462,462,462,156,811,811,811,811,811,811,811,216,
+164,819,818,818,818,818,462,462,462,164,818,818,462,462,818,818,462,164,462,462,462,164,818,818,818,818,818,818,810,164,
+164,810,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,164,462,462,462,164,462,462,462,462,462,462,810,164,
+164,818,462,462,488,2147484136,462,462,462,172,462,462,462,462,462,462,462,172,462,462,462,172,462,462,462,462,462,462,818,164,
+164,462,462,462,2147484131,483,462,462,462,462,462,462,488,2147484136,462,462,462,462,462,462,462,462,462,462,462,462,488,2147484136,462,164,
+164,462,462,462,2147484131,483,462,462,462,462,462,462,496,2147484144,462,462,462,462,462,462,462,462,462,462,462,462,496,2147484144,462,164,
+164,462,462,462,496,2147484144,462,462,462,156,462,462,462,462,462,462,462,156,462,462,462,156,462,462,524,462,524,462,462,164,
+164,462,462,147,462,462,462,462,462,164,462,147,462,462,462,462,462,164,462,462,462,164,462,147,532,462,532,462,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,164,462,462,462,164,462,462,462,462,462,462,462,164,
+164,162,162,162,162,162,162,162,162,163,162,162,162,162,162,162,162,163,462,462,462,172,162,162,162,162,162,162,162,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,147,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,147,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+161,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,163
+</data>
+ </layer>
+ <objectgroup id="6" name="F3Objects" visible="0">
+  <object id="79" name="Border3" x="29.0381" y="0.967937" width="611.736" height="28.0702"/>
+  <object id="84" name="Border3" x="31.9419" y="548.82" width="925.348" height="28.0702"/>
+  <object id="83" name="Border3" x="2.90381" y="1.93587" width="27.1022" height="573.987"/>
+  <object id="85" name="Border3" x="929.22" y="1.93587" width="27.1022" height="573.987"/>
+  <object id="80" name="Border3" x="671.748" y="1.90381" width="96.7937" height="28.0702"/>
+  <object id="86" name="Border3" x="32.9099" y="128.704" width="156.806" height="61.948"/>
+  <object id="89" name="Border3" x="193.587" y="126.768" width="95.8258" height="30.006"/>
+  <object id="90" name="Border3" x="288.445" y="126.768" width="30.974" height="127.768"/>
+  <object id="116" name="Wall3" x="286.509" y="253.567" width="30.974" height="63.8838"/>
+  <object id="117" name="Wall3" x="544.949" y="253.567" width="30.974" height="63.8838"/>
+  <object id="91" name="Border3" x="320.387" y="128.704" width="61.948" height="64.8518"/>
+  <object id="92" name="Border3" x="449.123" y="126.768" width="61.948" height="64.8518"/>
+  <object id="94" name="Border3" x="383.431" y="124.832" width="61.948" height="33.8778"/>
+  <object id="95" name="Border3" x="511.199" y="125.8" width="61.948" height="33.8778"/>
+  <object id="96" name="Border3" x="545.949" y="158.71" width="27.1022" height="93.8899"/>
+  <object id="97" name="Border3" x="673.684" y="126.768" width="27.1022" height="127.768"/>
+  <object id="98" name="Border3" x="674.684" y="320.355" width="27.1022" height="127.768"/>
+  <object id="99" name="Border3" x="545.949" y="321.323" width="27.1022" height="127.768"/>
+  <object id="100" name="Border3" x="291.381" y="319.387" width="27.1022" height="127.768"/>
+  <object id="101" name="Border3" x="32.9419" y="417.149" width="257.471" height="29.0381"/>
+  <object id="102" name="Border3" x="318.483" y="419.085" width="257.471" height="29.0381"/>
+  <object id="93" name="Border3" x="384.271" y="252.664" width="61.948" height="64.8518"/>
+  <object id="103" name="Border3" x="831.49" y="252.664" width="61.948" height="64.8518"/>
+  <object id="106" name="Border3" x="833.426" y="320.419" width="30.006" height="64.8518"/>
+  <object id="107" name="Border3" x="767.606" y="317.515" width="30.006" height="64.8518"/>
+  <object id="105" name="Border3" x="896.342" y="129.736" width="32.9099" height="125.832"/>
+  <object id="87" name="Border3" x="30.974" y="193.555" width="31.9419" height="61.948"/>
+  <object id="88" name="Border3" x="127.768" y="222.593" width="61.948" height="123.896"/>
+  <object id="81" name="Border3" x="800.516" y="1.90381" width="30.006" height="28.0702"/>
+  <object id="104" name="Border3" x="703.722" y="127.736" width="192.619" height="65.8197"/>
+  <object id="108" name="Border3" x="703.69" y="417.149" width="223.593" height="31.9419"/>
+  <object id="82" name="Border3" x="861.528" y="1.90381" width="65.8197" height="28.0702"/>
+  <object id="109" name="SilCoF3_SilCoF2Door" x="830.49" y="2.90381" width="30.006" height="27.1022">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+  <object id="110" name="SilCoF3_SilCoF4Door" x="770.446" y="0" width="30.006" height="27.1022">
+   <properties>
+    <property name="Destination" value="Silph Co. F4"/>
+   </properties>
+  </object>
+  <object id="496" name="SilCoF3_SilCoEDoor" x="641.646" y="2.90381" width="30.006" height="27.1022">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="480" name="SilCoD2_SilCoD1Door" x="869.336" y="101.762" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+  <object id="488" name="SilCoE1_SilCoE2Door" x="100.762" y="101.73" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="498" name="SilCoO1_SilCoO2Door" x="357.265" y="357.201" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F7"/>
+   </properties>
+  </object>
+  <object id="500" name="SilCoQ1_SilCoQ2Door" x="100.762" y="357.233" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F9"/>
+   </properties>
+  </object>
+  <object id="502" name="SilCoN1_SilCoN2Door" x="740.632" y="357.297" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="504" name="SilCoN2_SilCoN1Door" x="869.368" y="485.969" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="492" name="SilCoH1_SilCoH2Door" x="100.73" y="486.033" width="20.01" height="20.1">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="111" name="SilCoF2_SilCoF3Spawn" x="841.137" y="62.9159">
+   <point/>
+  </object>
+  <object id="481" name="SilCoD1_SilCoD2Spawn" x="829.522" y="109.377">
+   <point/>
+  </object>
+  <object id="489" name="SilCoE2_SilCoE1Spawn" x="167.453" y="105.505">
+   <point/>
+  </object>
+  <object id="499" name="SilCoO2_SilCoO1Spawn" x="442.347" y="381.367">
+   <point/>
+  </object>
+  <object id="503" name="SilCoN2_SilCoN1Spawn" x="733.696" y="332.002">
+   <point/>
+  </object>
+  <object id="505" name="SilCoN1_SilCoN2Spawn" x="830.49" y="521.718">
+   <point/>
+  </object>
+  <object id="501" name="SilCoQ2_SilCoQ1Spawn" x="71.6273" y="381.367">
+   <point/>
+  </object>
+  <object id="493" name="SilCoH2_SilCoH1Spawn" x="159.71" y="534.301">
+   <point/>
+  </object>
+  <object id="112" name="SilCoF4_SilCoF3Spawn" x="762.734" y="55.1724">
+   <point/>
+  </object>
+  <object id="113" name="F31Rocket" gid="1365" x="641.229" y="258.016" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="A hint? You can open doors with a CARD KEY!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I give up!"/>
+    <property name="BattleStart" value="Quit messing with us, kid!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Raticate-28-Hyper Fang_Quick Attack_Tail Whip_Focus Energy-Rocket-Raticate,Hypno-28-Headbutt_Confusion_Disable_Hypnosis-Rocket-Hypno,Raticate-28-Hyper Fang_Quick Attack_Tail Whip_Focus Energy-Rocket-Raticate"/>
+   </properties>
+  </object>
+  <object id="114" name="3Man" gid="1443" x="766.093" y="287.022" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I work for SILPH. What should I do?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="115" name="F31Scientist" gid="1329" x="221.145" y="304.445" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Humph... TEAM ROCKET said that if I helped them, they'd let me-study POKEMON!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You really got me!"/>
+    <property name="BattleStart" value="I support TEAM ROCKET more than I support SILPH!"/>
+    <property name="Money" type="int" value="1450"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Electrode-29-Light Screen_Screech_SonicBoom_Selfdestruct-Scientist-Electrode,Weezing-29-Tackle_Smog_Sludge-Scientist-Weezing"/>
+   </properties>
+  </object>
+  <object id="118" name="Ball3" gid="1470" x="255.054" y="191.165" width="30" height="30">
+   <properties>
+    <property name="Item" value="Hyper Potion"/>
+   </properties>
+  </object>
+  <object id="487" name="Eyes3" x="573.987" y="224.561" width="64.8518" height="32.9099">
+   <properties>
+    <property name="Trainer" value="F31Rocket"/>
+   </properties>
+  </object>
+  <object id="543" name="Eyes3" x="220.987" y="305.561" width="32.8518" height="72.9099">
+   <properties>
+    <property name="Trainer" value="F31Scientist"/>
+   </properties>
+  </object>
+  <object id="497" name="SilCoE_SilCoF3Spawn" x="655.293" y="65.8197">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Floor 4" width="30" height="18" visible="0">
+  <data encoding="csv">
+156,249,249,249,249,249,249,249,249,156,811,811,811,811,811,811,811,811,156,249,460,249,249,249,832,249,791,249,249,156,
+164,462,462,462,462,462,462,462,462,164,818,818,818,818,818,818,818,818,164,462,462,462,462,462,462,462,462,462,462,164,
+164,462,830,830,830,830,462,830,462,164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,164,
+164,462,830,830,830,830,830,830,462,164,462,462,462,462,462,462,462,147,164,462,462,462,462,462,462,462,462,462,462,164,
+164,462,830,830,830,830,830,830,462,164,462,462,488,2147484136,488,2147484136,462,462,164,462,215,577,577,578,462,462,256,577,577,216,
+164,462,830,830,830,830,830,830,462,164,462,462,496,2147484144,496,2147484144,462,462,164,462,164,462,462,462,462,462,462,462,462,164,
+164,462,830,830,830,830,830,830,462,164,462,462,462,462,462,462,462,462,164,462,164,462,486,462,462,462,462,486,462,164,
+164,462,830,830,462,830,830,830,462,164,462,147,462,462,462,462,462,462,164,462,164,462,494,462,488,2147484136,462,494,462,164,
+164,462,830,830,462,462,830,830,462,164,577,578,462,462,256,577,811,811,164,462,164,462,462,462,2147484131,483,462,462,462,164,
+164,462,830,462,462,462,830,830,462,164,462,462,462,462,462,462,818,818,164,462,164,462,462,462,2147484131,483,462,462,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,462,164,462,486,462,2147484131,483,462,486,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,147,164,462,164,462,494,462,2147484131,483,462,494,462,164,
+215,577,577,578,462,462,256,577,577,577,577,578,462,462,256,577,577,577,172,462,164,462,462,462,2147484131,483,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,2147484131,483,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,486,462,496,2147484144,462,486,462,164,
+164,462,462,147,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,494,462,462,462,462,494,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,
+256,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,577,256,577,577,577,577,577,577,577,577,578
+</data>
+ </layer>
+ <objectgroup id="8" name="F4Objects" visible="0">
+  <object id="120" name="Border4" x="288.445" y="0" width="30.974" height="385.239"/>
+  <object id="121" name="Border4" x="671.748" y="0" width="94.8578" height="32.9099"/>
+  <object id="122" name="Border4" x="800.484" y="-3.87175" width="30.974" height="32.9099"/>
+  <object id="123" name="Border4" x="865.336" y="-2.90381" width="60.98" height="32.9099"/>
+  <object id="124" name="Border4" x="606.897" y="-1.93587" width="33.8778" height="32.9099"/>
+  <object id="125" name="Border4" x="927.284" y="0" width="31.9419" height="543.981"/>
+  <object id="126" name="Border4" x="640.71" y="126.8" width="30.006" height="419.117"/>
+  <object id="136" name="Border4" x="576.826" y="-2.77556" width="30.006" height="419.117"/>
+  <object id="137" name="Border4" x="318.387" y="-0.839685" width="254.567" height="62.9159"/>
+  <object id="138" name="Border4" x="382.271" y="129.832" width="128.736" height="56.1404"/>
+  <object id="139" name="Border4" x="319.355" y="253.728" width="62.9159" height="31.9419"/>
+  <object id="165" name="Wall4" x="129.639" y="384.399" width="59.0442" height="30.974"/>
+  <object id="166" name="Wall4" x="382.271" y="254.696" width="65.8197" height="30.974"/>
+  <object id="142" name="Border4" x="189.652" y="383.431" width="193.587" height="31.9419"/>
+  <object id="143" name="Border4" x="448.091" y="384.399" width="130.672" height="31.9419"/>
+  <object id="144" name="Border4" x="28.006" y="384.399" width="99.6975" height="31.9419"/>
+  <object id="145" name="Border4" x="64.7877" y="64.0121" width="30.006" height="253.6"/>
+  <object id="152" name="Border4" x="0.903811" y="2.06413" width="30.006" height="543.013"/>
+  <object id="146" name="Border4" x="98.6655" y="63.1083" width="30.006" height="221.658"/>
+  <object id="147" name="Border4" x="129.639" y="63.1083" width="30.006" height="158.742"/>
+  <object id="151" name="Border4" x="30.9099" y="0.192377" width="258.439" height="29.0381"/>
+  <object id="153" name="Border4" x="3.80762" y="547.045" width="954.386" height="29.0381"/>
+  <object id="148" name="Border4" x="161.613" y="60.2045" width="30.006" height="192.619"/>
+  <object id="149" name="Border4" x="192.587" y="93.1143" width="30.006" height="225.529"/>
+  <object id="150" name="Border4" x="223.561" y="63.1083" width="30.006" height="257.471"/>
+  <object id="140" name="Border4" x="448.091" y="254.696" width="129.704" height="31.9419"/>
+  <object id="141" name="Border4" x="510.039" y="270.183" width="69.6915" height="49.3648"/>
+  <object id="127" name="Border4" x="670.716" y="127.768" width="94.8578" height="30.974"/>
+  <object id="130" name="Border4" x="703.626" y="192.619" width="33.8778" height="60.98"/>
+  <object id="131" name="Border4" x="702.658" y="317.483" width="33.8778" height="60.98"/>
+  <object id="132" name="Border4" x="702.658" y="448.155" width="33.8778" height="60.98"/>
+  <object id="133" name="Border4" x="862.368" y="447.187" width="33.8778" height="60.98"/>
+  <object id="134" name="Border4" x="868.143" y="317.483" width="28.0702" height="60.98"/>
+  <object id="135" name="Border4" x="867.175" y="188.748" width="29.0381" height="60.98"/>
+  <object id="129" name="Border4" x="768.414" y="225.529" width="61.948" height="250.696"/>
+  <object id="128" name="Border4" x="830.426" y="126.8" width="94.8578" height="30.974"/>
+  <object id="154" name="F41Rocket" gid="1366" x="831.913" y="343.163" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="I better tell the BOSS on 11F!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Who are you?"/>
+    <property name="BattleStart" value="Intruder spotted!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Ekans-28-Glare_Bite_Poison Sting_Leer-Rocket-Ekans,Zubat-28-Wing Attack_Confuse Ray_Bite_Supersonic-Rocket-Zubat,Cubone-28-Growl_Bone Club_Leer-Rocket-Cubone"/>
+   </properties>
+  </object>
+  <object id="155" name="F42Rocket" gid="1363" x="287.932" y="470.898" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="Fwahahaha! My BOSS has been after this place!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Arrgh!"/>
+    <property name="BattleStart" value="TEAM ROCKET has taken command of SILPH CO.!"/>
+    <property name="Money" type="int" value="870"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Machop-29-Leer_Low Kick_Karate Chop-Rocket-Machop,Drowzee-29-Poison Gas_Headbutt_Confusion_Disable-Rocket-Drowzee"/>
+   </properties>
+  </object>
+  <object id="156" name="F41Scientist" gid="1358" x="447.642" y="221.203" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="The doors are electronically locked! A CARD KEY opens them!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Darn! You weak POKEMON!"/>
+    <property name="BattleStart" value="My POKEMON are my loyal soldiers!"/>
+    <property name="Money" type="int" value="1650"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Electrode-33-Light Screen_Screech_SonicBoom_Selfdestruct-Scientist-Electrode"/>
+   </properties>
+  </object>
+  <object id="157" name="4Man" gid="1449" x="194.042" y="91.4991" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Sssh! Can't you see I'm hiding?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="158" name="Ball4" gid="1470" x="162.132" y="283.119" width="30" height="30">
+   <properties>
+    <property name="Item" value="Escape Rope"/>
+   </properties>
+  </object>
+  <object id="159" name="Ball4" gid="1470" x="131.158" y="252.145" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Revive"/>
+   </properties>
+  </object>
+  <object id="160" name="Ball4" gid="1470" x="96.3128" y="315.06" width="30" height="30">
+   <properties>
+    <property name="Item" value="Full Heal"/>
+   </properties>
+  </object>
+  <object id="161" name="SilCoF4_SilCoF3Door" x="770.478" y="3.87175" width="25.1664" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="520" name="SilCoF4_SilCoEDoor" x="638.838" y="0.967937" width="31.9419" height="28.0702">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="484" name="SilCoJ1_SilCoJ2Door" x="547.852" y="100.665" width="25.1664" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F6"/>
+   </properties>
+  </object>
+  <object id="508" name="SilCoK1_SilCoK2Door" x="354.265" y="229.401" width="25.1664" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F10"/>
+   </properties>
+  </object>
+  <object id="516" name="SilCoM1_SilCoM2Door" x="97.7616" y="484.936" width="25.1664" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F10"/>
+   </properties>
+  </object>
+  <object id="512" name="SilCoL1_SilCoL2Door" x="545.917" y="357.169" width="25.1664" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F10"/>
+   </properties>
+  </object>
+  <object id="163" name="SilCoF4_SilCoF5Door" x="832.426" y="0.967937" width="25.1664" height="21.2946">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="162" name="SilCoF3_SilCoF4Spawn" x="777.253" y="66.7877">
+   <point/>
+  </object>
+  <object id="521" name="SilCoE_SilCoF4Spawn" x="655.293" y="72.5953">
+   <point/>
+  </object>
+  <object id="485" name="SilCoJ2_SilCoJ1Spawn" x="478.161" y="114.217">
+   <point/>
+  </object>
+  <object id="509" name="SilCoK2_SilCoK1Spawn" x="349.425" y="179.068">
+   <point/>
+  </object>
+  <object id="513" name="SilCoL2_SilCoL1Spawn" x="507.187" y="358.233">
+   <point/>
+  </object>
+  <object id="517" name="SilCoM2_SilCoM1Spawn" x="166.485" y="487.84">
+   <point/>
+  </object>
+  <object id="164" name="SilCoF5_SilCoF4Spawn" x="849.849" y="63.8838">
+   <point/>
+  </object>
+  <object id="506" name="Eyes4" x="831.458" y="185.844" width="31.9419" height="127.768">
+   <properties>
+    <property name="Trainer" value="F41Rocket"/>
+   </properties>
+  </object>
+  <object id="507" name="Eyes4" x="319.419" y="437.572" width="135.511" height="32.9099">
+   <properties>
+    <property name="Trainer" value="F42Rocket"/>
+   </properties>
+  </object>
+  <object id="544" name="Eyes4" x="351.419" y="187.572" width="94.5112" height="32.9099">
+   <properties>
+    <property name="Trainer" value="F41Scientist"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Floor 5" width="30" height="18" visible="0">
+  <data encoding="csv">
+215,162,811,811,811,811,163,216,249,249,249,249,249,249,249,249,249,249,249,249,460,249,249,249,791,249,461,249,249,156,
+164,462,818,818,818,818,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,164,462,462,462,486,486,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,172,462,462,462,494,494,462,462,462,462,462,462,462,462,462,462,462,462,462,462,147,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,215,162,162,162,162,162,163,462,462,161,162,162,216,462,164,
+164,462,462,462,462,462,462,462,462,462,462,147,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,164,462,164,
+164,462,462,462,462,462,462,156,462,462,215,811,811,811,162,216,462,462,462,462,488,2147484136,488,2147484136,488,2147484136,462,164,462,164,
+164,462,462,462,462,462,462,164,462,462,164,819,818,818,462,164,462,462,462,462,496,2147484144,496,2147484144,2147484131,483,462,164,462,164,
+164,462,462,462,462,462,462,164,462,462,164,810,462,462,462,164,462,462,462,462,462,462,462,462,2147484131,483,462,164,462,164,
+164,162,162,162,162,162,162,164,462,462,164,818,462,462,462,172,462,462,462,462,462,462,462,462,2147484131,483,462,164,462,164,
+164,462,462,462,462,462,462,164,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,2147484131,483,462,164,462,164,
+164,462,462,462,462,462,462,172,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,2147484131,483,462,164,462,164,
+164,462,830,830,830,830,462,462,462,462,164,462,462,462,462,156,462,462,462,462,488,2147484136,488,2147484136,488,2147484136,462,164,462,164,
+164,462,462,830,830,830,462,462,462,462,164,462,462,462,462,164,462,462,462,462,496,2147484144,496,2147484144,496,2147484144,462,164,462,164,
+164,462,462,462,830,830,462,156,462,462,164,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,164,462,164,
+164,462,462,147,830,830,462,164,462,147,161,162,162,162,162,163,162,162,162,162,162,162,162,162,162,162,162,163,462,164,
+164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+161,162,162,162,162,162,162,163,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,163
+</data>
+ </layer>
+ <objectgroup id="10" name="F5Objects" visible="0">
+  <object id="167" name="Border5" x="254.567" y="4.83969" width="381.367" height="22.2626"/>
+  <object id="184" name="Border5" x="62.9159" y="2.90381" width="126.8" height="60.98"/>
+  <object id="185" name="Border5" x="30.974" y="2.90381" width="31.9419" height="30.974"/>
+  <object id="186" name="Border5" x="189.716" y="1.93587" width="31.9419" height="30.974"/>
+  <object id="187" name="Border5" x="221.658" y="1.93587" width="31.9419" height="123.896"/>
+  <object id="168" name="Border5" x="671.748" y="3.87175" width="98.7296" height="22.2626"/>
+  <object id="195" name="Border5" x="637.871" y="190.684" width="128.736" height="63.8838"/>
+  <object id="196" name="Border5" x="639.806" y="382.335" width="190.684" height="63.8838"/>
+  <object id="197" name="Border5" x="767.574" y="191.652" width="65.8197" height="192.619"/>
+  <object id="172" name="Border5" x="768.542" y="129.704" width="97.7616" height="24.1984"/>
+  <object id="179" name="Border5" x="321.419" y="484.936" width="573.019" height="24.1984"/>
+  <object id="182" name="Border5" x="-0.903811" y="548.82" width="960.194" height="24.1984"/>
+  <object id="173" name="Border5" x="483.001" y="128.736" width="218.754" height="29.0381"/>
+  <object id="180" name="Border5" x="480.936" y="153.902" width="30.974" height="163.581"/>
+  <object id="181" name="Border5" x="480.936" y="387.175" width="30.974" height="121.96"/>
+  <object id="183" name="Border5" x="0.839685" y="0" width="29.0381" height="546.884"/>
+  <object id="175" name="Border5" x="320.387" y="190.684" width="159.71" height="29.0381"/>
+  <object id="177" name="Border5" x="350.393" y="211.978" width="96.7937" height="42.5892"/>
+  <object id="176" name="Border5" x="350.393" y="225.529" width="31.9419" height="92.922"/>
+  <object id="169" name="Border5" x="801.452" y="-0.967937" width="29.0381" height="31.9419"/>
+  <object id="170" name="Border5" x="865.336" y="-0.967937" width="60.0121" height="31.9419"/>
+  <object id="171" name="Border5" x="930.188" y="1.93587" width="28.0702" height="543.981"/>
+  <object id="174" name="Border5" x="866.432" y="129.704" width="28.0702" height="356.201"/>
+  <object id="178" name="Border5" x="322.387" y="197.459" width="28.0702" height="283.606"/>
+  <object id="188" name="Border5" x="224.658" y="190.684" width="28.0702" height="190.684"/>
+  <object id="194" name="Border5" x="351.457" y="62.9159" width="61.948" height="60.98"/>
+  <object id="205" name="Wall5" x="222.722" y="125.832" width="32.9099" height="60.98"/>
+  <object id="206" name="Wall5" x="221.818" y="384.271" width="32.9099" height="60.98"/>
+  <object id="207" name="Wall5" x="479.289" y="320.387" width="32.9099" height="60.98"/>
+  <object id="189" name="Border5" x="225.658" y="446.219" width="28.0702" height="102.601"/>
+  <object id="191" name="Border5" x="130.8" y="384.271" width="60.98" height="125.832"/>
+  <object id="192" name="Border5" x="98.8578" y="382.335" width="30.006" height="62.9159"/>
+  <object id="193" name="Border5" x="64.0121" y="381.367" width="30.006" height="35.8137"/>
+  <object id="190" name="Border5" x="32.0381" y="289.413" width="193.587" height="29.0381"/>
+  <object id="198" name="SilCoF5_SilCoF4Door" x="830.49" y="-1.93587" width="33.8778" height="31.9419">
+   <properties>
+    <property name="Destination" value="Silph Co. F4"/>
+   </properties>
+  </object>
+  <object id="200" name="SilCoF5_SilCoF6Door" x="769.51" y="-2.90381" width="26.1343" height="31.9419">
+   <properties>
+    <property name="Destination" value="Silph Co. F6"/>
+   </properties>
+  </object>
+  <object id="534" name="SilCoF5_SilCoEDoor" x="639.806" y="-0.935874" width="26.1343" height="31.9419">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="494" name="SilCoH2_SilCoH1Door" x="100.794" y="485.872" width="20.17" height="20.3267">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="199" name="SilCoF4_SilCoF5Spawn" x="842.105" y="69.6915">
+   <point/>
+  </object>
+  <object id="260" name="SilCoF6_SilCoF5Spawn" x="768.542" y="67.7556">
+   <point/>
+  </object>
+  <object id="495" name="SilCoH1_SilCoH2Spawn" x="49.3648" y="508.167">
+   <point/>
+  </object>
+  <object id="491" name="SilCoE1_SilCoE2Spawn" x="420.085" y="170.357">
+   <point/>
+  </object>
+  <object id="527" name="SilCoF2_SilCoF1Spawn2" x="830.49" y="117.12">
+   <point/>
+  </object>
+  <object id="531" name="SilCoG2_SilCoG1Spawn" x="310.054" y="535.622">
+   <point/>
+  </object>
+  <object id="201" name="F51Rocket" gid="1366" x="894.829" y="159.255" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Which reminds me. KOFFING evolves into WEEZING!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Cough... Cough..."/>
+    <property name="BattleStart" value="Show TEAM ROCKET a little respect!"/>
+    <property name="Money" type="int" value="990"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Hypno-33-Disable_Poison Gas_Headbutt_Confusion-Rocket-Hypno"/>
+   </properties>
+  </object>
+  <object id="202" name="F51Juggler" gid="1446" x="577.345" y="357.682" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="You're only on 5F. It's a long way to my BOSS!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh goodness!"/>
+    <property name="BattleStart" value="Whaaat? There shouldn't be any children here?"/>
+    <property name="Money" type="int" value="1015"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Kadabra-29-Psybeam_Disable_Confusion_Teleport-Juggler-Kadabra,Mr.Mime-29-Light Screen_Confusion_Barrier-Juggler-Mr.Mime"/>
+   </properties>
+  </object>
+  <object id="203" name="F51Scientist" gid="1405" x="255.99" y="127.345" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="We worked on the ultimate POKE BALL which would catch anything!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Dang! Blast it!"/>
+    <property name="BattleStart" value="We study POKE BALL technology on this floor!"/>
+    <property name="Money" type="int" value="1450"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Magneton-26-Tackle_SonicBoom_ThunderShock-Scientist-Magneton,Koffing-26-Tackle_Smog-Scientist-Koffing,Weezing-26-Tackle_Smog_Sludge-Scientist-Weezing,Magnemite-26-Tackle_SonicBoom_ThunderShock-Scientist-Magnemite"/>
+   </properties>
+  </object>
+  <object id="204" name="F52Rocket" gid="1363" x="256.958" y="545.43" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="It's not smart to pick a fight with TEAM ROCKET!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Boom!"/>
+    <property name="BattleStart" value="I heard a kid was wandering around."/>
+    <property name="Money" type="int" value="990"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Arbok-33-Glare_Bite_Poison Sting_Leer-Rocket-Arbok"/>
+   </properties>
+  </object>
+  <object id="208" name="Ball5" gid="1470" x="679.979" y="542.526" width="30" height="30">
+   <properties>
+    <property name="Item" value="Card Key"/>
+   </properties>
+  </object>
+  <object id="209" name="Ball5" gid="1470" x="100.185" y="222.139" width="30" height="30">
+   <properties>
+    <property name="Item" value="Protein"/>
+   </properties>
+  </object>
+  <object id="210" name="Ball5" gid="1470" x="62.435" y="447.668" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM09"/>
+   </properties>
+  </object>
+  <object id="211" name="Hidden5" x="398.79" y="92.922" width="35.8137" height="41.6213">
+   <properties>
+    <property name="Item" value="Elixir"/>
+   </properties>
+  </object>
+  <object id="212" name="5Man" gid="1443" x="414.732" y="316.06" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="TEAM ROCKET is in an uproar over some intruder. That's you right?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="213" name="Board" gid="1481" x="767.997" y="215.395" width="34" height="32">
+   <properties>
+    <property name="Text" value="It's a POKEMON REPORT! 4 POKEMON evolve only when traded by"/>
+    <property name="Text2" value="link-cable."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="214" name="Board" gid="1481" x="810.586" y="339.291" width="34" height="32">
+   <properties>
+    <property name="Text" value="It's a POKEMON REPORT! Over 160 POKEMON techniques have been"/>
+    <property name="Text2" value="confirmed."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="215" name="Board" gid="1481" x="703.145" y="405.111" width="34" height="32">
+   <properties>
+    <property name="Text" value="It's a POKEMON REPORT! POKEMON LAB created PORYGON, the first"/>
+    <property name="Text2" value="virtual reality POKEMON."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="490" name="SilCoE2_SilCoE1Door" x="356.169" y="165.485" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="526" name="SilCoF1_SilCoF2Door2" x="870.24" y="101.569" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F7"/>
+   </properties>
+  </object>
+  <object id="530" name="SilCoG1_SilCoG2Door" x="294.317" y="485.84" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F9"/>
+   </properties>
+  </object>
+  <object id="522" name="Eyes5" x="897.278" y="27.1022" width="30.974" height="99.6975">
+   <properties>
+    <property name="Trainer" value="F51Rocket"/>
+   </properties>
+  </object>
+  <object id="523" name="Eyes5" x="288.445" y="95.8258" width="61.948" height="31.9419">
+   <properties>
+    <property name="Trainer" value="F51Scientist"/>
+   </properties>
+  </object>
+  <object id="524" name="Eyes5" x="289.413" y="513.975" width="61.948" height="31.9419">
+   <properties>
+    <property name="Trainer" value="F52Rocket"/>
+   </properties>
+  </object>
+  <object id="525" name="Eyes5" x="575.923" y="189.716" width="38.7175" height="137.447">
+   <properties>
+    <property name="Trainer" value="F51Juggler"/>
+   </properties>
+  </object>
+  <object id="535" name="SilCoE_SilCoF5Spawn" x="643.678" y="68.7235">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="11" name="Floor 6" width="30" height="18" visible="0">
+  <data encoding="csv">
+215,811,811,811,162,216,249,249,249,249,249,249,249,249,461,249,791,249,460,249,249,249,249,249,249,156,0,0,0,0,
+164,819,818,818,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,810,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,818,462,147,462,172,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,147,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,215,811,811,811,162,162,162,162,162,163,462,462,161,162,162,216,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,164,819,818,818,462,462,462,462,462,462,462,462,462,462,462,164,462,164,0,0,0,0,
+164,486,462,462,486,156,462,462,164,810,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,164,0,0,0,0,
+164,494,462,462,494,164,462,462,164,818,462,462,488,2147484136,488,2147484136,488,2147484136,488,2147484136,488,2147484136,462,164,462,164,0,0,0,0,
+215,162,162,162,162,216,462,462,164,462,462,462,2147484131,483,496,2147484144,496,2147484144,496,2147484144,2147484131,483,462,164,462,164,0,0,0,0,
+164,462,462,462,462,164,462,462,164,462,462,462,2147484131,483,462,462,462,462,462,462,2147484131,483,462,164,462,164,0,0,0,0,
+164,462,830,830,462,164,462,462,164,486,462,462,2147484131,483,462,462,462,462,462,462,2147484131,483,462,164,462,164,0,0,0,0,
+164,462,830,462,462,172,462,462,164,494,462,462,2147484131,483,488,2147484136,488,2147484136,488,2147484136,2147484131,483,462,164,462,164,0,0,0,0,
+164,462,830,462,462,462,462,462,164,486,462,462,496,2147484144,496,2147484144,496,2147484144,496,2147484144,496,2147484144,462,164,462,164,0,0,0,0,
+164,462,830,830,462,462,462,462,164,494,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,164,0,0,0,0,
+164,462,830,830,462,156,462,462,161,162,162,163,462,462,161,162,162,162,162,162,162,162,162,163,462,164,0,0,0,0,
+164,462,462,830,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+161,162,162,162,162,163,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,163,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="F6Objects" visible="0">
+  <object id="216" name="Border6" x="190.684" y="1.93587" width="255.535" height="30.006"/>
+  <object id="239" name="Border6" x="2.90381" y="543.013" width="825.65" height="30.006"/>
+  <object id="225" name="Border6" x="160.678" y="30.974" width="29.0381" height="95.8258"/>
+  <object id="222" name="Border6" x="31.9419" y="18.3908" width="32.9099" height="108.409"/>
+  <object id="223" name="Border6" x="64.8518" y="16.4549" width="62.9159" height="49.3648"/>
+  <object id="224" name="Border6" x="32.9099" y="0.967937" width="155.838" height="29.0381"/>
+  <object id="218" name="Border6" x="480.097" y="0.967937" width="31.9419" height="30.006"/>
+  <object id="227" name="Border6" x="386.207" y="126.832" width="186.812" height="30.006"/>
+  <object id="231" name="Border6" x="288.445" y="318.483" width="32.9099" height="127.768"/>
+  <object id="232" name="Border6" x="738.536" y="129.736" width="26.1343" height="316.515"/>
+  <object id="233" name="Border6" x="639.806" y="129.736" width="110.345" height="30.006"/>
+  <object id="263" name="Wall6" x="156.806" y="381.399" width="36.7816" height="64.8518"/>
+  <object id="228" name="Border6" x="446.219" y="448.187" width="318.451" height="30.006"/>
+  <object id="229" name="Border6" x="255.535" y="450.123" width="127.768" height="30.006"/>
+  <object id="240" name="Border6" x="161.645" y="448.187" width="29.0381" height="92.922"/>
+  <object id="242" name="Border6" x="126.8" y="188.78" width="31.9419" height="69.6915"/>
+  <object id="247" name="Border6" x="29.0381" y="257.503" width="132.607" height="27.1022"/>
+  <object id="243" name="Border6" x="32.9099" y="185.876" width="31.9419" height="69.6915"/>
+  <object id="244" name="Border6" x="64.8518" y="316.547" width="31.9419" height="162.613"/>
+  <object id="245" name="Border6" x="97.7616" y="411.437" width="30.006" height="98.7296"/>
+  <object id="246" name="Border6" x="96.7937" y="318.515" width="31.9419" height="32.9099"/>
+  <object id="241" name="Border6" x="160.613" y="193.619" width="29.0381" height="187.78"/>
+  <object id="230" name="Border6" x="258.439" y="189.748" width="27.1022" height="259.407"/>
+  <object id="219" name="Border6" x="542.045" y="3.55271e-15" width="31.9419" height="30.006"/>
+  <object id="217" name="Border6" x="610.768" y="-0.967937" width="189.716" height="30.006"/>
+  <object id="226" name="Border6" x="258.439" y="127.768" width="124.864" height="63.8838"/>
+  <object id="234" name="Border6" x="287.477" y="146.158" width="32.9099" height="110.345"/>
+  <object id="235" name="Border6" x="384.271" y="222.626" width="61.948" height="187.78"/>
+  <object id="236" name="Border6" x="447.155" y="353.297" width="256.503" height="60.98"/>
+  <object id="237" name="Border6" x="450.059" y="225.433" width="256.503" height="60.98"/>
+  <object id="238" name="Border6" x="641.71" y="287.381" width="62.9159" height="60.98"/>
+  <object id="220" name="Border6" x="801.452" y="1.93587" width="30.006" height="543.013"/>
+  <object id="221" name="Border6" x="3.61525" y="1.93587" width="26.1343" height="543.013"/>
+  <object id="248" name="Ball6" gid="1470" x="99.2166" y="411.854" width="30" height="30">
+   <properties>
+    <property name="Item" value="Hp Up"/>
+   </properties>
+  </object>
+  <object id="249" name="Ball6" gid="1470" x="63.4029" y="503.808" width="30" height="30">
+   <properties>
+    <property name="Item" value="X Accuracy"/>
+   </properties>
+  </object>
+  <object id="250" name="F61Rocket" gid="1363" x="543.468" y="122.441" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="No matter! My brothers will avenge me!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Flame out!"/>
+    <property name="BattleStart" value="I am one of the 4 ROCKET BROTHERS!"/>
+    <property name="Money" type="int" value="870"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Machop-29-Leer_Low Kick_Karate Chop-Rocket-Machop,Machoke-29-Leer_Low Kick_Karate Chop-Rocket-Machoke"/>
+   </properties>
+  </object>
+  <object id="251" name="F62Rocket" gid="1365" x="446.674" y="508.712" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="If you stand for justice, you betray evil!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You traitor!"/>
+    <property name="BattleStart" value="You dare betray TEAM ROCKET?"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Zubat-28-Wing Attack_Confuse Ray_Bite_Supersonic-Rocket-Zubat,Zubat-28-Wing Attack_Confuse Ray_Bite_Supersonic-Rocket-Zubat,Golbat-28-Screech_Confuse Ray_Bite_Supersonic-Rocket-Golbat"/>
+   </properties>
+  </object>
+  <object id="252" name="F61Scientist" gid="1329" x="223.08" y="285.087" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="TIKSI BRANCH? It's in Russian no man's land!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Shoot!"/>
+    <property name="BattleStart" value="That rotten PRESIDENT! He shouldn't have sent me to the TIKSI-BRANCH!"/>
+    <property name="Money" type="int" value="1250"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Voltorb-25-Selfdestruct_SonicBoom_Screech_Tackle-Scientist-Voltorb,Koffing-25-Tackle_Smog-Scientist-Koffing,Magneton-25-Tackle_SonicBoom_ThunderShock-Scientist-Magneton,Magnemite-25-Tackle_SonicBoom_ThunderShock-Scientist-Magnemite,Koffing-25-Tackle_Smog-Scientist-Koffing"/>
+   </properties>
+  </object>
+  <object id="253" name="6Woman" gid="1443" x="322.778" y="227.978" width="32" height="32">
+   <properties>
+    <property name="ChangeText" value="Well, better get back to work!"/>
+    <property name="Dialouge" value="The ROCKETs came and took over the building!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="254" name="6Woman" gid="1424" x="671.235" y="222.203" width="32" height="33">
+   <properties>
+    <property name="ChangeText" value="I feel so sorry for him, I have to marry him!"/>
+    <property name="Dialouge" value="Look at him! He's such a coward!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="255" name="6Man" gid="1451" x="573.474" y="443.828" width="32" height="32">
+   <properties>
+    <property name="ChangeText" value="Come work for SILPH when you get older!"/>
+    <property name="Dialouge" value="They must have targeted SILPH for our POKEMON products."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="256" name="6Man" gid="1450" x="636.39" y="219.267" width="32" height="32">
+   <properties>
+    <property name="ChangeText" value="We got engaged! Heheh!"/>
+    <property name="Dialouge" value="Oh dear, oh dear. Help me please!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="257" name="6Woman" gid="1452" x="351.816" y="317.996" width="32" height="32">
+   <properties>
+    <property name="ChangeText" value="TEAM ROCKET ran because of you!"/>
+    <property name="Dialouge" value="TEAM ROCKET is trying to conquer the world with POKEMON!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="258" name="SilCoF6_SilCoF5Door" x="446.219" y="1.93587" width="30.006" height="22.2626">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="261" name="SilCoF6_SilCoF7Door" x="513.007" y="1.93587" width="30.006" height="22.2626">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="585" name="SilCoF6_SilCoEDoor" x="576.007" y="1.93587" width="30.006" height="22.2626">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="259" name="SilCoF5_SilCoF6Spawn" x="456.866" y="56.1404">
+   <point/>
+  </object>
+  <object id="262" name="SilCoF7_SilCoF6Spawn" x="529.462" y="59.0442">
+   <point/>
+  </object>
+  <object id="586" name="SilCoE_SilCoF6Spawn" x="592.462" y="64.0442">
+   <point/>
+  </object>
+  <object id="540" name="SilCoI1_SilCoI2Spawn" x="711.462" y="100.044">
+   <point/>
+  </object>
+  <object id="542" name="SilCoJ1_SilCoJ2Spawn" x="105.462" y="157.044">
+   <point/>
+  </object>
+  <object id="536" name="Eyes6" x="574.891" y="92.922" width="65.8197" height="33.8778">
+   <properties>
+    <property name="Trainer" value="F61Rocket"/>
+   </properties>
+  </object>
+  <object id="537" name="Eyes6" x="378.399" y="476.225" width="65.8197" height="33.8778">
+   <properties>
+    <property name="Trainer" value="F62Rocket"/>
+   </properties>
+  </object>
+  <object id="538" name="Eyes6" x="220.626" y="285.541" width="35.8137" height="96.7937">
+   <properties>
+    <property name="Trainer" value="F61Scientist"/>
+   </properties>
+  </object>
+  <object id="539" name="SilCoI2_SilCoI1Door" x="740.568" y="99.6975" width="20.13" height="22.2626">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+  <object id="541" name="SilCoJ2_SilCoJ1Door" x="100.568" y="100.698" width="20.13" height="22.2626">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="13" name="Floor 7" width="30" height="18" visible="0">
+  <data encoding="csv">
+215,162,162,162,811,811,215,811,162,162,162,162,162,162,162,216,791,249,460,249,249,249,461,249,249,156,0,0,0,0,
+164,462,462,462,818,818,164,819,462,462,462,462,1162,462,462,164,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,164,810,462,462,462,462,1162,462,462,172,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,147,164,818,1159,1159,1159,1159,1170,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,488,2147484136,164,462,462,462,462,462,462,462,486,156,462,156,162,163,462,462,161,162,162,216,0,0,0,0,
+164,462,462,462,496,2147484144,164,462,462,462,462,462,462,462,494,164,462,164,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,215,162,162,163,462,462,161,162,162,216,462,164,486,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,147,164,462,462,462,462,462,462,462,462,164,462,164,494,462,462,462,488,2147484136,462,164,0,0,0,0,
+215,162,811,811,811,811,164,462,462,462,462,462,462,462,462,164,462,164,486,462,462,462,2147484131,483,462,164,0,0,0,0,
+164,462,818,818,818,818,164,462,488,2147484136,462,462,488,2147484136,462,164,462,164,494,462,462,462,2147484131,483,462,164,0,0,0,0,
+164,462,462,462,462,462,164,462,2147484131,483,462,462,2147484131,483,462,164,462,164,486,462,462,462,496,2147484144,462,164,0,0,0,0,
+164,462,462,462,462,462,164,462,2147484131,483,462,462,2147484131,483,462,164,462,164,494,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,486,486,462,164,462,496,2147484144,462,462,496,2147484144,462,164,462,164,162,163,462,462,161,162,162,216,0,0,0,0,
+164,462,462,494,494,462,164,462,462,462,462,462,462,462,462,164,462,164,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,462,164,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,161,162,162,162,162,162,162,162,162,163,462,164,462,462,462,147,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,164,0,0,0,0,
+161,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,163,161,162,162,162,162,162,162,163,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="14" name="F7Objects" visible="0">
+  <object id="264" name="Border7" x="385.239" y="192.619" width="95.8258" height="27.1022"/>
+  <object id="265" name="Border7" x="222.626" y="194.555" width="95.8258" height="27.1022"/>
+  <object id="293" name="Border7" x="192.619" y="483.969" width="317.483" height="27.1022"/>
+  <object id="291" name="Border7" x="31.9419" y="258.439" width="158.742" height="27.1022"/>
+  <object id="290" name="Border7" x="66.7877" y="273.926" width="123.896" height="46.461"/>
+  <object id="266" name="Border7" x="255.535" y="286.509" width="62.9159" height="127.768"/>
+  <object id="267" name="Border7" x="382.335" y="287.477" width="62.9159" height="127.768"/>
+  <object id="272" name="Border7" x="703.69" y="220.69" width="62.9159" height="127.768"/>
+  <object id="289" name="Border7" x="125.832" y="126.8" width="62.9159" height="61.948"/>
+  <object id="273" name="Border7" x="573.987" y="190.684" width="30.974" height="189.716"/>
+  <object id="294" name="Border7" x="448.155" y="126.8" width="30.974" height="64.8518"/>
+  <object id="292" name="Border7" x="95.8258" y="383.303" width="61.948" height="62.9159"/>
+  <object id="268" name="Border7" x="605.929" y="-1.93587" width="95.8258" height="32.9099"/>
+  <object id="295" name="Border7" x="223.593" y="4.83969" width="268.119" height="25.1664"/>
+  <object id="274" name="Border7" x="573.987" y="125.832" width="65.8197" height="32.9099"/>
+  <object id="296" name="Wall7" x="640.774" y="123.896" width="65.8197" height="32.9099"/>
+  <object id="306" name="Wall7" x="639.806" y="380.399" width="65.8197" height="32.9099"/>
+  <object id="297" name="Wall7" x="319.419" y="191.652" width="65.8197" height="32.9099"/>
+  <object id="285" name="Border7" x="0.967937" y="542.045" width="828.554" height="32.9099"/>
+  <object id="275" name="Border7" x="703.69" y="123.896" width="95.8258" height="32.9099"/>
+  <object id="276" name="Border7" x="704.658" y="381.367" width="95.8258" height="32.9099"/>
+  <object id="277" name="Border7" x="575.923" y="381.367" width="61.948" height="32.9099"/>
+  <object id="278" name="Border7" x="545.917" y="126.8" width="27.1022" height="417.181"/>
+  <object id="279" name="Border7" x="482.065" y="124.864" width="27.1022" height="357.169"/>
+  <object id="280" name="Border7" x="193.652" y="16.4549" width="27.1022" height="467.514"/>
+  <object id="269" name="Border7" x="734.664" y="0.967937" width="62.9159" height="32.9099"/>
+  <object id="270" name="Border7" x="544.949" y="-3.87175" width="30.006" height="32.9099"/>
+  <object id="281" name="Border7" x="481.065" y="14.5191" width="30.006" height="82.2747"/>
+  <object id="288" name="Border7" x="29.0381" y="2.90381" width="163.581" height="25.1664"/>
+  <object id="282" name="Border7" x="385.207" y="27.1022" width="30.006" height="95.8258"/>
+  <object id="287" name="Border7" x="127.736" y="16.4549" width="62.9159" height="47.4289"/>
+  <object id="284" name="Border7" x="254.535" y="93.8899" width="129.704" height="30.974"/>
+  <object id="283" name="Border7" x="223.561" y="17.4229" width="30.006" height="108.409"/>
+  <object id="271" name="Border7" x="801.452" y="-0.967937" width="30.006" height="547.852"/>
+  <object id="286" name="Border7" x="0.967937" y="-1.93587" width="30.006" height="547.852"/>
+  <object id="298" name="SilCoF7_SilCoF6Door" x="704.658" y="0" width="30.006" height="29.0381">
+   <properties>
+    <property name="Destination" value="Silph Co. F6"/>
+   </properties>
+  </object>
+  <object id="554" name="SilCoF7_SilCoEDoor" x="573.658" y="-1" width="30.006" height="29.0381">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="299" name="SilCoF7_SilCoF8Door" x="513.007" y="-1.93587" width="30.006" height="29.0381">
+   <properties>
+    <property name="Destination" value="Silph Co. F8"/>
+   </properties>
+  </object>
+  <object id="300" name="SilCoF6_SilCoF7Spawn" x="714.338" y="58.0762">
+   <point/>
+  </object>
+  <object id="529" name="SilCoF1_SilCoF2Spawn2" x="736.6" y="525.59">
+   <point/>
+  </object>
+  <object id="551" name="SilCoO1_SilCoO2Spawn" x="127.6" y="103.59">
+   <point/>
+  </object>
+  <object id="552" name="SilCoP2_SilCoP1Spawn" x="106.6" y="230.59">
+   <point/>
+  </object>
+  <object id="301" name="SilCoF8_SilCoF7Spawn" x="526.269" y="59.8197">
+   <point/>
+  </object>
+  <object id="302" name="Ball7" gid="1470" x="769.997" y="377.976" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM03"/>
+   </properties>
+  </object>
+  <object id="303" name="Ball7" gid="1470" x="34.3648" y="319.9" width="30" height="30">
+   <properties>
+    <property name="Item" value="Calcium"/>
+   </properties>
+  </object>
+  <object id="304" name="F71Rocket" gid="1365" x="640.261" y="109.659" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="Doesn't matter. My brothers will repay the favor!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Aack! Brothers, I lost!"/>
+    <property name="BattleStart" value="I am one of the 4 ROCKET BROTHERS!"/>
+    <property name="Money" type="int" value="870"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Cubone-29-Growl_Bone Club_Leer-Rocket-Cubone,Cubone-29-Growl_Bone Club_Leer-Rocket-Cubone"/>
+   </properties>
+  </object>
+  <object id="305" name="F73Rocket" gid="1363" x="606.384" y="467.027" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="Go on home before my BOSS gets ticked off!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Fine! I lost!"/>
+    <property name="BattleStart" value="A child intruder! That must be you!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Sandshrew-29-Poison Sting_Slash_Sand Attack_Scratch-Rocket-Sandshrew,Sandslash-29-Poison Sting_Slash_Sand Attack_Scratch-Rocket-Sandslash"/>
+   </properties>
+  </object>
+  <object id="307" name="F72Rocket" gid="1364" x="416.668" y="63.4289" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="You won't find my boss by just scurrying around!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Lights out!"/>
+    <property name="BattleStart" value="Oh ho! I smell a little rat!"/>
+    <property name="Money" type="int" value="780"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Raticate-26-Hyper Fang_Quick Attack_Tail Whip_Tackle-Rocket-Raticate,Arbok-26-Bite_Poison Sting_Leer_Wrap-Rocket-Arbok,Koffing-26-Tackle_Smog-Rocket-Koffing,Golbat-26-Confuse Ray_Bite_Supersonic_Screech-Rocket-Golbat"/>
+   </properties>
+  </object>
+  <object id="308" name="7Man" gid="1451" x="415.7" y="443.828" width="32" height="32">
+   <properties>
+    <property name="ChangeText" value="We canceled the MASTER BALL project because of TEAM ROCKET."/>
+    <property name="Dialouge" value="TEAM ROCKET was after the MASTER BALL which will catch any POKEMON!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="309" name="7Man" gid="1443" x="222.113" y="359.618" width="32" height="32">
+   <properties>
+    <property name="ChangeText" value="Wow! You chased off TEAM ROCKET all by yourself?"/>
+    <property name="Dialouge" value="It would be bad if TEAM ROCKET took over SILPH or our POKEMON!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="310" name="F71Scientist" gid="1329" x="62.4029" y="451.572" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Despite your age, you are a skilled trainer!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I'm done!"/>
+    <property name="BattleStart" value="Heheh! You mistook me for a SILPH worker?"/>
+    <property name="Money" type="int" value="1450"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Electrode-29-Light Screen_Selfdestruct_SonicBoom_Screech-Scientist-Electrode,Muk-29-Poison Gas_Disable_Pound-Scientist-Muk"/>
+   </properties>
+  </object>
+  <object id="311" name="LaprasMan" gid="1449" x="30.461" y="185.389" width="33" height="32">
+   <properties>
+    <property name="ChangeText" value="Saved at last! Thank you!"/>
+    <property name="Dialouge" value="TEAM ROCKET's BOSS went to the boardroom! Is our PRESIDENT OK?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="312" name="7Woman" gid="1453" x="320.842" y="284.151" width="32" height="33">
+   <properties>
+    <property name="ChangeText" value="Safe at last! Oh thank you!"/>
+    <property name="Dialouge" value="You! It's really dangerous here! You came to save me? You can't!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="528" name="SilCoF2_SilCoF1Door2" x="677.556" y="484.936" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="550" name="SilCoO2_SilCoO1Door" x="164.556" y="101.936" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="553" name="SilCoP1_SilCoP2Door" x="165.556" y="229.936" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F11"/>
+   </properties>
+  </object>
+  <object id="546" name="Eyes7" x="541" y="78" width="98" height="28">
+   <properties>
+    <property name="Trainer" value="F71Rocket"/>
+   </properties>
+  </object>
+  <object id="549" name="Eyes7" x="637" y="436" width="98" height="28">
+   <properties>
+    <property name="Trainer" value="F73Rocket"/>
+   </properties>
+  </object>
+  <object id="548" name="Eyes7" x="60" y="448" width="32" height="89">
+   <properties>
+    <property name="Trainer" value="F71Scientist"/>
+   </properties>
+  </object>
+  <object id="547" name="Eyes7" x="419" y="64" width="32" height="60">
+   <properties>
+    <property name="Trainer" value="F72Rocket"/>
+   </properties>
+  </object>
+  <object id="555" name="SilCoE_SilCoF7Spawn" x="592" y="65">
+   <point/>
+  </object>
+  <object id="580" name="SilphCoRivalBattleLine" x="17" y="131" width="181" height="16"/>
+  <object id="581" name="SilphCoRivalSpot" x="98" y="121">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="15" name="Floor 8" width="30" height="18" visible="0">
+  <data encoding="csv">
+215,162,162,162,162,162,162,216,811,811,811,811,811,216,461,249,791,249,460,249,249,249,249,249,249,156,0,0,0,0,
+164,462,462,462,462,462,462,164,818,818,818,818,819,164,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,462,164,462,462,462,462,810,164,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,488,2147484136,488,2147484136,462,164,462,462,462,462,818,164,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,2147484131,483,2147484131,483,462,164,462,462,462,462,462,164,462,462,215,162,162,162,162,162,162,162,162,216,0,0,0,0,
+164,462,2147484131,483,2147484131,483,462,164,462,462,462,147,462,164,462,462,164,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,2147484131,483,2147484131,483,462,164,462,462,462,462,462,164,462,462,164,462,524,462,524,462,462,486,462,164,0,0,0,0,
+164,462,2147484131,483,2147484131,483,462,172,462,462,161,162,162,164,462,462,164,462,532,462,532,462,462,494,462,164,0,0,0,0,
+164,462,496,2147484144,2147484131,483,462,462,462,462,462,462,462,164,462,462,164,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,2147484131,483,462,462,462,462,462,147,462,164,462,462,164,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,496,2147484144,462,156,462,462,488,2147484136,462,164,462,462,164,462,488,2147484136,462,462,462,486,462,164,0,0,0,0,
+164,462,462,147,462,462,462,164,462,462,496,2147484144,462,164,462,462,164,462,496,2147484144,462,462,462,494,462,164,0,0,0,0,
+164,462,462,462,462,462,462,164,462,462,462,462,462,164,462,462,164,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,161,162,162,162,162,162,163,462,462,161,162,162,163,462,462,161,162,162,163,462,462,161,162,162,164,0,0,0,0,
+164,486,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,494,462,147,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+161,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,163,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="16" name="F8Objects" visible="0">
+  <object id="313" name="Border8" x="608.832" y="-1.93587" width="190.684" height="30.974"/>
+  <object id="314" name="Border8" x="544.884" y="-0.967937" width="32.9099" height="30.974"/>
+  <object id="315" name="Border8" x="480.033" y="-1.93587" width="32.9099" height="30.974"/>
+  <object id="319" name="Border8" x="511.007" y="139.383" width="31.9419" height="277.798"/>
+  <object id="333" name="Border8" x="224.497" y="1.93587" width="29.0381" height="251.664"/>
+  <object id="330" name="Border8" x="416.149" y="13.5511" width="31.9419" height="401.694"/>
+  <object id="320" name="Border8" x="511.007" y="127.768" width="291.349" height="30.974"/>
+  <object id="324" name="Border8" x="573.923" y="190.684" width="32.9099" height="65.8197"/>
+  <object id="325" name="Border8" x="638.774" y="185.844" width="32.9099" height="65.8197"/>
+  <object id="326" name="Border8" x="732.664" y="191.652" width="32.9099" height="65.8197"/>
+  <object id="327" name="Border8" x="732.664" y="319.419" width="32.9099" height="65.8197"/>
+  <object id="328" name="Border8" x="31.8778" y="446.219" width="32.9099" height="65.8197"/>
+  <object id="321" name="Border8" x="511.975" y="415.245" width="127.768" height="30.974"/>
+  <object id="331" name="Border8" x="318.387" y="416.213" width="127.768" height="30.974"/>
+  <object id="335" name="Border8" x="33.8137" y="414.277" width="220.69" height="30.974"/>
+  <object id="332" name="Border8" x="320.323" y="225.529" width="100.665" height="30.974"/>
+  <object id="348" name="Wall8" x="223.529" y="251.664" width="30.974" height="66.7877"/>
+  <object id="334" name="Border8" x="224.465" y="324.259" width="30.006" height="92.922"/>
+  <object id="323" name="Border8" x="574.891" y="319.419" width="63.8838" height="65.8197"/>
+  <object id="338" name="Border8" x="257.407" y="18.3908" width="129.704" height="43.5572"/>
+  <object id="339" name="Border8" x="383.239" y="18.3908" width="35.8137" height="108.409"/>
+  <object id="329" name="Border8" x="321.291" y="321.547" width="58.8838" height="59.8197"/>
+  <object id="336" name="Border8" x="65.7556" y="94.8578" width="60.98" height="187.78"/>
+  <object id="337" name="Border8" x="130.511" y="93.8899" width="60.98" height="257.471"/>
+  <object id="322" name="Border8" x="704.594" y="417.181" width="100.665" height="30.974"/>
+  <object id="316" name="Border8" x="800.42" y="0.967937" width="29.0381" height="543.981"/>
+  <object id="317" name="Border8" x="3.80762" y="0.967937" width="26.1343" height="543.981"/>
+  <object id="318" name="Border8" x="33.8137" y="-0.967937" width="412.341" height="29.0381"/>
+  <object id="340" name="SilCoF8_SilCoF7Door" x="448.155" y="-1.77636e-15" width="32.9099" height="25.1664">
+   <properties>
+    <property name="Destination" value="Silph Co. F7"/>
+   </properties>
+  </object>
+  <object id="341" name="SilCoF8_SilCoF9Door" x="513.943" y="0.967937" width="32.9099" height="25.1664">
+   <properties>
+    <property name="Destination" value="Silph Co. F9"/>
+   </properties>
+  </object>
+  <object id="563" name="SilCoF8_SilCoEDoor" x="573.943" y="0.967937" width="32.9099" height="25.1664">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="472" name="SilCoA2_SilCoA1Door" x="357.976" y="165.517" width="20.55" height="20.3267">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+  <object id="476" name="SilCoB2_SilCoB1Door" x="100.569" y="484.872" width="20.55" height="20.3267">
+   <properties>
+    <property name="Destination" value="Silph Co. F2"/>
+   </properties>
+  </object>
+  <object id="559" name="SilCoC2_SilCoC1Door" x="100.569" y="356.872" width="20.55" height="20.3267">
+   <properties>
+    <property name="Destination" value="Silph Co. F8"/>
+   </properties>
+  </object>
+  <object id="561" name="SilCoC1_SilCoC2Door" x="357.569" y="291.872" width="20.55" height="20.3267">
+   <properties>
+    <property name="Destination" value="Silph Co. F8"/>
+   </properties>
+  </object>
+  <object id="342" name="SilCoF7_SilCoF8Spawn" x="469.449" y="60.98">
+   <point/>
+  </object>
+  <object id="343" name="SilCoF9_SilCoF8Spawn" x="531.397" y="60.98">
+   <point/>
+  </object>
+  <object id="344" name="F81Rocket" gid="1365" x="610.384" y="113.467" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="If you don't turn back, I'll call for backup!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Not enough grit!"/>
+    <property name="BattleStart" value="That's as far as you'll go!"/>
+    <property name="Money" type="int" value="780"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Raticate-26-Hyper Fang_Quick Attack_Tail Whip_Tackle-Rocket-Raticate,Zubat-26-Confuse Ray_Bite_Supersonic_Leech Life-Rocket-Zubat,Golbat-26-Confuse Ray_Bite_Supersonic_Screech-Rocket-Golbat,Rattata-26-Focus Energy_Hyper Fang_Quick Attack_Tail Whip-Rocket-Rattata"/>
+   </properties>
+  </object>
+  <object id="345" name="F82Rocket" gid="1363" x="412.796" y="509.616" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="I'll leave you up to my brothers!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Whoo! Oh brothers!"/>
+    <property name="BattleStart" value="I am one of the 4 ROCKET BROTHERS!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Weezing-28-Tackle_Smog_Sludge-Rocket-Weezing,Golbat-28-Confuse Ray_Bite_Supersonic_Screech-Rocket-Golbat,Koffing-28-Tackle_Smog-Rocket-Koffing"/>
+   </properties>
+  </object>
+  <object id="346" name="F81Scientist" gid="1329" x="318.906" y="99.2426" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="So, what do you think of SILPH BUILDING's maze?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Huh? I lost?"/>
+    <property name="BattleStart" value="You're causing us problems!"/>
+    <property name="Money" type="int" value="1450"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Grimer-29-Pound_Disable-Scientist-Grimer,Electrode-29-Light Screen_Selfdestruct_SonicBoom_Screech-Scientist-Electrode"/>
+   </properties>
+  </object>
+  <object id="347" name="8Man" gid="1443" x="133.062" y="89.5632" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I wonder if SILPH is finished..."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="473" name="SilCoA1_SilCoA2Spawn" x="400.726" y="208.042">
+   <point/>
+  </object>
+  <object id="477" name="SilCoB1_SilCoB2Spawn" x="156.806" y="534.237">
+   <point/>
+  </object>
+  <object id="560" name="SilCoC1_SilCoC2Spawn" x="156.806" y="399.237">
+   <point/>
+  </object>
+  <object id="562" name="SilCoC2_SilCoC1Spawn" x="305.806" y="308.237">
+   <point/>
+  </object>
+  <object id="556" name="Eyes8" x="476" y="79" width="131" height="38">
+   <properties>
+    <property name="Trainer" value="F81Rocket"/>
+   </properties>
+  </object>
+  <object id="557" name="Eyes8" x="445" y="479" width="67" height="38">
+   <properties>
+    <property name="Trainer" value="F82Rocket"/>
+   </properties>
+  </object>
+  <object id="558" name="Eyes8" x="320" y="95" width="35" height="93">
+   <properties>
+    <property name="Trainer" value="F81Scientist"/>
+   </properties>
+  </object>
+  <object id="564" name="SilCoE_SilCoF8Spawn" x="594" y="66">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="17" name="Floor 9" width="30" height="18" visible="0">
+  <data encoding="csv">
+215,162,162,162,162,162,162,162,162,162,162,216,162,162,791,249,461,249,460,249,249,249,249,249,249,156,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,462,147,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+164,462,462,156,161,162,162,162,162,162,162,216,462,462,215,162,162,163,462,462,161,162,156,462,462,164,0,0,0,0,
+164,462,462,164,462,462,462,462,462,462,462,164,462,462,164,462,462,462,462,462,462,462,164,462,462,164,0,0,0,0,
+164,462,462,164,462,462,488,2147484136,488,2147484136,462,164,462,462,164,462,462,462,462,462,462,462,164,486,462,164,0,0,0,0,
+164,462,462,172,462,462,496,2147484144,496,2147484144,462,164,462,462,164,462,462,462,488,2147484136,462,462,164,494,462,164,0,0,0,0,
+164,462,462,462,462,462,161,162,215,162,162,216,486,462,164,462,462,462,496,2147484144,462,462,164,486,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,164,462,462,164,494,462,164,462,462,462,462,462,462,462,164,494,462,164,0,0,0,0,
+164,462,462,156,462,462,462,462,164,462,462,164,486,462,215,162,162,163,462,462,161,162,162,216,462,164,0,0,0,0,
+164,462,462,164,462,462,462,462,172,462,462,172,494,462,164,462,462,462,462,462,462,462,462,164,462,164,0,0,0,0,
+164,462,462,164,524,462,524,462,462,462,462,462,462,462,164,462,488,2147484136,488,2147484136,462,462,462,164,462,164,0,0,0,0,
+164,162,162,163,532,462,532,462,462,462,462,462,462,462,164,462,496,2147484144,2147484131,483,462,462,462,172,462,164,0,0,0,0,
+164,462,524,462,524,462,524,462,156,462,462,156,462,462,164,462,462,462,488,2147484136,462,462,462,462,462,164,0,0,0,0,
+164,462,532,462,532,462,532,462,164,462,462,164,462,462,164,462,462,147,496,2147484144,462,462,462,462,462,164,0,0,0,0,
+164,462,462,462,462,462,462,462,164,462,462,164,462,462,164,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,
+161,162,162,162,162,162,162,163,161,162,162,163,161,163,161,162,162,162,162,162,162,162,162,162,162,163,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="18" name="F9Objects" visible="0">
+  <object id="349" name="Border9" x="607.864" y="-1.93587" width="191.652" height="29.0381"/>
+  <object id="350" name="Border9" x="543.013" y="0.967937" width="34.8457" height="29.0381"/>
+  <object id="351" name="Border9" x="478.161" y="-1.77636e-15" width="34.8457" height="29.0381"/>
+  <object id="373" name="Border9" x="30.006" y="0.967937" width="418.149" height="29.0381"/>
+  <object id="358" name="Border9" x="574.955" y="224.561" width="64.8518" height="61.948"/>
+  <object id="359" name="Border9" x="192.619" y="194.555" width="126.8" height="61.948"/>
+  <object id="360" name="Border9" x="510.103" y="385.239" width="126.8" height="61.948"/>
+  <object id="361" name="Border9" x="577.858" y="447.219" width="60.98" height="61.948"/>
+  <object id="354" name="Border9" x="450.091" y="127.768" width="123.896" height="29.0381"/>
+  <object id="383" name="Wall9" x="574.955" y="130.672" width="65.8197" height="29.0381"/>
+  <object id="384" name="Wall9" x="576.891" y="321.355" width="65.8197" height="29.0381"/>
+  <object id="385" name="Wall9" x="353.297" y="384.271" width="30.006" height="62.9159"/>
+  <object id="386" name="Wall9" x="96.7937" y="254.567" width="30.006" height="62.9159"/>
+  <object id="355" name="Border9" x="638.838" y="130.672" width="94.8578" height="29.0381"/>
+  <object id="377" name="Border9" x="736.536" y="339.746" width="30.974" height="104.537"/>
+  <object id="356" name="Border9" x="705.626" y="150.998" width="28.0702" height="168.421"/>
+  <object id="362" name="Border9" x="737.664" y="192.619" width="28.0702" height="126.8"/>
+  <object id="376" name="Border9" x="387.271" y="252.632" width="28.0702" height="126.8"/>
+  <object id="363" name="Border9" x="641.838" y="322.323" width="124.864" height="30.974"/>
+  <object id="364" name="Border9" x="449.219" y="318.451" width="124.864" height="30.974"/>
+  <object id="378" name="Border9" x="192.716" y="256.503" width="158.742" height="30.974"/>
+  <object id="367" name="Border9" x="353.425" y="447.187" width="29.0381" height="98.7296"/>
+  <object id="369" name="Border9" x="354.393" y="19.3908" width="29.0381" height="362.008"/>
+  <object id="370" name="Border9" x="257.664" y="283.638" width="29.0381" height="98.7296"/>
+  <object id="371" name="Border9" x="96.954" y="126.832" width="29.0381" height="122.928"/>
+  <object id="374" name="Border9" x="95.9861" y="317.515" width="29.0381" height="100.665"/>
+  <object id="375" name="Border9" x="31.1343" y="418.181" width="91.954" height="29.0381"/>
+  <object id="372" name="Border9" x="125.992" y="124.896" width="228.433" height="35.8137"/>
+  <object id="368" name="Border9" x="256.6" y="443.315" width="29.0381" height="98.7296"/>
+  <object id="365" name="Border9" x="448.251" y="350.393" width="30.006" height="192.619"/>
+  <object id="366" name="Border9" x="-1.83969" y="545.917" width="831.458" height="31.9419"/>
+  <object id="357" name="Border9" x="450.995" y="150.03" width="27.1022" height="168.421"/>
+  <object id="352" name="Border9" x="803.388" y="-1.93587" width="25.1664" height="546.884"/>
+  <object id="353" name="Border9" x="3.90381" y="-1.93587" width="25.1664" height="546.884"/>
+  <object id="379" name="SilCoF9_SilCoF8Door" x="514.943" y="-0.967937" width="30.006" height="24.1984">
+   <properties>
+    <property name="Destination" value="Silph Co. F8"/>
+   </properties>
+  </object>
+  <object id="583" name="SilCoF9_SilCoEDoor" x="577.276" y="3.3654" width="30.006" height="24.1984">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="380" name="SilCoF9_SilCoF10Door" x="448.155" y="0.967937" width="30.006" height="24.1984">
+   <properties>
+    <property name="Destination" value="Silph Co. F10"/>
+   </properties>
+  </object>
+  <object id="381" name="SilCoF8_SilCoF9Spawn" x="529.462" y="70.6594">
+   <point/>
+  </object>
+  <object id="584" name="SilCoE_SilCoF9Spawn" x="594.795" y="67.9927">
+   <point/>
+  </object>
+  <object id="382" name="SilCoF10_SilCoF9Spawn" x="461.706" y="61.948">
+   <point/>
+  </object>
+  <object id="387" name="F92Rocket" gid="1366" x="62.4029" y="156.351" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="If I had started as a trainer at your age..."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Ghaaah!"/>
+    <property name="BattleStart" value="Your POKEMON seem to adore you, kid!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Drowzee-28-Poison Gas_Headbutt_Confusion_Disable-Rocket-Drowzee,Grimer-28-Pound_Disable-Rocket-Grimer,Machop-28-Leer_Low Kick_Karate Chop-Rocket-Machop"/>
+   </properties>
+  </object>
+  <object id="388" name="F91Rocket" gid="1366" x="415.7" y="539.654" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="My brothers will avenge me!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Warg! Brothers, I lost!"/>
+    <property name="BattleStart" value="I am one of the 4 ROCKET BROTHERS!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Golbat-28-Confuse Ray_Bite_Supersonic_Screech-Rocket-Golbat,Drowzee-28-Poison Gas_Headbutt_Confusion_Disable-Rocket-Drowzee,Hypno-28-Headbutt_Confusion_Disable_Hypnosis-Rocket-Hypno"/>
+   </properties>
+  </object>
+  <object id="389" name="9Woman" gid="1336" x="95.3128" y="483.546" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="You look tired! You should take a quick nap!"/>
+    <property name="Dialouge2" value="Don't give up!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Healer"/>
+   </properties>
+  </object>
+  <object id="390" name="F91Scientist" gid="1329" x="672.203" y="447.7" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="Exploiting weak spots does work! Think about element types!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You hammered me!"/>
+    <property name="BattleStart" value="Your POKEMON have weak points! I can nail them!"/>
+    <property name="Money" type="int" value="1400"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Voltorb-28-Selfdestruct_SonicBoom_Screech_Tackle-Scientist-Voltorb,Koffing-28-Tackle_Smog-Scientist-Koffing,Magneton-28-ThunderShock_SonicBoom_Tackle-Scientist-Magneton"/>
+   </properties>
+  </object>
+  <object id="391" name="Hidden9" x="50.3327" y="493.648" width="54.2045" height="26.1343">
+   <properties>
+    <property name="Item" value="Max Potion"/>
+   </properties>
+  </object>
+  <object id="532" name="SilCoG2_SilCoG1Door" x="550.756" y="484.936" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F5"/>
+   </properties>
+  </object>
+  <object id="568" name="SilCoQ2_SilCoQ1Door" x="292.756" y="99.9365" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F3"/>
+   </properties>
+  </object>
+  <object id="533" name="SilCoG1_SilCoG2Spawn" x="509.135" y="513.007">
+   <point/>
+  </object>
+  <object id="569" name="SilCoQ1_SilCoQ2Spawn" x="259.135" y="106.007">
+   <point/>
+  </object>
+  <object id="565" name="Eyes9" x="414" y="427" width="32" height="80">
+   <properties>
+    <property name="Trainer" value="F91Rocket"/>
+   </properties>
+  </object>
+  <object id="567" name="Eyes9" x="61" y="20" width="32" height="104">
+   <properties>
+    <property name="Trainer" value="F92Rocket"/>
+   </properties>
+  </object>
+  <object id="566" name="Eyes9" x="671" y="444" width="32" height="64">
+   <properties>
+    <property name="Trainer" value="F91Scientist"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="19" name="Floor 10" width="30" height="18" visible="0">
+  <data encoding="csv">
+156,249,249,249,249,249,249,249,461,249,791,249,460,249,249,156,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,156,162,163,462,462,161,162,162,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,164,486,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,164,494,462,462,462,462,147,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+215,162,163,462,462,161,162,216,162,163,462,462,161,162,162,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,830,830,830,830,462,164,462,462,462,462,488,2147484136,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,830,830,830,462,462,164,462,147,462,462,2147484131,483,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,830,830,830,462,164,462,462,488,2147484136,496,2147484144,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,830,830,830,830,462,164,462,462,2147484131,483,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,830,462,462,830,462,164,462,462,496,2147484144,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,830,830,462,164,462,462,462,462,462,147,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+161,162,162,162,162,162,162,163,162,162,162,162,162,162,162,163,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="20" name="F10Objects" visible="0">
+  <object id="392" name="Border10" x="29.0381" y="1.77636e-15" width="223.593" height="29.0381"/>
+  <object id="398" name="Border10" x="224.529" y="128.768" width="27.1022" height="414.277"/>
+  <object id="399" name="Border10" x="254.535" y="127.8" width="63.8838" height="31.9419"/>
+  <object id="400" name="Border10" x="385.207" y="126.832" width="95.8258" height="31.9419"/>
+  <object id="401" name="Border10" x="386.175" y="255.567" width="95.8258" height="31.9419"/>
+  <object id="402" name="Border10" x="251.632" y="256.535" width="66.7877" height="31.9419"/>
+  <object id="403" name="Border10" x="161.613" y="254.6" width="66.7877" height="31.9419"/>
+  <object id="404" name="Border10" x="31.9099" y="255.567" width="62.9159" height="31.9419"/>
+  <object id="405" name="Border10" x="63.8518" y="319.451" width="127.768" height="31.9419"/>
+  <object id="410" name="Border10" x="158.71" y="447.219" width="33.8778" height="62.9159"/>
+  <object id="406" name="Border10" x="63.8518" y="353.329" width="93.8899" height="31.9419"/>
+  <object id="407" name="Border10" x="95.7937" y="384.303" width="93.8899" height="31.9419"/>
+  <object id="408" name="Border10" x="66.7556" y="414.309" width="124.864" height="31.9419"/>
+  <object id="409" name="Border10" x="64.8197" y="446.251" width="29.0381" height="31.9419"/>
+  <object id="413" name="Border10" x="254.535" y="190.716" width="33.8778" height="63.8838"/>
+  <object id="414" name="Border10" x="385.207" y="320.419" width="60.98" height="92.922"/>
+  <object id="415" name="Border10" x="319.387" y="387.207" width="60.98" height="92.922"/>
+  <object id="416" name="Wall10" x="318.419" y="257.503" width="67.7556" height="30.974"/>
+  <object id="411" name="Border10" x="128.704" y="479.161" width="29.0381" height="31.9419"/>
+  <object id="412" name="Border10" x="1.90381" y="543.045" width="506.231" height="31.9419"/>
+  <object id="393" name="Border10" x="287.477" y="0.967937" width="30.974" height="29.0381"/>
+  <object id="394" name="Border10" x="353.297" y="0.967937" width="30.974" height="29.0381"/>
+  <object id="395" name="Border10" x="415.245" y="0.903811" width="64.8518" height="29.0381"/>
+  <object id="396" name="Border10" x="481.065" y="0.903811" width="30.974" height="543.013"/>
+  <object id="397" name="Border10" x="0.967937" y="0.903811" width="29.0381" height="543.013"/>
+  <object id="417" name="SilCoF10_SilCoF9Door" x="257.471" y="0.967937" width="28.0702" height="28.0702">
+   <properties>
+    <property name="Destination" value="Silph Co. F9"/>
+   </properties>
+  </object>
+  <object id="510" name="SilCoK2_SilCoK1Door" x="293.285" y="358.105" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F4"/>
+   </properties>
+  </object>
+  <object id="518" name="SilCoM2_SilCoM1Door" x="422.021" y="487.808" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F4"/>
+   </properties>
+  </object>
+  <object id="514" name="SilCoL2_SilCoL1Door" x="421.989" y="229.465" width="20" height="20">
+   <properties>
+    <property name="Destination" value="Silph Co. F4"/>
+   </properties>
+  </object>
+  <object id="418" name="SilCoF10_SilCoF11Door" x="320.387" y="-0.967937" width="28.0702" height="28.0702">
+   <properties>
+    <property name="Destination" value="Silph Co. F11"/>
+   </properties>
+  </object>
+  <object id="572" name="SilCoF10_SilCoEDoor" x="384.387" y="2.03206" width="28.0702" height="28.0702">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="419" name="SilCoF9_SilCoF10Spawn" x="272.958" y="61.948">
+   <point/>
+  </object>
+  <object id="420" name="SilCoF11_SilCoF10Spawn" x="337.81" y="60.98">
+   <point/>
+  </object>
+  <object id="511" name="SilCoK1_SilCoK2Spawn" x="348.457" y="355.233">
+   <point/>
+  </object>
+  <object id="519" name="SilCoM1_SilCoM2Spawn" x="421.053" y="457.834">
+   <point/>
+  </object>
+  <object id="515" name="SilCoL1_SilCoL2Spawn" x="386.207" y="233.273">
+   <point/>
+  </object>
+  <object id="421" name="Ball10" gid="1470" x="161.165" y="382.816" width="30" height="30">
+   <properties>
+    <property name="Item" value="Carbos"/>
+   </properties>
+  </object>
+  <object id="422" name="Ball10" gid="1470" x="127.287" y="477.674" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="423" name="Ball10" gid="1470" x="65.3388" y="414.758" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM26"/>
+   </properties>
+  </object>
+  <object id="424" name="F101Scientist" gid="1358" x="315.034" y="108.922" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Are you satisfied with beating me? Then go on home!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="No continues left!"/>
+    <property name="BattleStart" value="Enough of your silly games!"/>
+    <property name="Money" type="int" value="1450"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Magnemite-29-Tackle_SonicBoom_ThunderShock-Scientist-Magnemite,Koffing-29-Tackle_Smog-Scientist-Koffing"/>
+   </properties>
+  </object>
+  <object id="425" name="F101Rocket" gid="1363" x="32.3969" y="317.964" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="Nice try, but the boardroom is up one more floor!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I'm stunned!"/>
+    <property name="BattleStart" value="Welcome to the 10F! So good of you to join me!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Machoke-33-Karate Chop_Low Kick_Leer-Rocket-Machoke"/>
+   </properties>
+  </object>
+  <object id="426" name="10Woman" gid="1452" x="288.9" y="515.456" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Waaaaa! I'm scared!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="570" name="Eyes10" x="186" y="77" width="129" height="33">
+   <properties>
+    <property name="Trainer" value="F101Scientist"/>
+   </properties>
+  </object>
+  <object id="571" name="Eyes10" x="64" y="287" width="129" height="33">
+   <properties>
+    <property name="Trainer" value="F101Rocket"/>
+   </properties>
+  </object>
+  <object id="573" name="SilCoE_SilCoF10Spawn" x="397" y="66">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="21" name="Floor 11" width="30" height="18" visible="0">
+  <data encoding="csv">
+156,249,249,249,156,249,249,249,249,461,249,249,249,460,249,249,156,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,137,137,137,137,137,137,137,137,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,147,164,137,137,137,137,137,137,137,137,137,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,153,154,154,154,154,154,154,155,156,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,135,136,457,458,135,459,135,135,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,144,465,466,137,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,152,473,474,475,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,160,481,482,483,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,168,489,489,491,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,176,497,2147484145,499,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,137,137,137,137,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,137,137,137,137,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,164,137,137,137,137,137,1186,1187,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,161,163,137,137,156,137,1194,1195,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,137,137,137,137,164,137,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,137,137,137,137,164,137,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+164,137,137,137,137,137,137,137,164,137,137,137,137,164,137,137,164,0,0,0,0,0,0,0,0,0,0,0,0,0,
+161,162,162,162,162,162,162,162,161,162,162,162,163,172,162,162,163,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="22" name="F11Objects" visible="0">
+  <object id="427" name="Border11" x="2.90381" y="-0.967937" width="28.0702" height="544.949"/>
+  <object id="429" name="Border11" x="128.672" y="-0.967937" width="28.0702" height="418.149"/>
+  <object id="430" name="Border11" x="30.9099" y="0" width="101.633" height="30.006"/>
+  <object id="439" name="Border11" x="215.786" y="189.716" width="73.5632" height="112.281"/>
+  <object id="440" name="Border11" x="291.285" y="201.331" width="7.7435" height="88.0823"/>
+  <object id="452" name="Border11" x="308.708" y="216.818" width="7.7435" height="57.1083"/>
+  <object id="453" name="Border11" x="299.028" y="212.946" width="7.7435" height="64.8518"/>
+  <object id="445" name="Wall11" x="192.523" y="418.149" width="65.8197" height="29.0381"/>
+  <object id="442" name="Border11" x="317.419" y="386.207" width="67.7556" height="36.7816"/>
+  <object id="443" name="Border11" x="269.99" y="121.96" width="142.287" height="36.7816"/>
+  <object id="444" name="Border11" x="160.613" y="120.992" width="48.3969" height="36.7816"/>
+  <object id="441" name="Border11" x="207.074" y="197.459" width="9.67937" height="94.8578"/>
+  <object id="454" name="Border11" x="193.523" y="214.882" width="9.67937" height="58.0762"/>
+  <object id="431" name="Border11" x="158.678" y="0.0961887" width="128.736" height="30.006"/>
+  <object id="432" name="Border11" x="321.291" y="1.06413" width="92.922" height="30.006"/>
+  <object id="433" name="Border11" x="448.091" y="0.0961887" width="64.8518" height="30.006"/>
+  <object id="434" name="Border11" x="160.613" y="96.8899" width="254.567" height="43.5572"/>
+  <object id="436" name="Border11" x="416.149" y="92.0502" width="29.0381" height="452.027"/>
+  <object id="435" name="Border11" x="128.672" y="419.213" width="63.8838" height="27.1022"/>
+  <object id="437" name="Border11" x="257.407" y="418.245" width="26.1343" height="124.864"/>
+  <object id="438" name="Border11" x="0.903811" y="542.141" width="540.109" height="33.8778"/>
+  <object id="428" name="Border11" x="512.039" y="-2.13163e-14" width="28.0702" height="543.013"/>
+  <object id="446" name="SilCoF11_SilCoF10Door" x="286.509" y="6.77556" width="32.9099" height="25.1664">
+   <properties>
+    <property name="Destination" value="Silph Co. F10"/>
+   </properties>
+  </object>
+  <object id="576" name="SilCoP2_SilCoP1Door" x="98.5094" y="66.7756" width="22.91" height="25.1664">
+   <properties>
+    <property name="Destination" value="Silph Co. F7"/>
+   </properties>
+  </object>
+  <object id="574" name="SilCoF11_SilCoEDoor" x="414.509" y="4.77556" width="32.9099" height="25.1664">
+   <properties>
+    <property name="Destination" value="SilCoElevator"/>
+   </properties>
+  </object>
+  <object id="447" name="SilCoF10_SilCoF11Spawn" x="306.836" y="69.6915">
+   <point/>
+  </object>
+  <object id="577" name="SilCoP1_SilCoP2Spawn" x="68.8361" y="135.691">
+   <point/>
+  </object>
+  <object id="575" name="SilCoE_SilCoF11Spawn" x="433.836" y="72.6915">
+   <point/>
+  </object>
+  <object id="448" name="F111Rocket" gid="1366" x="94.3448" y="538.686" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="So, you want to see my BOSS?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Don't... Please!"/>
+    <property name="BattleStart" value="Stop right there! Don't you move!"/>
+    <property name="Money" type="int" value="750"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Cubone-32-Leer_Bone Club_Growl-Rocket-Cubone,Drowzee-32-Psychic_Poison Gas_Headbutt_Confusion-Rocket-Drowzee,Marowak-32-Leer_Bone Club_Growl_Focus Energy-Rocket-Marowak"/>
+   </properties>
+  </object>
+  <object id="449" name="F112Rocket" gid="1366" x="479.584" y="321.868" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Watch your step, my BOSS likes his POKEMON tough!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Gaah! Demolished!"/>
+    <property name="BattleStart" value="Halt! Do you have an appointment with my BOSS?"/>
+    <property name="Money" type="int" value="960"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Rattata-25-Tail Whip_Quick Attack_Hyper Fang_Focus Energy-Rocket-Rattata,Rattata-25-Tail Whip_Quick Attack_Hyper Fang_Focus Energy-Rocket-Rattata,Zubat-25-Confuse Ray_Bite_Supersonic_Leech Life-Rocket-Zubat,Rattata-25-Tail Whip_Quick Attack_Hyper Fang_Focus Energy-Rocket-Rattata,Ekans-25-Glare_Bite_Poison Sting_Leer-Rocket-Ekans"/>
+   </properties>
+  </object>
+  <object id="450" name="Giovanni" gid="1425" x="185.555" y="328.123" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I see that you raise POKEMON with utmost care. A child like you-would never understand what I hope to achieve. I shall step aside-this time! I hope we meet again..."/>
+    <property name="Bag" value="Guard Spec-4"/>
+    <property name="BattleEnd" value="WHAT! This cannot be!"/>
+    <property name="BattleStart" value="So! I must say, I am impressed you got here!"/>
+    <property name="Money" type="int" value="4059"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Nidorino-37-Fury Attack_Focus Energy_Poison Sting_Horn Attack-Giovanni-Nidorino,Kangaskhan-35-Tail Whip_Bite_Rage_Comet Punch-Giovanni-Kangaskhan,Rhyhorn-37-Tail Whip_Stomp_Horn Attack-Giovanni-Rhyhorn,Nidoqueen-41-Body Slam_Poison Sting_Scratch-Giovanni-Nidoqueen"/>
+   </properties>
+  </object>
+  <object id="451" name="Secretary" gid="1418" x="320.842" y="192.165" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Thank you for rescuing all of us! We admire your courage."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="455" name="President" gid="1454" x="222.113" y="188.293" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Thank you for saving SILPH! I will never forget you saved us in our"/>
+    <property name="Dialouge2" value="moment of peril! I have to thank you in some way! Because I am rich,"/>
+    <property name="Dialouge3" value="I can give you anything! Here, maybe this will do!"/>
+    <property name="Item" value="MasterBall"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="578" name="Eyes11" x="476" y="183" width="36" height="107">
+   <properties>
+    <property name="Trainer" value="F112Rocket"/>
+   </properties>
+  </object>
+  <object id="579" name="Eyes11" x="93" y="400" width="36" height="107">
+   <properties>
+    <property name="Trainer" value="F111Rocket"/>
+   </properties>
+  </object>
+  <object id="582" name="SilphCoGioLine" x="159" y="396" width="157" height="6"/>
+ </objectgroup>
+ <layer id="23" name="Elevator" width="30" height="18" visible="0">
+  <data encoding="csv">
+1118,1118,1118,1120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1174,1174,1174,1174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1174,1174,1174,1174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1174,1136,1136,1174,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="24" name="EObjects" visible="0">
+  <object id="456" name="BorderE" x="126.8" y="1.93587" width="8.71143" height="127.768"/>
+  <object id="457" name="BorderE" x="-6.77556" y="1.93587" width="8.71143" height="127.768"/>
+  <object id="458" name="BorderE" x="3.96794" y="128.736" width="123.896" height="17.4229"/>
+  <object id="460" name="BorderE" x="3.96794" y="-1.42109e-14" width="89.0502" height="24.1984"/>
+  <object id="461" name="Menu" x="94.8578" y="3.87175" width="30.974" height="22.2626"/>
+  <object id="462" name="SilCo_SilCoESpawn" x="59.0442" y="110.345">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="10" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="27">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="14">
+  <data encoding="csv">
+227,227,227,227,227,227,227,227,227,227,
+227,190,190,190,190,190,190,190,190,227,
+227,190,190,190,190,190,190,190,190,227,
+227,227,227,227,190,190,227,227,227,227,
+227,190,190,190,190,190,190,190,190,227,
+227,190,227,190,190,227,227,227,190,227,
+227,190,190,190,190,190,190,190,190,227,
+227,190,227,190,190,227,227,227,190,227,
+227,190,190,190,190,190,190,190,190,227,
+227,227,227,228,190,190,228,227,227,227,
+225,225,225,236,190,190,236,225,225,225,
+190,190,190,225,190,190,225,190,190,190,
+190,190,190,190,190,190,190,190,225,190,
+190,190,190,190,233,233,190,190,190,190
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="2" name="Border" x="318.53" y="320.15" width="10.4795" height="128.374"/>
+  <object id="3" name="Border" x="-9.95556" y="319.626" width="9.43158" height="129.946"/>
+  <object id="4" name="Border" x="1.04795" y="449.572" width="125.754" height="7.85965"/>
+  <object id="5" name="Border" x="193.347" y="445.952" width="125.754" height="15.1953"/>
+  <object id="6" name="Border" x="32.4865" y="0.523977" width="254.653" height="31.9626"/>
+  <object id="7" name="Border" x="1.57193" y="7.10543e-15" width="21.483" height="321.198"/>
+  <object id="8" name="Border" x="225.834" y="288.187" width="61.8292" height="31.4386"/>
+  <object id="9" name="Border" x="289.759" y="0.523977" width="29.8667" height="318.054"/>
+  <object id="10" name="Border" x="33.5345" y="286.615" width="62.8772" height="33.0105"/>
+  <object id="11" name="Border" x="33.5345" y="94.8398" width="93.2678" height="23.579"/>
+  <object id="12" name="Border" x="193.871" y="95.8877" width="93.7918" height="29.8667"/>
+  <object id="13" name="Border" x="159.813" y="158.765" width="95.8877" height="32.4865"/>
+  <object id="14" name="Border" x="159.289" y="223.738" width="96.4117" height="31.4386"/>
+  <object id="15" name="Border" x="63.9251" y="224.786" width="30.9146" height="30.3906"/>
+  <object id="16" name="Border" x="65.4971" y="158.765" width="29.8667" height="33.0105"/>
+  <object id="17" name="PlayerPoint" x="157.193" y="426.517">
+   <point/>
+  </object>
+  <object id="18" name="Door" x="128.374" y="449.048" width="63.9251" height="22.531">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="19" name="Totem" x="96.9357" y="288.187" width="29.8667" height="46.6339">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="20" name="Totem" x="193.347" y="288.187" width="30.3906" height="45.062">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="21" name="Anouncer" gid="1356" x="223.981" y="350.249" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value="Just as I thought! You're POKEMON champ material!"/>
+    <property name="Dialouge" value="Hiya! I can tell you have what it takes to become a POKEMON champ!"/>
+    <property name="Dialouge2" value="I'm no trainer,but I can tell you how to win! Let me take you to the top!"/>
+    <property name="Dialouge3" value="The 1st POKEMON out in a match is at the top of the POKEMON LIST!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="23" name="JR.TRAINER(Male)" gid="1357" x="64.2985" y="218.902" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="You're pretty hot, but not as hot as BROCK!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Darn! Light years isn't time!-It measures distance!-"/>
+    <property name="BattleStart" value="Stop right there,kid! You're still light years from facing BROCK!"/>
+    <property name="Money" type="int" value="220"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Diglett-11-Scratch-JR.TRAINER-Diglett,Sandshrew-11-Scratch_Sand Attack-JR.TRAINER-Sandshrew"/>
+   </properties>
+  </object>
+  <object id="24" name="Brock" gid="1351" x="127.765" y="60.4901" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="There are all kinds of trainers in the world!You appear to be very "/>
+    <property name="AfterBattle2" value="gifted as a POKENON trainer! Go to the GYM in CERULEAN "/>
+    <property name="AfterBattle3" value="and test your abilities"/>
+    <property name="Bag" value="Full Heal-5"/>
+    <property name="Dialouge" value="I'm BROCK! I'm PEWTER's GYM LEADER! I believe in rock hard"/>
+    <property name="Dialouge2" value="defense and determination!That's why my POKEMON are all the rock-type!"/>
+    <property name="Dialouge3" value="Do you still want to challenge me? Fine then! Show me your best!"/>
+    <property name="Money" type="int" value="1386"/>
+    <property name="Team" value="Geodude-12-Tackle_Defense Curl-Brock-Geodude,Onix-14-Tackle_Screech_Bide-Brock-Onix"/>
+    <property name="WonBattle1" value="I took you for granted. As proof of your victory,here's the BOULDERBADGE!"/>
+    <property name="WonBattle2" value="That's an official POKEMON LEAGUE BADGE!Its bearer's POKEMON"/>
+    <property name="WonBattle3" value="become more powerful!The technique FLASH can now be used any time!"/>
+    <property name="WonBattle4" value="Before you go take this TM with you. It has a technique that can be taught"/>
+    <property name="WonBattle5" value="to POKEMON, but only once so choose carefully and that goes for every TM"/>
+    <property name="WonBattle6" value="TM34 has BIDE! Your POKEMON absorbs damage, then pay it back double"/>
+   </properties>
+  </object>
+  <object id="26" name="Eyes" x="96.5418" y="189.542" width="65.8873" height="34.7162">
+   <properties>
+    <property name="Trainer" value="JR.TRAINER(Male)"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

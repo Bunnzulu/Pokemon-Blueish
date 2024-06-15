@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="15">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,151,151,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="64" y="0.5" width="160" height="19"/>
+  <object id="14" name="Border" x="96" y="96" width="63.5" height="57.5"/>
+  <object id="6" name="Border" x="1" y="3" width="60" height="42"/>
+  <object id="7" name="Border" x="223.5" y="1.5" width="31" height="42"/>
+  <object id="8" name="Border" x="-0.5" y="193" width="31" height="62.5"/>
+  <object id="9" name="Border" x="222.5" y="192" width="31" height="62.5"/>
+  <object id="2" name="Border" x="-9" y="7.5" width="9" height="249"/>
+  <object id="3" name="Border" x="0" y="256.5" width="63.5" height="10"/>
+  <object id="4" name="Border" x="127.5" y="257" width="130.5" height="25.5"/>
+  <object id="5" name="Border" x="255" y="3.5" width="13" height="253"/>
+  <object id="10" name="Door" x="64.5" y="257.5" width="62" height="9.5">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="11" name="Spawn" x="92.5" y="229">
+   <point/>
+  </object>
+  <object id="12" name="Old Man" gid="1371" x="2" y="92.5" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="The POLIWHIRL you traded to me went and evolved!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Jynx"/>
+    <property name="Nickname" value="Lola"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Poliwhirl"/>
+   </properties>
+  </object>
+  <object id="13" name="Old Woman" gid="1370" x="158.5" y="154" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="My husband likes trading POKEMON. If you are a collector,"/>
+    <property name="Dialouge2" value="would you please trade with him?"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

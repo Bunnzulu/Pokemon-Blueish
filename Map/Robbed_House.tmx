@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="17">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,883,469,129,518,518,
+857,857,137,559,137,137,137,137,
+881,882,559,560,137,137,550,551,
+137,137,467,488,2147484136,506,552,558,
+137,137,506,884,2147484144,467,137,137,
+137,137,550,551,137,137,137,137,
+251,137,137,137,550,551,137,137,
+259,137,879,879,552,558,566,567
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="-10.3333" y="60" width="10" height="198.333"/>
+  <object id="3" name="Border" x="0.333333" y="193.333" width="31.3333" height="62.3333"/>
+  <object id="4" name="Border" x="190" y="224.667" width="66" height="30.6667"/>
+  <object id="5" name="Border" x="97.3333" y="95" width="60.6667" height="57.3333"/>
+  <object id="6" name="Border" x="256.333" y="-2" width="11.3333" height="258.667"/>
+  <object id="7" name="Border" x="127.667" y="-3" width="128" height="23.6667"/>
+  <object id="8" name="Border" x="63.6667" y="4.44089e-15" width="33.3333" height="20"/>
+  <object id="9" name="Border" x="1.66667" y="256" width="61.3333" height="13.6667"/>
+  <object id="10" name="Border" x="127" y="255" width="63.6667" height="13.6667"/>
+  <object id="11" name="Door" x="64.3333" y="256" width="63.6667" height="13.6667">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="14" name="Door2" x="97.3333" y="0.666667" width="29.3333" height="22.3333">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="-0.328247" y="2.8911" width="61.8941" height="44.6452" rotation="358.162"/>
+  <object id="12" name="Spawn" x="95" y="235.333">
+   <point/>
+  </object>
+  <object id="13" name="Spawn2" x="111.333" y="53">
+   <point/>
+  </object>
+  <object id="15" name="Woman" gid="1347" x="192.333" y="223" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="TEAM ROCKET must be trying to DIG their way into no good!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="16" name="Man" gid="1380" x="64.3333" y="62.3333" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Those miserable ROCKETs! Look what they did here! They stole a TM"/>
+    <property name="Dialouge2" value="for teaching POKEMON how to DIG holes! That cost me a bundle,"/>
+    <property name="Dialouge3" value="it did!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

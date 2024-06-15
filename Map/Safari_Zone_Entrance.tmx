@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="20">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="6">
+  <data encoding="csv">
+258,252,166,276,277,166,252,258,
+258,260,275,166,166,275,260,258,
+258,166,283,166,166,283,166,258,
+258,166,283,166,166,283,166,258,
+258,166,291,166,166,291,166,258,
+258,258,166,276,277,166,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" x="65.3035" y="32.5227" width="28.9091" height="96.2775"/>
+  <object id="15" name="Desk" x="65.0454" y="128.8" width="29.6834" height="29.9415"/>
+  <object id="18" name="Pay" x="94.2125" y="75.6282" width="73.5632" height="5.16233"/>
+  <object id="2" x="160.807" y="33.0389" width="28.9091" height="126.993"/>
+  <object id="4" x="194.362" y="0.77435" width="28.3928" height="62.9804"/>
+  <object id="5" x="33.0389" y="-0.516233" width="28.3928" height="62.9804"/>
+  <object id="6" x="33.8133" y="159.774" width="28.3928" height="32.2646"/>
+  <object id="7" x="193.071" y="159.774" width="28.3928" height="32.2646"/>
+  <object id="8" x="160.548" y="191.522" width="32.7808" height="14.7126"/>
+  <object id="12" name="Overworld" x="97.0518" y="192.039" width="62.9804" height="14.7126">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="10" x="160.807" y="-14.4545" width="32.7808" height="14.7126"/>
+  <object id="11" x="63.4967" y="-14.9708" width="32.7808" height="14.7126"/>
+  <object id="9" x="63.2386" y="191.522" width="32.7808" height="14.7126"/>
+  <object id="16" name="Worker" gid="1441" x="32.784" y="159.513" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="SAFARI ZONE has 4 zones in it. Each zone has different kinds of"/>
+    <property name="Dialouge2" value="POKEMON. Use Safari balls to catch them before time runs out.I recommend"/>
+    <property name="Dialouge3" value="opening a unused POKEMON BOX so there's room for new POKEMON."/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Worker2" gid="1442" x="191.784" y="96.758" width="32" height="34"/>
+  <object id="19" name="Spawn" x="125.791" y="175.967">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

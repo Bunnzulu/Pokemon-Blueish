@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="16">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="9">
+  <data encoding="csv">
+1274,1274,1274,1274,1274,1274,1274,1274,1274,1274,
+1274,1274,1274,1274,1274,1274,1274,1274,1274,1274,
+1282,1282,1290,1282,1290,1282,1290,1282,1282,1282,
+1158,1159,1159,1159,1159,1159,1159,1159,1159,1160,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1243,1243,1243,1243,1174,1174,1243,1243,1243,1243,
+1251,1251,1251,1251,1136,1136,1251,1251,1251,1251
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="1.34737" y="95.6632" width="64.3368" height="32"/>
+  <object id="2" name="Border" x="95.6632" y="95.6632" width="32" height="32"/>
+  <object id="3" name="Border" x="160.337" y="96.3368" width="32" height="32"/>
+  <object id="4" name="Border" x="225.011" y="94.6526" width="93.9789" height="32"/>
+  <object id="5" name="Border" x="-27.6561" y="116.653" width="27.9789" height="113.333"/>
+  <object id="6" name="Border" x="1.67719" y="223.986" width="121.312" height="60.6667"/>
+  <object id="7" name="Border" x="193.011" y="225.319" width="121.312" height="60.6667"/>
+  <object id="8" name="Border" x="320.344" y="-0.680702" width="19.3123" height="289.333"/>
+  <object id="9" name="Spawn" x="155.333" y="274.667">
+   <point/>
+  </object>
+  <object id="10" name="Door" x="126.667" y="288.667" width="67.3333" height="16">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="11" name="Old Man" gid="1335" x="245.333" y="160" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I had a major haul today!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="Man" gid="1340" x="64.6667" y="193.333" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I sure do fancy that PORYGON! But, it's hard to win at slots!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="Booth1" x="68" y="98" width="25.3333" height="26"/>
+  <object id="14" name="Booth2" x="128.667" y="96" width="30" height="28"/>
+  <object id="15" name="Booth3" x="193.333" y="92.6667" width="30" height="28"/>
+ </objectgroup>
+</map>

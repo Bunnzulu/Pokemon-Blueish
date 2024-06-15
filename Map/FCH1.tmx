@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="16">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,129,129,129,129,528,
+857,857,137,137,137,137,137,2147484184,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+509,137,137,137,137,137,137,509,
+517,137,151,151,137,137,137,517
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Door" x="63.476" y="256" width="63.7754" height="7.48538">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="256.599" y="1.06581e-14" width="8.08421" height="257.497"/>
+  <object id="3" name="Border" x="-8.38363" y="-0.59883" width="8.08421" height="257.497"/>
+  <object id="4" name="Border" x="1.19766" y="-0.299415" width="61.6795" height="64.0749"/>
+  <object id="5" name="Border" x="223.364" y="-1.19766" width="32.3368" height="64.0749"/>
+  <object id="7" name="Border" x="0.59883" y="192.524" width="32.3368" height="64.0749"/>
+  <object id="8" name="Border" x="223.364" y="193.422" width="32.3368" height="64.0749"/>
+  <object id="11" name="Border" x="96.7111" y="96.4117" width="62.2784" height="51.4994"/>
+  <object id="9" name="Border" x="0.299415" y="255.701" width="63.476" height="10.4795"/>
+  <object id="10" name="Border" x="128.449" y="255.102" width="125.754" height="8.68304"/>
+  <object id="6" name="Border" x="62.5778" y="-0.59883" width="162.283" height="27.5462"/>
+  <object id="12" name="Spawn" x="91.6211" y="239.233">
+   <point/>
+  </object>
+  <object id="13" name="Boy" gid="1372" x="126.222" y="186.367" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="BILL files his own POKEMON data on his PC! Did he show you?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="14" name="Woman" gid="1373" x="66.0398" y="122.789" width="32" height="30">
+   <properties>
+    <property name="Dialouge" value="SAFARI ZONE's WARDEN is old, but still active! All his teeth are"/>
+    <property name="Dialouge2" value="false, though."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="Man" gid="1406" x="224.43" y="90.9556" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Hmm? You've met BILL? He's my grandson! He always liked collecting"/>
+    <property name="Dialouge2" value="things even as a child!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="71">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="20" height="18">
+  <data encoding="csv">
+555,135,135,135,135,555,135,135,135,135,135,135,135,135,135,135,135,135,135,135,
+563,225,225,225,225,563,225,225,225,225,225,247,225,225,225,225,225,225,225,246,
+555,225,225,225,225,555,225,225,225,225,225,254,225,225,225,225,225,247,245,247,
+563,225,225,225,225,571,578,225,556,578,225,555,2147484226,578,2147484226,578,577,557,225,225,
+555,225,225,225,225,225,225,225,571,225,225,571,225,225,225,225,225,555,225,225,
+564,578,2147484226,578,2147484226,557,225,555,225,555,225,225,225,225,225,225,225,563,225,225,
+225,225,225,225,245,555,225,555,225,571,2147484226,578,2147484226,578,578,225,225,555,225,225,
+247,225,225,225,225,571,225,563,225,225,225,225,225,225,225,225,225,563,225,225,
+225,225,2147484202,554,225,555,225,555,225,225,225,225,225,225,2147484226,557,225,555,225,225,
+225,247,2147484210,562,225,563,225,563,225,225,225,225,225,225,225,563,225,563,225,225,
+225,225,2147484210,562,225,571,225,555,225,225,225,225,225,225,225,555,245,555,225,225,
+225,225,2147484210,562,225,225,225,563,225,225,225,225,225,225,225,571,225,571,247,253,
+225,225,2147484210,562,225,2147484226,2147484226,578,2147484226,578,2147484226,578,2147484226,578,225,225,247,225,225,225,
+225,225,2147484210,562,247,254,225,225,225,225,225,225,225,247,225,225,225,225,225,225,
+225,225,2147484210,562,254,225,225,225,225,225,225,225,225,247,225,228,225,225,228,225,
+253,253,2147484218,570,2147484226,578,2147484226,578,2147484226,578,2147484226,578,2147484226,578,225,236,225,225,236,225,
+225,225,225,225,225,225,225,247,225,225,225,225,225,246,225,225,225,225,225,225,
+225,247,225,225,225,225,225,225,225,225,225,225,225,246,225,225,233,233,225,225
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="161.011" y="384.674" width="284.968" height="28.9684"/>
+  <object id="2" name="Border" x="64" y="255.326" width="62.6526" height="256"/>
+  <object id="3" name="Border" x="128" y="479.663" width="320" height="31.6632"/>
+  <object id="4" name="Border" x="2.02105" y="1.34737" width="28.9684" height="185.937"/>
+  <object id="5" name="Border" x="30.9895" y="-2.02105" width="128" height="32.3368"/>
+  <object id="7" name="Border" x="31.6632" y="161.684" width="158.989" height="28.9684"/>
+  <object id="11" name="Border" x="161.011" y="191.326" width="30.3158" height="159.663"/>
+  <object id="23" name="Border" x="-28.2947" y="1.34737" width="30.3158" height="580.042"/>
+  <object id="18" name="Border" x="225.011" y="159.663" width="30.3158" height="227.032"/>
+  <object id="8" name="Border" x="161.011" y="-2.84217e-14" width="28.9684" height="126.653"/>
+  <object id="9" name="Border" x="189.305" y="94.9895" width="35.0316" height="29.6421"/>
+  <object id="13" name="Border" x="287.663" y="99.0316" width="30.3158" height="29.6421"/>
+  <object id="21" name="Border" x="448.674" y="256" width="30.3158" height="29.6421"/>
+  <object id="17" name="Border" x="316.632" y="193.347" width="161.684" height="29.6421"/>
+  <object id="19" name="Border" x="-0.673684" y="575.326" width="508.632" height="29.6421"/>
+  <object id="22" name="Border" x="640" y="-4.04211" width="31.6632" height="579.368"/>
+  <object id="14" name="Border" x="383.326" y="97.0105" width="161.684" height="29.6421"/>
+  <object id="10" name="Border" x="256.674" y="98.3579" width="31.6632" height="61.9789"/>
+  <object id="12" name="Border" x="353.684" y="97.0105" width="28.9684" height="61.9789"/>
+  <object id="16" name="Border" x="289.684" y="160.337" width="28.9684" height="61.9789"/>
+  <object id="20" name="Border" x="480.337" y="257.347" width="29.6421" height="125.305"/>
+  <object id="24" name="Border" x="574.653" y="578.021" width="103.747" height="25.6"/>
+  <object id="15" name="Border" x="544.337" y="97.6842" width="28.9684" height="284.968"/>
+  <object id="6" name="Border" x="191.326" y="-0.673684" width="448" height="32.3368"/>
+  <object id="25" name="Totem" x="479.663" y="447.326" width="30.3158" height="63.3263">
+   <properties>
+    <property name="Text" value="VIRIDIAN CITY POKEMON GYM"/>
+    <property name="Text2" value="LEADER: GIOVANNI"/>
+    <property name="Text3" value="WINNING TRAINERS: Trainer"/>
+   </properties>
+  </object>
+  <object id="26" name="Totem" x="576.674" y="447.326" width="30.3158" height="63.3263">
+   <properties>
+    <property name="Text" value="VIRIDIAN CITY POKEMON GYM"/>
+    <property name="Text2" value="LEADER: GIOVANNI"/>
+    <property name="Text3" value="WINNING TRAINERS: Trainer"/>
+   </properties>
+  </object>
+  <object id="27" name="Door" x="510" y="575" width="64" height="20">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="28" name="Spawn" x="536" y="556">
+   <point/>
+  </object>
+  <object id="29" name="L1Mover" x="421" y="515" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="47" name="D1Mover" x="133" y="192" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="49" name="D2Mover" x="516" y="321" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="50" name="D3Mover" x="581" y="63" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="41" name="R1Mover" x="131" y="452" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="42" name="R2Mover" x="167" y="419" width="17" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="43" name="R3Mover" x="359" y="67" width="17" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="37" name="L3Mover" x="613" y="35" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="33" name="U1Mover" x="37" y="482" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="36" name="U2Mover" x="5" y="482" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="39" name="U3Mover" x="612" y="355" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="31" name="L2Mover" x="420" y="546" width="22" height="23">
+   <properties>
+    <property name="Destination" value="VGym"/>
+   </properties>
+  </object>
+  <object id="30" name="L1MoverSpawn" x="239" y="534">
+   <point/>
+  </object>
+  <object id="48" name="D1MoverSpawn" x="143" y="436">
+   <point/>
+  </object>
+  <object id="51" name="D2MoverSpawn" x="527" y="409">
+   <point/>
+  </object>
+  <object id="52" name="D3MoverSpawn" x="592" y="371">
+   <point/>
+  </object>
+  <object id="44" name="R1MoverSpawn" x="431" y="471">
+   <point/>
+  </object>
+  <object id="45" name="R2MoverSpawn" x="431" y="435">
+   <point/>
+  </object>
+  <object id="46" name="R3MoverSpawn" x="557" y="80">
+   <point/>
+  </object>
+  <object id="38" name="L3MoverSpawn" x="367" y="49">
+   <point/>
+  </object>
+  <object id="32" name="L2MoverSpawn" x="49" y="564">
+   <point/>
+  </object>
+  <object id="34" name="U1MoverSpawn" x="47" y="305">
+   <point/>
+  </object>
+  <object id="35" name="U2MoverSpawn" x="13" y="242">
+   <point/>
+  </object>
+  <object id="40" name="U3MoverSpawn" x="624" y="82">
+   <point/>
+  </object>
+  <object id="53" name="Announcer" gid="1356" x="511" y="510" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value=""/>
+    <property name="Dialouge" value="Yo! Champ in making! Even I don't know VIRIDIAN LEADER's"/>
+    <property name="Dialouge2" value="identity! This will be the toughest of all the GYM LEADERs! I heard that the"/>
+    <property name="Dialouge3" value="trainers here like ground-type POKEMON!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="54" name="V1Blackbelt" gid="1378" x="355" y="381" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="I'm still not worthy!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Wargh!"/>
+    <property name="BattleStart" value="Rrrroar! I'm working myself into a rage!"/>
+    <property name="Money" type="int" value="1000"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Machop-40-Seismic Toss_Focus Energy_Leer_Low Kick-Blackbelt-Machop,Machoke-40-Focus Energy_Leer_Low Kick_Karate Chop-Blackbelt-Machoke"/>
+   </properties>
+  </object>
+  <object id="55" name="V1Tamer" gid="1403" x="318" y="254" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="Do you know the identity of our GYM LEADER?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You are in perfect harmony!"/>
+    <property name="BattleStart" value="POKEMON and I, we make wonderful music together!"/>
+    <property name="Money" type="int" value="1720"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Rhyhorn-43-Fury Attack_Tail Whip_Stomp_Horn Attack-Tamer-Rhyhorn"/>
+   </properties>
+  </object>
+  <object id="56" name="V1CooltrainerM" gid="1351" x="385" y="251" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="You need power to keep up with our GYM LEADER!"/>
+    <property name="Bag" value="X Attack-2"/>
+    <property name="BattleEnd" value="I ran out of gas!"/>
+    <property name="BattleStart" value="Heh! You must be running out of steam by now!"/>
+    <property name="Money" type="int" value="1365"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Sandslash-39-Swift_Poison Sting_Slash_Sand Attack-CooltrainerM-Sandslash,Dugtrio-39-Slash_Sand Attack_Dig_Growl-CooltrainerM-Dugtrio"/>
+   </properties>
+  </object>
+  <object id="61" name="V3CooltrainerM" gid="1351" x="191" y="190" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="You can go onto POKEMON LEAGUE only by defeating our GYM LEADER!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I was beaten?"/>
+    <property name="BattleStart" value="VIRIDIAN GYM was closed for a long time, but now our LEADER is back"/>
+    <property name="Money" type="int" value="1365"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Nidorino-39-Fury Attack_Focus Energy_Poison Sting_Horn Attack-CooltrainerM-Nidorino,Nidoking-39-Thrash_Poison Sting_Horn Attack_Tackle-CooltrainerM-Nidoking"/>
+   </properties>
+  </object>
+  <object id="57" name="V2CooltrainerM" gid="1357" x="419" y="188" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="The LEADER will scold me!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I lost my grip!"/>
+    <property name="BattleStart" value="The truly talented win with style!"/>
+    <property name="Money" type="int" value="1505"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Rhyhorn-43-Fury Attack_Tail Whip_Stomp_Horn Attack-CooltrainerM-Rhyhorn"/>
+   </properties>
+  </object>
+  <object id="58" name="V2Blackbelt" gid="1359" x="320" y="59" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="POKEMON LEAGUE? You? Don't get cocky!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Ayah!"/>
+    <property name="BattleStart" value="I'm the KARATE KING! Your fate rests with me!"/>
+    <property name="Money" type="int" value="950"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Machoke-38-Focus Energy_Leer_Low Kick_Karate Chop-Blackbelt-Machoke,Machop-38-Karate Chop_Focus Energy_Leer_Low Kick-Blackbelt-Machop,Machoke-38-Focus Energy_Leer_Low Kick_Karate Chop-Blackbelt-Machoke"/>
+   </properties>
+  </object>
+  <object id="59" name="V2Tamer" gid="1444" x="61" y="540" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="Wait! I was just careless!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Yowch! Whiplash!"/>
+    <property name="BattleStart" value="Your POKEMON will cower at the crack of my whip!"/>
+    <property name="Money" type="int" value="1560"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Arbok-39-Screech_Glare_Bite_Poison Sting-Tamer-Arbok,Tauros-39-Leer_Tail Whip_Stomp_Tackle-Tamer-Tauros"/>
+   </properties>
+  </object>
+  <object id="60" name="V3Blackbelt" gid="1408" x="92" y="253" width="34" height="30">
+   <properties>
+    <property name="AfterBattle" value="If my POKEMON were as good at Karate as I..."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Atcho!"/>
+    <property name="BattleStart" value="Karate is the ultimate form of martial arts!"/>
+    <property name="Money" type="int" value="1075"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Machoke-43-Focus Energy_Leer_Low Kick_Karate Chop-Blackbelt-Machoke"/>
+   </properties>
+  </object>
+  <object id="62" name="Giovanni" gid="1425" x="81" y="63" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="Having lost, I cannot face my underlings! TEAM ROCKET is finished"/>
+    <property name="AfterBattle2" value="forever! I will dedicate my life to the study of POKEMON!"/>
+    <property name="AfterBattle3" value="Let us meet again some day! Farewell!"/>
+    <property name="Bag" value="Guard Spec-5"/>
+    <property name="Dialouge" value="Fwahahaha! This is my hideout! I planned to resurrect TEAM ROCKET"/>
+    <property name="Dialouge2" value="here! But, you have caught me again! So be it! This time, I'm not"/>
+    <property name="Dialouge3" value="holding back! Once more, you shall face GIOVANNI, the greatest trainer"/>
+    <property name="Money" type="int" value="4950"/>
+    <property name="Team" value="Rhyhorn-45-Stomp_Tail Whip_Fury Attack_Horn Attack-Giovanni-Rhyhorn,Dugtrio-42-Growl_Dig_Sand Attack_Slash-Giovanni-Dugtrio,Nidoqueen-44-Scratch_Tail Whip_Body Slam_Poison Sting-Giovanni-Nidoqueen,Nidoking-45-Tackle_Horn Attack_Poison Sting_Thrash-Giovanni-Nidoking,Rhydon-50-Stomp_Tail Whip_Fissure_Horn Drill-Giovanni-Rhydon"/>
+    <property name="WonBattle1" value="Ha! That was a truly intense fight! You have won! As proof,here's the"/>
+    <property name="WonBattle2" value="EARTHBADGE! It makes POKEMON of any level obey! It is evidence of your"/>
+    <property name="WonBattle3" value="mastery as a POKEMON trainer! With it, you can enter the POKEMON LEAGUE!"/>
+    <property name="WonBattle4" value="It is my gift for your POKEMON LEAGUE challenge!"/>
+    <property name="WonBattle5" value="TM27 is FISSURE! It will take out POKEMON with just one hit!"/>
+    <property name="WonBattle6" value="I made it when I ran the GYM here, too long ago..."/>
+   </properties>
+  </object>
+  <object id="63" name="Eyes" x="93.1178" y="508.297" width="97.3186" height="35.0067">
+   <properties>
+    <property name="Trainer" value="V2Tamer"/>
+   </properties>
+  </object>
+  <object id="64" name="Eyes" x="352.367" y="262.55" width="35.7068" height="86.8166">
+   <properties>
+    <property name="Trainer" value="V1Blackbelt"/>
+   </properties>
+  </object>
+  <object id="65" name="Eyes" x="318.06" y="250.648" width="35.7068" height="86.8166">
+   <properties>
+    <property name="Trainer" value="V1Tamer"/>
+   </properties>
+  </object>
+  <object id="70" name="Eyes" x="318.76" y="53.9103" width="35.7068" height="86.8166">
+   <properties>
+    <property name="Trainer" value="V2Blackbelt"/>
+   </properties>
+  </object>
+  <object id="67" name="Eyes" x="192.736" y="186.936" width="35.7068" height="142.127">
+   <properties>
+    <property name="Trainer" value="V3CooltrainerM"/>
+   </properties>
+  </object>
+  <object id="68" name="Eyes" x="31.0053" y="222.643" width="65.8126" height="32.9063">
+   <properties>
+    <property name="Trainer" value="V3Blackbelt"/>
+   </properties>
+  </object>
+  <object id="69" name="Eyes" x="446.185" y="154.73" width="82.6158" height="32.9063">
+   <properties>
+    <property name="Trainer" value="V2CooltrainerM"/>
+   </properties>
+  </object>
+  <object id="66" name="Eyes" x="389.574" y="249.547" width="35.7068" height="86.8166">
+   <properties>
+    <property name="Trainer" value="V1CooltrainerM"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

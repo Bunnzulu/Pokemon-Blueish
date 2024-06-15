@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="16">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,252,
+857,857,137,137,137,137,137,260,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,145,145,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="1.79649" y="2.69474" width="61.0807" height="38.924"/>
+  <object id="2" name="Border" x="225.16" y="0.59883" width="32.3368" height="47.9064"/>
+  <object id="3" name="Border" x="64.9731" y="0.898246" width="158.989" height="24.2526"/>
+  <object id="4" name="Border" x="-7.48538" y="65.2725" width="8.38363" height="136.234"/>
+  <object id="5" name="Border" x="-0.299415" y="191.925" width="32.0374" height="64.3743"/>
+  <object id="6" name="Border" x="223.963" y="191.925" width="32.0374" height="64.3743"/>
+  <object id="7" name="Border" x="96.4117" y="94.9146" width="61.0807" height="54.4936"/>
+  <object id="8" name="Border" x="255.701" y="64.0749" width="11.9766" height="129.347"/>
+  <object id="9" name="Border" x="129.048" y="255.401" width="94.6152" height="10.1801"/>
+  <object id="10" name="Border" x="30.8398" y="256.898" width="32.0374" height="10.1801"/>
+  <object id="11" name="Door" x="63.0749" y="256.898" width="65.2725" height="10.1801">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="12" name="Spawn" x="94.6152" y="237.736">
+   <point/>
+  </object>
+  <object id="13" name="Cubone" gid="1411" x="95.9813" y="188.164" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Kyarugoo!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="14" name="Girl" gid="1412" x="63.345" y="124.089" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I hate those horrible ROCKETs! That poor CUBONE's mother..."/>
+    <property name="Dialouge2" value="It was killed trying to escape from TEAM ROCKET!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="Name Rater" gid="1413" x="161.254" y="123.789" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

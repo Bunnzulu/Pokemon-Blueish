@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="60">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1342" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="1stFloor" width="20" height="8">
+  <data encoding="csv">
+589,589,589,589,589,589,589,459,589,459,589,589,507,507,507,507,507,507,507,507,
+257,257,257,257,257,257,257,257,257,257,257,275,515,515,515,515,515,515,515,515,
+257,601,602,603,604,257,257,257,257,257,257,283,146,257,257,257,255,257,257,257,
+257,609,610,611,613,257,257,257,257,257,257,283,146,257,257,257,257,257,257,257,
+257,257,257,257,257,257,257,257,257,257,257,283,257,257,257,257,257,257,257,257,
+257,601,602,603,604,257,257,257,275,257,257,291,266,266,275,257,257,257,257,257,
+257,609,610,611,613,257,257,257,283,257,257,257,257,251,283,257,257,257,257,251,
+257,257,257,257,257,257,257,183,283,257,806,806,257,259,283,257,250,250,257,259
+</data>
+ </layer>
+ <layer id="4" name="BottomFloor" width="20" height="8" visible="0">
+  <data encoding="csv">
+589,589,589,589,589,589,589,589,589,589,589,589,589,589,0,0,0,0,0,0,
+257,257,257,257,257,257,257,257,257,257,278,279,280,257,0,0,0,0,0,0,
+257,257,257,257,257,257,257,257,257,257,286,287,288,257,0,0,0,0,0,0,
+257,257,257,257,257,257,257,257,257,257,257,257,257,257,0,0,0,0,0,0,
+257,601,606,607,605,257,257,257,257,257,257,257,257,257,0,0,0,0,0,0,
+257,609,610,611,613,257,257,257,275,257,257,257,257,257,0,0,0,0,0,0,
+257,257,257,257,257,257,257,257,283,257,257,257,257,257,0,0,0,0,0,0,
+257,257,257,257,257,257,257,263,283,257,257,257,257,257,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Floor1">
+  <object id="1" name="Amber" gid="1331" x="511.554" y="87.6146" width="32" height="32"/>
+  <object id="2" name="Border" x="1.26751" y="-28.5191" width="639.461" height="28.5191"/>
+  <object id="11" name="Border" x="384.057" y="0.633757" width="252.869" height="60.8407"/>
+  <object id="9" name="Border" x="353.003" y="31.0541" width="30.4204" height="159.073"/>
+  <object id="28" name="Border" x="31.688" y="65.9108" width="125.484" height="31.054"/>
+  <object id="30" name="Border" x="33.5892" y="190.761" width="31.0541" height="31.054"/>
+  <object id="31" name="Border" x="95.6975" y="192.029" width="61.4745" height="31.054"/>
+  <object id="32" name="Border" x="96.965" y="95.6974" width="61.4745" height="31.054"/>
+  <object id="33" name="Border" x="33.5892" y="93.1623" width="32.9554" height="31.054"/>
+  <object id="29" name="Border" x="31.0542" y="162.242" width="125.484" height="31.054"/>
+  <object id="12" name="Border" x="384.057" y="156.538" width="63.3757" height="35.4904"/>
+  <object id="10" name="Border" x="446.799" y="157.806" width="30.4204" height="98.2324"/>
+  <object id="27" name="Border" x="256.3" y="160.347" width="30.4204" height="94.4299"/>
+  <object id="6" name="Border" x="-15.2102" y="-6.33757" width="14.5764" height="261.742"/>
+  <object id="3" name="Border" x="-1.90127" y="256.038" width="321.315" height="28.5191"/>
+  <object id="13" name="Border" x="415.745" y="193.296" width="31.0541" height="60.8407"/>
+  <object id="14" name="Border" x="608.407" y="192.662" width="31.0541" height="60.8407"/>
+  <object id="8" name="Border" x="-3.55271e-15" y="1.90127" width="383.423" height="15.2102"/>
+  <object id="4" name="Border" x="381.522" y="257.306" width="128.019" height="28.5191"/>
+  <object id="7" name="Border" x="576.086" y="257.306" width="60.8407" height="28.5191"/>
+  <object id="5" name="Border" x="638.828" y="0.633757" width="16.4777" height="254.137"/>
+  <object id="15" name="Scientist" gid="1379" x="384.535" y="161.13" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Take your time to look around."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Scientist" gid="1379" x="544.242" y="160.497" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="We are proud of 2 fossils of very rare, prehistoric POKEMON!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="18" name="GScientist" gid="1350" x="480.866" y="93.9522" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Ssh! I think that this chunk of AMBER contains POKEMON DNA!"/>
+    <property name="Dialouge2" value="It would be great if POKEMON could be resurrected from it!"/>
+    <property name="Dialouge3" value="But, my colleagues just ignore me! So I have a favor to ask!"/>
+    <property name="Dialouge4" value="Take this to a POKEMON LAB and get it examined!"/>
+    <property name="Item" value="Old Amber"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="19" name="Old Man" gid="1356" x="0.477695" y="159.229" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="That is one magnificent fossil!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="20" name="Stairs" x="237.659" y="230.054" width="20.2802" height="22.8153">
+   <properties>
+    <property name="Destination" value="PCM2"/>
+   </properties>
+  </object>
+  <object id="21" name="PlayerPoint" x="349.834" y="235.124">
+   <point/>
+  </object>
+  <object id="22" name="Playerpoint2" x="543.13" y="235.758">
+   <point/>
+  </object>
+  <object id="23" name="PlayerPoint3" x="189.493" y="233.223">
+   <point/>
+  </object>
+  <object id="24" name="Sign" x="66.5445" y="94.4299" width="27.8853" height="19.0127">
+   <properties>
+    <property name="Text" value="AERODACTYL Fossil - A primitive and rare POKEMON."/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="Sign" x="65.9108" y="192.662" width="27.8853" height="16.4777">
+   <properties>
+    <property name="Text" value="KABUTOPS Fossil - A primitive and rare POKEMON."/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="59" name="Sign" x="513.977" y="83.6557" width="27.8853" height="9.50637">
+   <properties>
+    <property name="Text" value="The AMBER is clear and gold!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="26" name="Door" x="320.681" y="256.672" width="61.4745" height="31.0541">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="58" name="Door2" x="513.343" y="253.503" width="61.4745" height="31.0541">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="57" name="BuyLine" x="280.121" y="143.863" width="69.7133" height="15.2102"/>
+ </objectgroup>
+ <objectgroup id="3" name="BottomLayer" visible="0">
+  <object id="35" name="Border2" x="448.067" y="-1.90127" width="21.5478" height="259.207"/>
+  <object id="36" name="Border2" x="0.633757" y="-18.379" width="449.334" height="17.1115"/>
+  <object id="37" name="Border2" x="2.84217e-14" y="254.771" width="449.334" height="17.1115"/>
+  <object id="38" name="Border2" x="-13.3089" y="3.16879" width="12.0414" height="257.939"/>
+  <object id="51" name="Border2" x="257.306" y="160.341" width="29.1528" height="93.7961"/>
+  <object id="52" name="Border2" x="93.7961" y="128.019" width="64.6433" height="51.3344"/>
+  <object id="55" name="Border2" x="0" y="-2.53503" width="441.095" height="22.1815"/>
+  <object id="53" name="Border2" x="32.3216" y="129.287" width="35.4904" height="51.3344"/>
+  <object id="54" name="Border2" x="70.3471" y="128.653" width="21.5478" height="27.2516"/>
+  <object id="39" name="Dad2" gid="1380" x="384.535" y="189.65" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Yeah, a PIKACHU soon, I promise!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="42" name="Girl2" gid="1381" x="351.579" y="189.016" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I want a PIKACHU! It's so cute!"/>
+    <property name="Dialouge2" value="I asked my Daddy to catch me one!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="43" name="Scientist2" gid="1350" x="222.293" y="190.917" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="We have a space exhibit now."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="44" name="Old Man2" gid="1371" x="-0.78982" y="192.185" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="July 20, 1969! The 1st lunar landing!"/>
+    <property name="Dialouge2" value="I bought a color TV to watch it!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="46" name="Sign2" x="67.1783" y="157.806" width="25.3503" height="19.0127">
+   <properties>
+    <property name="Text" value="Meteorite that fell on MT.MOON. (MOON STONE?)"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="50" name="Sign2" x="321.315" y="31.0541" width="93.1624" height="55.1369">
+   <properties>
+    <property name="Text" value="SPACE SHUTTLE COLUMBIA"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="47" name="Boy2" gid="1369" x="32.7993" y="252.758" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="MOON STONE? What's so special about it?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="56" name="Up" x="239.56" y="224.984" width="15.2102" height="31.0541">
+   <properties>
+    <property name="Destination" value="PCM"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

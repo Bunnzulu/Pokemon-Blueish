@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="40">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1342" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="15">
+  <data encoding="csv">
+217,217,217,217,218,218,252,252,252,252,
+223,224,488,2147484136,190,190,536,536,536,536,
+229,231,229,2147483877,190,190,190,190,190,190,
+190,190,190,190,190,190,221,1261,1261,222,
+190,190,190,190,190,190,229,230,230,2147483877,
+190,190,190,190,190,190,190,190,190,190,
+252,252,252,252,190,190,252,252,252,252,
+536,536,536,536,190,190,536,536,536,536,
+190,190,190,190,190,190,190,190,190,190,
+190,190,190,190,190,190,190,190,190,190,
+190,190,190,190,190,190,190,190,190,190,
+190,190,190,190,190,190,190,190,190,190,
+190,190,190,190,190,190,190,190,190,190,
+190,190,190,190,190,190,190,190,190,190,
+190,190,190,190,250,250,225,225,225,190
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="7" x="321.805" y="1.80451" width="12.0301" height="477.594"/>
+  <object id="8" x="-1.20301" y="481.805" width="320.602" height="10.2256"/>
+  <object id="9" x="-12.6316" y="0.601504" width="10.2256" height="482.406"/>
+  <object id="10" x="-1.77636e-15" y="-8.42105" width="321.805" height="8.42105"/>
+  <object id="11" x="0.601504" y="0" width="128.12" height="30.6767"/>
+  <object id="12" x="65.5639" y="33.6842" width="59.5489" height="42.7068"/>
+  <object id="13" name="Books" x="194.887" y="1.80451" width="123.308" height="61.3534">
+   <properties>
+    <property name="Text" value="It's encyclopedia-like, but the pages are blank!"/>
+   </properties>
+  </object>
+  <object id="14" name="Books" x="191.88" y="192.481" width="127.519" height="61.3534">
+   <properties>
+    <property name="Text" value="It's encyclopedia-like, but the pages are blank!"/>
+   </properties>
+  </object>
+  <object id="15" name="Books" x="1.80451" y="193.083" width="125.714" height="61.3534">
+   <properties>
+    <property name="Text" value="It's encyclopedia-like, but the pages are blank!"/>
+   </properties>
+  </object>
+  <object id="16" x="194.887" y="96.8421" width="122.707" height="30.6767"/>
+  <object id="17" name="Oak_LabDoor" x="128.12" y="448.722" width="61.9549" height="27.6692">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="18" name="Spawnpoint" x="152.782" y="415.038">
+   <point/>
+  </object>
+  <object id="19" name="Rival" gid="1347" x="83.8496" y="166.376" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Yo RED! Gramps isn't around!"/>
+    <property name="Type" value="Talk"/>
+   </properties>
+  </object>
+  <object id="20" name="Pokeball" gid="1330" x="196.534" y="126.278" width="30" height="30">
+   <properties>
+    <property name="Poke" value="Bulbasaur"/>
+    <property name="Text" value="You want the Posionous plant POKEMON,Bulbasaur"/>
+   </properties>
+  </object>
+  <object id="21" name="Pokeball" gid="1330" x="280.143" y="127.474" width="30" height="30">
+   <properties>
+    <property name="Poke" value="Charmander"/>
+    <property name="Text" value="You want the fire lizard POKEMON,Charmander"/>
+   </properties>
+  </object>
+  <object id="22" name="Pokeball" gid="1330" x="236.233" y="126.278" width="30" height="30">
+   <properties>
+    <property name="Poke" value="Squirtle"/>
+    <property name="Text" value="You want the water turtle POKEMON,Squirtle"/>
+   </properties>
+  </object>
+  <object id="23" name="Oak" gid="1348" x="135.579" y="117.053" width="32" height="32"/>
+  <object id="24" name="Stoppoint" x="153.383" y="157.594">
+   <point/>
+  </object>
+  <object id="27" name="B" x="206.316" y="152.782" visible="0">
+   <point/>
+  </object>
+  <object id="28" name="S" x="254.436" y="151.579" visible="0">
+   <point/>
+  </object>
+  <object id="29" name="C" x="301.353" y="150.977" visible="0">
+   <point/>
+  </object>
+  <object id="33" name="Aide" gid="1350" x="240.842" y="354.045" width="32" height="32">
+   <properties>
+    <property name="Text" value="I study POKEMON as PROF.OAK'S AIDE."/>
+   </properties>
+  </object>
+  <object id="34" name="Aide" gid="1350" x="32.7218" y="354.647" width="32" height="32">
+   <properties>
+    <property name="Text" value="I study POKEMON as PROF.OAK'S AIDE."/>
+   </properties>
+  </object>
+  <object id="35" name="Stop" x="128.12" y="246.015" width="64.3609" height="15.0376"/>
+  <object id="36" name="Point" x="158.797" y="257.444">
+   <point/>
+  </object>
+  <object id="38" name="Rivalpoint" x="157.593" y="206.917">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

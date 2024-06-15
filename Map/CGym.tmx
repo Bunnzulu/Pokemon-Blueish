@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="20" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="56">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="20" height="18">
+  <data encoding="csv">
+215,162,811,811,811,811,215,162,215,162,811,811,162,162,162,162,162,162,162,162,
+164,462,818,818,818,818,164,462,164,462,818,818,462,462,462,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,156,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,811,162,163,462,462,164,462,164,811,162,163,462,462,164,811,162,163,462,462,
+164,818,462,462,462,462,164,462,164,818,462,462,462,462,164,818,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,162,162,163,462,462,
+164,811,162,163,462,462,164,462,164,811,162,163,462,462,164,462,462,826,462,462,
+164,818,462,462,462,462,164,462,164,818,462,462,462,462,164,462,462,834,462,462,
+164,462,462,462,462,462,164,462,164,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,161,162,172,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,480,2147484128,462,462
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Wall1" gid="157" x="574.821" y="222.821" width="32" height="32"/>
+  <object id="3" name="Wall2" gid="157" x="383.821" y="222.821" width="32" height="32"/>
+  <object id="7" name="Wall6" gid="157" x="126.821" y="222.821" width="32" height="32"/>
+  <object id="8" name="Wall6" gid="157" x="157.821" y="222.821" width="32" height="32"/>
+  <object id="9" name="Wall5" gid="157" x="157.821" y="413.821" width="32" height="32"/>
+  <object id="10" name="Wall5" gid="157" x="125.821" y="413.821" width="32" height="32"/>
+  <object id="5" name="Wall3" gid="157" x="383.821" y="414.821" width="32" height="32"/>
+  <object id="6" name="Wall3" gid="157" x="416.821" y="414.821" width="32" height="32"/>
+  <object id="4" name="Wall2" gid="157" x="415.821" y="222.821" width="32" height="32"/>
+  <object id="2" name="Wall1" gid="157" x="606.484" y="222.82" width="32" height="32"/>
+  <object id="11" name="Wall4" gid="158" x="225.179" y="543.495" width="32" height="32"/>
+  <object id="12" name="Wall4" gid="158" x="225.179" y="576.495" width="32" height="32"/>
+  <object id="13" name="Announcer" gid="1356" x="498.863" y="435.2" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value=""/>
+    <property name="Dialouge" value="Yo! Champ in making! The hot-headed BLAINE is a fire POKEMON"/>
+    <property name="Dialouge2" value="pro! Douse his spirits with water! You better take some BURN HEALS!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="14" name="Totem" x="545.684" y="433.179" width="30.3158" height="12.8">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="Border" x="449.347" y="66.0211" width="29.6421" height="509.979"/>
+  <object id="25" name="Border" x="641.021" y="0.673684" width="22.2316" height="574.653"/>
+  <object id="16" name="Border" x="512" y="192" width="61.9789" height="28.9684"/>
+  <object id="17" name="Border" x="480.337" y="355.032" width="94.9895" height="28.9684"/>
+  <object id="39" name="Border" x="544.337" y="382.653" width="32.3368" height="45.1368"/>
+  <object id="26" name="Border" x="574.653" y="574.979" width="68.0421" height="28.9684"/>
+  <object id="28" name="Door" x="508.632" y="576.326" width="64" height="28.9684">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="27" name="Border" x="479.663" y="577.674" width="27.6211" height="28.9684"/>
+  <object id="18" name="Border" x="320.674" y="388.042" width="62.6526" height="28.9684"/>
+  <object id="19" name="Border" x="320" y="195.368" width="62.6526" height="28.9684"/>
+  <object id="24" name="Border" x="288.337" y="1.34737" width="30.9895" height="28.9684"/>
+  <object id="31" name="Border" x="223.663" y="480.337" width="30.9895" height="28.9684"/>
+  <object id="32" name="Border" x="30.3158" y="575.326" width="424.421" height="20.2105"/>
+  <object id="23" name="Border" x="382.653" y="2.02105" width="257.347" height="28.9684"/>
+  <object id="22" name="Border" x="256.674" y="2.02105" width="30.3158" height="510.653"/>
+  <object id="30" name="Border" x="192" y="1.34737" width="29.6421" height="510.653"/>
+  <object id="33" name="Border" x="-2.84217e-14" y="-0.673684" width="30.3158" height="574.653"/>
+  <object id="20" name="Border" x="64" y="195.368" width="62.6526" height="28.9684"/>
+  <object id="54" name="Border" x="66.6947" y="17.5158" width="123.284" height="43.7895"/>
+  <object id="55" name="Border" x="30.9895" y="0.673684" width="32.3368" height="33.0105"/>
+  <object id="34" name="Border" x="30.9895" y="193.347" width="31.6632" height="13.4737"/>
+  <object id="35" name="Border" x="31.6632" y="384.674" width="31.6632" height="13.4737"/>
+  <object id="36" name="Border" x="288.337" y="384" width="31.6632" height="13.4737"/>
+  <object id="37" name="Border" x="288.337" y="192" width="31.6632" height="13.4737"/>
+  <object id="38" name="Border" x="479.663" y="194.021" width="31.6632" height="13.4737"/>
+  <object id="48" name="Q1" x="481.011" y="208.168" width="30.3158" height="46.4842">
+   <properties>
+    <property name="Question" value="CATERPIE evolves into BUTTERFREE?"/>
+   </properties>
+  </object>
+  <object id="50" name="Q3" x="287.663" y="206.821" width="30.3158" height="46.4842">
+   <properties>
+    <property name="Question" value="POLIWAG evolves 3 times?"/>
+   </properties>
+  </object>
+  <object id="51" name="Q4" x="287.663" y="400.842" width="30.3158" height="46.4842">
+   <properties>
+    <property name="Question" value="Are thunder moves effective against ground element-type POKEMON?"/>
+   </properties>
+  </object>
+  <object id="52" name="Q5" x="31.6632" y="400.842" width="30.3158" height="46.4842">
+   <properties>
+    <property name="Question" value="POKEMON of the same kind and level are not identical?"/>
+   </properties>
+  </object>
+  <object id="53" name="Q6" x="32.3368" y="207.495" width="30.3158" height="46.4842">
+   <properties>
+    <property name="Question" value="TM28 contains TOMBSTONER?"/>
+   </properties>
+  </object>
+  <object id="49" name="Q2" x="319.326" y="14.8211" width="61.9789" height="46.4842">
+   <properties>
+    <property name="Question" value="There are 9 certified POKEMON LEAGUE BADGEs?"/>
+   </properties>
+  </object>
+  <object id="21" name="Border" x="63.3263" y="388.042" width="62.6526" height="28.9684"/>
+  <object id="29" name="Spawn" x="538.274" y="552.421">
+   <point/>
+  </object>
+  <object id="40" name="C1Burglar" gid="1351" x="535.074" y="311.4" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="I can't help stealing other people's POKEMON!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I surrender!"/>
+    <property name="BattleStart" value="I was a thief, but I became straight as a trainer!"/>
+    <property name="Money" type="int" value="3240"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Growlithe-36-Take Down_Leer_Ember_Roar-Burglar-Growlithe,Vulpix-36-Flamethrower_Confuse Ray_Roar_Quick Attack-Burglar-Vulpix,Ninetales-36-Ember_Tail Whip_Quick Attack_Roar-Burglar-Ninetales"/>
+   </properties>
+  </object>
+  <object id="41" name="C1Super Nerd" gid="1351" x="531.705" y="132.874" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Fire, or to be more precise, combustion...-Blah, blah, blah, blah..."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Yow! Hot, hot, hot!"/>
+    <property name="BattleStart" value="Do you know how hot POKEMON fire breath can get?"/>
+    <property name="Money" type="int" value="900"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Vulpix-36-Flamethrower_Confuse Ray_Roar_Quick Attack-Super Nerd-Vulpix,Vulpix-36-Flamethrower_Confuse Ray_Roar_Quick Attack-Super Nerd-Vulpix,Ninetales-36-Ember_Tail Whip_Quick Attack_Roar-Super Nerd-Ninetales"/>
+   </properties>
+  </object>
+  <object id="42" name="C2Super Nerd" gid="1351" x="348.463" y="144.326" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="My theories are too complicated for you!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Waah! My studies!"/>
+    <property name="BattleStart" value="You can't win! I have studied POKEMON totally!"/>
+    <property name="Money" type="int" value="850"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Ponyta-34-Stomp_Tail Whip_Ember-Super Nerd-Ponyta,Charmander-34-Slash_Rage_Leer_Ember-Super Nerd-Charmander,Vulpix-34-Tail Whip_Confuse Ray_Roar_Quick Attack-Super Nerd-Vulpix,Growlithe-34-Take Down_Leer_Ember_Roar-Super Nerd-Growlithe"/>
+   </properties>
+  </object>
+  <object id="43" name="C2Burglar" gid="1351" x="350.484" y="322.179" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="I wish there was a thief POKEMON! I'd use that!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Too hot to handle!"/>
+    <property name="BattleStart" value="I just like using fire POKEMON!"/>
+    <property name="Money" type="int" value="3690"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Ponyta-41-Fire Spin_Growl_Stomp_Tail Whip-Burglar-Ponyta"/>
+   </properties>
+  </object>
+  <object id="44" name="C3Super Nerd" gid="1351" x="347.789" y="529" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="BLAINE was lost in the mountains when a fiery bird POKEMON-appeared. It's light enabled BLAINE to find his way down!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Ow!"/>
+    <property name="BattleStart" value="I know why BLAINE became a trainer!"/>
+    <property name="Money" type="int" value="1025"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Rapidash-41-Fire Spin_Growl_Stomp_Tail Whip-Super Nerd-Rapidash"/>
+   </properties>
+  </object>
+  <object id="45" name="C3Burglar" gid="1351" x="69.5626" y="534.218" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Us fire POKEMON fans like PONYTA and NINETALES!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Yowza! Too hot!"/>
+    <property name="BattleStart" value="I've been to many GYMs, but this is my favorite!"/>
+    <property name="Money" type="int" value="3330"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Vulpix-37-Flamethrower_Confuse Ray_Roar_Quick Attack-Burglar-Vulpix,Growlithe-37-Take Down_Leer_Ember_Roar-Burglar-Growlithe"/>
+   </properties>
+  </object>
+  <object id="46" name="C4Super Nerd" gid="1351" x="95.1579" y="336.326" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Water beats fire! But, fire melts ice POKEMON!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh! Snuffed out!"/>
+    <property name="BattleStart" value="Fire is weak against H2O!"/>
+    <property name="Money" type="int" value="3330"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Growlithe-37-Take Down_Leer_Ember_Roar-Super Nerd-Growlithe,Vulpix-37-Flamethrower_Confuse Ray_Roar_Quick Attack-Super Nerd-Vulpix"/>
+   </properties>
+  </object>
+  <object id="47" name="Blaine" gid="1353" x="94.4842" y="128.505" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="FIRE BLAST is the ultimate fire technique! Don't waste it on"/>
+    <property name="AfterBattle2" value="water POKEMON!"/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="Super Potion-8"/>
+    <property name="Dialouge" value="Hah! I am BLAINE! I am the LEADER of CINNABAR GYM! My fiery"/>
+    <property name="Dialouge2" value="POKEMON will incinerate all challengers! Hah! You better have"/>
+    <property name="Dialouge3" value="BURN HEAL!"/>
+    <property name="Money" type="int" value="4653"/>
+    <property name="Team" value="Growlithe-42-Ember_Leer_Take Down_Agility-Blaine-Growlithe,Ponyta-40-Tail Whip_Stomp_Growl_Fire Spin-Blaine-Ponyta,Rapidash-42-Tail Whip_Stomp_Growl_Fire Spin-Blaine-Rapidash,Arcanine-47-Roar_Ember_Fire Blast_Take Down-Blaine-Arcanine"/>
+    <property name="WonBattle1" value="I have burnt out! You have earned the VOLCANOBADGE!"/>
+    <property name="WonBattle2" value="Hah! The VOLCANOBADGE heightens the SPECIAL abilities of your"/>
+    <property name="WonBattle3" value="POKEMON! Here, you can have this too!"/>
+    <property name="WonBattle4" value="TM38 contains FIRE BLAST! Teach it to fire-type POKEMON!"/>
+    <property name="WonBattle5" value="CHARMELEON or PONYTA would be good bets!"/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

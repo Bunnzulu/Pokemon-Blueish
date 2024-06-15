@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="22">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+249,249,249,251,252,252,252,252,
+166,166,166,259,260,260,260,260,
+239,166,166,239,166,166,166,166,
+166,166,166,166,166,166,166,166,
+239,166,166,239,166,273,266,266,
+166,166,166,166,166,283,166,166,
+166,166,166,166,166,283,166,258,
+166,166,165,165,166,283,166,258
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="159.888" y="129.048" width="95.8129" height="30.8398"/>
+  <object id="9" name="Border" x="0.568686" y="256.006" width="63.7623" height="30.8398"/>
+  <object id="10" name="Border" x="127.526" y="256.006" width="36.6905" height="30.8398"/>
+  <object id="2" name="Border" x="160.486" y="159.888" width="30.5404" height="95.214"/>
+  <object id="3" name="Border" x="-14.9708" y="29.6421" width="14.6713" height="226.957"/>
+  <object id="8" name="Border" x="255.748" y="33.065" width="14.6713" height="226.957"/>
+  <object id="6" name="Border" x="0.276556" y="0.39207" width="95.5756" height="29.3637"/>
+  <object id="7" name="Border" x="96.7394" y="0.0808991" width="157.499" height="61.7254"/>
+  <object id="11" name="Spawn" x="94.2847" y="240.224">
+   <point/>
+  </object>
+  <object id="12" name="Door" x="64.7235" y="255.782" width="62.8564" height="13.3803">
+   <properties>
+    <property name="Destination" value="Safari Zone MA"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Main Zone NPCs" visible="0">
+  <object id="5" name="Sara" gid="1383" x="95.3825" y="90.5544" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Where did my boy friend, ERIK, go?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="4" name="Man" gid="1329" x="1.6655" y="156.725" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="'m catching POKEMON to take home as gifts!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Area 1 NPCs" visible="0">
+  <object id="13" name="A1Man" gid="1329" x="31.9064" y="158.821" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="How many did you catch? I'm bushed from the work!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="14" name="A1Steve" gid="1403" x="126.522" y="95.6444" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="I caught a CHANSEY! That makes this all worthwhile!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="A1John" gid="1443" x="191.794" y="94.7462" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Whew! I'm tired from all the fun!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Area 2 NPCs" visible="0">
+  <object id="16" name="A2Man" gid="1441" x="96.5801" y="155.228" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Go to the deepest part of the SAFARI ZONE. You will win a prize!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="A2Man" gid="1386" x="0.168421" y="151.336" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="My EEVEE evolving into FLAREON! But, a friend's EEVEE turned into"/>
+    <property name="Dialouge2" value="a VAPOREON! I wonder why?"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="18" name="A2Man" gid="1405" x="160.954" y="96.0456" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="You can keep any item you find on the ground here. But, you'll run"/>
+    <property name="Dialouge2" value="out of time if you try for all of them at once!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Area 3 NPCs">
+  <object id="19" name="A3Man" gid="1329" x="96.8795" y="154.03" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Tossing ROCKs at POKEMON might make them run, but they'll be easier"/>
+    <property name="Dialouge2" value="to catch."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="20" name="A3Man" gid="1357" x="-1.02924" y="88.4585" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Using BAIT will make POKEMON easier to catch."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="21" name="A3Woman" gid="1424" x="191.794" y="95.1474" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="I hiked a lot, but I didn't see any POKEMON I wanted."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

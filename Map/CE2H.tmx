@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="14" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="14" height="8">
+  <data encoding="csv">
+225,225,225,225,225,225,225,225,225,225,225,225,251,251,
+798,798,798,798,798,798,798,798,798,798,798,798,259,259,
+1129,1129,1129,1129,1129,1129,1129,1129,1129,1129,1129,1129,1129,1129,
+798,798,798,798,798,798,798,798,798,798,798,798,798,798,
+814,815,798,798,798,798,798,798,798,798,798,798,798,798,
+822,823,798,798,798,798,798,798,798,798,798,798,798,798,
+509,509,798,798,798,798,251,251,798,798,798,798,251,251,
+517,517,798,250,250,798,259,259,798,798,798,798,259,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Rect" x="67.3039" y="66.4005" width="380.335" height="25.7471"/>
+  <object id="2" name="Rect" x="-58.2698" y="-0.451704" width="58.7215" height="257.923"/>
+  <object id="3" name="Rect" x="1.35511" y="190.167" width="58.7215" height="66.4005"/>
+  <object id="9" name="Rect" x="1.80682" y="257.923" width="94.4061" height="15.8096"/>
+  <object id="17" name="Rect" x="0.255573" y="127.618" width="35.0709" height="63.1226"/>
+  <object id="10" name="Door" x="96.6647" y="258.375" width="63.2386" height="15.8096">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="14" name="Desk" x="-1.42109e-14" y="64.5937" width="68.2073" height="29.1735"/>
+  <object id="4" name="Rect" x="194.684" y="188.812" width="58.7215" height="66.4005"/>
+  <object id="8" name="Rect" x="159.903" y="257.923" width="235.789" height="18.9716"/>
+  <object id="5" name="Rect" x="383.948" y="190.619" width="63.2386" height="66.4005"/>
+  <object id="6" name="Rect" x="384.852" y="-1.35511" width="63.2386" height="66.4005"/>
+  <object id="7" name="Rect" x="448.542" y="-1.80682" width="29.3608" height="258.826"/>
+  <object id="11" name="Man" gid="1352" x="320.519" y="190.358" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Why did she bring her brother?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="Girl" gid="1416" x="101.895" y="161.449" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="I'm on vacation with my brother and boy friend. CELADON is such a"/>
+    <property name="Dialouge2" value="pretty city!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="Woman" gid="1420" x="33.2357" y="64.784" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="POKEMON? No, this is a hotel for people. We're full up."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="16" name="Spawn" x="127.202" y="238.892">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

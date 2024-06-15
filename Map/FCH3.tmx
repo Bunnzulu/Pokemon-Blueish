@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+194,194,174,194,194,194,194,194,
+166,166,166,166,166,166,166,166,
+166,166,166,166,166,166,166,166,
+166,166,166,166,166,167,184,204,
+166,166,166,166,166,166,208,2147483856,
+166,166,166,166,166,166,166,166,
+166,166,166,166,166,166,166,166,
+166,166,145,145,166,166,166,166
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Door" x="63.7754" y="256.299" width="64.3743" height="8.38363">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="11" name="Door2" x="66.2754" y="1.29942" width="27.8743" height="18.8836">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="2" name="Spawn" x="95.214" y="240.73">
+   <point/>
+  </object>
+  <object id="12" name="Spawn2" x="80.214" y="60.2298">
+   <point/>
+  </object>
+  <object id="4" name="Border" x="-9.8807" y="-1.90702" width="11.0784" height="258.206"/>
+  <object id="5" name="Border" x="257.119" y="-0.907018" width="11.0784" height="258.206"/>
+  <object id="6" name="Border" x="129.119" y="255.093" width="128.078" height="12.2064"/>
+  <object id="7" name="Border" x="0.619298" y="256.593" width="62.5784" height="12.2064"/>
+  <object id="8" name="Border" x="193.619" y="95.093" width="62.5784" height="56.7064"/>
+  <object id="9" name="Border" x="94.1193" y="0.592982" width="161.578" height="24.7064"/>
+  <object id="10" name="Border" x="0.119298" y="0.592982" width="65.0784" height="24.7064"/>
+  <object id="13" name="FISHING GURU's older brother" gid="1384" x="161.5" y="120.5" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I'm the FISHING GURU's older brother! I simply Looove fishing!"/>
+    <property name="Dialouge2" value="I like your style! Take this and fish, young one!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="Good Rod"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="16">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1470" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="10">
+  <data encoding="csv">
+849,849,129,542,129,129,469,129,129,849,
+857,857,137,137,137,137,137,137,137,857,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,467,827,2147484136,467,137,137,137,
+137,137,137,467,534,535,467,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,137,137,
+1165,137,137,137,137,137,137,137,137,1165,
+1173,137,151,151,137,137,137,137,137,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Rival_sis" gid="1469" x="97.6842" y="155.549" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Hi RED! BLUE is out at Grandpa's lab."/>
+    <property name="Type" value="Talk"/>
+   </properties>
+  </object>
+  <object id="2" name="RivalHouse0_O" x="94.4361" y="276.692">
+   <point/>
+  </object>
+  <object id="3" name="RivalHouseDoor" x="69.1729" y="318.195" width="63.7594" height="15.6391">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="4" x="321.203" y="0" width="10.8271" height="321.203"/>
+  <object id="5" x="134.737" y="320.602" width="196.091" height="13.8346"/>
+  <object id="15" x="-1.80451" y="322.407" width="67.9704" height="13.8346"/>
+  <object id="6" x="-11.4286" y="1.20301" width="10.8271" height="320.602"/>
+  <object id="7" x="2.40602" y="-11.4286" width="318.195" height="9.62406"/>
+  <object id="8" x="3.00752" y="3.00752" width="57.7444" height="54.1353"/>
+  <object id="9" x="290.526" y="1.20301" width="27.0677" height="58.9474"/>
+  <object id="10" x="129.323" y="128.12" width="60.1504" height="51.1278"/>
+  <object id="11" x="286.316" y="256.241" width="33.0827" height="63.7594"/>
+  <object id="12" x="0" y="256.842" width="34.2857" height="63.7594"/>
+  <object id="13" x="63.1579" y="0.601504" width="223.759" height="22.8571"/>
+  <object id="14" name="Book" gid="1488" x="128.962" y="156.353" width="32" height="30"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+249,249,249,1252,1252,249,249,249,
+802,802,536,426,426,536,802,802,
+802,802,802,802,802,802,802,802,
+802,802,1260,1261,1261,1262,802,802,
+802,802,1268,1269,1269,1270,802,802,
+802,802,802,802,802,802,802,802,
+509,509,802,802,802,802,509,509,
+517,517,806,806,802,802,517,517
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="0.59883" y="0" width="256.599" height="23.6538"/>
+  <object id="2" name="Border" x="65.2725" y="95.8129" width="126.653" height="55.3918"/>
+  <object id="4" name="Border" x="0.59883" y="191.626" width="62.2784" height="64.6737"/>
+  <object id="5" name="Border" x="191.326" y="191.027" width="62.2784" height="64.6737"/>
+  <object id="6" name="Border" x="131.251" y="256.599" width="60.6737" height="18.5637"/>
+  <object id="7" name="Border" x="-23.4152" y="-1.40117" width="22.6737" height="197.23"/>
+  <object id="10" name="Door" x="62.5848" y="255.932" width="69.3404" height="20.5637">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="8" name="Border" x="256.585" y="-5.40117" width="22.6737" height="197.23"/>
+  <object id="3" name="Border" x="64.6737" y="31.1392" width="127.251" height="25.1509"/>
+  <object id="9" name="Spawn" x="92.6667" y="237.333">
+   <point/>
+  </object>
+  <object id="11" name="Chief" gid="1350" x="127.333" y="92.6667" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Hehehe! The slots just reel in the dough, big time!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="Rocket" gid="1363" x="26.6667" y="143.667" width="32" height="30">
+   <properties>
+    <property name="Dialouge" value="CHIEF! We just shipped 2000 POKEMON as slot prizes!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="Man" gid="1401" x="146.667" y="206.667" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Don't touch the poster at the GAME CORNER! There's no secret switch"/>
+    <property name="Dialouge2" value="behind it"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

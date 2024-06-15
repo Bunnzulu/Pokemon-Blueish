@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="14" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="4">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="14" height="8">
+  <data encoding="csv">
+217,217,217,217,217,217,217,217,217,217,217,217,217,217,
+234,234,234,234,234,234,221,223,234,234,234,234,234,234,
+234,234,234,234,234,234,237,238,234,234,234,234,234,234,
+234,234,234,234,234,234,234,234,234,234,234,234,234,234,
+234,234,234,234,234,234,234,234,234,234,234,234,234,234,
+234,234,234,234,234,234,234,234,234,234,234,234,234,234,
+234,234,234,234,234,234,234,234,234,234,234,234,234,234,
+234,234,234,234,234,234,233,233,234,234,234,234,234,234
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Hel" gid="1328" x="227.468" y="107.244" width="32" height="32"/>
+  <object id="2" name="Spawn" x="199.201" y="97.5681">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

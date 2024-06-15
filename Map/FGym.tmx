@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="36">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="18">
+  <data encoding="csv">
+217,217,217,217,217,217,217,217,217,217,
+225,225,225,225,225,225,225,225,225,225,
+225,225,129,129,225,225,225,129,225,225,
+225,225,225,225,129,129,225,129,225,225,
+129,129,225,225,129,225,225,129,225,225,
+225,225,225,225,129,225,225,129,225,225,
+129,225,129,129,225,225,129,225,225,225,
+129,225,225,225,225,225,129,225,225,225,
+225,225,129,129,129,129,129,225,225,225,
+225,225,225,225,225,225,129,225,225,225,
+225,225,129,225,225,225,225,129,225,225,
+129,129,129,225,225,225,225,129,225,225,
+225,225,129,129,129,129,129,129,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,228,225,225,228,225,225,225,
+225,225,225,236,225,225,236,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,233,233,225,225,225,225
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="F1Juggler" gid="1403" x="32.8316" y="415.842" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I like poison and sleep techniques, as they linger after battle!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You had my fooled!"/>
+    <property name="BattleStart" value="Let's see you beat my special techniques!"/>
+    <property name="Money" type="int" value="1190"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Drowzee-34-Psychic_Poison Gas_Headbutt_Confusion-Juggler-Drowzee,Kadabra-34-Recover_Psybeam_Disable_Confusion-Juggler-Kadabra"/>
+   </properties>
+  </object>
+  <object id="2" name="F2Juggler" gid="1403" x="258.863" y="451.2" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="So, you mix brawn with brains? Good strategy!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="What? Extraordinary!"/>
+    <property name="BattleStart" value="Strength isn't the key for POKEMON! It's strategy! I'll show you-how strategy can beat brute strength!"/>
+    <property name="Money" type="int" value="1330"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Hypno-38-Psychic_Poison Gas_Headbutt_Confusion-Juggler-Hypno"/>
+   </properties>
+  </object>
+  <object id="3" name="F1Tamer" gid="1403" x="257.516" y="97.5158" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I still have much to learn!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Awoo!"/>
+    <property name="BattleStart" value="I also study the way of the ninja with master KOGA!-Ninja have a long history of using animals!"/>
+    <property name="Money" type="int" value="1320"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Arbok-33-Glare_Bite_Poison Sting_Leer-Tamer-Arbok,Sandslash-33-Poison Sting_Slash_Sand Attack_Scratch-Tamer-Sandslash,Arbok-33-Glare_Bite_Poison Sting_Leer-Tamer-Arbok"/>
+   </properties>
+  </object>
+  <object id="4" name="Border" x="321.347" y="30.3158" width="20.2105" height="544.337"/>
+  <object id="6" name="Border" x="222.316" y="61.9789" width="32.3368" height="129.347"/>
+  <object id="7" name="Border" x="191.326" y="189.979" width="32.3368" height="128.674"/>
+  <object id="8" name="Border" x="64" y="254.653" width="125.305" height="30.3158"/>
+  <object id="9" name="Border" x="66.6947" y="383.326" width="189.305" height="30.3158"/>
+  <object id="10" name="Border" x="223.663" y="319.326" width="33.6842" height="61.3053"/>
+  <object id="11" name="Border" x="61.3053" y="318.653" width="33.6842" height="61.3053"/>
+  <object id="19" name="Totem" x="191.326" y="450.695" width="33.6842" height="61.3053">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="20" name="Totem" x="94.3158" y="449.347" width="33.6842" height="61.3053">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="17" name="Border" x="0.673684" y="192" width="26.2737" height="61.3053"/>
+  <object id="18" name="Border" x="128.674" y="123.958" width="33.6842" height="66.0211"/>
+  <object id="12" name="Border" x="2.69474" y="350.316" width="93.6421" height="33.0105"/>
+  <object id="23" name="Border" x="1.34737" y="576" width="124.632" height="30.9895"/>
+  <object id="24" name="Border" x="194.021" y="577.347" width="124.632" height="30.9895"/>
+  <object id="13" name="Border" x="61.9789" y="191.326" width="67.3684" height="33.0105"/>
+  <object id="14" name="Border" x="61.3053" y="62.6526" width="67.3684" height="33.0105"/>
+  <object id="15" name="Border" x="-4.9738e-14" y="125.305" width="60.6316" height="33.0105"/>
+  <object id="16" name="Border" x="130.695" y="92.2947" width="60.6316" height="33.0105"/>
+  <object id="5" name="Border" x="-19.5368" y="33.0105" width="20.2105" height="544.337"/>
+  <object id="21" name="Door" x="126.653" y="577.347" width="66.6947" height="14.8211">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="22" name="Spawn" x="156.295" y="554.442">
+   <point/>
+  </object>
+  <object id="25" name="F3Juggler" gid="1444" x="224.505" y="287.495" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I will keep on training under KOGA, my ninja master!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I'm done for!"/>
+    <property name="BattleStart" value="I wanted to become a ninja, so I joined this GYM!"/>
+    <property name="Money" type="int" value="1085"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Drowzee-31-Disable_Poison Gas_Headbutt_Confusion-Juggler-Drowzee,Drowzee-31-Disable_Poison Gas_Headbutt_Confusion-Juggler-Drowzee,Kadabra-31-Recover_Psybeam_Disable_Confusion-Juggler-Kadabra,Drowzee-31-Disable_Poison Gas_Headbutt_Confusion-Juggler-Drowzee"/>
+   </properties>
+  </object>
+  <object id="26" name="F2Tamer" gid="1446" x="96.5053" y="190.484" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="You impressed me! Here's a hint! Look very closely for gaps-in the invisible walls!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Whoa! He's got it!"/>
+    <property name="BattleStart" value="Stop right there! Our invisible walls have you frustrated?"/>
+    <property name="Money" type="int" value="1360"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Sandslash-34-Poison Sting_Slash_Sand Attack_Scratch-Tamer-Sandslash,Arbok-34-Glare_Bite_Poison Sting_Leer-Tamer-Arbok"/>
+   </properties>
+  </object>
+  <object id="27" name="F4Juggler" gid="1445" x="63.4947" y="256.505" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="Where there is light, there is shadow! Light and shadow!-Which do you choose?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Dropped my balls!"/>
+    <property name="BattleStart" value="Master KOGA comes from a long line of ninjas! What do you-descend from?"/>
+    <property name="Money" type="int" value="1190"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Drowzee-34-Psychic_Poison Gas_Headbutt_Confusion-Juggler-Drowzee,Hypno-34-Disable_Poison Gas_Headbutt_Confusion-Juggler-Hypno"/>
+   </properties>
+  </object>
+  <object id="28" name="Announcer" gid="1356" x="161.853" y="476.453" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value="It's amazing how ninja can terrify even now!"/>
+    <property name="Dialouge" value="Yo! Champ in making! FUCHSIA GYM is riddled with invisible walls!"/>
+    <property name="Dialouge2" value="KOGA might appear close, but he's blocked off! You have to find"/>
+    <property name="Dialouge3" value="gaps in the walls to reach him!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="29" name="Eyes" x="32.3368" y="414.316" width="33.6842" height="97.6842">
+   <properties>
+    <property name="Trainer" value="F1Juggler"/>
+   </properties>
+  </object>
+  <object id="30" name="Eyes" x="257.347" y="453.389" width="33.6842" height="57.2632">
+   <properties>
+    <property name="Trainer" value="F2Juggler"/>
+   </properties>
+  </object>
+  <object id="31" name="Eyes" x="256.674" y="250.611" width="66.0211" height="36.3789">
+   <properties>
+    <property name="Trainer" value="F3Juggler"/>
+   </properties>
+  </object>
+  <object id="32" name="Eyes" x="256" y="95.6632" width="31.6632" height="65.3474">
+   <properties>
+    <property name="Trainer" value="F1Tamer"/>
+   </properties>
+  </object>
+  <object id="33" name="Eyes" x="97.0105" y="94.3158" width="31.6632" height="65.3474">
+   <properties>
+    <property name="Trainer" value="F2Tamer"/>
+   </properties>
+  </object>
+  <object id="34" name="Eyes" x="28.9684" y="225.011" width="33.0105" height="39.7474">
+   <properties>
+    <property name="Trainer" value="F4Juggler"/>
+   </properties>
+  </object>
+  <object id="35" name="Koga" gid="1447" x="128.842" y="355.537" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="When afflicted by TOXIC, POKEMON suffer more and more as battle"/>
+    <property name="AfterBattle2" value="progresses! It will surely terrorize foes!"/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="X Attack-8"/>
+    <property name="Dialouge" value="Fwahahaha! A mere child like you dares to challenge me?"/>
+    <property name="Dialouge2" value="Very well, I shall show you true terror as a ninja master!"/>
+    <property name="Dialouge3" value="You shall feel the despair of poison and sleep techniques!"/>
+    <property name="Money" type="int" value="4257"/>
+    <property name="Team" value="Koffing-37-Tackle_Smog_Sludge_SmokeScreen-Koga-Koffing,Muk-39-Disable_Poison Gas_Minimize_Sludge-Koga-Muk,Koffing-37-Tackle_Smog_Sludge_SmokeScreen-Koga-Koffing,Weezing-43-Smog_Sludge_Toxic_Selfdestruct-Koga-Weezing"/>
+    <property name="WonBattle1" value="Humph! You have proven your worth! Here! Take the SOULBADGE!"/>
+    <property name="WonBattle2" value="Now that you have the SOULBADGE, the DEFENSE of your POKEMON"/>
+    <property name="WonBattle3" value="increases! It also lets you SURF outside of battle! Ah! Take this too"/>
+    <property name="WonBattle4" value="TM06 contains TOXIC! It is a secret technique over 400 years old!"/>
+    <property name="WonBattle5" value="is drained to heal your POKEMON!"/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

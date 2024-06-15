@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="28" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="358">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1342" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor 1" width="30" height="28" visible="0">
+  <data encoding="csv">
+215,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,216,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,463,463,463,462,462,462,462,462,462,462,462,462,830,462,830,462,830,462,830,462,830,462,462,462,462,462,462,463,164,
+164,463,463,463,462,462,462,462,462,156,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,463,164,
+164,463,826,462,462,462,488,2147484136,462,164,462,462,462,462,462,462,462,462,462,462,462,462,215,162,162,163,462,462,463,164,
+164,463,834,462,462,462,496,2147484144,462,164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,463,164,
+164,462,462,462,1169,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,164,
+164,462,462,462,1177,462,462,462,462,164,462,462,462,156,162,163,462,462,161,162,162,163,172,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,463,463,463,463,462,164,462,462,462,462,462,462,463,463,463,462,488,2147484136,462,462,463,164,
+164,162,162,162,162,162,162,163,463,463,462,462,462,164,462,462,462,462,462,462,463,463,463,462,496,2147484144,462,462,463,164,
+164,462,462,830,480,831,802,801,830,462,462,462,462,164,462,462,524,462,524,462,462,463,463,462,462,462,462,463,463,164,
+164,462,462,462,480,802,802,801,462,462,462,462,462,164,462,462,532,462,532,462,462,463,463,462,462,462,462,463,463,164,
+164,462,462,830,480,802,802,801,830,462,462,462,462,164,462,462,462,462,462,462,462,462,463,463,462,462,462,462,462,164,
+164,462,462,462,480,802,802,801,462,462,462,156,162,163,162,162,162,162,162,162,162,163,463,463,462,462,161,162,162,164,
+164,462,462,830,480,802,802,801,830,462,462,164,462,462,462,462,462,462,463,463,463,463,462,462,462,462,462,462,463,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,462,462,462,462,463,463,462,462,462,462,462,462,462,462,463,164,
+164,462,462,830,480,802,802,801,830,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,462,462,462,462,161,162,462,462,162,163,462,462,161,162,162,164,
+164,462,462,830,480,802,802,801,830,462,462,164,462,462,486,486,486,486,486,486,462,462,463,463,462,462,463,463,463,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,494,494,494,494,494,494,462,462,463,463,156,462,462,462,463,164,
+164,462,462,830,480,802,802,801,830,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,164,
+164,462,462,830,480,802,802,801,830,462,462,164,462,462,486,486,486,486,486,486,462,462,462,462,164,462,462,462,462,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,494,494,494,494,494,494,462,461,462,462,164,462,462,462,462,164,
+164,462,462,830,480,802,802,801,830,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,463,463,462,462,462,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,463,463,462,462,462,164,
+164,462,462,462,480,802,802,801,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,463,463,462,462,463,463,
+161,162,162,163,480,802,802,801,161,162,162,163,162,162,162,162,162,162,162,162,162,162,162,162,463,463,462,462,463,463
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="1" name="WallA" gid="157" x="512.168" y="257.029" width="32" height="32"/>
+  <object id="262" name="WallB" gid="157" x="764.725" y="449.852" width="32" height="32"/>
+  <object id="2" name="WallA" gid="157" x="545.703" y="257.029" width="32" height="32"/>
+  <object id="263" name="WallB" gid="157" x="798.26" y="447.756" width="32" height="32"/>
+  <object id="3" name="WallA" gid="157" x="833.89" y="897.377" width="32" height="32"/>
+  <object id="4" name="WallA" gid="157" x="863.233" y="897.329" width="32" height="32"/>
+  <object id="5" name="WallA" gid="157" x="637.923" y="575.703" width="32" height="32"/>
+  <object id="6" name="WallA" gid="157" x="671.457" y="575.607" width="32" height="32"/>
+  <object id="7" name="Border" x="-1.04795" y="2.09591" width="32.4865" height="861.418"/>
+  <object id="92" name="Border" x="926.412" y="6.02028" width="32.4865" height="826.099"/>
+  <object id="41" name="Border" x="352.146" y="414.155" width="33.7946" height="454.591"/>
+  <object id="42" name="Border" x="414.936" y="227.093" width="28.5621" height="185.118"/>
+  <object id="43" name="Border" x="288.048" y="93.6646" width="28.5621" height="158.955"/>
+  <object id="46" name="Border" x="257.961" y="254.564" width="124.055" height="33.3751"/>
+  <object id="47" name="Border" x="30.347" y="63.5778" width="93.9684" height="63.4619"/>
+  <object id="49" name="Border" x="412.319" y="62.2696" width="32.41" height="32.067"/>
+  <object id="61" name="Border" x="254.036" y="318.662" width="32.41" height="32.067"/>
+  <object id="62" name="Border" x="255.344" y="382.76" width="32.41" height="32.067"/>
+  <object id="63" name="Border" x="256.653" y="445.55" width="32.41" height="32.067"/>
+  <object id="65" name="Border" x="256.653" y="573.746" width="32.41" height="32.067"/>
+  <object id="90" name="Border" x="252.728" y="766.041" width="32.41" height="32.067"/>
+  <object id="66" name="Border" x="254.036" y="639.153" width="32.41" height="32.067"/>
+  <object id="67" name="Border" x="255.344" y="704.559" width="32.41" height="32.067"/>
+  <object id="68" name="Border" x="1.5683" y="858.918" width="125.287" height="32.067"/>
+  <object id="91" name="Border" x="252.728" y="863.458" width="517.724" height="32.067"/>
+  <object id="69" name="Border" x="95.7533" y="764.733" width="32.41" height="32.067"/>
+  <object id="70" name="Border" x="94.4452" y="703.251" width="32.41" height="32.067"/>
+  <object id="71" name="Border" x="94.4452" y="637.845" width="32.41" height="32.067"/>
+  <object id="72" name="Border" x="97.0614" y="576.363" width="32.41" height="32.067"/>
+  <object id="73" name="Border" x="94.4452" y="512.265" width="32.41" height="32.067"/>
+  <object id="74" name="Border" x="93.137" y="448.166" width="32.41" height="32.067"/>
+  <object id="75" name="Border" x="95.7533" y="385.376" width="32.41" height="32.067"/>
+  <object id="76" name="Border" x="94.4452" y="319.97" width="32.41" height="32.067"/>
+  <object id="64" name="Border" x="252.728" y="514.881" width="32.41" height="32.067"/>
+  <object id="50" name="Border" x="477.726" y="62.2696" width="32.41" height="32.067"/>
+  <object id="51" name="Border" x="541.824" y="60.9615" width="32.41" height="32.067"/>
+  <object id="52" name="Border" x="607.23" y="63.5778" width="32.41" height="32.067"/>
+  <object id="53" name="Border" x="670.02" y="59.6534" width="32.41" height="32.067"/>
+  <object id="54" name="Border" x="898.942" y="62.2696" width="32.41" height="128.868"/>
+  <object id="55" name="Border" x="670.02" y="251.948" width="66.4212" height="128.868"/>
+  <object id="96" name="Border" x="893.709" y="258.488" width="32.41" height="128.868"/>
+  <object id="97" name="Border" x="862.314" y="318.662" width="32.41" height="68.6944"/>
+  <object id="98" name="Border" x="896.326" y="446.858" width="32.41" height="68.6944"/>
+  <object id="56" name="Border" x="638.625" y="255.872" width="32.41" height="62.1538"/>
+  <object id="57" name="Border" x="705.339" y="382.76" width="57.2644" height="62.1538"/>
+  <object id="95" name="Border" x="704.264" y="576.979" width="57.2644" height="62.1538"/>
+  <object id="99" name="Border" x="770.978" y="255.18" width="57.2644" height="62.1538"/>
+  <object id="103" name="Border" x="191.479" y="125.676" width="66.4212" height="62.1538"/>
+  <object id="100" name="Border" x="509.353" y="317.97" width="35.0262" height="62.1538"/>
+  <object id="101" name="Border" x="572.143" y="317.97" width="35.0262" height="62.1538"/>
+  <object id="102" name="Border" x="123.456" y="192.39" width="35.0262" height="62.1538"/>
+  <object id="94" name="Border" x="830.919" y="575.055" width="96.5081" height="30.7588"/>
+  <object id="58" name="Border" x="577.143" y="449.475" width="125.287" height="26.8345"/>
+  <object id="88" name="Border" x="765.513" y="607.758" width="32.41" height="160.263"/>
+  <object id="59" name="Border" x="578.451" y="483.486" width="62.4969" height="26.8345"/>
+  <object id="87" name="Border" x="577.143" y="510.956" width="31.1019" height="30.7588"/>
+  <object id="60" name="Border" x="386.157" y="418.08" width="316.273" height="26.8345"/>
+  <object id="48" name="Border" x="36.8877" y="122.443" width="22.0215" height="63.4619"/>
+  <object id="44" name="Border" x="29.0389" y="2.09591" width="928.552" height="33.3751"/>
+  <object id="45" name="Border" x="35.5795" y="287.267" width="283.646" height="33.3751"/>
+  <object id="77" name="Border" x="446.331" y="223.169" width="66.4977" height="33.3751"/>
+  <object id="78" name="Border" x="575.835" y="219.245" width="130.596" height="33.3751"/>
+  <object id="79" name="Border" x="702.723" y="130.292" width="130.596" height="33.3751"/>
+  <object id="81" name="Border" x="829.611" y="416.771" width="96.5846" height="33.3751"/>
+  <object id="82" name="Border" x="832.227" y="538.427" width="96.5846" height="33.3751"/>
+  <object id="89" name="Border" x="768.129" y="767.349" width="59.9571" height="124.944"/>
+  <object id="93" name="Border" x="896.326" y="828.831" width="59.9571" height="64.7701"/>
+  <object id="83" name="Border" x="702.723" y="537.119" width="66.4977" height="33.3751"/>
+  <object id="84" name="Border" x="575.835" y="542.351" width="59.9571" height="33.3751"/>
+  <object id="85" name="Border" x="450.255" y="576.363" width="188.153" height="66.0782"/>
+  <object id="86" name="Border" x="450.255" y="701.943" width="188.153" height="66.0782"/>
+  <object id="80" name="Border" x="705.339" y="166.92" width="32.4865" height="83.0838"/>
+  <object id="8" name="Hidden" x="246.269" y="493.586" width="53.4456" height="62.8772">
+   <properties>
+    <property name="Item" value="Moon Stone"/>
+   </properties>
+  </object>
+  <object id="9" name="Ball" gid="1330" x="447.147" y="126.083" width="30" height="30">
+   <properties>
+    <property name="Item" value="Escape Rope"/>
+   </properties>
+  </object>
+  <object id="10" name="Ball" gid="1330" x="577.094" y="696.17" width="30" height="30">
+   <properties>
+    <property name="Item" value="Carbos"/>
+   </properties>
+  </object>
+  <object id="11" name="F11Scientist" gid="1379" x="540.463" y="570.367" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="A key? I don't know what you're talking about."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Ouch!"/>
+    <property name="BattleStart" value="Who are you? There shouldn't be anyone here."/>
+    <property name="Money" type="int" value="1450"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Electrode-29-Light Screen_Selfdestruct_SonicBoom_Screech-Scientist-Electrode,Weezing-29-Sludge_Smog_Tackle-Scientist-Weezing"/>
+   </properties>
+  </object>
+  <object id="12" name="Switch" x="61.8292" y="142.521" width="32.4866" height="50.3017"/>
+  <object id="104" name="PokeMansionF1_ODoor" x="128.196" y="892.141" width="134.737" height="27.4706">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="268" name="Exit" x="830.325" y="897.381" width="76.0516" height="27.4706">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="107" name="PokeMansionA1_A2Door" x="161.731" y="321.006" width="28.8937" height="22.2308">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF2"/>
+   </properties>
+  </object>
+  <object id="111" name="PokeMansionG1_G2Door" x="672.084" y="739.14" width="28.8937" height="22.2308">
+   <properties>
+    <property name="Destination" value="Pokemon MansionFB1"/>
+   </properties>
+  </object>
+  <object id="105" name="O_PokeMansionF1Spawn" x="185.754" y="834.584">
+   <point/>
+  </object>
+  <object id="106" name="Eyes" x="444.762" y="533.715" width="94.185" height="35.3194">
+   <properties>
+    <property name="Trainer" value="F11Scientist"/>
+   </properties>
+  </object>
+  <object id="108" name="PokeMansionA2_A1Spawn" x="172.912" y="388.791">
+   <point/>
+  </object>
+  <object id="112" name="PokeMansionG2_G1Spawn" x="678.026" y="692.697">
+   <point/>
+  </object>
+  <object id="110" name="PokeMansionD_DSpawn" x="513.497" y="494.634">
+   <point/>
+  </object>
+  <object id="276" name="Tile" x="31.395" y="325.723" width="60.1737" height="529.79">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="277" name="Tile" x="287.787" y="334.88" width="64.0981" height="529.79">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="278" name="Tile" x="92.8769" y="795.34" width="197.527" height="69.3306">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="279" name="Tile" x="321.799" y="294.328" width="94.185" height="125.58">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="280" name="Tile" x="323.107" y="120.347" width="87.6444" height="125.58">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="281" name="Tile" x="32.7031" y="190.986" width="90.2606" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="282" name="Tile" x="159.591" y="190.986" width="90.2606" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="283" name="Tile" x="132.121" y="27.4706" width="56.2494" height="163.516">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="284" name="Tile" x="193.602" y="36.6275" width="214.532" height="49.7087">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="285" name="Tile" x="412.059" y="122.964" width="294.328" height="99.4175">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="286" name="Tile" x="702.463" y="23.5462" width="197.527" height="104.65">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="287" name="Tile" x="737.782" y="154.359" width="160.899" height="104.65">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="288" name="Tile" x="442.146" y="247.236" width="66.7144" height="167.44">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="289" name="Tile" x="446.071" y="248.544" width="196.219" height="66.7144">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="290" name="Tile" x="493.163" y="381.972" width="196.219" height="32.7031">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="291" name="Tile" x="606.97" y="311.334" width="60.1737" height="75.8712">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="292" name="Tile" x="741.707" y="316.566" width="120.347" height="70.6387">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="293" name="Tile" x="705.079" y="447.379" width="185.754" height="87.6444">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="294" name="Tile" x="385.897" y="771.794" width="385.897" height="87.6444">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="295" name="Tile" x="389.821" y="644.905" width="380.664" height="57.5575">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="296" name="Tile" x="385.897" y="448.687" width="58.8656" height="198.835">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="297" name="Tile" x="449.995" y="447.379" width="126.888" height="81.1037">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="298" name="Tile" x="771.794" y="536.331" width="62.79" height="65.4062">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="299" name="Tile" x="797.956" y="591.272" width="124.272" height="256.392">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor 2" width="30" height="28" visible="0">
+  <data encoding="csv">
+215,162,162,162,162,162,162,162,162,216,162,162,162,162,162,216,162,162,162,162,162,162,215,162,811,811,162,162,162,216,
+164,463,463,463,463,463,831,462,462,164,462,462,462,462,462,164,462,462,462,462,462,462,164,462,818,818,463,463,463,164,
+164,463,463,463,462,462,462,462,462,164,462,462,462,462,462,164,462,462,488,2147484136,462,462,172,462,462,462,463,463,463,164,
+164,463,463,463,462,462,462,462,462,172,462,462,462,462,462,164,462,462,496,2147484144,462,462,462,462,462,462,462,462,463,164,
+164,463,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,463,463,463,462,462,462,462,164,
+164,463,462,462,462,462,462,462,462,462,462,462,462,462,462,172,162,163,462,462,161,162,463,463,463,462,462,462,462,164,
+164,462,462,462,524,462,524,462,462,156,462,462,462,462,462,462,462,462,462,462,462,462,462,463,463,463,463,463,462,164,
+164,462,462,462,532,462,532,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,463,463,463,463,463,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,486,215,811,162,163,462,462,161,162,463,463,162,162,162,162,162,216,
+164,162,162,162,162,162,162,162,162,163,462,462,462,494,164,819,462,462,462,462,462,462,463,463,462,462,463,463,463,164,
+164,462,826,462,462,832,462,831,462,462,462,462,462,486,164,810,462,462,462,462,462,462,463,462,462,462,462,462,462,164,
+164,462,834,462,462,462,462,462,462,462,462,462,462,494,164,818,462,462,462,462,462,462,463,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,156,463,462,462,462,462,462,463,463,463,463,462,462,462,462,463,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,164,463,462,462,215,162,162,463,463,463,463,162,163,462,462,463,462,462,462,161,162,162,164,
+164,811,811,811,163,462,463,164,463,462,462,164,463,463,463,463,463,463,462,462,462,462,463,463,462,831,462,462,462,164,
+164,888,888,888,462,462,463,164,463,462,462,164,463,463,463,463,463,463,462,462,462,462,463,463,462,462,462,462,462,164,
+164,462,462,462,462,463,463,463,463,463,462,164,462,462,786,803,803,803,173,173,173,173,173,173,173,173,173,173,173,172,
+164,462,462,462,462,463,463,463,463,463,462,164,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,811,811,811,811,811,162,216,462,462,462,164,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,888,888,888,888,888,462,164,462,462,462,164,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,462,462,462,462,462,164,462,462,462,164,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,462,462,462,462,462,172,462,462,462,172,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,488,2147484136,488,2147484136,462,462,462,462,462,462,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,496,2147484144,496,2147484144,462,462,462,462,462,156,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,462,462,462,462,462,156,462,462,462,164,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,462,462,462,462,462,164,462,462,462,164,462,462,786,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+164,462,462,462,462,462,462,164,462,462,462,164,173,173,794,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,
+161,162,162,162,162,162,162,163,162,162,162,163,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803,803
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects" visible="0">
+  <object id="13" name="Ball2" gid="1330" x="896.719" y="253.933" width="30" height="30">
+   <properties>
+    <property name="Item" value="Calcium"/>
+   </properties>
+  </object>
+  <object id="14" name="Book2" gid="1339" x="575.046" y="82.069" width="32" height="30">
+   <properties>
+    <property name="Text" value="July 5 Guyana, South America"/>
+    <property name="Text2" value="A new POKEMON was discovered deep in the jungle."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="Book2" gid="1339" x="97.1789" y="721.32" width="32" height="30">
+   <properties>
+    <property name="Text" value="July 10"/>
+    <property name="Text2" value="We christened the newly discovered POKEMON, MEW."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="16" name="Wall2A" gid="157" x="578.189" y="288.468" width="32" height="32"/>
+  <object id="17" name="Wall2A" gid="157" x="606.484" y="288.468" width="32" height="32"/>
+  <object id="18" name="Wall2A" gid="158" x="221.885" y="735.944" width="32" height="32"/>
+  <object id="264" name="Wall2B" gid="158" x="285.81" y="159.57" width="32" height="32"/>
+  <object id="265" name="Wall2B" gid="158" x="287.002" y="194.152" width="32" height="32"/>
+  <object id="19" name="Wall2A" gid="158" x="221.981" y="769.478" width="32" height="32"/>
+  <object id="20" name="F21Burglar" gid="1373" x="95.083" y="573.511" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="Switches open and close alternating sets of doors!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh no! My bag of loot!"/>
+    <property name="BattleStart" value="I can't get out! This old place is one big puzzle!"/>
+    <property name="Money" type="int" value="3060"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Charmander-34-Slash_Rage_Leer_Ember-Burglar-Charmander,Charmeleon-34-Slash_Rage_Leer_Ember-Burglar-Charmeleon"/>
+   </properties>
+  </object>
+  <object id="21" name="Switch2" x="62.8772" y="337.441" width="31.4386" height="46.11"/>
+  <object id="22" name="Border2" x="225.31" y="385.647" width="27.2468" height="123.658"/>
+  <object id="116" name="Border2" x="257.797" y="383.551" width="27.2468" height="123.658"/>
+  <object id="117" name="Border2" x="160.433" y="511.401" width="160.337" height="60.7808"/>
+  <object id="157" name="Border2" x="152.049" y="572.183" width="99.5556" height="37.7258"/>
+  <object id="118" name="Border2" x="192.919" y="449.572" width="36.6784" height="60.7808"/>
+  <object id="119" name="Border2" x="30.4866" y="29.3429" width="159.289" height="30.3902"/>
+  <object id="120" name="Border2" x="34.6784" y="59.7335" width="89.076" height="64.9726"/>
+  <object id="122" name="Border2" x="286.187" y="18.8634" width="29.3427" height="104.795"/>
+  <object id="123" name="Border2" x="477.963" y="24.1031" width="29.3427" height="160.336"/>
+  <object id="124" name="Border2" x="286.187" y="190.728" width="29.3427" height="101.651"/>
+  <object id="128" name="Border2" x="508.353" y="158.241" width="67.069" height="32.4861"/>
+  <object id="129" name="Border2" x="640.395" y="157.193" width="67.069" height="32.4861"/>
+  <object id="137" name="Border2" x="637.252" y="255.701" width="290.283" height="32.4861"/>
+  <object id="138" name="Border2" x="452.812" y="256.749" width="122.611" height="32.4861"/>
+  <object id="146" name="Border2" x="448.62" y="381.455" width="122.611" height="32.4861"/>
+  <object id="147" name="Border2" x="384.695" y="448.524" width="190.728" height="58.6849"/>
+  <object id="151" name="Border2" x="354.304" y="442.236" width="26.1988" height="261.988"/>
+  <object id="154" name="Border2" x="225.406" y="773.39" width="26.1988" height="86.9796"/>
+  <object id="155" name="Border2" x="224.358" y="572.183" width="31.4386" height="129.946"/>
+  <object id="156" name="Border2" x="28.3907" y="572.183" width="159.289" height="66.0206"/>
+  <object id="153" name="Border2" x="4.28778" y="862.466" width="376.215" height="32.4861"/>
+  <object id="152" name="Border2" x="353.256" y="737.759" width="27.2468" height="154.049"/>
+  <object id="130" name="Border2" x="708.512" y="31.4388" width="26.1988" height="62.8767"/>
+  <object id="131" name="Border2" x="836.363" y="29.3429" width="60.7813" height="62.8767"/>
+  <object id="135" name="Border2" x="736.807" y="186.536" width="155.097" height="62.8767"/>
+  <object id="139" name="Border2" x="415.085" y="251.509" width="96.4117" height="124.706"/>
+  <object id="140" name="Border2" x="706.416" y="292.379" width="26.1988" height="151.953"/>
+  <object id="143" name="Border2" x="705.368" y="450.62" width="60.7813" height="54.4931"/>
+  <object id="148" name="Border2" x="577.518" y="512.449" width="353.16" height="27.2463"/>
+  <object id="150" name="Border2" x="383.647" y="832.075" width="81.7404" height="27.2463"/>
+  <object id="149" name="Border2" x="445.476" y="508.258" width="15.7193" height="354.208"/>
+  <object id="134" name="Border2" x="771.39" y="1.04817" width="60.7813" height="62.8767"/>
+  <object id="132" name="Border2" x="706.416" y="126.803" width="85.9322" height="62.8767"/>
+  <object id="142" name="Border2" x="833.219" y="285.043" width="93.2679" height="28.2943"/>
+  <object id="144" name="Border2" x="832.171" y="414.99" width="93.2679" height="28.2943"/>
+  <object id="145" name="Border2" x="355.352" y="413.942" width="290.283" height="28.2943"/>
+  <object id="141" name="Border2" x="735.759" y="291.187" width="35.6304" height="25.1504"/>
+  <object id="136" name="Border2" x="576.47" y="63.9254" width="64.9731" height="62.8767"/>
+  <object id="160" name="Border2" x="64.0211" y="703.177" width="126.802" height="62.8767"/>
+  <object id="133" name="Border2" x="895.048" y="28.295" width="33.5345" height="99.5551"/>
+  <object id="125" name="Border2" x="126.898" y="192.824" width="33.5345" height="59.7329"/>
+  <object id="126" name="Border2" x="188.728" y="191.776" width="33.5345" height="59.7329"/>
+  <object id="127" name="Border2" x="31.5346" y="290.283" width="288.187" height="28.2943"/>
+  <object id="159" name="Border2" x="28.3907" y="445.38" width="129.946" height="28.2943"/>
+  <object id="158" name="Border2" x="29.4387" y="460.052" width="99.5556" height="53.4451"/>
+  <object id="121" name="Border2" x="33.6305" y="121.563" width="27.2468" height="64.9726"/>
+  <object id="113" name="Border2" x="3.14392" y="-1.04774" width="27.2468" height="867.705"/>
+  <object id="114" name="Border2" x="929.535" y="-1.04774" width="27.2468" height="543.887"/>
+  <object id="115" name="Border2" x="30.3907" y="-2.09569" width="897.048" height="31.4381"/>
+  <object id="23" name="Eyes2" x="30.3906" y="543.888" width="64.9731" height="31.4386">
+   <properties>
+    <property name="Trainer" value="F21Burglar"/>
+   </properties>
+  </object>
+  <object id="161" name="PokeMansionA2_A1Door" x="160.337" y="321.722" width="31.4386" height="29.3427">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF1"/>
+   </properties>
+  </object>
+  <object id="163" name="PokeMansionB1_B2Door" x="223.214" y="320.674" width="31.4386" height="20.9591">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF3"/>
+   </properties>
+  </object>
+  <object id="167" name="PokeMansionF1_F2Door" x="799.588" y="452.716" width="31.4386" height="20.9591">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF3"/>
+   </properties>
+  </object>
+  <object id="165" name="PokeMansionC1_C2Door" x="191.775" y="32.4865" width="31.4386" height="20.9591">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF3"/>
+   </properties>
+  </object>
+  <object id="162" name="PokeMansionA1_A2Spawn" x="154.049" y="388.791">
+   <point/>
+  </object>
+  <object id="164" name="PokeMansionB2_B1Spawn" x="314.386" y="367.832">
+   <point/>
+  </object>
+  <object id="166" name="PokeMansionC2_C1Spawn" x="191.775" y="111.083">
+   <point/>
+  </object>
+  <object id="168" name="PokeMansionF2_F1Spawn" x="793.301" y="417.085">
+   <point/>
+  </object>
+  <object id="169" name="PokeMansionE_ESpawn" x="651.827" y="487.298">
+   <point/>
+  </object>
+  <object id="300" name="Tile2" x="35.3194" y="646.214" width="185.754" height="52.325">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="301" name="Tile2" x="35.3194" y="766.561" width="185.754" height="95.4931">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="302" name="Tile2" x="252.468" y="574.267" width="105.958" height="294.328">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="304" name="Tile2" x="35.3194" y="122.964" width="92.8769" height="159.591">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="308" name="Tile2" x="30.0869" y="283.863" width="31.395" height="159.591">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="309" name="Tile2" x="92.8769" y="317.874" width="31.395" height="126.888">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="310" name="Tile2" x="124.272" y="321.799" width="31.395" height="126.888">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="311" name="Tile2" x="159.591" y="357.118" width="64.0981" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="312" name="Tile2" x="289.096" y="317.874" width="64.0981" height="193.602">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="313" name="Tile2" x="320.491" y="35.3194" width="92.8769" height="277.322">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="314" name="Tile2" x="415.984" y="27.4706" width="68.0225" height="218.457">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="315" name="Tile2" x="357.118" y="316.566" width="53.6331" height="95.4931">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="316" name="Tile2" x="514.093" y="283.863" width="184.446" height="95.4931">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="317" name="Tile2" x="486.622" y="188.37" width="251.16" height="68.0225">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="319" name="Tile2" x="510.169" y="31.395" width="68.0225" height="120.347">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="320" name="Tile2" x="639.673" y="35.3194" width="68.0225" height="120.347">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="321" name="Tile2" x="794.032" y="91.5687" width="99.4175" height="92.8769">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="322" name="Tile2" x="733.858" y="316.566" width="95.4931" height="129.504">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="323" name="Tile2" x="829.351" y="313.95" width="95.4931" height="100.726">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="324" name="Tile2" x="833.275" y="446.071" width="95.4931" height="69.3306">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="318" name="Tile2" x="574.267" y="443.454" width="130.812" height="68.0225">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="305" name="Tile2" x="224.997" y="32.7031" width="58.8656" height="256.392">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="306" name="Tile2" x="128.196" y="58.8656" width="99.4175" height="129.504">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="307" name="Tile2" x="129.504" y="253.776" width="99.4175" height="31.395">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="303" name="Tile2" x="383.281" y="511.477" width="65.4062" height="320.491">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF2"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Floor 3" width="30" height="28" visible="0">
+  <data encoding="csv">
+215,162,162,162,162,162,162,162,162,162,162,162,162,162,162,216,811,811,811,811,811,811,215,162,463,463,463,463,463,463,
+164,462,462,462,462,462,461,462,462,462,463,463,463,463,462,164,818,818,818,818,818,818,164,462,463,463,463,463,463,463,
+164,462,462,462,462,462,462,462,462,462,462,462,463,463,462,164,462,462,462,462,462,462,164,462,462,462,463,463,463,463,
+164,462,462,462,462,462,462,462,462,462,462,462,463,463,462,172,462,462,462,462,462,462,172,462,462,462,463,463,463,463,
+164,463,463,462,462,462,462,462,462,463,826,462,462,462,462,462,462,462,488,2147484136,462,462,462,462,462,462,462,463,463,463,
+164,463,463,462,462,462,462,462,462,463,834,462,462,462,462,462,462,462,496,2147484144,462,462,462,462,462,462,462,463,463,463,
+164,463,463,463,463,463,463,463,463,463,462,462,462,462,462,156,462,462,462,462,462,463,463,462,462,462,462,462,462,164,
+164,463,463,463,463,463,463,463,463,463,462,462,462,462,462,164,462,462,462,462,462,463,463,462,462,462,462,462,462,164,
+164,463,463,463,463,462,462,462,161,162,162,216,486,462,462,164,462,462,463,463,463,463,463,463,462,462,462,462,462,164,
+164,463,463,463,463,462,462,462,462,462,463,164,494,462,462,172,162,162,463,463,463,463,463,463,162,162,162,162,162,164,
+164,462,463,463,462,462,462,461,462,462,463,164,486,462,462,462,463,463,462,462,462,462,463,462,462,462,462,462,462,164,
+164,462,463,463,462,462,462,462,462,462,463,164,494,462,462,462,462,462,462,462,462,462,463,462,462,462,462,462,462,164,
+164,462,463,463,462,462,488,2147484136,462,463,463,164,462,462,463,463,462,462,156,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,496,2147484144,462,463,463,164,162,162,463,463,462,462,172,462,161,162,156,462,161,162,162,162,162,164,
+164,463,463,463,462,462,462,462,463,463,463,164,803,803,803,803,803,803,803,803,803,803,164,462,462,461,462,462,462,164,
+164,463,463,463,462,462,462,462,463,463,463,164,803,803,803,803,803,803,803,803,803,803,164,462,462,462,462,462,462,164,
+164,462,462,462,462,462,463,463,463,463,463,463,803,803,803,803,803,803,803,803,803,803,164,462,462,462,462,462,462,164,
+161,162,162,162,162,162,463,463,463,463,463,463,803,803,803,803,803,803,803,803,803,803,161,162,162,162,162,162,162,163,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="F3Objects" visible="0">
+  <object id="24" name="Ball3" gid="1330" x="785.636" y="168.001" width="30" height="30">
+   <properties>
+    <property name="Item" value="Iron"/>
+   </properties>
+  </object>
+  <object id="260" name="Ball3" gid="1330" x="33.2056" y="538.976" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Potion"/>
+   </properties>
+  </object>
+  <object id="25" name="Book3" gid="1339" x="187.303" y="401.694" width="32" height="30">
+   <properties>
+    <property name="Text" value="Feb. 6"/>
+    <property name="Text2" value="MEW gave birth. We named the newborn MEWTWO."/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="26" name="Wall3A" gid="158" x="479.682" y="350.297" width="32" height="32"/>
+  <object id="266" name="Wall3B" gid="158" x="479.682" y="155.378" width="32" height="32"/>
+  <object id="27" name="Wall3A" gid="158" x="479.682" y="383.832" width="32" height="32"/>
+  <object id="267" name="Wall3B" gid="158" x="479.682" y="189.961" width="32" height="32"/>
+  <object id="28" name="F31Burglar" gid="1378" x="128.618" y="376.496" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="I wonder where my partner went."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Ayah!"/>
+    <property name="BattleStart" value="This place is like, huge!"/>
+    <property name="Money" type="int" value="3420"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Ninetales-38-Ember_Tail Whip_Quick Attack_Roar-Burglar-Ninetales"/>
+   </properties>
+  </object>
+  <object id="29" name="F31Scientist" gid="1379" x="654.69" y="366.016" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="So, you're stuck? Try jumping off over there!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Whew! Overwhelming!"/>
+    <property name="BattleStart" value="My mentor once lived here"/>
+    <property name="Money" type="int" value="1650"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Magnemite-33-Supersonic_ThunderShock_SonicBoom_Tackle-Scientist-Magnemite,Magneton-33-Supersonic_ThunderShock_SonicBoom_Tackle-Scientist-Magneton,Voltorb-33-Light Screen_Selfdestruct_SonicBoom_Screech-Scientist-Voltorb"/>
+   </properties>
+  </object>
+  <object id="170" name="Border3" x="29.3427" y="125.754" width="34.5825" height="190.727"/>
+  <object id="171" name="Border3" x="68.117" y="192.823" width="247.317" height="58.6854"/>
+  <object id="172" name="Border3" x="63.9251" y="129.946" width="34.5825" height="58.6854"/>
+  <object id="173" name="Border3" x="288.091" y="127.85" width="30.3906" height="58.6854"/>
+  <object id="174" name="Border3" x="385.551" y="33.5345" width="62.8772" height="86.9801"/>
+  <object id="182" name="Border3" x="510.257" y="14.6713" width="192.823" height="50.3018"/>
+  <object id="207" name="Border3" x="573.135" y="123.658" width="67.069" height="66.0211"/>
+  <object id="208" name="Border3" x="190.632" y="385.791" width="67.069" height="66.0211"/>
+  <object id="185" name="Border3" x="768.054" y="32.4865" width="192.823" height="29.3427"/>
+  <object id="192" name="Border3" x="576.278" y="254.653" width="192.823" height="62.8772"/>
+  <object id="210" name="Border3" x="510.257" y="287.139" width="416.037" height="30.3906"/>
+  <object id="209" name="Border3" x="477.771" y="190.727" width="32.4865" height="124.706"/>
+  <object id="193" name="Border3" x="671.642" y="190.727" width="58.6854" height="58.6854"/>
+  <object id="196" name="Border3" x="451.572" y="385.647" width="58.6854" height="58.6854"/>
+  <object id="200" name="Border3" x="383.455" y="416.037" width="66.0211" height="31.4386"/>
+  <object id="194" name="Border3" x="703.081" y="321.722" width="28.2947" height="58.6854"/>
+  <object id="195" name="Border3" x="509.209" y="322.77" width="70.2129" height="24.1029"/>
+  <object id="203" name="Border3" x="636.012" y="420.229" width="95.3637" height="24.1029"/>
+  <object id="205" name="Border3" x="705.177" y="445.38" width="29.3427" height="99.5556"/>
+  <object id="206" name="Border3" x="705.177" y="543.888" width="229.502" height="28.2947"/>
+  <object id="204" name="Border3" x="769.102" y="417.085" width="162.433" height="31.4386"/>
+  <object id="202" name="Border3" x="574.182" y="382.503" width="32.4865" height="63.9251"/>
+  <object id="201" name="Border3" x="382.407" y="255.701" width="36.6784" height="122.611"/>
+  <object id="186" name="Border3" x="831.979" y="63.9251" width="129.946" height="57.6374"/>
+  <object id="187" name="Border3" x="861.322" y="130.994" width="98.5076" height="57.6374"/>
+  <object id="188" name="Border3" x="929.439" y="186.536" width="27.2468" height="387.743"/>
+  <object id="183" name="Border3" x="481.011" y="14.6713" width="29.3427" height="111.083"/>
+  <object id="197" name="Border3" x="255.701" y="254.653" width="121.563" height="34.5825"/>
+  <object id="273" name="Switch3" x="318.578" y="146.713" width="33.5345" height="42.9661"/>
+  <object id="198" name="Border3" x="352.112" y="279.804" width="30.3906" height="230.55"/>
+  <object id="184" name="Border3" x="703.129" y="13.5754" width="29.3427" height="111.083"/>
+  <object id="175" name="Border3" x="321.626" y="33.5345" width="62.8772" height="31.4386"/>
+  <object id="176" name="Border3" x="68.0211" y="255.701" width="86.9801" height="62.8772"/>
+  <object id="177" name="Border3" x="63.8292" y="315.434" width="63.9251" height="95.3637"/>
+  <object id="178" name="Border3" x="28.1988" y="449.572" width="97.4596" height="60.7813"/>
+  <object id="199" name="Border3" x="33.4386" y="542.84" width="156.145" height="30.3906"/>
+  <object id="189" name="Border3" x="320.578" y="290.283" width="32.4865" height="92.2199"/>
+  <object id="190" name="Border3" x="288.091" y="382.503" width="63.9251" height="124.706"/>
+  <object id="191" name="Border3" x="255.605" y="449.572" width="63.9251" height="56.5895"/>
+  <object id="180" name="Border3" x="-0.0959064" y="1.04795" width="29.3427" height="573.23"/>
+  <object id="181" name="Border3" x="29.2468" y="-3.14386" width="932.678" height="36.6784"/>
+  <object id="179" name="Border3" x="188.536" y="512.449" width="190.727" height="60.7813"/>
+  <object id="211" name="PokeMansionB2_B1Door" x="228.454" y="324.865" width="26.1988" height="24.1029">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF2"/>
+   </properties>
+  </object>
+  <object id="213" name="PokeMansionC2_C1Door" x="194.919" y="36.6784" width="26.1988" height="24.1029">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF2"/>
+   </properties>
+  </object>
+  <object id="215" name="PokeMansionF2_F1Door" x="802.732" y="451.668" width="23.055" height="24.1029">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF2"/>
+   </properties>
+  </object>
+  <object id="217" name="PokeMansionD_DDoor" x="510.353" y="441.188" width="62.8772" height="24.1029">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF1"/>
+   </properties>
+  </object>
+  <object id="218" name="PokeMansionE_EDoor" x="598.381" y="445.38" width="39.8222" height="24.1029">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF2"/>
+   </properties>
+  </object>
+  <object id="212" name="PokeMansionB1_B2Spawn" x="193.871" y="297.619">
+   <point/>
+  </object>
+  <object id="214" name="PokeMansionC1_C2Spawn" x="210.639" y="108.987">
+   <point/>
+  </object>
+  <object id="216" name="PokeMansionF1_F2Spawn" x="818.451" y="526.073">
+   <point/>
+  </object>
+  <object id="219" name="Eyes3" x="161.385" y="342.681" width="58.6854" height="35.6304">
+   <properties>
+    <property name="Trainer" value="F31Burglar"/>
+   </properties>
+  </object>
+  <object id="220" name="Eyes3" x="583.71" y="328.009" width="67.069" height="35.6304">
+   <properties>
+    <property name="Trainer" value="F31Scientist"/>
+   </properties>
+  </object>
+  <object id="261" name="Hidden3" x="35.6304" y="302.858" width="37.7263" height="47.1579">
+   <properties>
+    <property name="Item" value="Max Revive"/>
+   </properties>
+  </object>
+  <object id="325" name="Tile3" x="31.395" y="24.8544" width="162.207" height="95.4931">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="342" name="Tile3" x="125.58" y="363.659" width="64.0976" height="184.446">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="344" name="Tile3" x="189.678" y="449.995" width="64.0976" height="61.4819">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="345" name="Tile3" x="255.084" y="287.787" width="69.3301" height="91.5687">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="346" name="Tile3" x="156.975" y="255.084" width="100.725" height="64.0981">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="343" name="Tile3" x="34.0112" y="351.886" width="95.4926" height="91.5687">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="326" name="Tile3" x="98.1094" y="120.347" width="183.137" height="69.3306">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="327" name="Tile3" x="227.614" y="36.6275" width="88.9525" height="88.9525">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="328" name="Tile3" x="315.258" y="68.0225" width="68.0225" height="73.255">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="329" name="Tile3" x="321.799" y="193.602" width="156.975" height="56.2494">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="330" name="Tile3" x="354.502" y="133.429" width="125.58" height="56.2494">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="331" name="Tile3" x="414.676" y="255.084" width="66.7144" height="126.888">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="332" name="Tile3" x="510.169" y="64.0981" width="62.79" height="223.689">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="333" name="Tile3" x="739.09" y="320.491" width="185.754" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="339" name="Tile3" x="511.477" y="340.112" width="60.1737" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="341" name="Tile3" x="637.057" y="319.182" width="60.1737" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="340" name="Tile3" x="608.278" y="349.269" width="30.0869" height="94.185">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="334" name="Tile3" x="644.905" y="122.964" width="205.376" height="66.7144">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="347" name="Tile3" x="575.574" y="62.7903" width="130.813" height="58.8657">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="348" name="Tile3" x="578.191" y="192.295" width="91.5692" height="58.8657">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="335" name="Tile3" x="736.474" y="61.4819" width="74.5631" height="189.678">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="336" name="Tile3" x="774.41" y="190.986" width="154.359" height="98.1094">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="337" name="Tile3" x="731.242" y="448.687" width="71.9469" height="98.1094">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="338" name="Tile3" x="833.275" y="451.303" width="94.185" height="98.1094">
+   <properties>
+    <property name="GrassType" value="PokemonMansionF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Floor B1" width="30" height="28">
+  <data encoding="csv">
+215,811,811,811,811,811,811,811,162,216,811,811,811,811,811,811,811,811,811,216,162,162,162,162,162,162,162,162,162,216,
+164,819,818,818,818,818,818,818,462,164,818,818,818,818,818,818,818,818,819,164,462,462,462,462,462,462,462,462,462,164,
+164,810,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,810,164,826,462,524,462,524,462,524,462,462,164,
+164,818,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,818,164,834,462,532,462,532,462,532,462,462,164,
+164,462,462,462,488,2147484136,462,462,462,164,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,496,2147484144,462,462,462,172,162,163,462,462,161,162,162,162,162,163,162,162,162,163,462,462,161,162,162,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+215,162,162,163,462,462,161,162,162,216,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,216,462,462,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,486,486,462,462,486,486,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,494,494,462,462,494,494,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,486,486,462,462,486,486,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,494,494,462,462,494,494,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,164,
+164,462,462,462,462,462,462,462,462,164,462,462,462,156,811,811,462,462,811,811,156,462,462,462,462,164,462,462,462,164,
+164,162,162,162,162,162,162,162,162,163,462,462,462,164,818,818,462,462,818,818,164,462,462,462,462,172,462,462,162,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,488,2147484136,462,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,172,462,462,496,2147484144,462,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,831,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,156,462,462,462,462,826,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,834,462,164,462,462,462,462,462,462,462,462,164,
+164,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,164,
+161,162,162,162,162,162,162,162,162,162,162,162,162,163,162,162,162,162,162,162,161,162,162,162,162,162,162,162,162,163
+</data>
+ </layer>
+ <objectgroup id="8" name="FB1Objects">
+  <object id="30" name="Ball4" gid="1330" x="171.536" y="143.898" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM22"/>
+   </properties>
+  </object>
+  <object id="31" name="Ball4" gid="1330" x="321.393" y="91.5006" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="32" name="Ball4" gid="1330" x="34.2538" y="764.287" width="30" height="30">
+   <properties>
+    <property name="Item" value="Full Restore"/>
+   </properties>
+  </object>
+  <object id="254" name="Ball4" gid="1330" x="145.337" y="422.654" width="30" height="30">
+   <properties>
+    <property name="Item" value="Secret Key"/>
+   </properties>
+  </object>
+  <object id="33" name="Ball4" gid="1330" x="462.867" y="850.219" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM14"/>
+   </properties>
+  </object>
+  <object id="34" name="FB11Scientist" gid="1350" x="854.849" y="414.222" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="I like it here! It's conducive to my studies!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="What was that for?"/>
+    <property name="BattleStart" value="This place is ideal for a lab."/>
+    <property name="Money" type="int" value="1700"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Magnemite-34-Supersonic_ThunderShock_SonicBoom_Tackle-Scientist-Magnemite,Electrode-34-Light Screen_Selfdestruct_SonicBoom_Screech-Scientist-Electrode"/>
+   </properties>
+  </object>
+  <object id="35" name="FB11Burglar" gid="1396" x="507.977" y="799.869" width="32" height="32">
+   <properties>
+    <property name="AfterBattle">You can find stuff lying around.
+</property>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Awooh!"/>
+    <property name="BattleStart" value="Uh-oh. Where am I now?"/>
+    <property name="Money" type="int" value="3060"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Growlithe-34-Agility_Take Down_Leer_Ember-Burglar-Growlithe,Ponyta-34-Stomp_Tail Whip_Ember-Burglar-Ponyta"/>
+   </properties>
+  </object>
+  <object id="36" name="Book4" gid="1339" x="506.929" y="659.491" width="32" height="30">
+   <properties>
+    <property name="Text" value="Sept. 1"/>
+    <property name="Text2" value="MEWTO is far too powerful. We have failed to curb its vicious"/>
+    <property name="Text3" value="tendencies..."/>
+   </properties>
+  </object>
+  <object id="37" name="Wall4B" gid="158" x="418.901" y="733.848" width="32" height="32"/>
+  <object id="271" name="Wall4A" gid="158" x="288.955" y="220.351" width="32" height="32"/>
+  <object id="272" name="Wall4A" gid="158" x="286.859" y="255.981" width="32" height="32"/>
+  <object id="38" name="Wall4B" gid="158" x="419.949" y="766.335" width="32" height="32"/>
+  <object id="39" name="Wall4B" gid="157" x="832.842" y="578.751" width="32" height="32"/>
+  <object id="269" name="Wall4A" gid="157" x="543.607" y="542.073" width="32" height="32"/>
+  <object id="270" name="Wall4A" gid="157" x="511.12" y="539.977" width="32" height="32"/>
+  <object id="40" name="Wall4B" gid="157" x="865.329" y="578.751" width="32" height="32"/>
+  <object id="221" name="Border4" x="3.14386" y="3.14386" width="28.2947" height="861.418"/>
+  <object id="224" name="Border4" x="33.5345" y="13.6234" width="29.3427" height="113.179"/>
+  <object id="225" name="Border4" x="62.8772" y="12.5754" width="189.68" height="50.3018"/>
+  <object id="227" name="Border4" x="321.722" y="13.6234" width="283.995" height="50.3018"/>
+  <object id="228" name="Border4" x="574.278" y="30.3906" width="35.6304" height="96.4117"/>
+  <object id="232" name="Border4" x="606.765" y="7.33567" width="32.4865" height="157.193"/>
+  <object id="274" name="Switch4B" x="642.395" y="76.5006" width="30.3906" height="52.3977"/>
+  <object id="275" name="Switch4A" x="576.374" y="783.869" width="30.3906" height="46.1099"/>
+  <object id="233" name="Border4" x="289.235" y="29.3427" width="32.4865" height="157.193"/>
+  <object id="234" name="Border4" x="318.578" y="161.385" width="62.8772" height="26.1988"/>
+  <object id="238" name="Border4" x="33.5345" y="255.701" width="90.124" height="26.1988"/>
+  <object id="239" name="Border4" x="128.898" y="124.706" width="62.8772" height="68.117"/>
+  <object id="240" name="Border4" x="62.8772" y="318.578" width="62.8772" height="68.117"/>
+  <object id="241" name="Border4" x="63.9251" y="443.284" width="62.8772" height="68.117"/>
+  <object id="242" name="Border4" x="193.871" y="441.188" width="62.8772" height="68.117"/>
+  <object id="243" name="Border4" x="192.823" y="316.482" width="62.8772" height="68.117"/>
+  <object id="236" name="Border4" x="833.123" y="161.385" width="95.3637" height="26.1988"/>
+  <object id="246" name="Border4" x="899.144" y="548.08" width="25.1509" height="26.1988"/>
+  <object id="258" name="PokeMansionG2_G1Door" x="734.615" y="707.368" width="32.4865" height="19.9111">
+   <properties>
+    <property name="Destination" value="Pokemon MansionF1"/>
+   </properties>
+  </object>
+  <object id="248" name="Border4" x="576.374" y="511.401" width="61.8292" height="63.9251"/>
+  <object id="249" name="Border4" x="444.332" y="510.353" width="61.8292" height="63.9251"/>
+  <object id="253" name="Border4" x="511.401" y="640.299" width="61.8292" height="63.9251"/>
+  <object id="252" name="Border4" x="414.989" y="771.294" width="32.4865" height="91.1719"/>
+  <object id="250" name="Border4" x="417.085" y="509.305" width="30.3906" height="188.632"/>
+  <object id="251" name="Border4" x="638.204" y="512.449" width="30.3906" height="348.968"/>
+  <object id="247" name="Border4" x="28.2947" y="548.08" width="289.235" height="26.1988"/>
+  <object id="237" name="Border4" x="193.871" y="257.796" width="634.012" height="26.1988"/>
+  <object id="235" name="Border4" x="447.476" y="163.481" width="316.482" height="26.1988"/>
+  <object id="244" name="Border4" x="288.187" y="278.756" width="28.2947" height="266.18"/>
+  <object id="245" name="Border4" x="799.588" y="264.084" width="28.2947" height="309.146"/>
+  <object id="229" name="Border4" x="703.177" y="61.8292" width="30.3906" height="66.0211"/>
+  <object id="230" name="Border4" x="767.102" y="60.7813" width="30.3906" height="66.0211"/>
+  <object id="231" name="Border4" x="829.931" y="60.7813" width="30.3906" height="66.0211"/>
+  <object id="226" name="Border4" x="28.2947" y="-1.04795" width="902.288" height="32.4865"/>
+  <object id="222" name="Border4" x="2.09591" y="860.37" width="954.685" height="35.6304"/>
+  <object id="223" name="Border4" x="927.439" y="-1.04795" width="34.5825" height="863.513"/>
+  <object id="255" name="Hidden4" x="114.227" y="321.722" width="32.4865" height="66.0211">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="256" name="Eyes4" x="851.986" y="413.942" width="32.4865" height="64.9731">
+   <properties>
+    <property name="Trainer" value="FB11Scientist"/>
+   </properties>
+  </object>
+  <object id="257" name="Eyes4" x="505.113" y="706.32" width="40.8702" height="63.9251">
+   <properties>
+    <property name="Trainer" value="FB11Burglar"/>
+   </properties>
+  </object>
+  <object id="259" name="PokeMansionG1_G2Spawn" x="815.308" y="756.622">
+   <point/>
+  </object>
+  <object id="349" name="Tile4" x="27.471" y="576.883" width="385.897" height="274.706">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="351" name="Tile4" x="669.76" y="574.267" width="256.392" height="286.479">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="350" name="Tile4" x="315.258" y="283.863" width="491.855" height="224.997">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="355" name="Tile4" x="34.0116" y="34.0112" width="253.776" height="515.401">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="353" name="Tile4" x="321.799" y="183.137" width="596.505" height="68.0222">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="356" name="Tile4" x="639.673" y="20.93" width="293.02" height="138.661">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="357" name="Tile4" x="327.032" y="18.3137" width="293.02" height="138.661">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="354" name="Tile4" x="831.968" y="260.317" width="96.8012" height="286.479">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="352" name="Tile4" x="446.071" y="576.883" width="193.602" height="289.095">
+   <properties>
+    <property name="GrassType" value="PokemonMansionFB1"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

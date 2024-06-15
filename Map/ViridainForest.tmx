@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="34" height="48" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="86">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1342" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="34" height="48">
+  <data encoding="csv">
+658,4,4,658,681,682,658,658,658,658,658,658,658,658,681,682,658,658,658,658,658,658,658,658,658,658,658,658,658,658,658,658,658,658,
+658,4,4,658,689,690,4,4,4,4,4,4,4,4,689,690,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,658,
+658,4,4,658,681,682,4,4,4,4,4,4,4,4,681,682,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,658,
+658,4,4,658,689,690,4,4,4,4,4,4,4,4,689,690,4,4,4,4,658,658,658,658,658,658,658,658,658,658,4,4,4,658,
+658,4,4,658,681,682,4,4,4,658,658,4,4,4,681,682,4,4,4,658,681,682,681,682,681,682,681,682,681,682,658,4,4,658,
+658,4,4,658,689,690,4,4,4,658,658,4,4,4,689,690,4,4,4,658,689,690,689,690,689,690,689,690,689,690,658,4,4,658,
+658,10,10,658,681,682,10,10,10,658,658,10,10,10,681,682,10,10,10,658,681,682,681,682,681,682,681,682,681,682,658,4,4,658,
+658,10,10,658,689,690,10,10,10,658,658,10,10,10,689,690,10,10,10,658,689,690,689,690,689,690,689,690,689,690,658,4,4,658,
+658,10,10,658,681,682,10,10,10,658,658,10,10,10,681,682,10,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,658,
+658,10,10,658,689,690,10,10,10,658,658,10,10,10,689,690,10,10,10,10,10,10,10,10,4,4,4,4,4,4,4,4,4,658,
+658,10,10,658,681,682,10,10,10,658,658,10,10,10,681,682,10,10,10,658,681,682,681,682,658,4,4,658,681,682,10,10,10,658,
+658,10,10,658,689,690,10,10,10,658,658,10,10,10,689,690,10,10,10,658,689,690,689,690,658,4,4,658,689,690,10,10,10,658,
+658,10,10,658,681,682,10,10,10,658,658,10,10,10,681,682,10,10,10,658,681,682,681,682,658,4,4,658,681,682,10,10,10,658,
+658,10,10,658,689,690,10,10,10,658,658,10,10,10,689,690,10,10,10,658,689,690,689,690,658,4,4,658,689,690,10,10,10,658,
+658,10,10,658,681,682,10,10,10,658,658,10,10,10,681,682,10,10,10,658,681,682,681,682,658,4,4,658,681,682,10,10,10,658,
+658,10,10,658,689,690,10,10,10,658,658,10,10,10,689,690,10,10,10,658,689,690,689,690,658,4,4,658,689,690,10,10,10,658,
+658,10,10,658,681,682,10,10,10,658,658,10,10,10,4,4,10,10,10,658,681,682,681,682,658,4,4,658,681,682,10,10,10,658,
+658,10,10,658,689,690,10,10,10,658,658,10,10,10,4,4,10,10,10,658,689,690,689,690,658,4,4,658,689,690,10,10,10,658,
+658,10,10,658,681,682,10,10,10,658,658,4,4,4,4,4,4,4,4,658,681,682,681,682,658,4,4,4,4,4,4,4,4,658,
+658,10,10,658,689,690,10,10,10,658,658,4,4,4,4,4,4,4,4,658,689,690,689,690,658,4,4,4,4,4,4,4,4,658,
+658,10,10,658,681,682,10,10,10,658,681,682,681,682,681,682,681,682,681,682,681,682,681,682,658,10,10,10,681,682,658,4,4,658,
+658,10,10,658,689,690,10,10,10,658,689,690,689,690,689,690,689,690,689,690,689,690,689,690,658,10,10,10,689,690,658,4,4,658,
+658,10,10,4,4,4,10,10,10,658,681,682,681,682,681,682,681,682,681,682,681,682,681,682,658,10,10,10,681,682,658,4,4,658,
+658,10,10,4,4,4,10,10,10,658,689,690,689,690,689,690,689,690,689,690,689,690,689,690,658,10,10,10,689,690,658,4,4,658,
+658,4,4,4,4,4,4,4,4,4,4,4,4,658,681,682,681,682,681,682,681,682,681,682,658,10,10,10,681,682,658,4,4,658,
+658,4,4,4,4,4,4,4,4,4,4,4,4,658,689,690,689,690,689,690,689,690,689,690,658,10,10,10,689,690,658,4,4,658,
+681,682,681,682,681,682,681,682,681,682,658,4,4,658,681,682,681,682,681,682,681,682,681,682,658,10,10,10,681,682,658,4,4,658,
+689,690,689,690,689,690,689,690,689,690,658,4,4,658,689,690,689,690,689,690,689,690,689,690,658,10,10,10,689,690,658,4,4,658,
+681,682,681,682,681,682,681,682,681,682,658,4,4,658,681,682,681,682,681,682,681,682,681,682,658,10,10,10,681,682,658,4,4,658,
+689,690,689,690,689,690,689,690,689,690,658,4,4,658,689,690,689,690,689,690,689,690,689,690,658,10,10,10,689,690,658,4,4,658,
+658,10,10,10,10,10,10,10,10,658,681,682,681,682,681,682,681,682,681,682,681,682,681,682,658,10,10,10,681,682,658,4,4,658,
+658,10,10,10,10,10,10,10,10,658,689,690,689,690,689,690,689,690,689,690,689,690,689,690,658,10,10,10,689,690,658,4,4,658,
+681,682,681,682,681,682,4,4,10,10,10,10,10,10,10,10,4,4,10,658,681,682,681,682,658,10,4,4,4,4,4,4,4,658,
+689,690,689,690,689,690,4,4,10,10,10,10,10,10,10,10,4,4,10,658,689,690,689,690,658,10,4,4,4,4,4,4,4,658,
+681,682,681,682,681,682,4,4,10,658,681,682,681,682,658,10,4,4,10,658,681,682,681,682,658,10,4,4,681,682,681,682,681,682,
+689,690,689,690,689,690,4,4,10,658,689,690,689,690,658,10,4,4,10,658,689,690,689,690,658,10,4,4,689,690,689,690,689,690,
+681,682,681,682,681,682,4,4,10,658,681,682,681,682,658,10,4,4,10,658,681,682,681,682,658,10,4,4,681,682,681,682,681,682,
+689,690,689,690,689,690,4,4,10,658,689,690,689,690,658,10,4,4,10,658,689,690,689,690,658,10,4,4,689,690,689,690,689,690,
+681,682,681,682,681,682,4,4,10,658,681,682,681,682,658,10,4,4,10,658,681,682,681,682,658,10,4,4,681,682,681,682,681,682,
+689,690,689,690,689,690,4,4,10,658,689,690,689,690,658,10,4,4,10,658,689,690,689,690,658,10,4,4,689,690,689,690,689,690,
+658,10,10,10,10,10,4,4,10,10,10,10,10,10,10,10,4,4,10,10,10,10,10,10,10,10,4,4,10,10,10,10,10,658,
+658,10,10,10,10,10,4,4,10,10,10,10,10,10,10,10,681,682,10,10,10,10,10,10,10,10,4,4,10,10,10,10,10,658,
+658,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,689,690,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,658,
+658,10,10,10,10,10,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,10,10,10,10,10,658,
+681,682,681,682,681,682,681,682,681,682,681,682,681,682,658,4,4,4,4,658,681,682,681,682,681,682,681,682,681,682,681,682,681,682,
+689,690,689,690,689,690,689,690,689,690,689,690,689,690,658,4,4,4,4,658,689,690,689,690,689,690,689,690,689,690,689,690,689,690,
+681,682,681,682,681,682,681,682,681,682,681,682,681,682,658,4,662,663,4,658,681,682,681,682,681,682,681,682,681,682,681,682,681,682,
+689,690,689,690,689,690,689,690,689,690,689,690,689,690,658,4,4,4,4,658,689,690,689,690,689,690,689,690,689,690,689,690,689,690
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Sign" gid="660" x="576" y="1468" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="Weaken POKEMON before attempting capture!"/>
+    <property name="Text3" value="When healthy, they may escape!"/>
+   </properties>
+  </object>
+  <object id="2" name="Sign" gid="660" x="64" y="64" width="32" height="32">
+   <properties>
+    <property name="Text" value="LEAVING VIRIDAIN FOREST"/>
+    <property name="Text2" value="PEWTER CITY AHEAD"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="82" name="Sign" gid="660" x="98" y="799" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="No stealing of POKEMON from other trainers! Catch only wild POKEMON!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="3" name="Sign" gid="660" x="511" y="1055" width="32" height="32">
+   <properties>
+    <property name="Text" value="For poison, use ANTIDOTE! Get it at POKEMON MARTs!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="4" name="Sign" gid="660" x="769" y="1313" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="If you want to avoid battles, stay away from grassy areas!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="6" name="Sign" gid="660" x="832" y="576" width="32" height="32">
+   <properties>
+    <property name="Text" value="TRAINER TIPS"/>
+    <property name="Text2" value="Read the Controls file to learn keybinds for hms and etc"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="9" name="Trees" x="639" y="130" width="321" height="123" visible="0"/>
+  <object id="10" name="Stump" x="641" y="101" width="320" height="26" visible="0"/>
+  <object id="11" name="PlayerPoint" x="529" y="1480">
+   <point/>
+  </object>
+  <object id="12" name="Stump" x="609" y="131" width="27" height="123" visible="0"/>
+  <object id="13" name="Stump" x="962" y="130" width="27" height="122" visible="0"/>
+  <object id="14" name="Stump" x="516" y="6" width="570" height="22" visible="0"/>
+  <object id="15" name="Stump" x="193" y="4" width="248" height="26" visible="0"/>
+  <object id="16" name="Stump" x="288" y="131" width="62" height="507" visible="0"/>
+  <object id="17" name="Trees" x="448" y="-1" width="60" height="512" visible="0"/>
+  <object id="18" name="Stump" x="609" y="322" width="28" height="313" visible="0"/>
+  <object id="19" name="Stump" x="1057" y="34" width="27" height="1054" visible="0"/>
+  <object id="20" name="Stump" x="961" y="647" width="30" height="379" visible="0"/>
+  <object id="21" name="Trees" x="900" y="1095" width="186" height="181"/>
+  <object id="22" name="Stump" x="1059" y="1283" width="25" height="123" visible="0"/>
+  <object id="23" name="Trees" x="643" y="319" width="124" height="959" visible="0"/>
+  <object id="24" name="Stump" x="771" y="322" width="24" height="949" visible="0"/>
+  <object id="25" name="Stump" x="417" y="770" width="28" height="185" visible="0"/>
+  <object id="26" name="Stump" x="326" y="836" width="21" height="110" visible="0"/>
+  <object id="27" name="Trees" x="513" y="1318" width="62" height="45" visible="0"/>
+  <object id="56" name="Trees" x="529" y="1365" width="32" height="10" visible="0"/>
+  <object id="28" name="Trees" x="643" y="1404" width="445" height="131" visible="0"/>
+  <object id="32" name="Trees" x="3" y="1403" width="445" height="131" visible="0"/>
+  <object id="29" name="Trees" x="321" y="638" width="317" height="123" visible="0"/>
+  <object id="30" name="Trees" x="452" y="765" width="184" height="254" visible="0"/>
+  <object id="31" name="Trees" x="289" y="959" width="157" height="64" visible="0"/>
+  <object id="34" name="Trees" x="291" y="1088" width="183" height="188" visible="0"/>
+  <object id="35" name="Trees" x="3" y="1026" width="184" height="251" visible="0"/>
+  <object id="36" name="Stump" x="5" y="1283" width="21" height="117" visible="0"/>
+  <object id="37" name="Stump" x="2" y="964" width="25" height="60" visible="0"/>
+  <object id="38" name="Trees" x="3" y="833" width="320" height="125" visible="0"/>
+  <object id="40" name="Stump" x="609" y="1030" width="28" height="250" visible="0"/>
+  <object id="41" name="Stump" x="451" y="1414" width="26" height="123" visible="0"/>
+  <object id="42" name="Stump" x="609" y="1410" width="29" height="121" visible="0"/>
+  <object id="43" name="OverWorld" x="479" y="1537" width="135" height="7" visible="0">
+   <properties>
+    <property name="Destination" value="Pre-Forest"/>
+   </properties>
+  </object>
+  <object id="44" name="Trees" x="896" y="639" width="62" height="387" visible="0"/>
+  <object id="45" name="Stump" x="867" y="321" width="24" height="256" visible="0"/>
+  <object id="46" name="Trees" x="895" y="319" width="62" height="255" visible="0"/>
+  <object id="47" name="Stump" x="99" y="-1" width="25" height="696" visible="0"/>
+  <object id="48" name="Stump" x="1" y="6" width="27" height="825" visible="0"/>
+  <object id="49" name="Trees" x="128" y="4" width="62" height="696" visible="0"/>
+  <object id="50" name="Stump" x="291" y="642" width="26" height="123" visible="0"/>
+  <object id="51" name="Pewter City" x="23" y="-39" width="79" height="38">
+   <properties>
+    <property name="Destination" value="After Forest"/>
+   </properties>
+  </object>
+  <object id="52" name="Ball" gid="1330" x="35" y="1017" width="30" height="30">
+   <properties>
+    <property name="Item" value="PokeBall"/>
+   </properties>
+  </object>
+  <object id="54" name="Ball" gid="1330" x="383" y="957" width="30" height="30">
+   <properties>
+    <property name="Item" value="Potion"/>
+   </properties>
+  </object>
+  <object id="55" name="Ball" gid="1330" x="800" y="349" width="30" height="30">
+   <properties>
+    <property name="Item" value="Antidote"/>
+   </properties>
+  </object>
+  <object id="57" name="Grass_Patch" x="255" y="1284" width="254" height="59">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="64" name="Grass_Patch" x="574" y="1278" width="254" height="65">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="65" name="Grass_Patch" x="893" y="1280" width="162" height="130">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="58" name="Grass_Patch" x="32" y="1280" width="162" height="127">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="59" name="Grass_Patch" x="33" y="959" width="254" height="64">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="60" name="Grass_Patch" x="257" y="1025" width="254" height="64">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="61" name="Grass_Patch" x="256" y="1090" width="31" height="192">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="62" name="Grass_Patch" x="478" y="1089" width="31" height="192">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="63" name="Grass_Patch" x="576" y="1022" width="31" height="255">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="66" name="Grass_Patch" x="796" y="1025" width="31" height="253">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="67" name="Grass_Patch" x="797" y="638" width="102" height="385" visible="0">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="68" name="Grass_Patch" x="30" y="193" width="64" height="575">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="69" name="Grass_Patch" x="190" y="193" width="95" height="575">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="70" name="Grass_Patch" x="352" y="187" width="95" height="391">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="71" name="Grass_Patch" x="511" y="192" width="95" height="386">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="73" name="Grass_Patch" x="958" y="315" width="95" height="260">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="72" name="Grass_Patch" x="607" y="250" width="161" height="68">
+   <properties>
+    <property name="GrassType" value="ViridainForest"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="74" name="Boy" gid="1352" x="503" y="1391" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="I came here with some friends! They're out for POKEMON fights!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="75" name="Boy" gid="1370" x="860" y="1312" width="31" height="33">
+   <properties>
+    <property name="Dialouge" value="I ran out of POKE BALLs to catch POKEMON with!"/>
+    <property name="Dialouge2" value="You should carry extras!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="76" name="1Bug Catcher" gid="1370" x="958" y="1090" width="31" height="33">
+   <properties>
+    <property name="AfterBattle" value="Ssh! You'll scare the bugs away!- - "/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="No! CATERPIE can't cut it!- - "/>
+    <property name="BattleStart" value="Hey! You have POKEMON! Come on! Let's battle'em!- - "/>
+    <property name="Money" type="int" value="60"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Weedle-6-Poison Sting_String Shot-Bug Catcher-Weedle,Caterpie-6-Tackle_String Shot-Bug Catcher-Caterpie"/>
+   </properties>
+  </object>
+  <object id="77" name="2Bug Catcher" gid="1370" x="959" y="640" width="31" height="33">
+   <properties>
+    <property name="AfterBattle" value="Darn! I'm going to catch some stronger ones!- - "/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Huh? I ran out of POKEMON!- - "/>
+    <property name="BattleStart" value="Yo! You can't jam out if you're a POKEMON trainer!- - "/>
+    <property name="Money" type="int" value="70"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Weedle-7-Poison Sting_String Shot-Bug Catcher-Weedle,Kakuna-7-Harden-Bug Catcher-Kakuna,Weedle-7-Poison Sting_String Shot-Bug Catcher-Weedle"/>
+   </properties>
+  </object>
+  <object id="78" name="3Bug Catcher" gid="1370" x="67" y="607" width="31" height="33">
+   <properties>
+    <property name="AfterBattle" value="Sometimes, you can find stuff on the ground!-I'm looking for the stuff I dropped!- "/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I give! You're good at this!- - "/>
+    <property name="BattleStart" value="Hey, wait up! What's the hurry?- - "/>
+    <property name="Money" type="int" value="90"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Weedle-9-Poison Sting_String Shot-Bug Catcher-Weedle"/>
+   </properties>
+  </object>
+  <object id="79" name="Vision" x="828" y="1059" width="128" height="31">
+   <properties>
+    <property name="Trainer" value="1Bug Catcher"/>
+   </properties>
+  </object>
+  <object id="80" name="Vision" x="831" y="613" width="128" height="26">
+   <properties>
+    <property name="Trainer" value="2Bug Catcher"/>
+   </properties>
+  </object>
+  <object id="81" name="Vision" x="1" y="574" width="64" height="40">
+   <properties>
+    <property name="Trainer" value="3Bug Catcher"/>
+   </properties>
+  </object>
+  <object id="83" name="Playerpoint2" x="57" y="122">
+   <point/>
+  </object>
+  <object id="84" name="Hidden" x="511" y="1324" width="21" height="31">
+   <properties>
+    <property name="Item" value="Antidote"/>
+   </properties>
+  </object>
+  <object id="85" name="Hidden" x="35" y="537" width="21" height="31">
+   <properties>
+    <property name="Item" value="Potion"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

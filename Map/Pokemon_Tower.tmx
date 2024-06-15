@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="18" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="330">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1433" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Floor1" width="18" height="18" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,137,137,137,137,830,830,830,0,0,0,0,
+0,0,0,830,830,830,137,137,137,137,137,137,830,830,830,0,0,0,
+0,0,830,830,137,137,137,137,137,137,137,137,137,137,830,830,0,0,
+0,830,830,137,137,137,137,137,137,137,137,137,137,137,137,830,830,0,
+0,830,830,137,137,137,137,137,137,137,137,137,137,137,137,830,830,0,
+830,830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,830,830,
+830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,830,
+830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,830,
+830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,831,830,
+830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,137,830,
+830,830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,830,830,
+0,830,137,137,137,137,137,137,137,137,137,1162,1153,1153,1153,1153,830,0,
+0,830,137,137,137,137,137,137,137,137,137,1162,137,137,137,137,830,0,
+0,0,830,830,137,137,137,137,137,137,137,1162,137,137,830,830,0,0,
+0,0,0,830,137,137,137,137,137,137,137,1162,137,137,830,0,0,0,
+0,0,0,0,830,830,830,137,137,137,137,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,137,137,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="3" name="F1Woman" gid="1383" x="352.505" y="256.505" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="My GROWLITHE... Why did you die?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="6" name="F1Man" gid="1340" x="192.168" y="415.495" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I came to pray for my CLEFAIRY. Sniff! I can't stop crying..."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="7" name="F1Woman" gid="1426" x="478.158" y="255.158" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="I am a CHANNELER! There are spirits up to mischief!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="8" name="F1Woman" gid="1428" x="161.179" y="257.505" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Did you come to pay respects? Bless you!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="9" name="F1Employee" gid="1427" x="383.495" y="448.505" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="POKEMON TOWER was erected in the memory of POKEMON that had died."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="10" name="Border" x="193.347" y="0" width="186.611" height="30.3158"/>
+  <object id="11" name="Border" x="130.021" y="32.3368" width="94.9895" height="30.3158"/>
+  <object id="12" name="Border" x="97.0105" y="64.6737" width="94.9895" height="30.3158"/>
+  <object id="13" name="Border" x="65.3474" y="96.3368" width="61.3053" height="28.9684"/>
+  <object id="14" name="Border" x="33.6842" y="129.347" width="61.3053" height="61.3053"/>
+  <object id="15" name="Border" x="3.36842" y="193.347" width="61.3053" height="30.9895"/>
+  <object id="20" name="Border" x="97.0105" y="479.663" width="30.9895" height="30.9895"/>
+  <object id="16" name="Border" x="1.69474" y="223.989" width="29.6421" height="158.316"/>
+  <object id="17" name="Border" x="32.6842" y="351.989" width="29.6421" height="92.9684"/>
+  <object id="18" name="Border" x="65.0211" y="449.674" width="62.6526" height="28.2947"/>
+  <object id="21" name="Border" x="194.368" y="544.663" width="58.6105" height="28.2947"/>
+  <object id="22" name="Border" x="320.347" y="545.337" width="58.6105" height="28.2947"/>
+  <object id="31" name="Border" x="354.032" y="382.979" width="27.6211" height="129.347"/>
+  <object id="33" name="Border" x="417.358" y="384.326" width="94.3158" height="29.6421"/>
+  <object id="32" name="Desk" x="383" y="385" width="33.6842" height="28.2947"/>
+  <object id="23" name="Border" x="353.358" y="513.674" width="94.9895" height="28.2947"/>
+  <object id="24" name="Border" x="512.347" y="351.989" width="29.6421" height="91.6211"/>
+  <object id="26" name="Border" x="512.347" y="128.326" width="29.6421" height="91.6211"/>
+  <object id="27" name="Border" x="480.684" y="95.9895" width="29.6421" height="91.6211"/>
+  <object id="28" name="Border" x="352.684" y="34.0105" width="91.6211" height="28.2947"/>
+  <object id="29" name="Border" x="383.674" y="65" width="91.6211" height="28.2947"/>
+  <object id="30" name="Border" x="449.695" y="97.3368" width="30.3158" height="28.2947"/>
+  <object id="25" name="Border" x="545.358" y="193.674" width="29.6421" height="187.958"/>
+  <object id="19" name="Border" x="130.368" y="513" width="93.6421" height="28.2947"/>
+  <object id="34" name="O_PokeTowerF1Spawn" x="287.663" y="542.989">
+   <point/>
+  </object>
+  <object id="36" name="PokeTowerF2_PokeTowerF1Spawn" x="473.6" y="313.263">
+   <point/>
+  </object>
+  <object id="35" name="PokeTowerF1_ODoor" x="256.674" y="577.347" width="64" height="19.5368">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="37" name="PokeTowerF1_PokeTowerF2Door" x="524.8" y="286.989" width="16.8421" height="28.2947">
+   <properties>
+    <property name="Destination" value="PokeTowerF2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Floor2" width="18" height="18" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,839,839,839,839,830,830,830,0,0,0,0,
+0,0,0,830,830,830,839,137,137,137,137,137,830,830,830,0,0,0,
+0,0,830,830,839,839,839,137,137,137,137,137,137,137,830,830,0,0,
+0,830,830,839,839,839,137,137,137,137,137,137,137,137,839,830,830,0,
+0,830,830,137,137,137,137,137,137,137,137,137,137,137,137,830,830,0,
+830,830,137,137,137,137,839,839,839,839,839,839,137,137,137,137,830,830,
+830,137,137,137,137,137,839,839,137,137,137,137,137,137,137,137,137,830,
+830,137,137,137,839,839,839,839,137,137,839,839,839,839,137,137,137,830,
+830,831,137,137,839,839,839,839,137,137,839,839,839,839,137,137,832,830,
+830,137,137,137,137,137,839,839,137,137,137,137,137,137,137,137,137,830,
+830,830,137,137,137,137,839,839,137,137,137,137,137,137,137,137,830,830,
+0,830,830,137,839,839,839,839,839,839,137,137,137,137,137,830,830,0,
+0,830,830,839,839,839,839,839,839,839,137,137,839,839,839,830,830,0,
+0,0,830,830,137,137,137,137,137,137,137,137,137,137,830,830,0,0,
+0,0,0,830,830,830,137,137,137,137,137,137,830,830,830,0,0,0,
+0,0,0,0,830,830,830,839,839,839,839,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="F2Objects" visible="0">
+  <object id="38" name="Rival" gid="1330" x="411.116" y="160.168" width="32" height="32"/>
+  <object id="39" name="Border2" x="354.968" y="32.2062" width="90.3172" height="28.0053"/>
+  <object id="40" name="Border2" x="130.225" y="33.6064" width="90.3172" height="28.0053"/>
+  <object id="61" name="Border2" x="34.3066" y="130.225" width="60.2115" height="61.6118"/>
+  <object id="59" name="Border2" x="99.419" y="65.8126" width="90.3172" height="28.0053"/>
+  <object id="60" name="Border2" x="65.8126" y="98.0187" width="155.43" height="28.0053"/>
+  <object id="41" name="Border2" x="194.637" y="-1.42109e-14" width="185.535" height="28.0053"/>
+  <object id="42" name="Border2" x="193.937" y="512.498" width="185.535" height="28.0053"/>
+  <object id="43" name="Border2" x="385.074" y="65.8126" width="92.4176" height="28.0053"/>
+  <object id="44" name="Border2" x="448.086" y="96.6185" width="60.9116" height="28.0053"/>
+  <object id="45" name="Border2" x="448.086" y="129.525" width="93.1178" height="28.0053"/>
+  <object id="46" name="Border2" x="480.292" y="161.731" width="63.012" height="28.0053"/>
+  <object id="47" name="Border2" x="511.798" y="194.637" width="63.012" height="28.0053"/>
+  <object id="48" name="Border2" x="545.404" y="224.743" width="30.1057" height="157.53"/>
+  <object id="49" name="Border2" x="513.898" y="353.568" width="30.1057" height="88.917"/>
+  <object id="50" name="Border2" x="481.692" y="387.874" width="30.1057" height="88.917"/>
+  <object id="52" name="Border2" x="448.086" y="420.08" width="30.1057" height="88.917"/>
+  <object id="62" name="Border2" x="32.2062" y="189.736" width="30.1057" height="30.1057"/>
+  <object id="63" name="Border2" x="194.637" y="193.237" width="189.036" height="30.1057"/>
+  <object id="70" name="Border2" x="384.373" y="417.98" width="94.5181" height="30.1057"/>
+  <object id="71" name="Border2" x="384.373" y="417.98" width="63.7122" height="30.1057"/>
+  <object id="73" name="Border2" x="98.0187" y="417.98" width="30.8059" height="30.1057"/>
+  <object id="72" name="Border2" x="129.525" y="382.973" width="60.9116" height="64.4123"/>
+  <object id="68" name="Border2" x="129.525" y="255.549" width="62.3119" height="65.1124"/>
+  <object id="69" name="Border2" x="321.361" y="257.649" width="122.523" height="65.1124"/>
+  <object id="67" name="Border2" x="191.837" y="226.143" width="62.3119" height="219.842"/>
+  <object id="64" name="Border2" x="223.343" y="32.9063" width="127.424" height="30.1057"/>
+  <object id="65" name="Border2" x="189.736" y="64.4123" width="32.2062" height="30.1057"/>
+  <object id="66" name="Border2" x="98.0187" y="129.525" width="93.1178" height="30.1057"/>
+  <object id="53" name="Border2" x="128.124" y="479.592" width="63.012" height="62.3119"/>
+  <object id="54" name="Border2" x="34.3066" y="385.074" width="63.012" height="62.3119"/>
+  <object id="57" name="Border2" x="1.40027" y="192.537" width="28.0053" height="187.636"/>
+  <object id="55" name="Border2" x="67.2128" y="448.086" width="63.012" height="28.7055"/>
+  <object id="58" name="Border2" x="32.2062" y="354.268" width="30.8059" height="28.7055"/>
+  <object id="56" name="Border2" x="98.0187" y="480.992" width="28.7055" height="28.7055"/>
+  <object id="51" name="Border2" x="385.774" y="478.191" width="56.7108" height="62.3119"/>
+  <object id="74" name="PokeTowerF2_PokeTowerF1Door" x="520.899" y="287.755" width="24.5047" height="31.506">
+   <properties>
+    <property name="Destination" value="PokeTowerF1"/>
+   </properties>
+  </object>
+  <object id="78" name="PokeTowerF2_PokeTowerF3Door" x="42.5832" y="291.123" width="14.3994" height="20.0534">
+   <properties>
+    <property name="Destination" value="PokeTowerF3"/>
+   </properties>
+  </object>
+  <object id="75" name="PokeTowerF1_PokeTowerF2Spawn" x="485.893" y="280.053">
+   <point/>
+  </object>
+  <object id="79" name="PokeTowerF3_PokeTowerF2Spawn" x="102.567" y="352.137">
+   <point/>
+  </object>
+  <object id="76" name="F2Channeler" gid="1431" x="30.2088" y="287.652" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Even we could not identify the wayward GHOSTs! A "/>
+    <property name="Dialouge2" value="SILPH SCOPE might be able to unmask them."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="77" name="BattleLine" x="386.474" y="190.436" width="121.823" height="18.9036"/>
+ </objectgroup>
+ <layer id="7" name="Floor3" width="18" height="18" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,137,137,137,137,830,830,830,0,0,0,0,
+0,0,0,830,830,830,839,137,137,137,137,137,830,830,830,0,0,0,
+0,0,830,830,839,839,839,137,137,137,137,137,137,137,830,830,0,0,
+0,830,830,137,137,137,137,137,137,137,137,137,137,137,137,830,830,0,
+0,830,830,137,137,839,839,839,839,839,839,839,839,839,839,830,830,0,
+830,830,137,137,137,839,137,137,137,137,137,137,137,137,137,137,830,830,
+830,137,137,137,137,839,137,137,137,137,137,137,137,839,839,137,137,830,
+830,137,137,137,137,839,137,137,839,839,137,137,839,137,137,137,137,830,
+830,832,137,137,137,839,137,137,839,839,137,137,839,137,137,137,831,830,
+830,137,137,137,137,839,137,137,137,137,137,137,839,137,137,137,137,830,
+830,830,137,137,137,839,137,137,137,137,137,137,839,137,137,137,830,830,
+0,830,830,137,137,839,137,137,839,839,839,839,839,137,839,839,830,0,
+0,830,830,137,137,137,137,137,137,137,137,137,137,137,137,137,830,0,
+0,0,830,830,839,839,137,137,137,137,137,137,839,839,830,830,0,0,
+0,0,0,830,830,830,137,137,137,137,137,137,830,830,830,0,0,0,
+0,0,0,0,830,830,830,839,839,839,839,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="F3Objects" visible="0">
+  <object id="80" name="Border3" x="99.0316" y="62.6526" width="120.589" height="62.6526"/>
+  <object id="95" name="Border3" x="65.3474" y="96.3368" width="29.6421" height="94.3158"/>
+  <object id="97" name="Border3" x="352.337" y="33.6842" width="94.3158" height="28.2947"/>
+  <object id="107" name="Border3" x="129.347" y="33.6842" width="94.3158" height="28.2947"/>
+  <object id="98" name="Border3" x="384" y="64.6737" width="94.3158" height="28.2947"/>
+  <object id="99" name="Border3" x="447.326" y="99.0316" width="62.6526" height="28.2947"/>
+  <object id="100" name="Border3" x="480.337" y="130.021" width="62.6526" height="28.2947"/>
+  <object id="106" name="Border3" x="512.674" y="193.347" width="30.9895" height="28.2947"/>
+  <object id="102" name="Border3" x="384.674" y="478.316" width="92.2947" height="28.2947"/>
+  <object id="101" name="Border3" x="512" y="353.011" width="30.9895" height="92.2947"/>
+  <object id="96" name="Border3" x="33.3158" y="127.674" width="29.6421" height="94.3158"/>
+  <object id="105" name="Border3" x="34.6632" y="349.989" width="29.6421" height="31.6632"/>
+  <object id="83" name="Border3" x="257.347" y="256" width="59.9579" height="62.6526"/>
+  <object id="91" name="Border3" x="1" y="191.326" width="30.3158" height="191.326"/>
+  <object id="92" name="Border3" x="545.337" y="191.695" width="30.3158" height="191.326"/>
+  <object id="86" name="Border3" x="417.011" y="226.358" width="59.9579" height="28.9684"/>
+  <object id="87" name="Border3" x="450.347" y="386.695" width="59.9579" height="28.9684"/>
+  <object id="88" name="Border3" x="387.021" y="449.347" width="121.937" height="28.9684"/>
+  <object id="89" name="Border3" x="66" y="450.021" width="122.611" height="28.9684"/>
+  <object id="90" name="Border3" x="129.326" y="513.695" width="316.632" height="28.9684"/>
+  <object id="93" name="Border3" x="194" y="543.337" width="187.958" height="28.9684"/>
+  <object id="103" name="Border3" x="98.3368" y="482.032" width="92.2947" height="28.9684"/>
+  <object id="104" name="Border3" x="33.6632" y="383" width="60.6316" height="64"/>
+  <object id="94" name="Border3" x="194.347" y="1.02105" width="187.958" height="28.9684"/>
+  <object id="85" name="Border3" x="257.347" y="388.042" width="127.326" height="20.2105"/>
+  <object id="84" name="Border3" x="386.695" y="256.674" width="26.9474" height="153.6"/>
+  <object id="81" name="Border3" x="160.337" y="158.316" width="383.326" height="32.3368"/>
+  <object id="82" name="Border3" x="162.358" y="192" width="26.9474" height="223.663"/>
+  <object id="108" name="PokeTowerF3_PokeTowerF2Door" x="33.6842" y="288.337" width="17.5158" height="30.9895">
+   <properties>
+    <property name="Destination" value="PokeTowerF2"/>
+   </properties>
+  </object>
+  <object id="111" name="PokeTowerF3_PokeTowerF4Door" x="526.821" y="286.316" width="17.5158" height="24.2526">
+   <properties>
+    <property name="Destination" value="PokeTowerF4"/>
+   </properties>
+  </object>
+  <object id="109" name="PokeTowerF2_PokeTowerF3Spawn" x="91.6211" y="256">
+   <point/>
+  </object>
+  <object id="110" name="PokeTowerF4_PokeTowerF3Spawn" x="462.147" y="314.611">
+   <point/>
+  </object>
+  <object id="112" name="Ball3" gid="1442" x="320.495" y="63.5053" width="30" height="30">
+   <properties>
+    <property name="Item" value="Escape Rope"/>
+   </properties>
+  </object>
+  <object id="113" name="F31Channeler" gid="1426" x="319.495" y="128.505" width="34" height="32">
+   <properties>
+    <property name="AfterBattle" value="The GHOSTs can be identified by the SILPH SCOPE."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Hwa! I'm saved!"/>
+    <property name="BattleStart" value="Urrg...Awaa...Huhu...graa.."/>
+    <property name="Money" type="int" value="690"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Gastly-23-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="114" name="F33Channeler" gid="1429" x="223.158" y="287.821" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="Sorry! I was possessed!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Hmm? What am I doing?"/>
+    <property name="BattleStart" value="Kekeke.... Kwaaah!"/>
+    <property name="Money" type="int" value="720"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-24-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="115" name="F32Channeler" gid="1429" x="256.842" y="445.463" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="My friends were possessed too!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Whew! The spirit left!"/>
+    <property name="BattleStart" value="Be gone! Evil spirit!"/>
+    <property name="Money" type="int" value="660"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-22-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="277" name="Eyes3" x="258.695" y="86.9053" width="59.2842" height="47.1579">
+   <properties>
+    <property name="Trainer" value="F31Channeler"/>
+   </properties>
+  </object>
+  <object id="278" name="Eyes3" x="257.347" y="443.958" width="29.6421" height="68.7158">
+   <properties>
+    <property name="Trainer" value="F32Channeler"/>
+   </properties>
+  </object>
+  <object id="279" name="Eyes3" x="218.947" y="284.968" width="35.0316" height="103.747">
+   <properties>
+    <property name="Trainer" value="F33Channeler"/>
+   </properties>
+  </object>
+  <object id="291" name="Wild3" x="189.979" y="190.653" width="224.337" height="62.6526">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="292" name="Wild3" x="188.632" y="252.632" width="35.0316" height="258.021">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="293" name="Wild3" x="222.316" y="388.716" width="35.0316" height="128">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="294" name="Wild3" x="254.653" y="320.674" width="130.695" height="67.3684">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="303" name="Wild3" x="318.653" y="251.958" width="69.3895" height="67.3684">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="304" name="Wild3" x="288.337" y="412.295" width="95.6632" height="101.053">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="305" name="Wild3" x="386.695" y="347.621" width="125.979" height="97.6842">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="306" name="Wild3" x="415.663" y="253.305" width="94.9895" height="92.2947">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="307" name="Wild3" x="414.316" y="190.653" width="131.368" height="66.0211">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="308" name="Wild3" x="512" y="259.368" width="33.6842" height="31.6632">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="309" name="Wild3" x="512" y="320.674" width="33.6842" height="31.6632">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="295" name="Wild3" x="226.358" y="33.6842" width="130.695" height="67.3684">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="296" name="Wild3" x="222.989" y="54.5684" width="99.7053" height="99.0316">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="297" name="Wild3" x="321.347" y="55.9158" width="63.3263" height="99.0316">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="298" name="Wild3" x="386.695" y="72.7579" width="97.0105" height="81.5158">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="299" name="Wild3" x="97.0105" y="125.305" width="126.653" height="33.6842">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="300" name="Wild3" x="30.9895" y="155.621" width="130.021" height="130.695">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="301" name="Wild3" x="35.0316" y="320" width="153.6" height="130.695">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="302" name="Wild3" x="65.3474" y="286.316" width="93.6421" height="32.3368">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF3"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Floor4" width="18" height="18" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,137,137,137,137,830,830,830,0,0,0,0,
+0,0,0,830,830,830,839,137,137,137,137,137,830,830,830,0,0,0,
+0,0,830,830,839,839,839,137,137,137,137,137,137,137,830,830,0,0,
+0,830,830,839,137,137,137,137,839,137,137,137,839,839,839,830,830,0,
+0,830,830,137,137,839,839,137,839,137,839,839,137,137,137,830,830,0,
+830,830,137,137,137,137,137,137,839,137,137,137,137,839,839,137,830,830,
+830,137,137,137,137,839,839,137,137,839,839,839,137,137,137,137,137,830,
+830,137,137,137,137,137,137,137,839,137,137,137,137,137,137,137,137,830,
+830,831,839,839,137,137,839,839,137,137,839,839,137,137,137,137,832,830,
+830,137,137,137,137,137,839,137,137,839,137,137,137,137,839,137,137,830,
+830,830,137,137,137,137,839,839,137,137,839,839,137,839,839,839,830,830,
+0,830,830,137,839,137,137,137,137,137,137,137,137,137,137,830,830,0,
+0,830,830,137,137,839,137,839,137,137,137,839,839,137,137,830,830,0,
+0,0,830,830,137,137,137,137,137,839,137,137,137,137,830,830,0,0,
+0,0,0,830,830,830,839,137,137,137,839,839,830,830,830,0,0,0,
+0,0,0,0,830,830,830,839,839,137,137,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="F4Objects" visible="0">
+  <object id="116" name="Border4" x="258.021" y="128.674" width="26.9474" height="94.3158"/>
+  <object id="117" name="Border4" x="194.021" y="287.989" width="26.9474" height="94.3158"/>
+  <object id="118" name="Border4" x="67.0421" y="94.6421" width="152.926" height="33.0105"/>
+  <object id="119" name="Border4" x="162.705" y="163.358" width="60.6316" height="28.2947"/>
+  <object id="138" name="Border4" x="129.695" y="515.021" width="156.295" height="28.2947"/>
+  <object id="139" name="Border4" x="320.347" y="483.358" width="154.947" height="28.2947"/>
+  <object id="140" name="Border4" x="354.705" y="418.684" width="60.6316" height="28.2947"/>
+  <object id="141" name="Border4" x="321.021" y="354.011" width="60.6316" height="28.2947"/>
+  <object id="142" name="Border4" x="321.695" y="291.358" width="60.6316" height="28.2947"/>
+  <object id="143" name="Border4" x="65.0211" y="290.684" width="60.6316" height="28.2947"/>
+  <object id="120" name="Border4" x="162.705" y="227.358" width="60.6316" height="28.2947"/>
+  <object id="144" name="Border4" x="35.0526" y="127.653" width="60.6316" height="62.6526"/>
+  <object id="145" name="Border4" x="129.368" y="33.3368" width="94.9895" height="26.2737"/>
+  <object id="126" name="Border4" x="96.6842" y="130" width="29.6421" height="28.2947"/>
+  <object id="128" name="Border4" x="256.368" y="258.674" width="29.6421" height="28.2947"/>
+  <object id="129" name="Border4" x="224.705" y="290.337" width="29.6421" height="28.2947"/>
+  <object id="130" name="Border4" x="224.032" y="355.684" width="29.6421" height="28.2947"/>
+  <object id="131" name="Border4" x="449.042" y="322.674" width="29.6421" height="28.2947"/>
+  <object id="146" name="Border4" x="32.0316" y="192.653" width="29.6421" height="28.2947"/>
+  <object id="156" name="Border4" x="513.042" y="195.347" width="29.6421" height="28.2947"/>
+  <object id="157" name="Border4" x="481.379" y="160.316" width="60.6316" height="28.2947"/>
+  <object id="158" name="Border4" x="447.695" y="96.9895" width="60.6316" height="28.2947"/>
+  <object id="159" name="Border4" x="384.368" y="64.6526" width="92.2947" height="28.2947"/>
+  <object id="160" name="Border4" x="354.726" y="32.9895" width="92.2947" height="28.2947"/>
+  <object id="161" name="Border4" x="194.389" y="-2.71579" width="186.611" height="32.3368"/>
+  <object id="148" name="Border4" x="32.0316" y="352.316" width="29.6421" height="28.2947"/>
+  <object id="154" name="Border4" x="478.684" y="383.305" width="61.9789" height="60.6316"/>
+  <object id="153" name="Border4" x="447.021" y="449.326" width="64.6737" height="28.2947"/>
+  <object id="152" name="Border4" x="353.379" y="512.653" width="93.6421" height="28.2947"/>
+  <object id="151" name="Border4" x="195.063" y="545.663" width="187.958" height="28.2947"/>
+  <object id="150" name="Border4" x="66.3895" y="449.326" width="59.9579" height="28.2947"/>
+  <object id="149" name="Border4" x="34.0526" y="385.326" width="61.3053" height="61.9789"/>
+  <object id="147" name="Border4" x="1.04211" y="191.979" width="29.6421" height="191.326"/>
+  <object id="155" name="Border4" x="545.032" y="190.632" width="29.6421" height="191.326"/>
+  <object id="132" name="Border4" x="287.358" y="322.674" width="29.6421" height="28.2947"/>
+  <object id="133" name="Border4" x="224.705" y="420.358" width="29.6421" height="28.2947"/>
+  <object id="134" name="Border4" x="160.705" y="419.011" width="29.6421" height="28.2947"/>
+  <object id="135" name="Border4" x="129.042" y="386.021" width="29.6421" height="28.2947"/>
+  <object id="136" name="Border4" x="287.358" y="451.368" width="29.6421" height="28.2947"/>
+  <object id="137" name="Border4" x="98.0526" y="482.358" width="125.305" height="28.2947"/>
+  <object id="127" name="Border4" x="98.0316" y="65.3263" width="124.632" height="28.2947"/>
+  <object id="122" name="Border4" x="323.042" y="162.011" width="60.6316" height="28.2947"/>
+  <object id="124" name="Border4" x="417.011" y="194.347" width="60.6316" height="28.2947"/>
+  <object id="125" name="Border4" x="418.032" y="355.032" width="127.326" height="28.2947"/>
+  <object id="123" name="Border4" x="385.021" y="131.021" width="156.968" height="28.2947"/>
+  <object id="121" name="Border4" x="290.032" y="225.337" width="92.9684" height="28.2947"/>
+  <object id="162" name="PokeTowerF4_PokeTowerF3Door" x="525.474" y="286.989" width="16.1684" height="29.6421">
+   <properties>
+    <property name="Destination" value="PokeTowerF3"/>
+   </properties>
+  </object>
+  <object id="164" name="PokeTowerF4_PokeTowerF5Door" x="46.4842" y="285.642" width="16.1684" height="29.6421">
+   <properties>
+    <property name="Destination" value="PokeTowerF5"/>
+   </properties>
+  </object>
+  <object id="163" name="PokeTowerF3_PokeTowerF4Spawn" x="476.968" y="286.316">
+   <point/>
+  </object>
+  <object id="165" name="PokeTowerF5_PokeTowerF4Spawn" x="64.6737" y="266.105">
+   <point/>
+  </object>
+  <object id="166" name="F41Channeler" gid="1429" x="415.158" y="257.505" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="We can't crack the identity of the GHOSTs."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="What!"/>
+    <property name="BattleStart" value="Be cursed with me! Kwaaah!"/>
+    <property name="Money" type="int" value="690"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-23-Lick_Confuse Ray_Night Shade-Channeler-Gastly,Gastly-23-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="167" name="F42Channeler" gid="1426" x="383.168" y="415.495" width="34" height="32">
+   <properties>
+    <property name="AfterBattle" value="May the departed souls of POKEMON rest in peace..."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Huh? Who? What?"/>
+    <property name="BattleStart" value="Huhuhu... Beat me not!"/>
+    <property name="Money" type="int" value="660"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Gastly-22-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="168" name="F43Channeler" gid="1431" x="95.8316" y="353.516" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I must have been dreaming..."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Where is the GHOST?"/>
+    <property name="BattleStart" value="GHOST! No! Kwaaah!"/>
+    <property name="Money" type="int" value="720"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Gastly-24-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="169" name="Ball4" gid="1442" x="321.168" y="543.168" width="30" height="30">
+   <properties>
+    <property name="Item" value="HP Up"/>
+   </properties>
+  </object>
+  <object id="170" name="Ball4" gid="1442" x="223.137" y="352.516" width="30" height="30">
+   <properties>
+    <property name="Item" value="Awakening"/>
+   </properties>
+  </object>
+  <object id="171" name="Ball4" gid="1442" x="318.821" y="350.495" width="30" height="30">
+   <properties>
+    <property name="Item" value="Elixir"/>
+   </properties>
+  </object>
+  <object id="280" name="Eyes4" x="417.011" y="258.021" width="36.3789" height="64">
+   <properties>
+    <property name="Trainer" value="F41Channeler"/>
+   </properties>
+  </object>
+  <object id="281" name="Eyes4" x="315.284" y="380.632" width="66.6947" height="37.0526">
+   <properties>
+    <property name="Trainer" value="F42Channeler"/>
+   </properties>
+  </object>
+  <object id="282" name="Eyes4" x="128" y="318.653" width="66.6947" height="37.0526">
+   <properties>
+    <property name="Trainer" value="F43Channeler"/>
+   </properties>
+  </object>
+  <object id="310" name="Wild4" x="31.6632" y="26.9474" width="457.432" height="260.042">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF4"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="311" name="Wild4" x="32.3368" y="319.326" width="520.758" height="260.042">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF4"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="312" name="Wild4" x="65.3474" y="286.989" width="444.632" height="30.3158">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF4"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="313" name="Wild4" x="482.358" y="183.916" width="64" height="100.379">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF4"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="11" name="Floor5" width="18" height="18" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,137,137,137,137,830,830,830,0,0,0,0,
+0,0,0,830,830,830,137,839,137,137,137,137,830,830,830,0,0,0,
+0,0,830,830,839,839,839,137,137,137,137,137,137,137,830,830,0,0,
+0,830,830,137,839,839,839,839,137,137,839,839,839,839,137,830,830,0,
+0,830,830,839,839,137,137,137,137,137,137,137,137,839,839,830,830,0,
+830,830,137,137,137,137,137,137,137,137,137,137,137,137,137,137,830,830,
+830,137,137,137,137,137,839,839,839,839,137,137,137,137,137,137,137,830,
+830,137,137,839,839,839,137,137,847,847,137,137,839,839,839,137,137,830,
+830,832,137,839,839,839,137,137,847,847,137,137,839,839,839,137,831,830,
+830,137,137,839,137,137,137,137,137,137,839,839,137,137,137,137,137,830,
+830,830,137,839,137,137,137,137,839,839,137,137,137,137,137,137,830,830,
+0,830,830,839,839,137,137,137,137,137,137,137,137,839,839,830,830,0,
+0,830,830,137,839,839,839,839,137,137,839,839,839,839,137,830,830,0,
+0,0,830,830,137,137,137,137,137,137,137,137,137,137,830,830,0,0,
+0,0,0,830,830,830,137,137,137,137,137,137,830,830,830,0,0,0,
+0,0,0,0,830,830,830,137,137,137,137,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="F5Objects" visible="0">
+  <object id="172" name="Border5" x="129.347" y="92.2947" width="91.6211" height="66.6947"/>
+  <object id="173" name="Border5" x="225.011" y="128.674" width="29.6421" height="30.3158"/>
+  <object id="179" name="Border5" x="127.326" y="384.674" width="29.6421" height="30.3158"/>
+  <object id="174" name="Border5" x="225.011" y="64.6737" width="29.6421" height="30.3158"/>
+  <object id="212" name="Border5" x="33.0105" y="192.674" width="29.6421" height="30.3158"/>
+  <object id="211" name="Border5" x="66.0211" y="94.3158" width="60.6316" height="30.3158"/>
+  <object id="196" name="Border5" x="194.021" y="510.653" width="29.6421" height="30.3158"/>
+  <object id="197" name="Border5" x="353.358" y="509.979" width="29.6421" height="30.3158"/>
+  <object id="198" name="Border5" x="480.684" y="444.804" width="31.6632" height="31.319"/>
+  <object id="202" name="Border5" x="513.021" y="351.835" width="31.6632" height="31.319"/>
+  <object id="203" name="Border5" x="513.695" y="189.477" width="31.6632" height="31.319"/>
+  <object id="205" name="Border5" x="449.695" y="93.8142" width="60.6316" height="31.319"/>
+  <object id="206" name="Border5" x="382.326" y="62.151" width="94.9895" height="31.319"/>
+  <object id="207" name="Border5" x="353.358" y="31.8352" width="94.9895" height="31.319"/>
+  <object id="208" name="Border5" x="127.674" y="30.4879" width="94.9895" height="31.319"/>
+  <object id="209" name="Border5" x="98.0316" y="64.1721" width="94.9895" height="31.319"/>
+  <object id="210" name="Border5" x="32.0105" y="127.498" width="62.6526" height="62.9822"/>
+  <object id="204" name="Border5" x="480.011" y="123.456" width="61.9789" height="65.0032"/>
+  <object id="200" name="Border5" x="385.695" y="480.509" width="59.2842" height="63.6558"/>
+  <object id="201" name="Border5" x="482.032" y="385.519" width="59.2842" height="63.6558"/>
+  <object id="199" name="Border5" x="449.021" y="447.498" width="28.2947" height="61.6348"/>
+  <object id="175" name="Border5" x="418.358" y="160.337" width="59.2842" height="30.3158"/>
+  <object id="182" name="Border5" x="320.674" y="320.674" width="59.2842" height="30.3158"/>
+  <object id="183" name="Border5" x="258.695" y="353.011" width="59.2842" height="30.3158"/>
+  <object id="192" name="Border5" x="33.6842" y="351.663" width="29.6421" height="91.6211"/>
+  <object id="193" name="Border5" x="66.0211" y="383.326" width="29.6421" height="91.6211"/>
+  <object id="194" name="Border5" x="99.0316" y="446.653" width="29.6421" height="63.3263"/>
+  <object id="195" name="Border5" x="129.347" y="476.968" width="61.9789" height="63.3263"/>
+  <object id="184" name="Border5" x="416.337" y="382.979" width="59.2842" height="30.3158"/>
+  <object id="180" name="Border5" x="97.3579" y="161.011" width="59.2842" height="30.3158"/>
+  <object id="187" name="Border5" x="96.6842" y="322.021" width="31.6632" height="94.3158"/>
+  <object id="181" name="Border5" x="97.3579" y="258.021" width="92.2947" height="60.6316"/>
+  <object id="178" name="Border5" x="385.347" y="256.674" width="94.3158" height="64"/>
+  <object id="176" name="Border5" x="320.674" y="129.347" width="125.979" height="30.3158"/>
+  <object id="177" name="Border5" x="193.347" y="225.011" width="125.979" height="30.3158"/>
+  <object id="189" name="Border5" x="192.674" y="542.989" width="188.632" height="30.3158"/>
+  <object id="191" name="Border5" x="545.011" y="191.326" width="29.6421" height="190.653"/>
+  <object id="190" name="Border5" x="194.021" y="1.13687e-13" width="188.632" height="30.3158"/>
+  <object id="188" name="Border5" x="0.673684" y="192" width="29.6421" height="189.305"/>
+  <object id="185" name="Border5" x="322.021" y="416.337" width="125.979" height="30.3158"/>
+  <object id="186" name="Border5" x="130.021" y="417.684" width="125.979" height="30.3158"/>
+  <object id="213" name="PokeTowerF5_PokeTowerF4Door" x="33.6842" y="287.663" width="18.8632" height="29.6421">
+   <properties>
+    <property name="Destination" value="PokeTowerF4"/>
+   </properties>
+  </object>
+  <object id="215" name="PokeTowerF5_PokeTowerF6Door" x="523.453" y="289.684" width="18.8632" height="23.5789">
+   <properties>
+    <property name="Destination" value="PokeTowerF6"/>
+   </properties>
+  </object>
+  <object id="214" name="PokeTowerF4_PokeTowerF5Spawn" x="80.8421" y="305.179">
+   <point/>
+  </object>
+  <object id="216" name="PokeTowerF6_PokeTowerF5Spawn" x="495.832" y="280.253">
+   <point/>
+  </object>
+  <object id="217" name="Ball5" gid="1442" x="131.863" y="477.147" width="30" height="30">
+   <properties>
+    <property name="Item" value="Nugget"/>
+   </properties>
+  </object>
+  <object id="218" name="F53Channeler" gid="1431" x="225.179" y="541.474" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I fell to evil spirits despite my training!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Whoo!"/>
+    <property name="BattleStart" value="Urgah... Urff..."/>
+    <property name="Money" type="int" value="720"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Gastly-24-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="219" name="F52Channeler" gid="1431" x="129.516" y="352.168" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I regained my senses!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Ha?"/>
+    <property name="BattleStart" value="Zombies!"/>
+    <property name="Money" type="int" value="690"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Haunter-23-Lick_Confuse Ray_Night Shade-Channeler-Haunter"/>
+   </properties>
+  </object>
+  <object id="220" name="Healer" gid="1426" x="319.168" y="288.168" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="Come, child! I sealed this space with white magic! You can rest here!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="221" name="F54Channeler" gid="1426" x="479.505" y="253.811" width="34" height="32">
+   <properties>
+    <property name="AfterBattle" value="I was under possession!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Gasp!"/>
+    <property name="BattleStart" value="Give...me...your...soul..."/>
+    <property name="Money" type="int" value="660"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Haunter-22-Lick_Confuse Ray_Night Shade-Channeler-Haunter"/>
+   </properties>
+  </object>
+  <object id="222" name="F51Channeler" gid="1426" x="383.842" y="128.505" width="34" height="32">
+   <properties>
+    <property name="AfterBattle" value="I was possessed!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="What a nightmare!"/>
+    <property name="BattleStart" value="You...shall...join...us..."/>
+    <property name="Money" type="int" value="660"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Gastly-22-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="283" name="Eyes5" x="284.968" y="98.3579" width="99.0316" height="29.6421">
+   <properties>
+    <property name="Trainer" value="F51Channeler"/>
+   </properties>
+  </object>
+  <object id="284" name="Eyes5" x="412.968" y="224.337" width="66.0211" height="29.6421">
+   <properties>
+    <property name="Trainer" value="F54Channeler"/>
+   </properties>
+  </object>
+  <object id="286" name="Eyes5" x="163.032" y="322.021" width="66.0211" height="29.6421">
+   <properties>
+    <property name="Trainer" value="F52Channeler"/>
+   </properties>
+  </object>
+  <object id="287" name="Eyes5" x="257.347" y="510.653" width="66.0211" height="29.6421">
+   <properties>
+    <property name="Trainer" value="F53Channeler"/>
+   </properties>
+  </object>
+  <object id="285" name="Safe Zone" x="257.347" y="257.347" width="61.9789" height="58.6105"/>
+  <object id="314" name="Wild5" x="27.6211" y="29.6421" width="524.126" height="237.137">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF5"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="315" name="Wild5" x="31.6632" y="322.021" width="524.126" height="237.137">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF5"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="316" name="Wild5" x="64.6737" y="267.453" width="448" height="53.2211">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF5"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="13" name="Floor6" width="18" height="18" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,839,839,839,839,830,830,830,0,0,0,0,
+0,0,0,830,830,830,830,830,137,137,137,137,830,830,830,0,0,0,
+0,0,830,830,839,137,137,137,137,137,137,137,137,137,830,830,0,0,
+0,830,830,839,137,839,839,839,137,137,839,839,137,137,839,830,830,0,
+0,830,830,137,137,137,137,137,137,137,839,839,137,137,137,830,830,0,
+830,830,137,137,137,137,137,137,137,137,839,839,137,137,839,839,830,830,
+830,137,137,137,137,137,137,137,137,137,839,839,137,137,137,137,137,830,
+830,839,839,839,137,839,137,137,137,137,839,839,137,137,137,137,137,830,
+830,839,839,839,137,839,839,839,839,839,137,137,137,137,137,137,832,830,
+830,137,137,137,137,137,839,839,839,839,137,137,137,137,137,137,137,830,
+830,830,839,839,137,137,137,137,137,137,839,839,839,137,839,839,830,830,
+0,830,830,137,137,137,137,137,137,137,137,137,839,137,137,830,830,0,
+0,830,830,839,137,137,839,839,137,137,839,839,839,137,839,830,830,0,
+0,0,830,830,137,137,137,137,137,137,839,839,137,137,830,830,0,0,
+0,0,0,830,830,830,839,839,137,137,839,839,830,830,830,0,0,0,
+0,0,0,0,830,830,830,831,137,137,137,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="14" name="F6Objects" visible="0">
+  <object id="223" name="Border6" x="321.347" y="128.674" width="58.6105" height="155.621"/>
+  <object id="224" name="Border6" x="161.684" y="125.979" width="93.6421" height="34.3579"/>
+  <object id="238" name="Border6" x="1.34737" y="354.358" width="125.305" height="30.9895"/>
+  <object id="239" name="Border6" x="193.347" y="417.684" width="59.2842" height="30.9895"/>
+  <object id="256" name="Border6" x="65.3474" y="447.326" width="59.2842" height="30.9895"/>
+  <object id="253" name="Border6" x="130.021" y="513.347" width="90.9474" height="30.9895"/>
+  <object id="254" name="Border6" x="98.3579" y="480.337" width="90.9474" height="28.2947"/>
+  <object id="255" name="Border6" x="35.0316" y="385.347" width="59.2842" height="60.6316"/>
+  <object id="234" name="Border6" x="321.347" y="351.663" width="93.6421" height="30.9895"/>
+  <object id="230" name="Border6" x="131.368" y="31.6632" width="313.937" height="33.0105"/>
+  <object id="242" name="Border6" x="194.695" y="2.02105" width="187.958" height="24.9263"/>
+  <object id="245" name="Border6" x="383.326" y="66.6947" width="94.3158" height="24.9263"/>
+  <object id="225" name="Border6" x="33.0105" y="254.653" width="93.6421" height="63.3263"/>
+  <object id="227" name="Border6" x="161.684" y="256.674" width="27.6211" height="63.3263"/>
+  <object id="228" name="Border6" x="96.3368" y="125.305" width="27.6211" height="36.3789"/>
+  <object id="258" name="Border6" x="33.0105" y="187.958" width="27.6211" height="36.3789"/>
+  <object id="259" name="Border6" x="33.6842" y="130.695" width="63.3263" height="57.9368"/>
+  <object id="240" name="Border6" x="450.021" y="420.379" width="27.6211" height="27.6211"/>
+  <object id="237" name="Border6" x="99.0316" y="417.684" width="27.6211" height="29.6421"/>
+  <object id="231" name="Border6" x="448.326" y="123.284" width="93.6421" height="35.0316"/>
+  <object id="244" name="Border6" x="481.337" y="161.011" width="59.9579" height="28.9684"/>
+  <object id="247" name="Border6" x="544.663" y="221.642" width="28.9684" height="130.021"/>
+  <object id="257" name="Border6" x="1.67368" y="192" width="28.9684" height="157.642"/>
+  <object id="246" name="Border6" x="449.674" y="96.3368" width="59.9579" height="28.9684"/>
+  <object id="235" name="Border6" x="387.021" y="379.284" width="27.6211" height="68.0421"/>
+  <object id="236" name="Border6" x="321" y="417.684" width="59.9579" height="94.3158"/>
+  <object id="232" name="Border6" x="449" y="192.674" width="123.284" height="30.3158"/>
+  <object id="233" name="Border6" x="449.674" y="353.705" width="123.284" height="30.3158"/>
+  <object id="248" name="Border6" x="480.663" y="384.021" width="59.2842" height="61.9789"/>
+  <object id="249" name="Border6" x="449" y="448.695" width="59.2842" height="28.9684"/>
+  <object id="250" name="Border6" x="386.347" y="479.011" width="90.9474" height="28.9684"/>
+  <object id="251" name="Border6" x="351.989" y="512.021" width="93.6421" height="28.9684"/>
+  <object id="252" name="Border6" x="194.347" y="543.684" width="185.263" height="28.9684"/>
+  <object id="229" name="Border6" x="65.3474" y="92.9684" width="92.9684" height="36.3789"/>
+  <object id="243" name="Border6" x="97.6842" y="64.6737" width="157.642" height="32.3368"/>
+  <object id="226" name="Border6" x="194.695" y="290.358" width="123.284" height="63.3263"/>
+  <object id="241" name="GhostLine" x="252.632" y="486.4" width="70.0632" height="30.9895"/>
+  <object id="260" name="PokeTowerF6_PokeTowerF5Door" x="528.168" y="290.358" width="16.1684" height="26.9474">
+   <properties>
+    <property name="Destination" value="PokeTowerF5"/>
+   </properties>
+  </object>
+  <object id="262" name="PokeTowerF6_PokeTowerF7Door" x="225.011" y="516.042" width="16.1684" height="26.9474">
+   <properties>
+    <property name="Destination" value="PokeTowerF7"/>
+   </properties>
+  </object>
+  <object id="261" name="PokeTowerF5_PokeTowerF6Spawn" x="476.968" y="288.337">
+   <point/>
+  </object>
+  <object id="263" name="PokeTowerF7_PokeTowerF6Spawn" x="279.579" y="536.253">
+   <point/>
+  </object>
+  <object id="264" name="Ball6" gid="1442" x="383.147" y="477.147" width="30" height="30">
+   <properties>
+    <property name="Item" value="X Accuracy"/>
+   </properties>
+  </object>
+  <object id="265" name="Ball6" gid="1442" x="129.168" y="285.821" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="266" name="F61Channeler" gid="1431" x="321.516" y="350.821" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="I feel anemic and weak..."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Groan!"/>
+    <property name="BattleStart" value="Give...me...blood..."/>
+    <property name="Money" type="int" value="660"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Gastly-22-Lick_Confuse Ray_Night Shade-Channeler-Gastly,Gastly-22-Lick_Confuse Ray_Night Shade-Channeler-Gastly,Gastly-22-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="267" name="F62Channeler" gid="1426" x="446.495" y="191.158" width="34" height="32">
+   <properties>
+    <property name="AfterBattle" value="What's going on here?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Keee!"/>
+    <property name="BattleStart" value="Ke...ke...ke...ke...ke...ke!!"/>
+    <property name="Money" type="int" value="720"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Gastly-24-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="268" name="F63Channeler" gid="1429" x="224.505" y="192.832" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="Hair didn't fall out! It was an evil spirit!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Something fell out!"/>
+    <property name="BattleStart" value="Urff... Kwaah!"/>
+    <property name="Money" type="int" value="720"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Gastly-24-Lick_Confuse Ray_Night Shade-Channeler-Gastly"/>
+   </properties>
+  </object>
+  <object id="288" name="Eyes6" x="355.705" y="319.326" width="94.3158" height="29.6421">
+   <properties>
+    <property name="Trainer" value="F61Channeler"/>
+   </properties>
+  </object>
+  <object id="289" name="Eyes6" x="381.305" y="154.947" width="65.3474" height="38.4">
+   <properties>
+    <property name="Trainer" value="F62Channeler"/>
+   </properties>
+  </object>
+  <object id="290" name="Eyes6" x="222.989" y="194.021" width="33.6842" height="96.3368">
+   <properties>
+    <property name="Trainer" value="F63Channeler"/>
+   </properties>
+  </object>
+  <object id="317" name="Wild6" x="33.0105" y="33.6842" width="514.021" height="250.611">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF6"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="318" name="Wild6" x="30.9895" y="286.316" width="481.011" height="224.337">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF6"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="15" name="Floor7" width="18" height="18">
+  <data encoding="csv">
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0,
+0,0,0,0,830,830,830,830,830,830,830,830,830,830,0,0,0,0,
+0,0,0,830,830,830,830,848,137,137,848,830,830,830,830,0,0,0,
+0,0,830,830,830,830,830,856,137,137,856,830,830,830,830,830,0,0,
+0,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,0,
+0,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,0,
+830,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,830,
+830,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,830,
+830,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,830,
+830,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,830,
+830,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,830,
+830,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,830,
+0,830,830,830,830,830,830,137,137,137,137,830,830,830,830,830,830,0,
+0,830,830,830,830,830,830,830,137,137,830,830,830,830,830,830,830,0,
+0,0,830,830,830,830,830,830,137,137,830,830,830,830,830,830,0,0,
+0,0,0,830,830,830,830,830,137,137,830,830,830,830,830,0,0,0,
+0,0,0,0,830,830,830,832,137,137,137,830,830,830,0,0,0,0,
+0,0,0,0,0,0,830,830,830,830,830,830,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="16" name="F7Objects">
+  <object id="269" name="Border7" x="96.3368" y="64" width="125.979" height="478.316"/>
+  <object id="270" name="Border7" x="354.337" y="61.3053" width="125.979" height="478.316"/>
+  <object id="271" name="Border7" x="319.979" y="415.663" width="30.9895" height="97.6842"/>
+  <object id="272" name="Border7" x="224.316" y="415.663" width="30.9895" height="94.3158"/>
+  <object id="273" name="Border7" x="193.326" y="545.684" width="189.979" height="28.2947"/>
+  <object id="274" name="Border7" x="202.758" y="34.3579" width="189.979" height="28.2947"/>
+  <object id="327" name="Border7" x="224.316" y="99.7053" width="28.9684" height="26.9474"/>
+  <object id="328" name="Border7" x="320.653" y="99.0316" width="28.9684" height="26.9474"/>
+  <object id="275" name="PokeTowerF7_PokeTowerF6Door" x="223.663" y="510.653" width="12.1263" height="32.3368">
+   <properties>
+    <property name="Destination" value="PokeTowerF6"/>
+   </properties>
+  </object>
+  <object id="276" name="PokeTowerF6_PokeTowerF7Spawn" x="282.947" y="527.495">
+   <point/>
+  </object>
+  <object id="319" name="Wild7" x="207.495" y="57.9368" width="159.663" height="454.063" visible="0">
+   <properties>
+    <property name="GrassType" value="PokemonTowerF7"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="321" name="F71Rocket" gid="1363" x="223.158" y="384.853" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="I'm not going to forget this!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I give up!"/>
+    <property name="BattleStart" value="What do you want? Why are you here?"/>
+    <property name="Money" type="int" value="750"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Zubat-25-Leech Life_Supersonic_Bite_Confuse Ray-Rocket-Zubat,Zubat-25-Leech Life_Supersonic_Bite_Confuse Ray-Rocket-Zubat,Golbat-25-Leech Life_Supersonic_Bite_Confuse Ray-Rocket-Golbat"/>
+   </properties>
+  </object>
+  <object id="322" name="F73Rocket" gid="1363" x="221.137" y="250.789" width="32" height="30">
+   <properties>
+    <property name="AfterBattle" value="You're not getting away with this!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Don't fight us ROCKETs!"/>
+    <property name="BattleStart" value="You're not saving anyone, kid!"/>
+    <property name="Money" type="int" value="690"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Zubat-23-Leech Life_Supersonic_Bite_Confuse Ray-Rocket-Zubat,Rattata-23-Tail Whip_Quick Attack_Hyper Fang_Focus Energy-Rocket-Rattata,Raticate-23-Tail Whip_Quick Attack_Hyper Fang_Focus Energy-Rocket-Raticate,Zubat-23-Leech Life_Supersonic_Bite_Confuse Ray-Rocket-Zubat"/>
+   </properties>
+  </object>
+  <object id="323" name="F72Rocket" gid="1365" x="320.168" y="316.789" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="POKEMON are only good for making money! Stay out of our business!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Please! No more!"/>
+    <property name="BattleStart" value="This old guy came and complained about us harming useless-POKEMON! We're talking it over as adults!"/>
+    <property name="Money" type="int" value="780"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Koffing-26-Tackle_Smog-Rocket-Koffing,Drowzee-26-Hypnosis_Disable_Confusion_Headbutt-Rocket-Drowzee"/>
+   </properties>
+  </object>
+  <object id="324" name="Eyes7" x="253.979" y="351.663" width="97.6842" height="35.7053">
+   <properties>
+    <property name="Trainer" value="F71Rocket"/>
+   </properties>
+  </object>
+  <object id="325" name="Eyes7" x="225.011" y="284.295" width="97.6842" height="35.7053">
+   <properties>
+    <property name="Trainer" value="F72Rocket"/>
+   </properties>
+  </object>
+  <object id="326" name="Eyes7" x="255.326" y="216.926" width="97.6842" height="35.7053">
+   <properties>
+    <property name="Trainer" value="F73Rocket"/>
+   </properties>
+  </object>
+  <object id="329" name="Mr.Fuji" gid="1432" x="256.168" y="129.179" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="GHOSTs appeared in POKEMON TOWER. I think they're the spirits of"/>
+    <property name="Dialouge2" value="POKEMON that the ROCKETs killed."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

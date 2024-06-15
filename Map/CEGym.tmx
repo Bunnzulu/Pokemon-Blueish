@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="10" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="41">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="18">
+  <data encoding="csv">
+217,217,217,217,217,217,217,217,217,217,
+225,225,225,225,225,225,225,225,225,225,
+332,332,242,242,242,242,242,242,332,332,
+340,340,242,241,241,241,241,242,340,340,
+332,332,241,241,340,332,241,242,332,332,
+340,340,242,241,340,340,241,241,340,340,
+332,332,242,241,241,241,241,242,332,332,
+340,340,242,242,242,241,242,242,340,340,
+332,332,242,242,225,225,242,242,332,332,
+340,340,242,242,225,225,242,242,340,340,
+241,241,225,225,225,225,225,225,241,242,
+242,241,225,225,225,225,225,225,241,241,
+340,340,242,242,225,225,242,242,340,340,
+340,340,242,242,225,225,242,242,340,340,
+225,225,225,228,225,225,228,225,225,225,
+225,225,225,236,225,225,236,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,233,233,225,225,225,225
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Tree" gid="243" x="224.505" y="191.832" width="32" height="32"/>
+  <object id="2" name="Tree" gid="243" x="64.1684" y="160.842" width="32" height="32"/>
+  <object id="3" name="Tree" gid="243" x="159.832" y="256.505" width="32" height="32"/>
+  <object id="4" name="Door" x="126.653" y="572.632" width="64.6737" height="16.1684">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="5" name="Spawn" x="156.295" y="559.158">
+   <point/>
+  </object>
+  <object id="6" name="Border" x="1.34737" y="576.674" width="123.284" height="14.1474"/>
+  <object id="7" name="Border" x="193.326" y="576.674" width="124.632" height="14.1474"/>
+  <object id="10" name="Border" x="1" y="0.326316" width="316.632" height="24.2526"/>
+  <object id="11" name="Border" x="65" y="252.958" width="58.6105" height="64.6737"/>
+  <object id="12" name="Border" x="193.347" y="252.611" width="58.6105" height="64.6737"/>
+  <object id="13" name="Border" x="192" y="381.958" width="58.6105" height="64.6737"/>
+  <object id="14" name="Border" x="65" y="383.979" width="58.6105" height="64.6737"/>
+  <object id="15" name="Border" x="65" y="59.9368" width="26.9474" height="64.6737"/>
+  <object id="17" name="Border" x="65.6737" y="158.989" width="26.9474" height="92.2947"/>
+  <object id="18" name="Border" x="225.337" y="99.7053" width="26.9474" height="61.3053"/>
+  <object id="19" name="Border" x="226.011" y="191.326" width="26.9474" height="61.3053"/>
+  <object id="20" name="Border" x="96.6632" y="223.663" width="64.6737" height="26.9474"/>
+  <object id="21" name="Border" x="193" y="222.989" width="28.2947" height="26.9474"/>
+  <object id="22" name="Border" x="1" y="352.337" width="28.2947" height="26.9474"/>
+  <object id="23" name="Border" x="287.989" y="322.042" width="28.2947" height="26.9474"/>
+  <object id="24" name="Totem" x="97.3158" y="458.126" width="28.2947" height="49.8526">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="Totem" x="194.326" y="450.779" width="28.2947" height="49.8526">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="16" name="Border" x="96.6632" y="66" width="154.274" height="30.3158"/>
+  <object id="8" name="Border" x="-25.6211" y="1.34737" width="24.9263" height="578.021"/>
+  <object id="9" name="Border" x="319.979" y="-2.02105" width="24.9263" height="578.021"/>
+  <object id="26" name="CE1Lass" gid="1377" x="64.1684" y="381.811" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="Bleaah! I hope ERIKA wipes you out!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You're too rough!"/>
+    <property name="BattleStart" value="Hey! You are not allowed in here!"/>
+    <property name="Money" type="int" value="345"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Bellsprout-23-Wrap_Poison Powder_Sleep Powder_Stun Spore-Lass-Bellsprout,Weepinbell-23-Wrap_Poison Powder_Sleep Powder_Stun Spore-Lass-Bellsprout"/>
+   </properties>
+  </object>
+  <object id="27" name="CE1Beauty" gid="1416" x="224.505" y="350.821" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="Grass-type POKEMON are tough against the water-type!-They also have an edge on rock and ground POKEMON!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="My makeup!"/>
+    <property name="BattleStart" value="I was getting bored."/>
+    <property name="Money" type="int" value="1470"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Bellsprout-21-Wrap_Poison Powder_Sleep Powder_Stun Spore-Beauty-Bellsprout,Oddish-21-Absorb_Poison Powder_Stun Spore_Sleep Powder-Beauty-Oddish,Bellsprout-21-Wrap_Poison Powder_Sleep Powder_Stun Spore-Beauty-Bellsprout,Oddish-21-Absorb_Poison Powder_Stun Spore_Sleep Powder-Beauty-Oddish"/>
+   </properties>
+  </object>
+  <object id="28" name="JR.TRAINER(FEMALE)" gid="1338" x="287.158" y="192.158" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Oh, you weren't peeping? We get a lot of gawkers!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I'm in shock!"/>
+    <property name="BattleStart" value="Aren't you the peeping Tom?"/>
+    <property name="Money" type="int" value="480"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Bulbasaur-24-Growl_Leech Seed_Vine Whip_Poison Powder-JR.TRAINER-Bulbasaur,Ivysaur-24-Growl_Leech Seed_Vine Whip_Poison Powder-JR.TRAINER-Ivysaur"/>
+   </properties>
+  </object>
+  <object id="29" name="CE2Beauty" gid="1418" x="31.1579" y="193.505" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="We only use grass-type POKEMON at our GYM! We also use them-for making flower arrangements!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="No!"/>
+    <property name="BattleStart" value="Look at my grass POKEMON! They're so easy to raise!"/>
+    <property name="Money" type="int" value="1680"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Bellsprout-24-Wrap_Poison Powder_Sleep Powder_Stun Spore-Beauty-Bellsprout,Bellsprout-24-Wrap_Poison Powder_Sleep Powder_Stun Spore-Beauty-Bellsprout"/>
+   </properties>
+  </object>
+  <object id="30" name="CE3Beauty" gid="1418" x="93.8105" y="126.811" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="I have a blind date coming up. I have to learn to be polite."/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh! Splendid!"/>
+    <property name="BattleStart" value="Pleased to meet you. My hobby is POKEMON training."/>
+    <property name="Money" type="int" value="1820"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Exeggcute-26-Barrage_Hypnosis_Reflect-Beauty-Exeggcute"/>
+   </properties>
+  </object>
+  <object id="31" name="CooltrainerF" gid="1338" x="159.832" y="128.158" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="I didn't bring my best POKEMON! Wait 'til next time!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh! Beaten!"/>
+    <property name="BattleStart" value="Welcome to CELADON GYM! You better not underestimate girl power!"/>
+    <property name="Money" type="int" value="840"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Weepinbell-24-Wrap_Poison Powder_Sleep Powder_Stun Spore-Cooltrainer-Weepinbell,Gloom-24-Absorb_Poison Powder_Stun Spore_Sleep Powder-Cooltrainer-Gloom,Ivysaur-24-Growl_Leech Seed_Vine Whip_Poison Powder-Cooltrainer-Ivysaur"/>
+   </properties>
+  </object>
+  <object id="32" name="CE2Lass" gid="1338" x="193.516" y="128.832" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="Our LEADER, ERIKA, might be quiet, but she's also very skilled!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Oh! You!"/>
+    <property name="BattleStart" value="Don't bring any bugs or fire POKEMON in here!"/>
+    <property name="Money" type="int" value="345"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Oddish-23-Absorb_Poison Powder_Stun Spore_Sleep Powder-Lass-Oddish,Gloom-23-Absorb_Poison Powder_Stun Spore_Sleep Powder-Lass-Gloom"/>
+   </properties>
+  </object>
+  <object id="33" name="Erika" gid="1424" x="126.147" y="128.832" width="32" height="33">
+   <properties>
+    <property name="AfterBattle" value="You are cataloging POKEMON? I must say I'm impressed. I would"/>
+    <property name="AfterBattle2" value="never collect POKEMON if they were unattractive."/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="Super Potion-4"/>
+    <property name="Dialouge" value="Hello. Lovely weather isn't it? It's so pleasant.. Oh dear.I must have dozed off."/>
+    <property name="Dialouge2" value="Welcome. My name is ERIKA.I am the LEADER of CELADON GYM. I teach the art"/>
+    <property name="Dialouge3" value="of flowing arranging. My POKEMON are of the grass-type. Oh, I'm sorry,"/>
+    <property name="Dialouge4" value="I had no idea that you wished to challenge me. Very well, but I shall not lose."/>
+    <property name="Money" type="int" value="2871"/>
+    <property name="Team" value="Victreebel-29-Razor Leaf_Wrap_Poison Powder_Sleep Powder-Erika-Victreebel,Tangela-24-Constrict_Bind-Erika-Tangela,Vileplume-29-Petal Dance_Poison Powder_Mega Drain_Sleep Powder-Erika-Vileplume"/>
+    <property name="WonBattle1" value="Oh! I concede defeat. You are remarkably strong. I must confer you this"/>
+    <property name="WonBattle2" value="The RAINBOWBADGE will make POKEMON up to L50 obey. It also allows "/>
+    <property name="WonBattle3" value="POKEMON to use STRENGTH in and out of battle. Please also take this with you"/>
+    <property name="WonBattle4" value="TM21 contains MEGA DRAIN. Half the damage it inflicts"/>
+    <property name="WonBattle5" value="is drained to heal your POKEMON!"/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+  <object id="34" name="Eyes" x="97.6842" y="350.316" width="68.7157" height="32.6013">
+   <properties>
+    <property name="Trainer" value="CE1Lass"/>
+   </properties>
+  </object>
+  <object id="35" name="Eyes" x="158.989" y="314.478" width="61.9789" height="37.2907">
+   <properties>
+    <property name="Trainer" value="CE1Beauty"/>
+   </properties>
+  </object>
+  <object id="36" name="Eyes" x="19.7609" y="194.695" width="46.2602" height="90.9474">
+   <properties>
+    <property name="Trainer" value="CE2Beauty"/>
+   </properties>
+  </object>
+  <object id="37" name="Eyes" x="270.913" y="189.979" width="49.7608" height="98.3579">
+   <properties>
+    <property name="Trainer" value="JR.TRAINER(FEMALE)"/>
+   </properties>
+  </object>
+  <object id="38" name="Eyes" x="192.674" y="125.979" width="34.3579" height="65.3474">
+   <properties>
+    <property name="Trainer" value="CE2Lass"/>
+   </properties>
+  </object>
+  <object id="40" name="Eyes" x="158.316" y="126.653" width="34.3579" height="65.3474">
+   <properties>
+    <property name="Trainer" value="CooltrainerF"/>
+   </properties>
+  </object>
+  <object id="39" name="Eyes" x="94.9895" y="125.979" width="31.6632" height="65.3474">
+   <properties>
+    <property name="Trainer" value="CE3Beauty"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

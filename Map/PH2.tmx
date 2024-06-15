@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="17">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,849,
+857,857,137,137,137,137,137,857,
+137,137,137,137,137,137,137,137,
+137,137,467,2147484457,809,467,137,137,
+137,137,467,2147484465,817,467,137,137,
+137,137,137,137,137,137,137,137,
+509,137,137,137,137,137,137,509,
+517,137,233,233,137,137,137,517
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="257.779" y="-0.0175439" width="11.0784" height="257.718"/>
+  <object id="2" name="Border" x="0.5" y="-13.5" width="255" height="11"/>
+  <object id="3" name="Border" x="-10.5" y="1" width="9.5" height="254.5"/>
+  <object id="4" name="Border" x="0.5" y="257.5" width="61.5" height="7"/>
+  <object id="5" name="Border" x="129.5" y="257.5" width="126" height="13.5"/>
+  <object id="6" name="Border" x="96.5" y="94.5" width="61.5" height="64.5"/>
+  <object id="7" name="Border" x="67.5" y="0" width="156" height="23"/>
+  <object id="8" name="Border" x="0.5" y="0" width="64.5" height="60.5"/>
+  <object id="9" name="Border" x="224.5" y="0.5" width="31" height="64"/>
+  <object id="10" name="Border" x="222.5" y="191.5" width="33.5" height="63.5"/>
+  <object id="11" name="Border" x="1" y="193" width="29.5" height="62"/>
+  <object id="12" name="Door" x="63" y="257.5" width="66.5" height="23">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="13" name="PlayerPoint" x="93" y="230">
+   <point/>
+  </object>
+  <object id="14" name="Man" gid="1353" x="32" y="86" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Our POKEMON's an outsider, so it's hard to handle."/>
+    <property name="Dialouge2" value="An outsider is a POKEMON that you get in a trade. It grows fast"/>
+    <property name="Dialouge3" value=",but it may ignore an unskilled trainer in battle! If only we had some BADGEs..."/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="Boy" gid="1355" x="97" y="191" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="NIDORAN sit!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="16" name="Nidoran" gid="1354" x="139.5" y="190.5" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="Bowbow!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

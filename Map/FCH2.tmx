@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="14" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="20">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="14" height="8">
+  <data encoding="csv">
+1185,1185,1185,1185,862,862,862,863,862,862,862,862,862,862,
+1193,1193,1193,1193,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+1174,1174,1174,1174,1174,1260,1261,1262,1174,1174,1260,1262,1174,1174,
+1174,1174,1174,1174,1174,1268,1269,1270,1174,1174,1188,1189,1174,1174,
+1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,
+903,904,1174,1174,902,903,903,903,903,903,903,903,903,903,
+1165,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1174,1165,
+1173,1174,1174,1174,1136,1136,1174,1174,1174,1174,1174,1174,1174,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="1.80682" y="2.25852" width="126.929" height="60.98"/>
+  <object id="6" name="Border" x="0.903408" y="190.619" width="33.4261" height="63.6903"/>
+  <object id="12" name="Border" x="415.116" y="191.522" width="33.4261" height="63.6903"/>
+  <object id="13" name="Border" x="160.355" y="63.6903" width="93.5027" height="54.6562"/>
+  <object id="14" name="Border" x="320.71" y="64.5937" width="64.142" height="50.1391"/>
+  <object id="15" name="Border" x="320.71" y="64.5937" width="64.142" height="50.1391"/>
+  <object id="10" name="Border" x="0.451704" y="159" width="63.2386" height="32.5227"/>
+  <object id="11" name="Border" x="127.381" y="159.452" width="318.451" height="31.1676"/>
+  <object id="7" name="Border" x="0.903408" y="256.116" width="125.122" height="15.8096"/>
+  <object id="8" name="Border" x="192.878" y="255.213" width="252.051" height="15.8096"/>
+  <object id="5" name="Border" x="125.122" y="1.80682" width="319.355" height="27.1022"/>
+  <object id="2" name="Border" x="-7.67897" y="0.903408" width="8.13067" height="255.664"/>
+  <object id="3" name="Border" x="446.735" y="0" width="8.13067" height="255.664"/>
+  <object id="4" name="Border" x="1.80682" y="0.903408" width="126.477" height="63.2386"/>
+  <object id="9" name="Door" x="127.832" y="256.116" width="64.142" height="8.13067">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="16" name="Spawn" x="158.548" y="238.048">
+   <point/>
+  </object>
+  <object id="17" name="Will" gid="1438" x="2.51986" y="99.2101" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="SLOWPOKE is very knowledgeable about POKEMON! He even has some"/>
+    <property name="Dialouge2" value="fossils of rare, extinct POKEMON!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="18" name="Theo" gid="1439" x="130.352" y="65.6874" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="We nicknamed the WARDEN SLOWPOKE. He and SLOWPOKE both look vacant!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="19" name="Fred" gid="1439" x="320.971" y="65.2357" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="SLOWPOKE came in, but I couldn't understand him. I think he's got"/>
+    <property name="Dialouge2" value="a speech problem!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="4" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="11">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="4" height="40">
+  <data encoding="csv">
+568,889,889,890,
+897,576,576,576,
+897,576,576,898,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+897,576,576,576,
+898,576,576,576
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="127.667" y="-1.33333" width="9.33333" height="1283.33"/>
+  <object id="3" name="Border" x="-8.33333" y="-1.33333" width="9.33333" height="1283.33"/>
+  <object id="2" name="Border" x="-1.33333" y="1281.33" width="128.667" height="14"/>
+  <object id="4" name="Border" x="3" y="4" width="122.667" height="14.6667"/>
+  <object id="5" name="Spawn" x="77.3333" y="81.3333">
+   <point/>
+  </object>
+  <object id="6" name="Door" x="116" y="65.3333" width="10.6667" height="29.3333">
+   <properties>
+    <property name="Destination" value="UnderGround Entrance"/>
+   </properties>
+  </object>
+  <object id="7" name="SDoor" x="21.3333" y="1248.67" width="9.33333" height="26">
+   <properties>
+    <property name="Destination" value="UnderGroundS Entrance"/>
+   </properties>
+  </object>
+  <object id="8" name="Spawn2" x="45.3333" y="1266.67">
+   <point/>
+  </object>
+  <object id="9" name="Hidden" x="38" y="74.6667" width="20.6667" height="16.6667">
+   <properties>
+    <property name="Item" value="Full Restore"/>
+   </properties>
+  </object>
+  <object id="10" name="Hidden" x="51.3333" y="1177.33" width="20.6667" height="16.6667">
+   <properties>
+    <property name="Item" value="X Special"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

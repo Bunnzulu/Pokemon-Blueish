@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="14">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,151,151,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Man" gid="1384" x="66.0398" y="152.533" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I'm the FISHING GURU's brother! I simply Looove fishing!"/>
+    <property name="Dialouge2" value="I can tell you do to! Take this and fish, young one! Fishing is "/>
+    <property name="Dialouge3" value="a way of life! From the seas to rivers, go out and land the big one!"/>
+    <property name="Item" value="Super Rod"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="96.1123" y="96.7111" width="61.3801" height="61.6795"/>
+  <object id="8" name="Border" x="128.15" y="254.605" width="105.095" height="20.3602"/>
+  <object id="9" name="Border" x="-0.898246" y="257" width="64.0749" height="20.3602"/>
+  <object id="13" name="Door" x="63.1766" y="257" width="64.0749" height="10.1801">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="10" name="Border" x="0.59883" y="192.027" width="32.3368" height="62.5778"/>
+  <object id="11" name="Border" x="224.561" y="193.225" width="32.3368" height="62.5778"/>
+  <object id="3" name="Border" x="1.79649" y="2.09591" width="61.3801" height="61.6795"/>
+  <object id="6" name="Border" x="-14.6713" y="0.299415" width="14.6713" height="198.812"/>
+  <object id="7" name="Border" x="255.102" y="-1.19766" width="14.6713" height="198.812"/>
+  <object id="4" name="Border" x="223.166" y="0.898246" width="32.3368" height="61.6795"/>
+  <object id="5" name="Border" x="62.9789" y="0.59883" width="161.385" height="30.5404"/>
+  <object id="12" name="Spawn" x="88.6269" y="239.832">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

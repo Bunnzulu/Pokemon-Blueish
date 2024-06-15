@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="36" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="149">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1468" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="40" height="36">
+  <data encoding="csv">
+215,162,811,811,811,811,811,811,215,162,162,162,162,162,162,216,162,162,162,162,162,162,162,162,162,216,162,162,162,162,162,162,162,162,162,162,162,162,162,216,
+164,462,818,818,818,818,818,818,164,24,24,24,24,24,24,164,24,24,24,24,24,24,24,24,24,164,24,24,24,24,24,24,24,24,24,24,24,24,24,164,
+164,462,24,24,24,24,462,462,172,462,24,24,462,24,24,164,24,24,24,24,24,24,462,462,462,164,24,24,830,830,830,830,830,830,830,830,24,24,24,164,
+164,462,462,462,24,24,462,462,462,462,462,462,462,24,24,164,24,24,462,462,462,462,462,462,462,164,24,24,462,830,830,830,830,830,462,462,24,24,24,164,
+164,462,462,462,462,462,462,462,215,162,163,462,161,162,162,216,162,163,462,161,811,811,156,462,462,164,24,462,462,24,24,24,830,830,830,462,462,462,24,164,
+164,462,462,462,462,462,462,462,164,24,462,462,462,462,24,164,462,462,462,462,818,818,164,462,462,164,24,462,462,24,24,24,830,830,830,830,462,462,24,164,
+215,162,162,163,462,462,161,162,164,24,24,462,462,24,24,164,162,163,462,462,24,24,164,462,462,164,24,24,462,462,24,24,24,462,462,462,462,24,24,164,
+164,462,462,462,462,462,462,462,164,24,24,462,462,24,24,164,462,462,462,462,24,24,164,462,462,164,24,24,462,462,24,24,24,462,462,462,462,24,24,164,
+164,462,462,462,462,462,462,462,164,24,24,24,462,24,24,164,462,462,462,462,462,24,164,462,462,164,24,462,462,462,24,24,462,462,24,24,24,24,24,164,
+164,462,462,462,462,462,462,462,164,24,24,24,462,24,24,164,462,462,462,462,462,24,164,462,462,164,24,462,462,462,24,24,462,462,24,24,24,24,24,164,
+172,462,462,462,462,462,462,462,164,24,24,462,462,462,462,172,462,462,462,462,462,462,164,462,462,164,462,462,462,462,24,462,462,462,462,24,24,24,24,164,
+462,462,462,462,462,462,462,462,164,24,24,462,462,462,462,462,462,462,462,462,462,462,164,462,462,164,462,462,462,462,24,462,462,462,462,24,24,24,24,164,
+215,162,162,162,162,162,162,162,215,162,162,162,162,162,162,216,162,163,462,161,811,811,164,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,24,24,24,24,24,462,462,164,462,462,462,24,24,24,164,462,462,462,462,818,818,164,462,462,172,162,162,162,163,462,462,161,162,162,162,162,162,162,164,
+164,24,24,24,462,462,462,462,172,462,462,462,462,24,24,164,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+164,24,462,462,462,462,462,462,462,462,462,462,462,24,24,164,162,162,162,162,162,162,161,162,162,162,162,162,162,162,162,162,162,162,162,162,156,462,462,164,
+164,24,462,462,462,462,462,462,462,462,462,462,462,462,24,164,24,24,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,164,
+164,24,462,462,462,462,462,462,156,462,462,462,462,462,24,164,24,24,830,830,830,830,830,830,462,462,830,830,830,830,830,830,830,830,462,462,164,462,462,164,
+215,811,811,811,163,462,462,462,164,24,24,24,24,462,24,164,24,24,24,24,830,830,830,830,830,462,830,830,830,830,830,830,462,462,462,462,164,462,462,164,
+164,819,818,818,462,462,462,462,164,24,24,24,24,462,24,164,462,462,24,24,462,830,830,830,830,830,830,830,830,830,830,830,830,830,462,462,164,462,462,164,
+164,810,462,462,462,462,462,462,164,462,24,24,462,462,462,172,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,164,
+164,818,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,830,462,462,164,462,462,164,
+164,462,462,24,811,811,811,811,163,462,462,161,811,811,811,216,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,164,
+164,462,462,24,818,818,818,818,462,462,462,462,818,818,819,164,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,172,462,462,164,
+164,462,462,462,462,462,24,24,24,24,24,462,462,462,810,164,24,24,24,24,24,462,24,24,24,24,24,24,24,24,462,24,24,24,24,24,462,462,24,164,
+164,462,462,462,462,462,462,462,24,24,24,462,462,462,818,164,462,462,24,24,24,462,24,24,24,24,24,24,462,462,462,24,24,24,462,462,462,462,24,164,
+215,162,162,163,462,462,161,162,215,162,162,162,163,462,462,164,462,462,462,462,462,462,462,24,24,24,462,462,462,462,462,462,24,24,462,462,462,24,24,164,
+164,24,462,462,462,462,462,462,164,24,24,24,462,462,462,172,462,462,462,462,462,462,462,24,462,462,462,462,462,462,462,462,462,462,462,462,462,24,24,164,
+164,24,24,462,462,462,24,24,164,811,462,462,462,462,462,462,462,462,24,24,462,462,462,462,462,462,462,24,24,24,462,24,24,24,24,24,24,24,24,164,
+164,24,24,462,462,462,24,24,164,818,462,462,462,462,462,462,462,462,24,24,462,462,462,462,462,462,462,24,24,24,462,24,24,24,24,24,24,24,24,164,
+164,24,462,462,462,24,24,24,164,811,163,462,161,162,811,811,811,811,162,162,811,811,811,811,215,162,162,163,24,24,462,161,811,811,811,811,162,162,162,216,
+164,24,462,462,462,24,24,24,164,818,462,462,462,462,818,818,818,818,24,24,818,818,818,818,164,462,462,462,24,24,462,462,818,818,818,818,24,24,24,164,
+164,462,462,462,462,462,462,24,164,24,462,462,462,462,24,24,24,24,462,462,462,462,24,24,164,462,462,830,462,462,462,462,462,462,462,830,830,462,462,164,
+164,462,462,462,462,462,462,24,164,24,462,462,462,462,462,462,24,24,462,462,462,462,24,24,164,462,830,830,462,462,830,830,830,830,462,830,830,830,462,164,
+164,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,462,462,462,462,462,462,462,462,462,462,462,462,462,462,164,
+161,162,162,163,2147484449,801,161,162,161,162,162,162,162,162,162,162,162,162,162,162,162,162,162,162,161,162,162,162,162,162,162,162,162,162,162,162,162,162,162,163
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Zapdos" gid="1455" x="120.333" y="328" width="34" height="32"/>
+  <object id="2" name="Ball" gid="1477" x="225" y="831" width="30" height="30">
+   <properties>
+    <property name="Item" value="Carbos"/>
+   </properties>
+  </object>
+  <object id="3" name="Ball" gid="1477" x="639.667" y="1055" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM33"/>
+   </properties>
+  </object>
+  <object id="5" name="Ball" gid="1477" x="833" y="1052.33" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM25"/>
+   </properties>
+  </object>
+  <object id="7" name="Fake" gid="1477" x="830.333" y="927" width="30" height="30">
+   <properties>
+    <property name="Item" value="Max Revive"/>
+   </properties>
+  </object>
+  <object id="8" name="Fake" gid="1477" x="674.333" y="828.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM43"/>
+   </properties>
+  </object>
+  <object id="9" name="Fake" gid="1477" x="1026.33" y="607" width="30" height="30">
+   <properties>
+    <property name="Item" value="Full Heal"/>
+   </properties>
+  </object>
+  <object id="10" name="Fake" gid="1477" x="802.333" y="604.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Elixir"/>
+   </properties>
+  </object>
+  <object id="13" name="Fake" gid="1477" x="671.667" y="476.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Revive"/>
+   </properties>
+  </object>
+  <object id="15" name="Ball" gid="1477" x="1089" y="127" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="16" name="Ball" gid="1477" x="899.667" y="124.333" width="30" height="30">
+   <properties>
+    <property name="Item" value="Hp Up"/>
+   </properties>
+  </object>
+  <object id="11" name="Fake" gid="1477" x="287.667" y="667" width="30" height="30">
+   <properties>
+    <property name="Item" value="Elixir"/>
+   </properties>
+  </object>
+  <object id="6" name="Fake" gid="1477" x="1185" y="1051" width="30" height="30">
+   <properties>
+    <property name="Item" value="TM11"/>
+   </properties>
+  </object>
+  <object id="4" name="Fake" gid="1477" x="738.333" y="1118.33" width="30" height="30">
+   <properties>
+    <property name="Item" value="Super Potion"/>
+   </properties>
+  </object>
+  <object id="12" name="Hidden" x="542.667" y="505.333" width="56" height="49.3333">
+   <properties>
+    <property name="Item" value="Max Elixir"/>
+   </properties>
+  </object>
+  <object id="14" name="Hidden" x="381.333" y="33.3333" width="33.3333" height="56">
+   <properties>
+    <property name="Item" value="PP Up"/>
+   </properties>
+  </object>
+  <object id="17" name="Border" x="190.667" y="1121.33" width="1088" height="26.6667"/>
+  <object id="51" name="Border" x="5.33333" y="4" width="1248" height="26.6667"/>
+  <object id="18" name="Border" x="0" y="1120" width="125.333" height="30.6667"/>
+  <object id="35" name="Border" x="286.667" y="862.667" width="101.333" height="30.6667"/>
+  <object id="29" name="Border" x="32" y="864" width="30.6667" height="154.667"/>
+  <object id="30" name="Border" x="64" y="894.667" width="30.6667" height="65.3333"/>
+  <object id="31" name="Border" x="193.333" y="898.667" width="58.6667" height="124"/>
+  <object id="77" name="Border" x="30.6667" y="581.333" width="33.3333" height="124"/>
+  <object id="78" name="Border" x="64" y="585.333" width="60" height="53.3333"/>
+  <object id="79" name="Border" x="292" y="572" width="124" height="66.6667"/>
+  <object id="92" name="Border" x="33.3333" y="412" width="93.3333" height="66.6667"/>
+  <object id="93" name="Border" x="30.6667" y="478.667" width="34.6667" height="94.6667"/>
+  <object id="132" name="Border" x="352" y="253.333" width="34.6667" height="66.6667"/>
+  <object id="133" name="Border" x="286.667" y="157.333" width="34.6667" height="32"/>
+  <object id="139" name="Border" x="65.3333" y="62.6667" width="126.667" height="32"/>
+  <object id="140" name="Border" x="128" y="96" width="65.3333" height="32"/>
+  <object id="134" name="Border" x="445" y="154.667" width="34.6667" height="32"/>
+  <object id="94" name="Border" x="126.667" y="413.333" width="64" height="33.3333"/>
+  <object id="95" name="Border" x="382.667" y="412" width="93.3333" height="33.3333"/>
+  <object id="101" name="Border" x="508" y="190.667" width="69.3333" height="33.3333"/>
+  <object id="102" name="Border" x="508" y="126.667" width="69.3333" height="33.3333"/>
+  <object id="103" name="Border" x="609.333" y="125.333" width="97.3333" height="33.3333"/>
+  <object id="104" name="Border" x="641.333" y="156" width="68" height="33.3333"/>
+  <object id="100" name="Border" x="609.333" y="381.333" width="93.3333" height="33.3333"/>
+  <object id="80" name="Border" x="318.667" y="602.667" width="62.6667" height="66.6667"/>
+  <object id="96" name="Border" x="416" y="444" width="62.6667" height="66.6667"/>
+  <object id="97" name="Border" x="446.667" y="508" width="32" height="128"/>
+  <object id="81" name="Border" x="572" y="670.667" width="517.333" height="34.6667"/>
+  <object id="126" name="Border" x="1020" y="412" width="233.333" height="34.6667"/>
+  <object id="127" name="Border" x="798.667" y="412" width="162.667" height="34.6667"/>
+  <object id="82" name="Border" x="574.667" y="538.667" width="194.667" height="34.6667"/>
+  <object id="83" name="Border" x="641.333" y="577.333" width="157.333" height="34.6667"/>
+  <object id="85" name="Border" x="830.667" y="572" width="196" height="34.6667"/>
+  <object id="86" name="Border" x="830.667" y="544" width="254.667" height="29.3333"/>
+  <object id="84" name="Border" x="676" y="605.333" width="409.333" height="34.6667"/>
+  <object id="32" name="Border" x="221.333" y="960" width="34.6667" height="124"/>
+  <object id="33" name="Border" x="160" y="956" width="34.6667" height="70.6667"/>
+  <object id="34" name="Border" x="284" y="897.333" width="34.6667" height="188"/>
+  <object id="41" name="Border" x="580" y="990.667" width="58.6667" height="30.6667"/>
+  <object id="37" name="Border" x="448" y="988" width="126.667" height="62.6667"/>
+  <object id="39" name="Border" x="512" y="1025.33" width="62.6667" height="56"/>
+  <object id="40" name="Border" x="705.333" y="1028" width="62.6667" height="56"/>
+  <object id="42" name="Border" x="861.333" y="1028" width="36" height="56"/>
+  <object id="43" name="Border" x="830.667" y="1052" width="36" height="34.6667"/>
+  <object id="44" name="Border" x="960" y="1052" width="126.667" height="34.6667"/>
+  <object id="45" name="Border" x="1117.33" y="1051.33" width="97.3333" height="34.6667"/>
+  <object id="46" name="Border" x="1117.33" y="1020.67" width="70.6667" height="34.6667"/>
+  <object id="49" name="Border" x="1149.33" y="984.667" width="97.3333" height="34.6667"/>
+  <object id="47" name="Border" x="1025.33" y="972.667" width="124" height="49.3333"/>
+  <object id="48" name="Border" x="993.333" y="958" width="256" height="33.3333"/>
+  <object id="38" name="Border" x="638.667" y="978.667" width="126.667" height="45.3333"/>
+  <object id="36" name="Border" x="384" y="962.667" width="510.667" height="32"/>
+  <object id="76" name="Border" x="508" y="733.333" width="644" height="32"/>
+  <object id="90" name="Border" x="509.333" y="480" width="644" height="32"/>
+  <object id="53" name="Border" x="992" y="893.333" width="256" height="62.6667"/>
+  <object id="54" name="Border" x="1180" y="829.333" width="70.6667" height="62.6667"/>
+  <object id="56" name="Border" x="990.667" y="768" width="94.6667" height="62.6667"/>
+  <object id="98" name="Border" x="637.333" y="390.667" width="68" height="62.6667"/>
+  <object id="105" name="Border" x="638.667" y="186.667" width="68" height="62.6667"/>
+  <object id="130" name="Border" x="417.333" y="185.333" width="68" height="126.667"/>
+  <object id="141" name="Border" x="381.333" y="125.333" width="170.667" height="32"/>
+  <object id="142" name="Border" x="260" y="126.667" width="92" height="32"/>
+  <object id="143" name="Border" x="190.667" y="194.667" width="92" height="32"/>
+  <object id="144" name="Border" x="30.6667" y="193.333" width="92" height="32"/>
+  <object id="135" name="Border" x="414.667" y="33.3333" width="68" height="88"/>
+  <object id="136" name="Border" x="320" y="32" width="68" height="58.6667"/>
+  <object id="137" name="Border" x="282.667" y="30.6667" width="41.3333" height="37.3333"/>
+  <object id="138" name="Border" x="62.6667" y="16" width="190.667" height="45.3333"/>
+  <object id="131" name="Border" x="288" y="194.667" width="60" height="186.667"/>
+  <object id="106" name="Border" x="668" y="256" width="38.6667" height="62.6667"/>
+  <object id="107" name="Border" x="512" y="28" width="60" height="94.6667"/>
+  <object id="108" name="Border" x="574.667" y="28" width="129.333" height="64"/>
+  <object id="109" name="Border" x="705.333" y="26.6667" width="90.6667" height="36"/>
+  <object id="110" name="Border" x="833.333" y="29.3333" width="412" height="60"/>
+  <object id="111" name="Border" x="829.333" y="96" width="33.3333" height="224"/>
+  <object id="128" name="Border" x="798.667" y="25.3333" width="25.3333" height="382.667"/>
+  <object id="113" name="Border" x="929.333" y="121.333" width="88" height="73.3333"/>
+  <object id="119" name="Border" x="1089.33" y="258.667" width="140" height="61.3333"/>
+  <object id="120" name="Border" x="1120" y="314.667" width="140" height="61.3333"/>
+  <object id="114" name="Border" x="961.333" y="181.333" width="88" height="73.3333"/>
+  <object id="122" name="Border" x="926.667" y="78.6667" width="165.333" height="44"/>
+  <object id="123" name="Border" x="1022.67" y="124" width="96" height="64"/>
+  <object id="115" name="Border" x="958.667" y="248" width="62.6667" height="70.6667"/>
+  <object id="116" name="Border" x="957.333" y="306.667" width="33.3333" height="70.6667"/>
+  <object id="117" name="Border" x="866.667" y="185.333" width="33.3333" height="70.6667"/>
+  <object id="124" name="Border" x="1124" y="154.667" width="25.3333" height="32"/>
+  <object id="125" name="Border" x="1149.33" y="92" width="57.3333" height="32"/>
+  <object id="121" name="Border" x="1184" y="186.667" width="33.3333" height="70.6667"/>
+  <object id="118" name="Border" x="864" y="50.6667" width="33.3333" height="70.6667"/>
+  <object id="112" name="Border" x="1212" y="81.3333" width="33.3333" height="300"/>
+  <object id="63" name="Border" x="865.333" y="894.667" width="94.6667" height="62.6667"/>
+  <object id="64" name="Border" x="896" y="952" width="61.3333" height="62.6667"/>
+  <object id="65" name="Border" x="579" y="896" width="61.3333" height="62.6667"/>
+  <object id="66" name="Border" x="579" y="768" width="92" height="62.6667"/>
+  <object id="70" name="Border" x="384.333" y="706.667" width="92" height="62.6667"/>
+  <object id="75" name="Border" x="132.333" y="706.667" width="118.667" height="62.6667"/>
+  <object id="71" name="Border" x="451" y="770.667" width="57.3333" height="62.6667"/>
+  <object id="72" name="Border" x="257.667" y="768" width="88" height="62.6667"/>
+  <object id="87" name="Border" x="511" y="510.667" width="62.6667" height="92"/>
+  <object id="88" name="Border" x="576.333" y="545.333" width="62.6667" height="92"/>
+  <object id="57" name="Border" x="1025.33" y="828" width="60" height="33.3333"/>
+  <object id="58" name="Border" x="1088" y="765.333" width="60" height="33.3333"/>
+  <object id="59" name="Border" x="708" y="770.667" width="185.333" height="58.6667"/>
+  <object id="60" name="Border" x="734.667" y="826.667" width="97.3333" height="33.3333"/>
+  <object id="61" name="Border" x="736" y="860" width="34.6667" height="33.3333"/>
+  <object id="62" name="Border" x="897.333" y="768" width="58.6667" height="33.3333"/>
+  <object id="67" name="Border" x="513.667" y="766.667" width="58.6667" height="33.3333"/>
+  <object id="73" name="Border" x="193.667" y="764" width="58.6667" height="33.3333"/>
+  <object id="74" name="Border" x="97.6667" y="701.333" width="30.6667" height="62.6667"/>
+  <object id="69" name="Border" x="481.667" y="729.333" width="26.6667" height="164"/>
+  <object id="55" name="Border" x="1216" y="762.667" width="29.3333" height="62.6667"/>
+  <object id="28" name="Border" x="281.333" y="961.333" width="70.6667" height="30.6667"/>
+  <object id="22" name="Border" x="0" y="833.333" width="125.333" height="30.6667"/>
+  <object id="25" name="Border" x="28" y="580" width="125.333" height="30.6667"/>
+  <object id="27" name="Border" x="253.333" y="542.667" width="34.6667" height="168"/>
+  <object id="26" name="Border" x="257.667" y="125.333" width="28" height="357.333"/>
+  <object id="23" name="Border" x="189.333" y="833.333" width="225.333" height="30.6667"/>
+  <object id="68" name="Border" x="350.667" y="704" width="160" height="30.6667"/>
+  <object id="24" name="Border" x="124" y="704" width="164" height="30.6667"/>
+  <object id="21" name="Border" x="259.333" y="834.667" width="26.6667" height="284"/>
+  <object id="89" name="Border" x="1154" y="484" width="26.6667" height="284"/>
+  <object id="99" name="Border" x="708.667" y="128" width="25.3333" height="349.333"/>
+  <object id="91" name="Border" x="484.667" y="384" width="26.6667" height="284"/>
+  <object id="129" name="Border" x="483.333" y="8" width="26.6667" height="342.667"/>
+  <object id="50" name="Border" x="1250.33" y="1.33333" width="26.6667" height="1116"/>
+  <object id="19" name="Border" x="2.66667" y="386.667" width="26.6667" height="729.333"/>
+  <object id="52" name="Border" x="1" y="-6.66667" width="26.6667" height="361.333"/>
+  <object id="20" name="Border" x="33.3333" y="384" width="540" height="32"/>
+  <object id="145" name="WIld_Tile" x="33.3333" y="6.66667" width="1221.33" height="1113.33" visible="0">
+   <properties>
+    <property name="GrassType" value="Power Plant"/>
+    <property name="HighChance" type="int" value="25"/>
+    <property name="LowChance" type="int" value="15"/>
+   </properties>
+  </object>
+  <object id="146" name="PP_ODoor" x="128.667" y="1153.33" width="66" height="19.3333">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="148" name="PP_O2Door" x="-25.3333" y="353.333" width="27" height="35.3333">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="147" name="O_PPSpawn" x="158.667" y="1108.67">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

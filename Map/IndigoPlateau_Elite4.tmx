@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="12" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="85">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Lorelei's room" width="12" height="14" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,217,217,217,217,225,225,217,217,217,217,
+0,0,342,342,342,342,225,225,342,342,342,342,
+0,0,342,342,234,234,234,234,234,234,342,342,
+0,0,342,342,234,234,234,234,234,234,342,342,
+0,0,342,342,234,234,234,234,234,234,342,342,
+0,0,342,342,234,234,234,234,234,234,342,342,
+0,0,342,342,352,352,225,225,352,352,342,342,
+0,0,342,342,342,342,225,225,342,342,342,342,
+0,0,342,342,342,228,225,225,342,342,342,342,
+0,0,342,342,342,236,225,225,342,342,342,342,
+0,0,342,342,169,171,225,225,169,171,342,342,
+0,0,342,342,177,179,225,225,177,179,342,342
+</data>
+ </layer>
+ <objectgroup id="2" name="IceObjects" visible="0">
+  <object id="1" name="Border" x="129.123" y="258.021" width="62.4281" height="15.7193"/>
+  <object id="2" name="Border" x="255.326" y="257.572" width="62.4281" height="15.7193"/>
+  <object id="3" name="Border" x="262.021" y="93.193" width="58.4281" height="35.4807"/>
+  <object id="18" name="Border" x="255.326" y="64.4491" width="128.449" height="28.2947"/>
+  <object id="4" name="Border" x="129.123" y="95.8878" width="57.7614" height="32.3368"/>
+  <object id="5" name="Border" x="119.691" y="130.021" width="10.3298" height="127.551"/>
+  <object id="6" name="Border" x="320.449" y="127.775" width="10.3298" height="127.551"/>
+  <object id="7" name="Border" x="258.021" y="270.596" width="10.3298" height="114.526"/>
+  <object id="8" name="Border" x="180.221" y="264.309" width="10.3298" height="54.3439"/>
+  <object id="9" name="Border" x="158.663" y="318.204" width="31.8877" height="66.0211"/>
+  <object id="19" name="Border" x="191" y="385.123" width="65.5719" height="13.4737"/>
+  <object id="10" name="Border" x="131.021" y="386.919" width="60.1825" height="61.9789"/>
+  <object id="11" name="Border" x="257.674" y="385.572" width="60.1825" height="61.9789"/>
+  <object id="12" name="IceSpawn" x="220.295" y="352.786">
+   <point/>
+  </object>
+  <object id="13" name="Lorelei" gid="1464" x="208.8" y="192.161" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="You're better than I thought! Go on ahead! You only got a taste"/>
+    <property name="AfterBattle2" value="of POKEMON LEAGUE power!"/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="Super Potion-10"/>
+    <property name="Dialouge" value="Welcome to POKEMON LEAGUE! I am LORELEI of the ELITE FOUR!"/>
+    <property name="Dialouge2" value="No one can best me when it comes to icy POKEMON! Freezing moves"/>
+    <property name="Dialouge3" value="are powerful! Your POKEMON will be at my mercy when they are"/>
+    <property name="Dialouge4" value="frozen solid! Hahaha! Are you ready?"/>
+    <property name="Money" type="int" value="5544"/>
+    <property name="Team" value="Dewgong-54-Growl_Aurora Beam_Rest_Take Down-Lorelei-Dewgong,Cloyster-53-Supersonic_Clamp_Aurora Beam_Spike Cannon-Lorelei-Cloyster,Slowbro-54-Growl_Water Gun_Withdraw_Amnesia-Lorelei-Slowbro,Jynx-56-DoubleSlap_Ice Punch_Body Slam_Thrash-Lorelei-Jynx,Lapras-56-Body Slam_Confuse Ray_Blizzard_Hydro Pump-Lorelei-Lapras"/>
+    <property name="WonBattle1" value="How dare you!"/>
+    <property name="WonBattle2" value="You're better than I thought! Go on ahead! You only got a taste"/>
+    <property name="WonBattle3" value="of POKEMON LEAGUE power!"/>
+    <property name="WonBattle4" value=""/>
+    <property name="WonBattle5" value=""/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="Wall" gid="219" x="192.168" y="95.7193" width="32" height="32"/>
+  <object id="16" name="Wall" gid="219" x="223.607" y="95.7193" width="32" height="32"/>
+  <object id="17" name="IndigoPlateauE1_E2Door" x="192" y="55.0175" width="66.0211" height="10.3298">
+   <properties>
+    <property name="Destination" value="Indigo Plateau E2"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Bruno's Room" width="12" height="14" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,217,217,217,217,190,190,217,217,217,217,
+0,0,190,190,190,190,190,190,190,190,190,190,
+0,0,227,227,190,190,190,190,190,190,227,227,
+0,0,227,190,190,190,190,190,190,190,190,190,
+0,0,227,190,190,190,190,190,190,190,190,227,
+0,0,227,227,227,190,190,190,190,227,227,227,
+0,0,227,190,227,227,190,190,190,190,227,190,
+0,0,227,227,190,190,190,190,227,227,227,227,
+0,0,227,227,190,190,190,190,227,190,227,227,
+0,0,227,190,227,228,190,190,227,227,227,190,
+0,0,190,227,190,236,190,190,227,227,190,227,
+0,0,227,227,190,190,190,190,190,190,227,227
+</data>
+ </layer>
+ <objectgroup id="4" name="RockObjects" visible="0">
+  <object id="20" name="Wall2" gid="219" x="190.372" y="94.8211" width="32" height="32"/>
+  <object id="21" name="Wall2" gid="219" x="221.811" y="94.3719" width="32" height="32"/>
+  <object id="22" name="Border2" x="64.8982" y="128.225" width="31.4386" height="256.449"/>
+  <object id="23" name="Border2" x="257.123" y="286.765" width="31.4386" height="130.246"/>
+  <object id="24" name="Border2" x="98.5825" y="223.439" width="31.4386" height="130.246"/>
+  <object id="25" name="Border2" x="130.47" y="224.786" width="31.4386" height="62.8772"/>
+  <object id="26" name="Border2" x="162.807" y="256.674" width="31.4386" height="30.9895"/>
+  <object id="27" name="Border2" x="288.112" y="222.989" width="94.7649" height="30.9895"/>
+  <object id="28" name="Border2" x="320.449" y="126.877" width="64.2246" height="30.9895"/>
+  <object id="29" name="Border2" x="289.46" y="287.663" width="94.3158" height="30.9895"/>
+  <object id="30" name="Border2" x="288.561" y="350.54" width="61.9789" height="30.9895"/>
+  <object id="31" name="Border2" x="289.909" y="384.225" width="93.4175" height="30.9895"/>
+  <object id="36" name="Border2" x="320.449" y="256.674" width="31.8877" height="30.9895"/>
+  <object id="37" name="Border2" x="97.2351" y="131.818" width="31.8877" height="30.9895"/>
+  <object id="38" name="Border2" x="350.091" y="193.347" width="31.8877" height="30.9895"/>
+  <object id="39" name="Border2" x="255.775" y="64" width="128.898" height="26.0491"/>
+  <object id="40" name="Border2" x="63.5509" y="64" width="128.898" height="26.0491"/>
+  <object id="34" name="Border2" x="127.775" y="349.642" width="34.5825" height="30.9895"/>
+  <object id="35" name="Border2" x="162.358" y="351.888" width="27.3965" height="62.8772"/>
+  <object id="32" name="Border2" x="320" y="416.112" width="63.3263" height="30.9895"/>
+  <object id="33" name="Border2" x="65.3474" y="383.775" width="63.3263" height="64.2246"/>
+  <object id="41" name="RockSpawn" x="221.193" y="374.344">
+   <point/>
+  </object>
+  <object id="42" name="Border2" x="191.551" y="390.063" width="63.7754" height="26.0491"/>
+  <object id="43" name="IndigoPlateauE2_E3Door" x="190.204" y="52.3228" width="66.0211" height="10.3298">
+   <properties>
+    <property name="Destination" value="Indigo Plateau E3"/>
+   </properties>
+  </object>
+  <object id="47" name="Bruno" gid="1465" x="208.786" y="181.502" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="My job is done! Go face your next challenge!"/>
+    <property name="AfterBattle2" value=""/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="X Defend-10"/>
+    <property name="Dialouge" value="I am BRUNO of the ELITE FOUR! Through rigorous training, people"/>
+    <property name="Dialouge2" value="and POKEMON can become stronger! I've weight trained with my POKEMON!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Dialouge4" value=""/>
+    <property name="Money" type="int" value="5742"/>
+    <property name="Team" value="Onix-53-Rock Throw_Rage_Slam_Harden-Bruno-Onix,Hitmonchan-55-Ice Punch_Thunder Punch_Mega Punch_Counter-Bruno-Hitmonchan,Hitmonlee-55-Jump Kick_Focus Energy_Hi Jump Kick_Mega Kick-Bruno-Hitmonlee,Onix-56-Rock Throw_Rage_Slam_Harden-Bruno-Onix,Machamp-58-Leer_Focus Energy_Fissure_Submission-Bruno-Machamp"/>
+    <property name="WonBattle1" value="Why? How could I lose?"/>
+    <property name="WonBattle2" value="My job is done! Go face your next challenge!"/>
+    <property name="WonBattle3" value=""/>
+    <property name="WonBattle4" value=""/>
+    <property name="WonBattle5" value=""/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Agatha's Room" width="12" height="14" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,194,194,194,194,838,838,194,194,194,194,
+0,0,838,838,838,838,838,838,838,838,838,838,
+0,0,839,838,838,838,838,838,838,839,838,839,
+0,0,839,839,838,838,838,838,838,838,839,838,
+0,0,839,839,838,839,838,838,838,839,839,839,
+0,0,839,839,838,838,838,838,839,838,839,839,
+0,0,838,839,839,838,838,838,838,839,838,839,
+0,0,839,838,839,839,838,838,839,838,839,838,
+0,0,839,839,838,848,838,838,838,839,839,839,
+0,0,839,839,838,856,838,838,839,838,839,839,
+0,0,839,838,839,839,838,838,838,839,838,839,
+0,0,839,839,839,839,838,838,839,839,839,839
+</data>
+ </layer>
+ <objectgroup id="6" name="GhostObjects" visible="0">
+  <object id="48" name="Wall3" gid="219" x="193.067" y="95.2702" width="32" height="32"/>
+  <object id="49" name="Wall3" gid="219" x="224.505" y="95.2702" width="32" height="32"/>
+  <object id="50" name="GhostSpawn" x="222.091" y="368.505">
+   <point/>
+  </object>
+  <object id="51" name="Border3" x="62.6526" y="386.021" width="316.632" height="23.8035"/>
+  <object id="52" name="Border3" x="62.6526" y="289.909" width="127.102" height="93.4175"/>
+  <object id="53" name="Border3" x="258.021" y="290.358" width="124.407" height="93.4175"/>
+  <object id="54" name="Border3" x="289.011" y="192.898" width="92.9684" height="93.4175"/>
+  <object id="55" name="Border3" x="257.572" y="222.989" width="28.2947" height="33.6842"/>
+  <object id="56" name="Border3" x="320.449" y="159.214" width="28.2947" height="33.6842"/>
+  <object id="57" name="Border3" x="289.46" y="125.979" width="28.2947" height="33.6842"/>
+  <object id="65" name="Border3" x="257.123" y="62.2035" width="125.305" height="33.6842"/>
+  <object id="66" name="Border3" x="64.2035" y="62.6526" width="127.551" height="33.6842"/>
+  <object id="58" name="Border3" x="352.337" y="126.428" width="28.2947" height="33.6842"/>
+  <object id="59" name="Border3" x="161.46" y="190.204" width="28.2947" height="33.6842"/>
+  <object id="60" name="Border3" x="64.8982" y="130.919" width="28.7439" height="125.754"/>
+  <object id="63" name="Border3" x="35.2561" y="86.007" width="28.7439" height="364.239"/>
+  <object id="64" name="Border3" x="384.674" y="84.6596" width="28.7439" height="364.239"/>
+  <object id="61" name="Border3" x="98.1333" y="162.807" width="28.7439" height="125.754"/>
+  <object id="62" name="Border3" x="128.674" y="256.225" width="28.7439" height="32.786"/>
+  <object id="67" name="Agatha" gid="1466" x="208.786" y="180.154" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="You win! I see what the old duff sees in you now! I have nothing"/>
+    <property name="AfterBattle2" value="else to say! Run along now, child!"/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="Super Potion-10"/>
+    <property name="Dialouge" value="I am AGATHA of the ELITE FOUR! OAK's taken a lot of interest in you, child!"/>
+    <property name="Dialouge2" value="That old duff was once tough and handsome! That was decades ago! Now he"/>
+    <property name="Dialouge3" value="just wants to fiddle with his POKEDEX!He's wrong! POKEMON are for fighting!"/>
+    <property name="Dialouge4" value=""/>
+    <property name="Money" type="int" value="5940"/>
+    <property name="Team" value="Gengar-56-Confuse Ray_Night Shade_Hypnosis_Dream Eater-Agatha-Gengar,Golbat-56-Supersonic_Confuse Ray_Wing Attack_Haze-Agatha-Golbat,Haunter-55-Confuse Ray_Night Shade_Hypnosis_Dream Eater-Agatha-Haunter,Arbok-58-Bite_Glare_Acid_Screech-Agatha-Arbok,Gengar-60-Confuse Ray_Night Shade_Toxic_Dream Eater-Agatha-Gengar"/>
+    <property name="WonBattle1" value="Oh ho! You're something special, child!"/>
+    <property name="WonBattle2" value=""/>
+    <property name="WonBattle3" value=""/>
+    <property name="WonBattle4" value=""/>
+    <property name="WonBattle5" value=""/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+  <object id="68" name="IndigoPlateauE3_E4Door" x="192.898" y="52.7719" width="66.0211" height="10.3298">
+   <properties>
+    <property name="Destination" value="Indigo Plateau E4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Lance's Room" width="12" height="14">
+  <data encoding="csv">
+555,217,217,217,228,190,190,228,217,217,217,555,
+563,190,190,190,236,190,190,236,190,190,190,563,
+555,190,190,228,190,190,190,190,228,190,190,555,
+563,190,190,236,190,190,190,190,236,190,190,563,
+555,190,190,228,190,190,190,190,228,190,190,555,
+563,190,190,236,190,190,190,190,236,190,190,563,
+555,190,190,228,190,190,190,190,228,190,190,555,
+563,190,190,236,190,190,190,190,236,190,190,563,
+555,190,190,228,190,190,190,190,228,190,190,555,
+563,190,190,236,190,190,190,190,236,190,190,563,
+555,190,190,228,190,190,190,190,228,190,190,555,
+563,190,190,236,190,190,190,190,236,190,190,563,
+555,190,190,190,228,190,190,228,190,190,190,555,
+248,578,556,578,236,190,190,236,256,557,577,565
+</data>
+ </layer>
+ <objectgroup id="8" name="DragonObjects">
+  <object id="69" name="Wall4" gid="219" x="160" y="418.667" width="32" height="32"/>
+  <object id="70" name="Wall4" gid="219" x="192" y="418.667" width="32" height="32"/>
+  <object id="71" name="DragonSpawn" x="190" y="350">
+   <point/>
+  </object>
+  <object id="72" name="Border4" x="30.6667" y="0" width="100" height="30.6667"/>
+  <object id="73" name="Border4" x="1.33333" y="1.33333" width="29.3333" height="444.667"/>
+  <object id="74" name="Border4" x="353.333" y="3.33333" width="29.3333" height="444.667"/>
+  <object id="75" name="Border4" x="256.667" y="0.666667" width="96.6667" height="29.3333"/>
+  <object id="76" name="Border4" x="256.667" y="60" width="31.3333" height="322"/>
+  <object id="78" name="Border4" x="224" y="-7.10543e-15" width="31.3333" height="63.3333"/>
+  <object id="79" name="Border4" x="128" y="-0.666667" width="31.3333" height="63.3333"/>
+  <object id="80" name="Border4" x="128" y="382" width="31.3333" height="63.3333"/>
+  <object id="81" name="Border4" x="222.667" y="382.667" width="31.3333" height="63.3333"/>
+  <object id="77" name="Border4" x="96.6667" y="59.3333" width="31.3333" height="322"/>
+  <object id="82" name="Lance" gid="1467" x="174.786" y="121.488" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="1 more challenge. You have to face another trainer! His name is...BLUE!"/>
+    <property name="AfterBattle2" value="He beat the ELITE FOUR before you! He is the real POKEMON LEAGUE"/>
+    <property name="AfterBattle3" value="champion!"/>
+    <property name="Bag" value="Hyper Potion-5"/>
+    <property name="Dialouge" value="Ah! I heard about you RED! I lead the ELITE FOUR! You can call me"/>
+    <property name="Dialouge2" value="LANCE the dragon trainer! You know that dragons are mythical POKEMON!"/>
+    <property name="Dialouge3" value="They're hard to catch and raise, but their powers are"/>
+    <property name="Dialouge4" value="superior! They're virtually indestructible!"/>
+    <property name="Money" type="int" value="6138"/>
+    <property name="Team" value="Gyarados-58-Dragon Rage_Leer_Hydro Pump_Hyper Beam-Lance-Gyarados,Dragonair-56-Agility_Slam_Dragon Rage_Hyper Beam-Lance-Dragonair,Dragonair-56-Agility_Slam_Dragon Rage_Hyper Beam-Lance-Dragonair,Aerodactyl-60-Supersonic_Bite_Take Down_Hyper Beam-Lance-Aerodactyl,Dragonite-62-Agility_Slam_Barrier_Hyper Beam-Lance-Dragonite"/>
+    <property name="WonBattle1" value="That's it! I hate to admit it, but you are a POKEMON master!"/>
+    <property name="WonBattle2" value="I still can't believe my dragons lost to you, RED! You are now"/>
+    <property name="WonBattle3" value="the POKEMON LEAGUE champion! ...Or, you would have been"/>
+    <property name="WonBattle4" value="1 more challenge. You have to face another trainer! His name is...BLUE!"/>
+    <property name="WonBattle5" value="He beat the ELITE FOUR before you! He is the real POKEMON LEAGUE"/>
+    <property name="WonBattle6" value="champion!"/>
+   </properties>
+  </object>
+  <object id="83" name="IndigoPlateauE4_CDoor" x="159.565" y="-10.5614" width="66.0211" height="10.3298">
+   <properties>
+    <property name="Destination" value="Indigo Plateau Champion"/>
+   </properties>
+  </object>
+  <object id="84" name="BattleLine" x="126.667" y="131.333" width="132" height="8"/>
+ </objectgroup>
+</map>

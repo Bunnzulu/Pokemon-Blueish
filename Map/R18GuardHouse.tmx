@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="28">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Floor1" width="8" height="10" visible="0">
+  <data encoding="csv">
+258,258,258,258,258,258,258,258,
+258,166,166,166,166,166,166,258,
+258,265,266,266,266,266,267,258,
+166,166,166,166,166,166,166,166,
+284,166,166,166,166,166,166,284,
+292,166,166,166,166,166,166,292,
+166,166,166,166,166,166,166,166,
+258,265,266,266,267,166,258,258,
+258,166,166,166,283,166,183,258,
+258,258,258,258,258,258,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="1" name="Border" x="0.374269" y="0.748538" width="254.877" height="31.4386"/>
+  <object id="2" name="Border" x="1.49708" y="64" width="254.877" height="31.4386"/>
+  <object id="3" name="Border" x="0.374269" y="224.187" width="158.316" height="31.4386"/>
+  <object id="5" name="Border" x="1.87135" y="256" width="158.316" height="31.4386"/>
+  <object id="6" name="Border" x="193.123" y="223.813" width="62.5029" height="31.4386"/>
+  <object id="7" name="Border" x="-7.60819" y="96.9357" width="7.48538" height="31.8129"/>
+  <object id="11" name="R18GH_ODoor" x="-8.35673" y="128.749" width="7.48538" height="62.5029">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="16" name="R18GH_R18GHF2Door" x="203.105" y="255.626" width="18.3392" height="32.1871">
+   <properties>
+    <property name="Destination" value="R18GuardTowerF2"/>
+   </properties>
+  </object>
+  <object id="12" name="R18GH_O2Door" x="255.877" y="129.123" width="7.48538" height="62.5029">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="8" name="Border" x="-7.98246" y="191.251" width="7.48538" height="35.1813"/>
+  <object id="9" name="Border" x="255.877" y="190.503" width="7.48538" height="36.3041"/>
+  <object id="10" name="Border" x="255.503" y="94.6901" width="7.48538" height="36.3041"/>
+  <object id="4" name="Border" x="0.748538" y="287.813" width="254.877" height="31.4386"/>
+  <object id="13" name="O_R18GHSpawn" x="14.5965" y="161.31">
+   <point/>
+  </object>
+  <object id="14" name="O2_R18GHSpawn" x="240.281" y="165.427">
+   <point/>
+  </object>
+  <object id="15" name="Guard" gid="1367" x="128.842" y="65.4035" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value=""/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="R18GHF2_R18GHSpawn" x="175.906" y="253.38">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Floor2" width="8" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+586,587,586,585,586,585,264,585,
+585,595,585,593,585,593,272,593,
+166,588,166,166,166,166,588,166,
+166,596,166,166,166,166,596,166,
+166,146,146,166,166,146,146,166,
+166,166,166,166,166,166,166,166,
+251,166,166,166,166,166,166,166,
+259,166,166,166,166,166,166,263
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects">
+  <object id="18" name="Border2" x="0" y="72.2339" width="255.251" height="49.0292"/>
+  <object id="19" name="Border2" x="-14.5965" y="114.901" width="14.9708" height="206.222"/>
+  <object id="20" name="Border2" x="256" y="114.901" width="14.9708" height="206.222"/>
+  <object id="21" name="Border2" x="1.24561" y="321.246" width="256" height="17.5906"/>
+  <object id="22" name="Border2" x="1.61988" y="258.743" width="31.4386" height="59.5088"/>
+  <object id="23" name="Scope" x="31.1871" y="128.497" width="31.4386" height="30.3158">
+   <properties>
+    <property name="Text" value="Pallet Town is in the West"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="24" name="Scope" x="192.497" y="125.877" width="31.4386" height="30.3158">
+   <properties>
+    <property name="Text" value="There are people swimming!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="25" name="Boy" gid="1331" x="95.1579" y="160.842" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="I'm looking for SLOWBRO! Wanna trade one for LICKITUNG?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Lickitung"/>
+    <property name="Nickname" value="Marc"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Slowbro"/>
+   </properties>
+  </object>
+  <object id="26" name="R18GHF2_R18GHDoor" x="234.667" y="287.439" width="19.8363" height="32.5614">
+   <properties>
+    <property name="Destination" value="R18GuardTower"/>
+   </properties>
+  </object>
+  <object id="27" name="R18GH_R18GHF2Spawn" x="174.784" y="287.813">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

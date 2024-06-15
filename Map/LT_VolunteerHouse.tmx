@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="21">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1340" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,151,151,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Booklet" gid="1339" x="96.2807" y="123.987" width="32" height="30">
+   <properties>
+    <property name="Text" value="POKEMON Monthly Grand Prize Drawing!"/>
+    <property name="Text2" value="The application form is... Gone! It's been clipped out!"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="3" name="Man" gid="1370" x="97.1789" y="179.882" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="That's odd, MR.FUJI isn't here. Where'd he go?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="4" name="Nidorino" gid="1429" x="0.467836" y="130.676" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Gaoo!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="5" name="Psyduck" gid="1430" x="192.992" y="166.007" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Gwappa!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="6" name="Girl" gid="1358" x="192.992" y="124.292" width="32" height="35">
+   <properties>
+    <property name="Dialouge" value="This is really MR.FUJI's house. He's really kind! He looks after"/>
+    <property name="Dialouge2" value="abandoned and orphaned POKEMON!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="7" name="Border" x="1.49708" y="1.49708" width="254.802" height="20.6596"/>
+  <object id="8" name="Border" x="0.898246" y="25.1509" width="62.8772" height="21.2585"/>
+  <object id="9" name="Border" x="224.861" y="23.3544" width="30.8398" height="21.2585"/>
+  <object id="10" name="Border" x="0.299415" y="191.925" width="30.8398" height="63.7754"/>
+  <object id="11" name="Border" x="224.561" y="192.823" width="30.8398" height="63.7754"/>
+  <object id="12" name="Border" x="254.802" y="2.39532" width="12.8749" height="253.605"/>
+  <object id="13" name="Border" x="-12.5754" y="4.49123" width="12.8749" height="253.605"/>
+  <object id="14" name="Border" x="0.299415" y="257.198" width="62.8772" height="8.98246"/>
+  <object id="15" name="Border" x="126.952" y="255.102" width="129.647" height="8.98246"/>
+  <object id="18" name="Border" x="98.2082" y="124.856" width="59.883" height="26.3485"/>
+  <object id="19" name="Border" x="127.551" y="97.0105" width="30.2409" height="26.3485"/>
+  <object id="16" name="O_LTVHSpawn" x="93.717" y="237.736">
+   <point/>
+  </object>
+  <object id="17" name="LTVH_ODoor" x="64.0749" y="256.599" width="62.8772" height="11.0784">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="20" name="Mr.Fuji" gid="1451" x="94.7836" y="56.7205" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Your POKEDEX quest may fail without love for your POKEMON."/>
+    <property name="Dialouge2" value="I think this may help your quest.Upon hearing POKE FLUTE,"/>
+    <property name="Dialouge3" value="sleeping POKEMON will spring awake.It works on all sleeping POKEMON."/>
+    <property name="Item" value="Poke Flute"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

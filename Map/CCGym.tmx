@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="10" height="14" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="30">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="14">
+  <data encoding="csv">
+217,217,217,217,217,217,217,217,217,217,
+234,234,234,234,226,226,234,234,234,234,
+234,226,226,226,225,225,226,226,226,234,
+234,226,225,225,225,225,225,225,226,234,
+234,226,352,352,352,352,352,225,226,234,
+234,226,225,225,225,225,225,225,226,234,
+234,226,225,352,352,225,352,352,226,234,
+234,226,225,226,226,225,226,226,226,234,
+234,226,225,225,225,225,226,226,226,234,
+234,226,352,352,225,225,226,226,226,234,
+234,226,226,228,225,225,228,225,226,234,
+234,226,226,236,225,225,236,225,226,234,
+234,234,234,234,225,225,234,234,234,234,
+234,234,234,234,250,250,234,234,234,234
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Swimmer" gid="1376" x="254.468" y="261.221" width="36" height="32">
+   <properties>
+    <property name="AfterBattle" value="MISTY is going to keep improving! She won't lose to someone like you!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="That can't be!"/>
+    <property name="BattleStart" value="Splash! I'm first up! Let's do it!"/>
+    <property name="Money" type="int" value="320"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Horsea-16-Bubble-Swimmer-Horsea,Shellder-16-Tackle_Withdraw-Swimmer-Shellder"/>
+   </properties>
+  </object>
+  <object id="2" name="JR.TRAINER(FEMALE)" gid="1377" x="65.2164" y="127.083" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="You have to face other trainers to find out how good you really are"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You overwhelmed me!"/>
+    <property name="BattleStart" value="I'm more than good enough for you! MISTY can wait!"/>
+    <property name="Money" type="int" value="380"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Goldeen-19-Peck_Tail Whip_Supersonic-JR.TRAINER-Goldeen"/>
+   </properties>
+  </object>
+  <object id="3" name="Misty" gid="1360" x="129.142" y="91.1205" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="TM11 teaches BUBBLEBEAM! Use it on an aquatic POKEMON!"/>
+    <property name="AfterBattle2" value=""/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="X Defense-2"/>
+    <property name="Dialouge" value="Hi, you're a new face! Trainers who want to turn pro have to"/>
+    <property name="Dialouge2" value="have a policy about POKEMON! What is your approach when you catch "/>
+    <property name="Dialouge3" value="POKEMON? My policy is an all-out offensive with water-type POKEMON!"/>
+    <property name="Money" type="int" value="2079"/>
+    <property name="Team" value="Staryu-18-Tackle_Water Gun-Misty-Staryu,Starmie-21-Tackle_Water Gun_BubbleBeam-Misty-Starmie"/>
+    <property name="WonBattle1" value="Wow! You're too much! All right! You can have the CASCADEBADGE"/>
+    <property name="WonBattle2" value="to show you beat me! The CASCADEBADGE makes all "/>
+    <property name="WonBattle3" value="POKEMON up to L30 obey! That includes outsiders"/>
+    <property name="WonBattle4" value="There's more, you can now use CUT any time! You can CUT down small"/>
+    <property name="WonBattle5" value="bushes to open new paths!You can also have my favorite TM!"/>
+    <property name="WonBattle6" value="TM11 teaches BUBBLEBEAM! Use it on an aquatic POKEMON!"/>
+   </properties>
+  </object>
+  <object id="4" name="Announcer" gid="1356" x="224.505" y="351.821" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value="You beat MISTY! What'd I tell ya? You and me kid, we make a great team"/>
+    <property name="Dialouge" value="Yo! Champ in making! Here's my advice! The LEADER, MISTY"/>
+    <property name="Dialouge2" value="is a pro who uses water POKEMON! You can drain all their water with plant"/>
+    <property name="Dialouge3" value="POKEMON! Or, zap them with electricity!"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="5" name="Border" x="32.4865" y="62.8772" width="31.4386" height="321.198"/>
+  <object id="25" name="Border" x="64.973" y="59.2094" width="62.8772" height="34.5828"/>
+  <object id="6" name="Border" x="63.9251" y="293.951" width="31.4386" height="90.124"/>
+  <object id="11" name="Border" x="96.4117" y="192.299" width="62.8772" height="63.4012"/>
+  <object id="12" name="Border" x="64.4491" y="130.47" width="158.765" height="28.8187"/>
+  <object id="13" name="Border" x="192.299" y="63.9251" width="99.0316" height="30.9146"/>
+  <object id="14" name="Border" x="257.796" y="96.4117" width="31.4386" height="125.754"/>
+  <object id="15" name="Border" x="256.749" y="258.844" width="31.4386" height="125.754"/>
+  <object id="7" name="Border" x="319.626" y="0.523977" width="31.4386" height="448"/>
+  <object id="8" name="Border" x="-31.4386" y="0.523977" width="31.4386" height="448"/>
+  <object id="9" name="Border" x="-0.523976" y="-12.5754" width="320.674" height="33.0105"/>
+  <object id="24" name="Border" x="126.802" y="29.3427" width="64.9731" height="33.0105"/>
+  <object id="10" name="Border" x="2.84217e-14" y="448.524" width="125.754" height="33.0105"/>
+  <object id="18" name="Border" x="96.9357" y="292.379" width="29.3427" height="27.2468"/>
+  <object id="19" name="Border" x="192.823" y="195.967" width="63.9251" height="121.039"/>
+  <object id="17" name="Border" x="193.871" y="448.524" width="125.23" height="33.0105"/>
+  <object id="20" name="Door" x="125.754" y="448.524" width="68.6409" height="34.5825">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="21" name="Spawn" x="156.669" y="426.517">
+   <point/>
+  </object>
+  <object id="22" name="Totem" x="96.9357" y="319.102" width="29.3427" height="51.3497">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="23" name="Totem" x="192.823" y="321.006" width="29.3427" height="45.586">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="27" name="Eyes" x="98.5076" y="94.8398" width="95.3637" height="37.7263">
+   <properties>
+    <property name="Trainer" value="JR.TRAINER(FEMALE)"/>
+   </properties>
+  </object>
+  <object id="28" name="Eyes" x="159.813" y="229.502" width="96.9357" height="37.7263">
+   <properties>
+    <property name="Trainer" value="Swimmer"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

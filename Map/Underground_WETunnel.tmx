@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="46" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="11">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="46" height="6">
+  <data encoding="csv">
+889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,889,
+897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,
+897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,898,
+897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,
+897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,
+898,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897,897
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="EastEntrance" x="1450.03" y="65.3035" width="19.2942" height="26.7151">
+   <properties>
+    <property name="Destination" value="UnderGroundE Entrance"/>
+   </properties>
+  </object>
+  <object id="8" name="WestEntrance" x="16.3216" y="158.806" width="19.2942" height="26.7151">
+   <properties>
+    <property name="Destination" value="UnderGroundW Entrance"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="2.54848" y="193.684" width="1465.37" height="8.91967"/>
+  <object id="3" name="Border" x="1.27424" y="1.27424" width="1470.47" height="19.1136"/>
+  <object id="4" name="Border" x="1473.02" y="21.662" width="11.4681" height="173.296"/>
+  <object id="5" name="Border" x="-8.91967" y="22.9363" width="11.4681" height="173.296"/>
+  <object id="6" name="ESpawn" x="1414.4" y="85.374">
+   <point/>
+  </object>
+  <object id="7" name="WSpawn" x="84.5835" y="162.551">
+   <point/>
+  </object>
+  <object id="9" name="Hidden" x="657.487" y="152.87" width="47.4934" height="34.1359">
+   <properties>
+    <property name="Item" value="Elixir"/>
+   </properties>
+  </object>
+  <object id="10" name="Hidden" x="338.391" y="68.2718" width="47.4934" height="34.1359">
+   <properties>
+    <property name="Item" value="Nugget"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

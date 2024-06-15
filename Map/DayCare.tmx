@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="15">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,1136,1136,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="2" name="Man" gid="1381" x="64.8421" y="118.202" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="I run a DAYCARE. Would you like me to raise one of your POKEMON?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="1.49708" y="0.59883" width="61.0807" height="46.7088"/>
+  <object id="4" name="Border" x="226.058" y="0.898246" width="29.9415" height="46.7088"/>
+  <object id="5" name="Border" x="63.8772" y="0.700585" width="159.588" height="24.2526"/>
+  <object id="6" name="Border" x="-4.26326e-14" y="193.722" width="31.738" height="61.9789"/>
+  <object id="7" name="Border" x="223.963" y="192.225" width="31.738" height="61.9789"/>
+  <object id="8" name="Border" x="255.401" y="0.898246" width="12.738" height="255.979"/>
+  <object id="14" name="Border" x="96.3929" y="95.4941" width="62.8365" height="58.0745"/>
+  <object id="10" name="Border" x="126.735" y="254.898" width="131.071" height="8.31228"/>
+  <object id="11" name="Border" x="-1.93216" y="254.898" width="64.0713" height="8.31228"/>
+  <object id="12" name="Door" x="62.7345" y="255.565" width="64.0713" height="8.31228">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="9" name="Border" x="-12.2655" y="-0.101754" width="12.738" height="255.979"/>
+  <object id="13" name="Spawn" x="92.6667" y="235.333">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

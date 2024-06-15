@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="19">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+217,459,2147484106,457,458,217,459,217,
+137,137,2147484114,465,466,137,137,137,
+137,137,2147484123,473,474,475,137,137,
+137,467,2147484131,481,482,483,467,137,
+137,467,2147484139,489,2147484137,491,467,137,
+137,137,2147484147,497,2147484145,499,137,137,
+137,137,137,137,137,137,137,137,
+137,137,145,145,137,137,137,137
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Border" x="91.0222" y="65.5719" width="67.6678" height="105.095"/>
+  <object id="10" name="Border" x="1.52222" y="0.0719298" width="253.168" height="17.0947"/>
+  <object id="2" name="Border" x="65.1649" y="73.3567" width="26.0491" height="87.4292"/>
+  <object id="3" name="Border" x="159.181" y="66.7696" width="31.738" height="95.5135"/>
+  <object id="4" name="Border" x="257.389" y="2.84217e-14" width="7.23801" height="255.513"/>
+  <object id="5" name="Border" x="-7.61053" y="2.5" width="7.23801" height="255.513"/>
+  <object id="6" name="Border" x="-0.610526" y="257.5" width="63.238" height="8.51345"/>
+  <object id="8" name="Door" x="61.8895" y="257.5" width="63.238" height="8.51345">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="7" name="Border" x="127.389" y="257" width="132.238" height="8.51345"/>
+  <object id="9" name="Spawn" x="90.5" y="235.5">
+   <point/>
+  </object>
+  <object id="11" name="Woman" gid="1332" x="35.5" y="123" width="32" height="29">
+   <properties>
+    <property name="Dialouge" value="I just love my SEEL! It squeals when I hug it!"/>
+    <property name="Dialouge2" value="It's definitely cuter than that pikachu"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="Chairman" gid="1386" x="96" y="45" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I just love my SEEL! It squeals when I hug it!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="Man" gid="1387" x="194" y="123.5" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Won't you admire my Pikachu's adorable tail?"/>
+    <property name="Dialouge2" value="It's twice as cute as that seel"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="14" name="Seel" gid="1388" x="31.5" y="157" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Kyuoo!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="15" name="Pikachu" gid="1389" x="193.5" y="155" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Chu! Pikachu!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="16" name="Woman" gid="1390" x="162.5" y="59" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Our Chairman is very vocal about POKEMON."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="17" name="Poster" x="193.5" y="6" width="29.5" height="16">
+   <properties>
+    <property name="Text" value="If someone brags, brag right back!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="18" name="Poster" x="33.5" y="6" width="29.5" height="16">
+   <properties>
+    <property name="Text" value="Let's all listen politely to other trainers!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

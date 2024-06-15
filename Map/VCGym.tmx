@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="10" height="18" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="41">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1339" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="18">
+  <data encoding="csv">
+177,179,196,194,196,194,196,528,177,179,
+177,179,225,225,225,225,1338,536,177,179,
+177,179,225,225,225,225,225,225,177,179,
+177,179,225,225,225,225,225,225,177,179,
+169,170,170,171,225,225,169,170,170,171,
+193,196,196,195,225,225,193,196,196,195,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,228,225,225,228,225,225,225,
+225,225,225,236,225,225,236,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,225,225,225,225,225,225,
+225,225,225,225,233,233,225,225,225,225
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Trashcan" gid="1338" x="160.505" y="255.832" width="32" height="32"/>
+  <object id="2" name="Trashcan" gid="1338" x="96.5053" y="256.158" width="32" height="32"/>
+  <object id="3" name="Trashcan" gid="1338" x="32.8316" y="255.484" width="32" height="32"/>
+  <object id="4" name="Trashcan" gid="1338" x="32.5053" y="320.158" width="32" height="32"/>
+  <object id="5" name="Trashcan" gid="1338" x="32.5053" y="384.179" width="32" height="32"/>
+  <object id="6" name="Trashcan" gid="1338" x="96.8105" y="384.158" width="32" height="32"/>
+  <object id="7" name="Trashcan" gid="1338" x="96.5053" y="319.442" width="32" height="32"/>
+  <object id="8" name="Trashcan" gid="1338" x="160.547" y="319.832" width="32" height="32"/>
+  <object id="9" name="Trashcan" gid="1338" x="160.158" y="384.526" width="32" height="32"/>
+  <object id="10" name="Trashcan" gid="1338" x="224.484" y="384.158" width="32" height="32"/>
+  <object id="11" name="Trashcan" gid="1338" x="287.789" y="384.853" width="32" height="32"/>
+  <object id="12" name="Trashcan" gid="1338" x="288.505" y="320.874" width="32" height="32"/>
+  <object id="13" name="Trashcan" gid="1338" x="224.874" y="320.158" width="32" height="32"/>
+  <object id="14" name="Trashcan" gid="1338" x="224.2" y="256.874" width="32" height="32"/>
+  <object id="15" name="Trashcan" gid="1338" x="288.2" y="256.505" width="32" height="32"/>
+  <object id="16" name="Border" x="-10.4526" y="189.305" width="10.7789" height="388.042"/>
+  <object id="23" name="Border" x="2.69474" y="-1" width="59.2842" height="128"/>
+  <object id="24" name="Border" x="259.368" y="1.69474" width="59.2842" height="128"/>
+  <object id="36" name="Border" x="193.347" y="32.6842" width="28.2947" height="27.6211"/>
+  <object id="25" name="Border" x="192" y="127.674" width="126.653" height="51.2"/>
+  <object id="26" name="Border" x="2.02105" y="129.021" width="126.653" height="51.2"/>
+  <object id="27" name="Doors" x="126.653" y="129.021" width="65.3474" height="21.5579">
+   <properties>
+    <property name="Text" value="There's a electric barrier here!"/>
+    <property name="Text2" value=""/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="28" name="Border" x="64" y="-0.326316" width="158.316" height="21.5579"/>
+  <object id="29" name="Border" x="222.989" y="0.347368" width="32.3368" height="42.4421"/>
+  <object id="17" name="Border" x="320.695" y="187.937" width="10.7789" height="388.042"/>
+  <object id="18" name="Border" x="200.779" y="575.305" width="121.937" height="10.1053"/>
+  <object id="19" name="Border" x="0.0210526" y="575.305" width="125.305" height="10.1053"/>
+  <object id="20" name="Door" x="126.653" y="574.653" width="71.4105" height="12.8">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="21" name="Spawn" x="155.621" y="553.768">
+   <point/>
+  </object>
+  <object id="30" name="Totem" x="97.0105" y="414.989" width="28.9684" height="49.1789">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="31" name="Totem" x="193.347" y="415.684" width="28.9684" height="49.1789">
+   <properties>
+    <property name="Text" value="WINNING TRAINERS:"/>
+    <property name="Text2" value="Trainer"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="32" name="VCSailor" gid="1409" x="2.18947" y="350.474" width="32" height="34">
+   <properties>
+    <property name="AfterBattle" value="LT.SURGE set up double locks!Here's a hint!-When you open the 1st lock, the 2nd lock is right next to it!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Wow! Surprised me!"/>
+    <property name="BattleStart" value="This is no place for kids!"/>
+    <property name="Money" type="int" value="630"/>
+    <property name="Side" value="Left"/>
+    <property name="Team" value="Pikachu-21-ThunderShock_Growl_Thunder Wave_Quick Attack-Sailor-Pikachu,Pikachu-21-ThunderShock_Growl_Thunder Wave_Quick Attack-Sailor-Pikachu"/>
+   </properties>
+  </object>
+  <object id="33" name="VCRocker" gid="1370" x="95.8316" y="287.495" width="32" height="31">
+   <properties>
+    <property name="AfterBattle" value="OK, I'll talk! LT.SURGE said he hid door switches inside something!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Fried!"/>
+    <property name="BattleStart" value="I'm a lightweight, but I'm good with electricity!"/>
+    <property name="Money" type="int" value="500"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Voltorb-20-Tackle_Screech_SonicBoom-Rocker-Voltorb,Magnemite-20-Tackle-Rocker-Magnemite,Voltorb-20-Tackle_Screech_SonicBoom-Rocker-Voltorb"/>
+   </properties>
+  </object>
+  <object id="34" name="VCGentleman" gid="1415" x="289.179" y="222.821" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="The door won't open? LT.SURGE always was cautious!"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="Stop! You're very good!"/>
+    <property name="BattleStart" value="When I was in the Army, LT.SURGE was my strict CO!"/>
+    <property name="Money" type="int" value="1610"/>
+    <property name="Side" value="Right"/>
+    <property name="Team" value="Pikachu-23-ThunderShock_Growl_Thunder Wave_Quick Attack-Gentleman-Pikachu"/>
+   </properties>
+  </object>
+  <object id="35" name="Dude" gid="1374" x="128.168" y="476.453" width="32" height="33">
+   <properties>
+    <property name="2Dialouge" value="Whew! That match was electric!"/>
+    <property name="Dialouge" value="Yo! Champ in making! Your next opponent is LT.Surge AKA &quot;The Electric "/>
+    <property name="Dialouge2" value="American&quot;.Birds and water POKEMON are at risk! Beware of the master of"/>
+    <property name="Dialouge3" value="electric.LT.SURGE is very cautious! You'll have to break a code to get to him"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="37" name="Lt.Surge" gid="1421" x="159.832" y="62.4842" width="33" height="32">
+   <properties>
+    <property name="AfterBattle" value="A little word of advice, kid! Electricity is sure powerful!"/>
+    <property name="AfterBattle2" value="But, it's useless against ground-type POKEMON!"/>
+    <property name="AfterBattle3" value=""/>
+    <property name="Bag" value="X Speed-3"/>
+    <property name="Dialouge" value="Hey, kid! What do you think you're doing here? You won't live"/>
+    <property name="Dialouge2" value="long in combat! That's for sure! I tell you kid, electric POKEMON"/>
+    <property name="Dialouge3" value="saved me during the war! They zapped my enemies into paralysis!"/>
+    <property name="Dialouge4" value="The same as I'll do to you!"/>
+    <property name="Money" type="int" value="2376"/>
+    <property name="Team" value="Voltorb-21-Tackle_Screech_SonicBoom-Lt.Surge-Voltorb,Pikachu-18-ThunderShock_Growl_Thunder Wave_Quick Attack-Lt.Surge-Pikachu,Raichu-24-ThunderShock_Growl_Thunderbolt-Lt.Surge-Raichu"/>
+    <property name="WonBattle1" value="Whoa! You're the real deal, kid! Fine then, take the THUNDERBADGE!"/>
+    <property name="WonBattle2" value="The THUNDERBADGE cranks up your POKEMON's SPEED! It also lets"/>
+    <property name="WonBattle3" value="your POKEMON FLY any time, kid! You're special, kid! Take this!"/>
+    <property name="WonBattle4" value="TM24 contains THUNDERBOLT! Teach it to an electric POKEMON!"/>
+    <property name="WonBattle5" value=""/>
+    <property name="WonBattle6" value=""/>
+   </properties>
+  </object>
+  <object id="38" name="Eyes" x="-1.77636e-15" y="258.021" width="94.9895" height="28.9684">
+   <properties>
+    <property name="Trainer" value="VCRocker"/>
+   </properties>
+  </object>
+  <object id="39" name="Eyes" x="33.3789" y="320" width="94.9895" height="28.9684">
+   <properties>
+    <property name="Trainer" value="VCSailor"/>
+   </properties>
+  </object>
+  <object id="40" name="Eyes" x="193.368" y="187.284" width="94.9895" height="36.3789">
+   <properties>
+    <property name="Trainer" value="VCGentleman"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

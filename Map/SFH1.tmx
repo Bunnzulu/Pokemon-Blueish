@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="12">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+849,849,129,542,129,469,129,528,
+857,857,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,467,488,2147484136,467,137,137,
+137,137,467,496,2147484144,467,137,137,
+137,137,137,137,137,137,137,137,
+137,137,137,137,137,137,137,137,
+137,137,151,151,137,137,137,137
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="0.898246" y="0.299415" width="62.2784" height="63.1766"/>
+  <object id="3" name="Border" x="96.7111" y="95.5135" width="62.2784" height="63.1766"/>
+  <object id="4" name="Border" x="63.1766" y="-0.898246" width="162.882" height="24.8515"/>
+  <object id="5" name="Border" x="-13.1743" y="61.6795" width="13.7731" height="194.021"/>
+  <object id="6" name="Border" x="256" y="61.6795" width="13.7731" height="194.021"/>
+  <object id="7" name="Border" x="128.749" y="256.299" width="126.653" height="8.38363"/>
+  <object id="8" name="Border" x="0.898246" y="256.599" width="62.5778" height="8.38363"/>
+  <object id="9" name="Door" x="64.0749" y="255.898" width="65.2725" height="8.38363">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="225.16" y="-0.59883" width="30.5404" height="63.1766"/>
+  <object id="10" name="Spawn" x="94.3158" y="240.73">
+   <point/>
+  </object>
+  <object id="11" name="Mr.Psychic" gid="1448" x="159.158" y="125.987" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Wait! Don't say a word! You wanted this!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="TM29"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

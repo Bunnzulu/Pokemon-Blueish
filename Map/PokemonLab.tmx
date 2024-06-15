@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="18" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="60">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="HallWay" width="18" height="8" visible="0">
+  <data encoding="csv">
+251,862,862,863,862,251,0,0,0,0,0,0,0,0,0,0,0,0,
+259,870,870,870,870,259,0,0,0,0,0,0,0,0,0,0,0,0,
+870,870,870,870,870,870,894,862,895,896,862,862,895,896,862,862,895,896,
+870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,
+870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,870,
+870,870,879,879,870,870,870,870,870,870,870,870,870,870,870,870,870,870,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="HallObjects" visible="0">
+  <object id="1" name="Border" x="-0.580762" y="1.77636e-15" width="31.9419" height="64.4646"/>
+  <object id="2" name="Border" x="160.29" y="-1.16152" width="31.9419" height="64.4646"/>
+  <object id="3" name="Border" x="33.1034" y="0.580762" width="125.445" height="27.8766"/>
+  <object id="4" name="Border" x="-16.8421" y="60.98" width="16.8421" height="130.091"/>
+  <object id="7" name="Border" x="576.116" y="69.1107" width="16.8421" height="130.091"/>
+  <object id="5" name="Border" x="-1.74229" y="192.232" width="65.0454" height="18.5844"/>
+  <object id="8" name="Border" x="191.071" y="64.4646" width="65.0454" height="30.1996"/>
+  <object id="13" name="Sign" x="284.574" y="63.8838" width="35.4265" height="30.1996">
+   <properties>
+    <property name="Text" value="Pokemon Lab"/>
+    <property name="Text2" value="Meeting Room"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="14" name="Sign" x="414.083" y="64.4646" width="35.4265" height="30.1996">
+   <properties>
+    <property name="Text" value="Pokemon Lab"/>
+    <property name="Text2" value="R-and-D Room"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="15" name="Sign" x="541.27" y="64.4646" width="35.4265" height="30.1996">
+   <properties>
+    <property name="Text" value="Pokemon Lab"/>
+    <property name="Text2" value="Testing Room"/>
+    <property name="Text3" value=""/>
+   </properties>
+  </object>
+  <object id="9" name="Border" x="320.581" y="64.4646" width="65.0454" height="30.1996"/>
+  <object id="11" name="PokeLabHall_ODoor" x="63.8838" y="191.071" width="65.0454" height="23.8113">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="16" name="PokeLabHall_PokeLabMRDoor" x="257.278" y="63.3031" width="29.0381" height="23.8113">
+   <properties>
+    <property name="Destination" value="Pokemon Lab Meeting Room"/>
+   </properties>
+  </object>
+  <object id="34" name="PokeLabHall_PokeLabRDDoor" x="385.626" y="65.0454" width="29.0381" height="23.8113">
+   <properties>
+    <property name="Destination" value="Pokemon Lab R-and-D Room"/>
+   </properties>
+  </object>
+  <object id="47" name="PokeLabHall_PokeLabTRDoor" x="512.232" y="64.4646" width="29.0381" height="23.8113">
+   <properties>
+    <property name="Destination" value="Pokemon Lab Testing Room"/>
+   </properties>
+  </object>
+  <object id="10" name="Border" x="447.768" y="63.3031" width="65.0454" height="30.1996"/>
+  <object id="6" name="Border" x="127.768" y="192.232" width="444.864" height="18.5844"/>
+  <object id="12" name="O_PokeLabHallSpawn" x="92.3412" y="174.809">
+   <point/>
+  </object>
+  <object id="17" name="PokeLabMR_PokeLabHallSpawn" x="273.539" y="126.025">
+   <point/>
+  </object>
+  <object id="35" name="PokeLabRD_PokeLabHallSpawn" x="397.822" y="126.025">
+   <point/>
+  </object>
+  <object id="48" name="PokeLabTR_PokeLabHallSpawn" x="529.655" y="124.283">
+   <point/>
+  </object>
+  <object id="18" name="MHMan" gid="1380" x="47.8838" y="66.9456" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="We study POKEMON extensively here. People often bring us rare"/>
+    <property name="Dialouge2" value="POKEMON for examination."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="4" name="Meeting Room" width="18" height="8">
+  <data encoding="csv">
+509,862,862,863,862,862,862,509,0,0,0,0,0,0,0,0,0,0,
+517,870,870,870,870,870,870,517,0,0,0,0,0,0,0,0,0,0,
+870,870,870,239,870,239,870,870,0,0,0,0,0,0,0,0,0,0,
+870,870,870,1260,1261,1262,870,870,0,0,0,0,0,0,0,0,0,0,
+870,870,870,1268,1269,1270,870,870,0,0,0,0,0,0,0,0,0,0,
+870,870,870,239,870,239,870,870,0,0,0,0,0,0,0,0,0,0,
+251,870,870,870,870,870,870,251,0,0,0,0,0,0,0,0,0,0,
+259,870,879,879,870,870,870,259,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="MRObjects">
+  <object id="19" name="Border2" x="0" y="-0.580762" width="33.6842" height="66.7877"/>
+  <object id="20" name="Border2" x="222.432" y="-4.06534" width="33.6842" height="66.7877"/>
+  <object id="21" name="Border2" x="224.755" y="188.748" width="33.6842" height="66.7877"/>
+  <object id="23" name="Border2" x="257.278" y="27.2958" width="15.0998" height="225.336"/>
+  <object id="24" name="Border2" x="-15.0998" y="33.6842" width="15.0998" height="225.336"/>
+  <object id="25" name="Border2" x="33.1034" y="0" width="187.586" height="30.7804"/>
+  <object id="29" name="Border2" x="94.0835" y="95.245" width="96.4065" height="60.3993"/>
+  <object id="26" name="Border2" x="129.51" y="254.955" width="138.221" height="30.7804"/>
+  <object id="27" name="Border2" x="-5.68434e-14" y="254.955" width="63.3031" height="30.7804"/>
+  <object id="30" name="PokeLabMR_PokeLabHallDoor" x="65.6261" y="256.116" width="63.3031" height="16.8421">
+   <properties>
+    <property name="Destination" value="Pokemon Lab Hall"/>
+   </properties>
+  </object>
+  <object id="22" name="Border2" x="-1.74229" y="192.813" width="33.6842" height="66.7877"/>
+  <object id="28" name="PokeLabHall_PokeLabMRSpawn" x="92.3412" y="236.37">
+   <point/>
+  </object>
+  <object id="31" name="MRWoman" gid="1427" x="161.132" y="186.163" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="How is my old TANGELA? My VENONAT is doing great!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Tangela"/>
+    <property name="Nickname" value="Crinkles"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Venonat"/>
+   </properties>
+  </object>
+  <object id="32" name="MRMan" gid="1351" x="94.3448" y="91.3376" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="I found this very strange fossil in MT.MOON! I think it's a rare,"/>
+    <property name="Dialouge2" value="prehistoric POKEMON!"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="33" name="MROld Man" gid="1350" x="29.8802" y="151.898" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="The RAICHU you traded to me went and evolved!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Electrode"/>
+    <property name="Nickname" value="Doris"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Raichu"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="6" name="R-and-D Room" width="18" height="8" visible="0">
+  <data encoding="csv">
+862,862,862,862,862,252,252,252,0,0,0,0,0,0,0,0,0,0,
+871,871,871,871,871,260,260,260,0,0,0,0,0,0,0,0,0,0,
+870,870,870,870,870,870,870,870,0,0,0,0,0,0,0,0,0,0,
+870,870,870,870,870,870,870,870,0,0,0,0,0,0,0,0,0,0,
+1186,1187,870,870,870,870,252,252,0,0,0,0,0,0,0,0,0,0,
+1194,1195,870,870,870,870,260,260,0,0,0,0,0,0,0,0,0,0,
+870,870,870,870,870,870,870,870,0,0,0,0,0,0,0,0,0,0,
+870,870,879,879,870,870,870,870,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="RDObjects" visible="0">
+  <object id="36" name="Border3" x="1.77636e-15" y="1.16152" width="252.051" height="60.3993"/>
+  <object id="41" name="Border3" x="127.768" y="254.955" width="126.606" height="19.1652"/>
+  <object id="42" name="Border3" x="1.16152" y="256.116" width="59.2377" height="19.1652"/>
+  <object id="37" name="Border3" x="191.071" y="129.51" width="62.1416" height="60.3993"/>
+  <object id="40" name="Border3" x="0.580762" y="128.929" width="62.1416" height="31.9419"/>
+  <object id="43" name="PokeLabRD_PokeLabHallDoor" x="62.7223" y="253.793" width="62.1416" height="18.5844">
+   <properties>
+    <property name="Destination" value="Pokemon Lab Hall"/>
+   </properties>
+  </object>
+  <object id="38" name="Border3" x="255.535" y="63.3031" width="27.2958" height="191.652"/>
+  <object id="39" name="Border3" x="-26.1343" y="62.7223" width="27.2958" height="191.652"/>
+  <object id="44" name="PokeLabHall_PokeLabRDSpawn" x="89.4374" y="236.37">
+   <point/>
+  </object>
+  <object id="45" name="RDGiv" gid="1329" x="154.744" y="106.599" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Tch-tch-tch! I made a cool TM! It can cause all kinds of fun!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Item" value="TM35"/>
+    <property name="Itemnumber" type="int" value="1"/>
+    <property name="Type" value="Giver"/>
+   </properties>
+  </object>
+  <object id="46" name="RDScientist" gid="1405" x="15.9419" y="113.407" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="EEVEE can evolve into 1 of 3 kinds of POKEMON."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="8" name="Testing Room" width="18" height="8" visible="0">
+  <data encoding="csv">
+880,1203,880,1201,1202,1203,864,864,0,0,0,0,0,0,0,0,0,0,
+888,1211,888,1209,1210,1211,872,872,0,0,0,0,0,0,0,0,0,0,
+878,878,878,878,870,870,870,870,0,0,0,0,0,0,0,0,0,0,
+878,878,878,878,870,870,870,870,0,0,0,0,0,0,0,0,0,0,
+1186,1187,1186,1187,870,870,865,866,0,0,0,0,0,0,0,0,0,0,
+1194,1195,1194,1195,870,870,1188,1189,0,0,0,0,0,0,0,0,0,0,
+870,870,870,870,870,870,870,870,0,0,0,0,0,0,0,0,0,0,
+870,870,879,879,870,870,870,870,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="9" name="TRObject" visible="0">
+  <object id="49" name="Border4" x="2.32305" y="128.929" width="123.122" height="42.3956"/>
+  <object id="57" name="Border4" x="1.16152" y="2.32305" width="253.212" height="60.3993"/>
+  <object id="50" name="Border4" x="190.49" y="126.606" width="64.4646" height="50.5263"/>
+  <object id="56" name="PokeLabTR_PokeLabHallDoor" x="62.1416" y="254.374" width="64.4646" height="16.8421">
+   <properties>
+    <property name="Destination" value="Pokemon Lab Hall"/>
+   </properties>
+  </object>
+  <object id="51" name="Border4" x="-24.392" y="-1.74229" width="23.2305" height="257.858"/>
+  <object id="52" name="Border4" x="256.116" y="-1.16152" width="23.2305" height="257.858"/>
+  <object id="53" name="Border4" x="128.348" y="254.955" width="126.606" height="29.0381"/>
+  <object id="54" name="Border4" x="-1.16152" y="256.116" width="61.5608" height="29.0381"/>
+  <object id="55" name="PokeLabHall_PokeLabTRSpawn" x="96.4065" y="236.37">
+   <point/>
+  </object>
+  <object id="58" name="TRScientist" gid="1358" x="144.871" y="108.922" width="32" height="31">
+   <properties>
+    <property name="Dialouge" value="Hiya! I am important doctor! I study here rare POKEMON fossils!"/>
+    <property name="Dialouge2" value="You! Have you a fossil for me?"/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="59" name="TRMan" gid="1460" x="213.982" y="218.105" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Isn't my old SEEL great?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="HisPokemon" value="Seel"/>
+    <property name="Nickname" value="Sailor"/>
+    <property name="Type" value="Trader"/>
+    <property name="YourPokemon" value="Ponyta"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

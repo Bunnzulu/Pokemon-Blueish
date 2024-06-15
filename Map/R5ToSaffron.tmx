@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="12">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="6">
+  <data encoding="csv">
+258,252,166,276,277,166,252,258,
+258,260,275,166,166,275,260,258,
+258,166,283,166,166,283,166,258,
+258,166,283,166,166,283,166,258,
+258,166,291,166,166,291,166,258,
+258,258,166,276,277,166,258,258
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Guard" gid="1382" x="31.4051" y="113.078" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="I run a DAYCARE. Would you like me to raise one of your POKEMON?"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="Border" x="66.1643" y="32.7019" width="26.6178" height="124.723"/>
+  <object id="3" name="Border" x="162.242" y="32.1949" width="26.6178" height="124.723"/>
+  <object id="4" name="Border" x="35.2369" y="-3.54904" width="26.6178" height="65.9108"/>
+  <object id="5" name="Border" x="193.169" y="1.52102" width="26.6178" height="65.9108"/>
+  <object id="6" name="O_InterR5Spawn" x="124.977" y="20.0267">
+   <point/>
+  </object>
+  <object id="7" name="InterR5_ODoor" x="63.8828" y="-12.1681" width="130.301" height="12.4216">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="8" name="Exit" x="63.1222" y="191.902" width="130.301" height="12.4216">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="9" name="O_InterExitSpawn" x="125.737" y="175.171">
+   <point/>
+  </object>
+  <object id="10" name="Boundry" x="75.0369" y="96.0729" width="116.865" height="1.52525"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+790,469,790,543,544,790,1185,1185,
+854,854,854,854,854,854,1193,1193,
+854,854,854,854,854,854,854,854,
+854,854,854,488,2147484136,854,854,854,
+854,854,854,496,2147484144,854,854,854,
+854,854,854,467,854,854,854,854,
+1165,854,854,854,854,854,854,1165,
+1173,854,879,879,854,854,854,1173
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="PlayerPoint" x="93.7947" y="209.549">
+   <point/>
+  </object>
+  <object id="2" name="Door" x="64.0186" y="224.065" width="62.902" height="29.7761">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="-7" y="1.5" width="6.5" height="252"/>
+  <object id="4" name="Border" x="1.5" y="-12" width="251.5" height="11"/>
+  <object id="5" name="Border" x="257" y="4.5" width="5.5" height="250"/>
+  <object id="6" name="Border" x="0.5" y="258" width="255" height="3.5"/>
+  <object id="7" name="Border" x="0.5" y="192" width="29.5" height="61.5"/>
+  <object id="10" name="Border" x="225" y="192" width="29.5" height="61.5"/>
+  <object id="9" name="Border" x="97" y="97.5" width="60" height="61"/>
+  <object id="11" name="Student" gid="1337" x="95.6819" y="182.379" width="32" height="35">
+   <properties>
+    <property name="Dialouge" value="Whew! I'm trying to memorize all my notes."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="Teacher" gid="1338" x="159.158" y="61.9123" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Okay! Be sure to read the blackboard carefully!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="Read" x="97.9088" y="2.99415" width="57.1883" height="24.8515">
+   <properties>
+    <property name="Text" value="Sleep,Burn,Posion,Frozen,and Paralysis. Rember these."/>
+   </properties>
+  </object>
+  <object id="17" name="Read" x="194.021" y="1.19766" width="59.5836" height="61.6795">
+   <properties>
+    <property name="Text" value="Books"/>
+   </properties>
+  </object>
+  <object id="14" name="Border" x="0.59883" y="0.59883" width="96.7111" height="30.2409"/>
+  <object id="15" name="Border" x="158.091" y="0.898246" width="33.8339" height="29.3427"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="20" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="35">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Hallway" width="20" height="12" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+178,178,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,186,178,178,
+178,187,196,194,196,194,196,194,196,194,196,194,196,194,196,194,196,194,185,186,
+194,195,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,193,195,
+190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,190,175
+</data>
+ </layer>
+ <objectgroup id="2" name="HallwayObjects" visible="0">
+  <object id="1" name="Border" x="62.1082" y="282.022" width="513.977" height="23.449"/>
+  <object id="9" name="Border" x="-1.90127" y="384.057" width="641.996" height="23.449"/>
+  <object id="2" name="Border" x="0" y="280.755" width="60.8407" height="58.3057"/>
+  <object id="3" name="Border" x="577.987" y="278.853" width="60.8407" height="55.1369"/>
+  <object id="4" name="SAF2_HWSpawn" x="585.592" y="370.114">
+   <point/>
+  </object>
+  <object id="5" name="HW_SAF2Door" x="617.914" y="351.735" width="22.1815" height="32.3216">
+   <properties>
+    <property name="Destination" value="SS.AnneF2"/>
+   </properties>
+  </object>
+  <object id="6" name="HW_SAF3Door" x="0" y="348.567" width="9.50636" height="33.5891">
+   <properties>
+    <property name="Destination" value="SS.AnneF3"/>
+   </properties>
+  </object>
+  <object id="7" name="SAF3_HWSpawn" x="35.4904" y="371.382">
+   <point/>
+  </object>
+  <object id="8" name="Worker" gid="1391" x="318.624" y="341.484" width="32" height="34">
+   <properties>
+    <property name="Dialouge" value="Our CAPTAIN is a sword master! He even teaches CUT to POKEMON!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Deck" width="20" height="12">
+  <data encoding="csv">
+226,226,226,226,226,226,226,226,226,182,182,182,182,182,182,182,182,182,182,182,
+226,226,226,226,226,226,226,226,182,182,189,199,199,199,199,199,199,178,178,178,
+226,226,226,226,226,226,226,182,182,199,198,190,190,190,190,190,190,178,178,178,
+226,226,226,226,226,226,182,182,189,190,190,191,190,190,190,190,190,178,178,178,
+226,226,226,226,226,182,182,199,198,190,190,191,190,190,190,190,190,193,195,177,
+226,226,226,226,226,182,189,190,190,190,190,190,190,190,190,190,190,181,181,177,
+226,226,226,226,226,182,189,190,190,190,190,190,190,190,190,190,190,190,190,177,
+226,226,226,226,226,182,182,189,190,190,190,191,190,190,190,190,190,178,178,178,
+226,226,226,226,226,226,182,182,189,190,190,191,190,190,190,190,190,178,178,178,
+226,226,226,226,226,226,226,182,182,189,190,190,190,190,190,190,190,178,178,178,
+226,226,226,226,226,226,226,226,182,182,189,190,190,190,190,190,190,178,178,178,
+226,226,226,226,226,226,226,226,226,182,182,182,182,182,182,182,182,182,182,182
+</data>
+ </layer>
+ <objectgroup id="4" name="DeckObjects">
+  <object id="10" name="F3Man" gid="1375" x="385.168" y="349.356" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Urf. I feel ill. I stepped out to get some air."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="11" name="F3Man" gid="1375" x="319.891" y="59.0955" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="The party's over. The ship will be departing soon."/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="12" name="F3Worker" gid="1401" x="276.162" y="286.614" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Scrubbing decks is hard work!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="13" name="SAF32Sailor" gid="1401" x="283.767" y="126.274" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="How many kinds of POKEMON do you think there are?"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="You're impressive!"/>
+    <property name="BattleStart" value="Hey matey! Let's do a little jig!"/>
+    <property name="Money" type="int" value="540"/>
+    <property name="Side" value="Top"/>
+    <property name="Team" value="Machop-18-Karate Chop-Sailor-Machop,Shellder-18-Tackle_Withdraw_Supersonic-Sailor-Shellder"/>
+   </properties>
+  </object>
+  <object id="14" name="SAF31Sailor" gid="1392" x="475.796" y="249.223" width="32" height="32">
+   <properties>
+    <property name="AfterBattle" value="My Pa said there are 100 kinds of POKEMON. I think there are more"/>
+    <property name="Bag" value=""/>
+    <property name="BattleEnd" value="I was just careless!"/>
+    <property name="BattleStart" value="Ahoy there! Are you seasick?"/>
+    <property name="Money" type="int" value="510"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Machop-17-Karate Chop-Sailor-Machop,Tentacool-17-Acid_Supersonic_Wrap-Sailor-Tentacool"/>
+   </properties>
+  </object>
+  <object id="15" name="Border2" x="290.261" y="1.90127" width="347.299" height="22.8153"/>
+  <object id="16" name="Border2" x="256.672" y="32.9554" width="61.4745" height="22.8153"/>
+  <object id="17" name="Border2" x="223.083" y="65.9108" width="61.4745" height="22.8153"/>
+  <object id="18" name="Border2" x="193.296" y="97.5987" width="61.4745" height="22.8153"/>
+  <object id="19" name="Border2" x="159.073" y="130.455" width="61.4745" height="22.8153"/>
+  <object id="21" name="Border2" x="160.974" y="162.143" width="29.1528" height="92.5286"/>
+  <object id="20" name="Border2" x="194.564" y="227.42" width="27.2516" height="57.0382"/>
+  <object id="22" name="Border2" x="226.251" y="256.573" width="27.2516" height="58.3057"/>
+  <object id="23" name="Border2" x="257.939" y="287.627" width="27.2516" height="58.3057"/>
+  <object id="24" name="Border2" x="290.528" y="320.315" width="27.2516" height="58.3057"/>
+  <object id="25" name="Border2" x="322.216" y="352.003" width="314.344" height="28.5191"/>
+  <object id="26" name="Border2" x="544.665" y="225.519" width="94.4299" height="123.583"/>
+  <object id="27" name="Border2" x="543.398" y="26.5191" width="94.4299" height="116.611"/>
+  <object id="28" name="Border2" x="353.904" y="96.2324" width="28.5191" height="62.742"/>
+  <object id="29" name="Border2" x="353.27" y="221.083" width="28.5191" height="62.742"/>
+  <object id="30" name="SAF3_HWDoor" x="610.942" y="145.764" width="27.2516" height="77.9522">
+   <properties>
+    <property name="Destination" value="SAHallway"/>
+   </properties>
+  </object>
+  <object id="32" name="HW_SAF3Spawn" x="577.987" y="202.169">
+   <point/>
+  </object>
+  <object id="33" name="Eyes" x="475.219" y="147.665" width="36.1242" height="66.5445">
+   <properties>
+    <property name="Trainer" value="SAF31Sailor"/>
+   </properties>
+  </object>
+  <object id="34" name="Eyes" x="278.487" y="126.118" width="36.1242" height="86.191">
+   <properties>
+    <property name="Trainer" value="SAF32Sailor"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

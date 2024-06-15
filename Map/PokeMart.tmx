@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="20">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="8" height="8">
+  <data encoding="csv">
+1117,1117,816,816,816,816,1117,1117,
+1125,1125,824,824,824,824,1125,1125,
+798,798,798,798,798,798,798,798,
+1139,1140,798,798,1137,1138,1137,1138,
+790,1124,798,798,1145,1146,1145,1146,
+798,1133,798,798,798,798,798,798,
+1147,1148,798,798,798,798,798,798,
+798,798,798,806,806,798,798,798
+</data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="PlayerPoint" x="128" y="216.667">
+   <point/>
+  </object>
+  <object id="3" name="Door" x="95.3334" y="255.333" width="66" height="20">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="4" name="Border" x="-11.3333" y="5" width="10.6667" height="252"/>
+  <object id="5" name="Border" x="0.666667" y="259.333" width="93.3337" height="16"/>
+  <object id="19" name="Border" x="162.667" y="256.666" width="93.3337" height="16"/>
+  <object id="6" name="Border" x="257.333" y="-0.666667" width="12.6667" height="262.667"/>
+  <object id="7" name="Border" x="3.33333" y="-0.3333" width="256.667" height="47.3333"/>
+  <object id="16" name="Border" x="128" y="97.6667" width="128.667" height="61.3333"/>
+  <object id="17" name="Border" x="-1.33334" y="96.3334" width="63.3337" height="48"/>
+  <object id="18" name="Border" x="2" y="193" width="32.667" height="31.3333"/>
+  <object id="8" name="Store Clerk" gid="1334" x="-0.666667" y="191.667" width="32" height="33">
+   <properties>
+    <property name="Dialouge" value="Okay! Say hi to PROF.OAK for me!"/>
+   </properties>
+  </object>
+  <object id="10" name="CutscenePoint" x="72" y="174.667" visible="0">
+   <point/>
+  </object>
+  <object id="14" name="Desk" x="30.6667" y="147.333" width="30" height="75.3333"/>
+ </objectgroup>
+</map>

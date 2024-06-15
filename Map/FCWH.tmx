@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="18">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/Readables.tsx"/>
+ <tileset firstgid="1341" source="Tileset/Objects/NPCS.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="8">
+  <data encoding="csv">
+790,790,790,790,790,790,790,790,790,790,
+2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,
+1180,1181,2147483814,2147483814,1196,1197,2147483814,242,242,242,
+1284,1285,2147483814,2147483814,1204,1205,2147483814,242,2147483814,242,
+2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,
+2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,
+251,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,2147483814,251,
+259,2147483814,2147483814,2147483814,250,250,2147483814,2147483814,2147483814,259
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" name="Border" x="0" y="0.967937" width="320.387" height="25.489"/>
+  <object id="2" name="Border" x="0.322646" y="63.8838" width="63.8838" height="32.9099"/>
+  <object id="13" name="Door" x="129.656" y="255.217" width="63.2172" height="12.2432">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="3" name="Border" x="128.413" y="64.2065" width="63.5612" height="57.1083"/>
+  <object id="4" name="Border" x="224.561" y="65.1744" width="92.922" height="27.1022"/>
+  <object id="5" name="Border" x="224.884" y="95.5031" width="28.0702" height="29.6834"/>
+  <object id="11" name="Border" x="192.884" y="257.17" width="97.4035" height="11.0167"/>
+  <object id="12" name="Border" x="2.21738" y="256.17" width="125.404" height="11.0167"/>
+  <object id="6" name="Border" x="290.768" y="95.5031" width="28.0702" height="29.6834"/>
+  <object id="7" name="Border" x="287.541" y="193.265" width="31.9419" height="62.9159"/>
+  <object id="8" name="Border" x="1.35471" y="191.329" width="31.9419" height="62.9159"/>
+  <object id="9" name="Border" x="318.688" y="29.9956" width="11.9419" height="226.916"/>
+  <object id="10" name="Border" x="-10.9786" y="29.9956" width="11.9419" height="226.916"/>
+  <object id="14" name="Spawn" x="160" y="238.667">
+   <point/>
+  </object>
+  <object id="15" name="Boulder" gid="1340" x="256.333" y="160.667" width="32" height="32"/>
+  <object id="16" name="Ball" gid="1330" x="257.333" y="125.667" width="30" height="30">
+   <properties>
+    <property name="Item" value="Rare Candy"/>
+   </properties>
+  </object>
+  <object id="17" name="Warden" gid="1460" x="64.3333" y="127.333" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="Hif fuff hefifoo! Ha lof ha feef ee hafahi ho. Heff hee fwee!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

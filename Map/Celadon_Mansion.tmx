@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="8" height="12" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="92">
+ <tileset firstgid="1" source="Tileset/Tiles/Tiles.tsx"/>
+ <tileset firstgid="1321" source="Tileset/Objects/NPCS.tsx"/>
+ <tileset firstgid="1471" source="Tileset/Objects/Readables.tsx"/>
+ <layer id="1" name="Floor1" width="8" height="12" visible="0">
+  <data encoding="csv">
+0,0,419,419,895,1283,419,419,
+0,0,791,1182,1182,1283,1182,791,
+1275,1244,1252,1244,1275,1289,1182,1182,
+1292,1251,426,1251,1292,1283,1182,1182,
+1292,1292,1292,1292,1292,1283,1182,1182,
+1292,1292,1292,1292,1292,1283,1182,1182,
+488,2147484136,1292,1292,1300,1283,1182,1182,
+496,2147484144,1292,1292,1182,1291,1182,1182,
+1292,1292,1292,1292,1182,1182,1182,1182,
+1275,1275,1275,1275,1275,1275,1182,1182,
+1182,1182,1182,1182,1182,1182,1182,1182,
+1182,1182,1182,1182,151,151,1182,1182
+</data>
+ </layer>
+ <objectgroup id="2" name="F1Objects" visible="0">
+  <object id="1" name="F1Nidoran" gid="1354" x="64.7404" y="253.586" width="34" height="32">
+   <properties>
+    <property name="Dialouge" value="Kya kyaoo!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="2" name="F1Meowth" gid="1410" x="0.617544" y="191.158" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="Meow!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="3" name="F1Old Woman" gid="1420" x="37.8947" y="191.607" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="My dear POKEMON keep me company. MEOWTH even brings money home!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="4" name="F1Clefairy" gid="1396" x="96.7298" y="163.312" width="33" height="32">
+   <properties>
+    <property name="Dialouge" value="Pi pippippi!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="5" name="O_CEMF1Spawn" x="155.396" y="369.628">
+   <point/>
+  </object>
+  <object id="6" name="CEMF1_ODoor" x="125.754" y="384" width="67.3684" height="12.5754">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="7" name="BCEMF1_ODoor" x="131.144" y="1.79649" width="25.6" height="19.3123">
+   <properties>
+    <property name="Destination" value="OverWorld"/>
+   </properties>
+  </object>
+  <object id="8" name="O_BCEMF1Spawn" x="133.39" y="48.5052">
+   <point/>
+  </object>
+  <object id="12" name="CEMF2_CEMF1Spawn" x="239.832" y="84.8842">
+   <point/>
+  </object>
+  <object id="10" name="BCEMF1_BCEMF2Door" x="65.5719" y="49.4035" width="29.193" height="16.1684">
+   <properties>
+    <property name="Destination" value="CEMansionF2"/>
+   </properties>
+  </object>
+  <object id="11" name="CEMF1_CEMF2Door" x="225.011" y="33.2351" width="29.193" height="16.1684">
+   <properties>
+    <property name="Destination" value="CEMansionF2"/>
+   </properties>
+  </object>
+  <object id="13" name="Border" x="64.6737" y="0" width="65.1228" height="16.6175"/>
+  <object id="14" name="Border" x="191.775" y="-0.449123" width="65.1228" height="16.6175"/>
+  <object id="15" name="Border" x="160.337" y="0.898246" width="31.4386" height="247.467"/>
+  <object id="16" name="Border" x="0" y="66.4702" width="164.379" height="22.9053"/>
+  <object id="17" name="Border" x="1.34737" y="192.225" width="61.5298" height="62.8772"/>
+  <object id="24" name="Border" x="32.786" y="88.4772" width="94.3158" height="38.1754"/>
+  <object id="23" name="Border" x="3.14386" y="1.79649" width="61.5298" height="62.8772"/>
+  <object id="18" name="Border" x="0.898246" y="287.888" width="191.326" height="25.6"/>
+  <object id="20" name="Border" x="-0.898246" y="384.796" width="125.754" height="13.4737"/>
+  <object id="22" name="Border" x="-10.7789" y="93.3158" width="11.6772" height="291.481"/>
+  <object id="21" name="Border" x="194.021" y="384.347" width="62.8772" height="13.4737"/>
+  <object id="19" name="Border" x="256" y="-1.34737" width="13.9228" height="385.796"/>
+ </objectgroup>
+ <layer id="3" name="Floor2" width="8" height="12" visible="0">
+  <data encoding="csv">
+0,0,790,790,790,1283,790,790,
+0,0,792,1182,791,1283,791,792,
+1185,1185,1185,1185,1185,1289,1182,1182,
+536,536,536,536,536,1283,1182,1182,
+1292,1292,1292,1292,1292,1283,1182,1182,
+1276,1277,1292,1292,1292,1283,1182,1182,
+1284,1285,1292,1293,1293,1283,1182,1182,
+1169,1292,1292,1301,1301,1291,1182,1182,
+1177,1292,1292,1292,1182,1182,1182,1182,
+1275,1275,1275,1275,1275,1275,1182,1182,
+1182,1182,1182,1182,1182,1182,1182,1182,
+1182,1182,1182,1182,1182,1182,1182,1182
+</data>
+ </layer>
+ <objectgroup id="4" name="F2Objects" visible="0">
+  <object id="25" name="Border2" x="161.235" y="0.449123" width="29.193" height="254.204"/>
+  <object id="33" name="Border2" x="256.449" y="-2.69474" width="29.193" height="386.695"/>
+  <object id="35" name="Border2" x="-29.4386" y="-0.754386" width="29.193" height="386.695"/>
+  <object id="26" name="Border2" x="1.79649" y="64.6737" width="155.846" height="50.7509"/>
+  <object id="27" name="Border2" x="2.24561" y="158.091" width="61.5298" height="40.4211"/>
+  <object id="28" name="Border2" x="7.10543e-15" y="224.561" width="31.8877" height="63.3263"/>
+  <object id="29" name="Border2" x="95.6632" y="192.225" width="65.5719" height="62.8772"/>
+  <object id="32" name="Border2" x="-1.10175" y="1.34737" width="65.5719" height="62.8772"/>
+  <object id="30" name="Border2" x="3.55271e-15" y="287.888" width="192.674" height="22.4561"/>
+  <object id="34" name="Border2" x="-0.449123" y="384" width="259.144" height="22.4561"/>
+  <object id="31" name="Border2" x="65.1228" y="0.449123" width="192.674" height="22.4561"/>
+  <object id="36" name="BCEMF1_BCEMF2Spawn" x="111.383" y="50.3017">
+   <point/>
+  </object>
+  <object id="38" name="CEMF1_CEMF2Spawn" x="242.526" y="85.3333">
+   <point/>
+  </object>
+  <object id="39" name="CEMF3_CEMF2Spawn" x="205.249" y="85.3333">
+   <point/>
+  </object>
+  <object id="40" name="BCEMF2_BCEMF1Door" x="66.0211" y="31.8877" width="13.0246" height="14.3719">
+   <properties>
+    <property name="Destination" value="CEMansionF1"/>
+   </properties>
+  </object>
+  <object id="43" name="CEMF2_CEMF1Door" x="224.46" y="31.3368" width="29.6421" height="14.3719">
+   <properties>
+    <property name="Destination" value="CEMansionF1"/>
+   </properties>
+  </object>
+  <object id="41" name="BCEMF2_BCEMF3Door" x="146.863" y="31.8877" width="11.6772" height="14.3719">
+   <properties>
+    <property name="Destination" value="CEMansionF3"/>
+   </properties>
+  </object>
+  <object id="42" name="CEMF2_CEMF3Door" x="193.123" y="30.5404" width="29.6421" height="14.3719">
+   <properties>
+    <property name="Destination" value="CEMansionF3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Floor3" width="8" height="12">
+  <data encoding="csv">
+0,0,790,790,790,1283,790,790,
+0,0,791,1182,792,1283,792,791,
+1275,1275,1275,1275,1275,1289,1182,1182,
+1292,1292,1292,1292,1292,1283,1182,1182,
+1292,1276,1277,1292,1292,1283,1182,1182,
+1292,1284,1285,1292,1292,1283,1182,1182,
+1292,1292,1292,1292,1300,1283,1182,1182,
+1292,1292,1292,1292,1182,1291,1182,1182,
+1292,1292,1292,1292,1182,1182,1182,1182,
+1275,1275,1275,1275,1275,1275,1182,1182,
+1182,1182,1182,1182,1182,1182,1182,1182,
+1182,1182,1182,1182,1182,1182,1182,1182
+</data>
+ </layer>
+ <objectgroup id="6" name="F3Objects">
+  <object id="44" name="Border3" x="159.888" y="6.28772" width="31.8877" height="249.263"/>
+  <object id="48" name="Border3" x="-31.6842" y="-0.449123" width="31.8877" height="388.491"/>
+  <object id="46" name="Border3" x="0.449123" y="288.337" width="190.877" height="30.0912"/>
+  <object id="52" name="Border3" x="0.898246" y="66.0211" width="159.439" height="14.3719"/>
+  <object id="53" name="Border3" x="0" y="-2.84217e-14" width="63.3263" height="62.8772"/>
+  <object id="49" name="Border3" x="32.3368" y="128.449" width="62.4281" height="32.786"/>
+  <object id="50" name="Border3" x="64.6737" y="-2.84217e-14" width="95.6632" height="24.2526"/>
+  <object id="51" name="Border3" x="192.225" y="0.898246" width="66.9193" height="24.2526"/>
+  <object id="47" name="Border3" x="-0.449123" y="384.449" width="257.347" height="20.6596"/>
+  <object id="45" name="Border3" x="256.898" y="8.88178e-15" width="19.7614" height="384"/>
+  <object id="54" name="BCEMF3_BCEMF4Door" x="64.2246" y="30.9895" width="13.0246" height="17.5158">
+   <properties>
+    <property name="Destination" value="CEMansionF4"/>
+   </properties>
+  </object>
+  <object id="59" name="BCEMF3_BCEMF2Door" x="143.719" y="30.9895" width="14.8211" height="17.5158">
+   <properties>
+    <property name="Destination" value="CEMansionF2"/>
+   </properties>
+  </object>
+  <object id="60" name="CEMF3_CEMF2Door" x="192.123" y="30.9895" width="30.5404" height="17.5158">
+   <properties>
+    <property name="Destination" value="CEMansionF2"/>
+   </properties>
+  </object>
+  <object id="61" name="CEMF3_CEMF4Door" x="224.909" y="30.5404" width="30.5404" height="17.5158">
+   <properties>
+    <property name="Destination" value="CEMansionF4"/>
+   </properties>
+  </object>
+  <object id="55" name="BCEMF4_BCEMF3Spawn" x="110.933" y="51.6491">
+   <point/>
+  </object>
+  <object id="57" name="CEMF2_CEMF3Spawn" x="207.046" y="85.7825">
+   <point/>
+  </object>
+  <object id="58" name="CEMF4_CEMF3Spawn" x="242.077" y="83.5368">
+   <point/>
+  </object>
+  <object id="91" name="Creator" gid="1417" x="37.793" y="196.997" width="34" height="32">
+   <properties>
+    <property name="AfterBattle" value="With a better ROD, I could catch better POKEMON!"/>
+    <property name="Bag" value="Full Restore-4"/>
+    <property name="BattleEnd" value="That one got away!"/>
+    <property name="BattleStart" value="Be patient! Fishing is a waiting game!"/>
+    <property name="Dialouge" value="Hi! I am the sole develper of this game. I hope you enjoy playing."/>
+    <property name="Dialouge2" value="Come back after getting all 151 pokemon for a surprise."/>
+    <property name="Dialouge3" value=""/>
+    <property name="Money" type="int" value="100"/>
+    <property name="Side" value="Bottom"/>
+    <property name="Team" value="Flareon-75-Flamethrower_Fire Blast_Quick Attack_Swift-Creator-Flareon,Pidgeot-75-Wing Attack_Fly_Quick Attack_Double Edge-Creator-Pidgeot,Beedrill-100-Twineedle_Toxic_Swords Dance_Body Slam-Creator-Beedrill,Dugtrio-80-Earthquake_Fissure_Body Slam_Rock Slide-Creator-Dugtrio,Victreebel-75-Razor Leaf_Growth_Sludge_Stun Spore-Creator-Victreebel,Blastoise-90-Hydro Pump_Surf_Ice Beam_Skull Bash-Creator-Blastoise"/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="7" name="Floor4" width="8" height="12" visible="0">
+  <data encoding="csv">
+1184,1275,1275,1275,1275,1281,1275,1183,
+1283,1182,792,1182,1182,1283,792,1283,
+1283,1182,1182,1182,1182,1283,1182,1283,
+1283,1182,1182,1182,1182,1283,1182,1283,
+1283,827,1261,828,1182,1283,1182,1283,
+1283,835,1207,836,1182,1283,1182,1283,
+1283,835,1207,836,1182,1283,1182,1283,
+1283,894,895,862,1182,1283,1182,1283,
+1283,1182,1182,1182,1182,1283,1182,1283,
+1283,1190,1191,1191,1192,1291,1182,1283,
+1283,1182,1182,1182,1182,1182,1182,1283,
+1291,1190,1191,1191,1191,1191,1192,1291
+</data>
+ </layer>
+ <objectgroup id="8" name="F4Objects" visible="0">
+  <object id="62" name="Border4" x="161.235" y="13.4737" width="29.193" height="304.505"/>
+  <object id="65" name="Border4" x="35.0316" y="286.54" width="126.204" height="34.1333"/>
+  <object id="68" name="Border4" x="34.1333" y="224.561" width="32.3368" height="34.1333"/>
+  <object id="69" name="Border4" x="93.4175" y="223.214" width="32.3368" height="34.1333"/>
+  <object id="70" name="Border4" x="32.3368" y="-4.04211" width="192.225" height="28.7439"/>
+  <object id="67" name="Border4" x="32.3368" y="126.653" width="92.9684" height="97.4596"/>
+  <object id="66" name="Border4" x="34.1333" y="351.214" width="189.53" height="33.2351"/>
+  <object id="64" name="Border4" x="224.867" y="-0.449123" width="29.193" height="382.653"/>
+  <object id="63" name="Border4" x="-0.449123" y="-1.34737" width="32.3368" height="385.347"/>
+  <object id="71" name="CEMF3_CEMF4Spawn" x="203.004" y="75.9018">
+   <point/>
+  </object>
+  <object id="72" name="BCEMF3_BCEMF4Spawn" x="78.1474" y="80.393">
+   <point/>
+  </object>
+  <object id="73" name="BCEMF4_BCEMF3Door" x="63.3263" y="30.9895" width="32.3368" height="16.6175">
+   <properties>
+    <property name="Destination" value="CEMansionF3"/>
+   </properties>
+  </object>
+  <object id="74" name="CEMF4_CEMF3Door" x="190.428" y="30.5404" width="32.3368" height="16.6175">
+   <properties>
+    <property name="Destination" value="CEMansionF3"/>
+   </properties>
+  </object>
+  <object id="75" name="BCEMF4_BCEMF4HDoor" x="67.3684" y="225.011" width="26.9474" height="18.414">
+   <properties>
+    <property name="Destination" value="CEMansionF4House"/>
+   </properties>
+  </object>
+  <object id="76" name="BCEMF4H_BCEMF4Spawn" x="77.2491" y="278.456">
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="9" name="Floor4House" width="8" height="12" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,
+129,469,129,543,544,129,129,528,
+137,137,137,137,137,137,137,536,
+137,137,137,137,137,137,137,137,
+137,137,137,873,2147484136,137,137,137,
+137,137,137,874,2147484144,137,137,137,
+137,137,137,146,137,137,137,137,
+251,137,137,137,137,137,137,251,
+259,137,806,806,137,137,137,259
+</data>
+ </layer>
+ <objectgroup id="10" name="F4HouseObjects" visible="0">
+  <object id="77" name="Man" gid="1359" x="38.793" y="224.393" width="32" height="32">
+   <properties>
+    <property name="Dialouge" value="I know everything about the world of POKEMON in your GAME BOY!"/>
+    <property name="Dialouge2" value=""/>
+    <property name="Dialouge3" value=""/>
+    <property name="Type" value="Dialogue"/>
+   </properties>
+  </object>
+  <object id="78" name="Ball" gid="1480" x="134.067" y="248.095" width="30" height="30"/>
+  <object id="79" name="Border5" x="-8.98246" y="134.737" width="9.43158" height="252.856"/>
+  <object id="80" name="Border5" x="255" y="131.144" width="9.43158" height="252.856"/>
+  <object id="81" name="Border5" x="2.14386" y="319.775" width="28.2947" height="61.9789"/>
+  <object id="82" name="Border5" x="225.747" y="321.267" width="28.2947" height="61.9789"/>
+  <object id="85" name="Border5" x="128.288" y="386.839" width="127.551" height="4.49123"/>
+  <object id="86" name="Border5" x="1.63509" y="385.839" width="60.6316" height="4.49123"/>
+  <object id="83" name="Border5" x="224.849" y="129.94" width="28.2947" height="54.3439"/>
+  <object id="87" name="Border5" x="96.8491" y="226.053" width="60.6316" height="54.3439"/>
+  <object id="84" name="Border5" x="0.982456" y="128.144" width="223.214" height="24.7018"/>
+  <object id="88" name="BCEMF4_BCEMF4HSpawn" x="91.1719" y="363.34">
+   <point/>
+  </object>
+  <object id="89" name="BCEMF4H_BCEMF4Door" x="62.8772" y="385.796" width="65.5719" height="5.8386">
+   <properties>
+    <property name="Destination" value="CEMansionF4"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
