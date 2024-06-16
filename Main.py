@@ -109,7 +109,7 @@ class Main:
         self.RivalPokemon = []
         self.Black_Screen = pygame.Rect(-1000,0,SCREEN.get_width(),SCREEN.get_height())
         self.BattleBox = pygame.Rect(0,450,800,350)
-        self.Player_Back = pygame.image.load('Trainer_imgs\Player_Back.png').convert_alpha()
+        self.Player_Back = pygame.image.load(r'Trainer_imgs\Player_Back.png').convert_alpha()
         self.Player_Back = pygame.transform.rotozoom(self.Player_Back,360,1/2)
         self.Player_Back_rect = self.Player_Back.get_rect(topleft = (55, 230))
         Bally = 370
