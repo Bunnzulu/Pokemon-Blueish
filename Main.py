@@ -432,7 +432,7 @@ class Main:
             json.dump(self.Player_Data,Player_file) #First is the data we want to store, second is the file we want to store it in
 
     def Load(self):
-        #try:
+        try:
             with open('Player_Info.txt') as Player_file: self.Player_Data = json.load(Player_file) 
             for TI,Trainers in enumerate(self.OtherTrainers):
                 for x,trainer in enumerate(Trainers):
@@ -604,7 +604,7 @@ class Main:
                     except:pass
             if self.E4Beaten:self.Put_PostGameNPCs()
             self.Make_OakTeam()
-        #except:pass
+        except:pass
 
     def Readables(self,List:list):
         for Rect in List:

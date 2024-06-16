@@ -1,6 +1,5 @@
 # Pokemon Blueish
- A Fan made version of Pokemon Blue
- I hope you enjoy the Game.
+A Fan made version of Pokemon Blue. I made this as a passion project in High School. This project took a year to make so I hope you like it. This is a complete remake of Pokemon Blue with a few additions.
  - Additions
     - 2 new Bosses at end of Game
     - Ability to gain all 151 Kanto Pokemon
