@@ -2427,12 +2427,13 @@ class Main:
                 self.NPC_CHange(self.Kanto.Rival,f"Yo {self.PlayerName}! Gramps isn't around!",self.Kanto.Rival.type)
                 self.Kanto.Rival.Name = self.RivalName
                 self.NPC_Interaction(self.Kanto.Rival)
-                self.Player.rect.center = self.Kanto.OakStoppoint
-                self.Player_Pause = True
-                if self.Events.OakCutscene2:self.Events.Dialouge(f"{self.RivalName}:Gramps! I'm fed up with waiting!",f"Oak: {self.RivalName}? Let me think... Oh, that's right, I told you to come!","Just wait!")
-                if self.Events.OakCutscene3:self.Events.Dialouge(f"Here, {self.PlayerName}! There are 3 POKEMON here! Haha! They are inside the","POKE BALLS. When I was young, I was a serious POKEMON trainer.","In my old age, I have only 3 left, but you can have one! Choose!")
-                if self.Events.OakCutscene4:self.Events.Dialouge(f"{self.RivalName}: Hey! Gramps! What about me?",f"Oak: Be patient! {self.RivalName}, you can have one too!")
-                if self.Events.OakCutscene5:self.Events.Dialouge(f"Oak: Now, {self.PlayerName}, which POKEMON do you want?",f"{self.RivalName}: Heh, I don't need to be greedy like you! Go ahead and choose, {self.PlayerName}!")
+                if self.Events.OakCutscene2 or self.Events.OakCutscene3 or self.Events.OakCutscene4 or self.Events.OakCutscene5:
+                    self.Player.rect.center = self.Kanto.OakStoppoint
+                    self.Player_Pause = True
+                    if self.Events.OakCutscene2:self.Events.Dialouge(f"{self.RivalName}:Gramps! I'm fed up with waiting!",f"Oak: {self.RivalName}? Let me think... Oh, that's right, I told you to come!","Just wait!")
+                    if self.Events.OakCutscene3:self.Events.Dialouge(f"Here, {self.PlayerName}! There are 3 POKEMON here! Haha! They are inside the","POKE BALLS. When I was young, I was a serious POKEMON trainer.","In my old age, I have only 3 left, but you can have one! Choose!")
+                    if self.Events.OakCutscene4:self.Events.Dialouge(f"{self.RivalName}: Hey! Gramps! What about me?",f"Oak: Be patient! {self.RivalName}, you can have one too!")
+                    if self.Events.OakCutscene5:self.Events.Dialouge(f"Oak: Now, {self.PlayerName}, which POKEMON do you want?",f"{self.RivalName}: Heh, I don't need to be greedy like you! Go ahead and choose, {self.PlayerName}!")
             if self.Events.PickinPoke:
                 self.Player_Pause = False
                 if self.Player.rect.colliderect(self.Kanto.PickinPokeLine):
@@ -14423,7 +14424,8 @@ class Main:
     def Draw(self):
         self.Player_Draw_Control()
         self.Player.SetLoyaltyLevel()
-        if not self.Player_Pause and not self.DialougePause:self.Player_group.update(self.Barriers)
+        if not self.Player_Pause and not self.DialougePause:
+            self.Player_group.update(self.Barriers)
         self.Camera_Barriers_Control()
         self.Camera.custom_draw(self.Player,self.Draw_Player)
         self.Events.Events()

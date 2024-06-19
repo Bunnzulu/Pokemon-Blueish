@@ -13,89 +13,89 @@ class Player(pygame.sprite.Sprite):
     def __init__(self,group):
         super().__init__(group)
         self.Scale = 1/7
-        self.Idle_Down = pygame.image.load('Player_Sprites/Red_Idle_down.png').convert_alpha()
+        self.Idle_Down = pygame.image.load(r'Player_Sprites/Red_Idle_down.png').convert_alpha()
         self.Idle_Down = pygame.transform.rotozoom(self.Idle_Down,360,self.Scale)
-        self.Idle_Up = pygame.image.load('Player_Sprites\Red_Idle_Up.png').convert_alpha()
+        self.Idle_Up = pygame.image.load(r'Player_Sprites\Red_Idle_Up.png').convert_alpha()
         self.Idle_Up = pygame.transform.rotozoom(self.Idle_Up,360,self.Scale)
-        self.Idle_Left = pygame.image.load('Player_Sprites\Red_Idle_Left.png').convert_alpha()
+        self.Idle_Left = pygame.image.load(r'Player_Sprites\Red_Idle_Left.png').convert_alpha()
         self.Idle_Right = pygame.transform.flip(self.Idle_Left,True,False)
 
-        self.Bike_Idle_Down = pygame.image.load('Player_Sprites\RedBikeDownIdle.png').convert_alpha()
+        self.Bike_Idle_Down = pygame.image.load(r'Player_Sprites\RedBikeDownIdle.png').convert_alpha()
         self.Bike_Idle_Down = pygame.transform.rotozoom(self.Bike_Idle_Down,360,self.Scale)
-        self.Bike_Idle_Up = pygame.image.load('Player_Sprites\RedBikeUpIdle.png').convert_alpha()
+        self.Bike_Idle_Up = pygame.image.load(r'Player_Sprites\RedBikeUpIdle.png').convert_alpha()
         self.Bike_Idle_Up = pygame.transform.rotozoom(self.Bike_Idle_Up,360,self.Scale)
-        self.Bike_Idle_Right = pygame.image.load('Player_Sprites\RedBikeRightIdle.png').convert_alpha()
+        self.Bike_Idle_Right = pygame.image.load(r'Player_Sprites\RedBikeRightIdle.png').convert_alpha()
         self.Bike_Idle_Right = pygame.transform.rotozoom(self.Bike_Idle_Right,360,self.Scale)
-        self.Bike_Idle_Left = pygame.image.load('Player_Sprites\RedBikeLeftIdle.png').convert_alpha()
+        self.Bike_Idle_Left = pygame.image.load(r'Player_Sprites\RedBikeLeftIdle.png').convert_alpha()
         self.Bike_Idle_Left = pygame.transform.rotozoom(self.Bike_Idle_Left,360,self.Scale)
 
-        self.Swim_Idle_Down = pygame.image.load('Player_Sprites\RedSwimIdleDown.png').convert_alpha()
+        self.Swim_Idle_Down = pygame.image.load(r'Player_Sprites\RedSwimIdleDown.png').convert_alpha()
         self.Swim_Idle_Down = pygame.transform.rotozoom(self.Swim_Idle_Down,360,self.Scale)
-        self.Swim_Idle_Up = pygame.image.load('Player_Sprites\RedSwimIdleUp.png').convert_alpha()
+        self.Swim_Idle_Up = pygame.image.load(r'Player_Sprites\RedSwimIdleUp.png').convert_alpha()
         self.Swim_Idle_Up = pygame.transform.rotozoom(self.Swim_Idle_Up,360,self.Scale)
-        self.Swim_Idle_Right = pygame.image.load('Player_Sprites\RedSwimIdleRight.png').convert_alpha()
+        self.Swim_Idle_Right = pygame.image.load(r'Player_Sprites\RedSwimIdleRight.png').convert_alpha()
         self.Swim_Idle_Right = pygame.transform.rotozoom(self.Swim_Idle_Right,360,self.Scale)
-        self.Swim_Idle_Left = pygame.image.load('Player_Sprites\RedSwimIdleLeft.png').convert_alpha()
+        self.Swim_Idle_Left = pygame.image.load(r'Player_Sprites\RedSwimIdleLeft.png').convert_alpha()
         self.Swim_Idle_Left = pygame.transform.rotozoom(self.Swim_Idle_Left,360,self.Scale)
         
-        self.Fishing_Down = pygame.image.load('Player_Sprites\RedFishingDown.png').convert_alpha()
+        self.Fishing_Down = pygame.image.load(r'Player_Sprites\RedFishingDown.png').convert_alpha()
         self.Fishing_Down = pygame.transform.rotozoom(self.Fishing_Down,360,self.Scale)
-        self.Fishing_Up = pygame.image.load('Player_Sprites\RedFishingUp.png').convert_alpha()
+        self.Fishing_Up = pygame.image.load(r'Player_Sprites\RedFishingUp.png').convert_alpha()
         self.Fishing_Up = pygame.transform.rotozoom(self.Fishing_Up,360,self.Scale)
-        self.Fishing_Right = pygame.image.load('Player_Sprites\RedFishingRight.png').convert_alpha()
+        self.Fishing_Right = pygame.image.load(r'Player_Sprites\RedFishingRight.png').convert_alpha()
         self.Fishing_Right = pygame.transform.rotozoom(self.Fishing_Right,360,self.Scale)
-        self.Fishing_Left = pygame.image.load('Player_Sprites\RedFishingLeft.png').convert_alpha()
+        self.Fishing_Left = pygame.image.load(r'Player_Sprites\RedFishingLeft.png').convert_alpha()
         self.Fishing_Left = pygame.transform.rotozoom(self.Fishing_Left,360,self.Scale)
         self.Fishing_pos =self.Fishing_Down
 
-        self.Down1 = pygame.image.load('Player_Sprites\RedDown1.png').convert_alpha()
-        self.Down2 = pygame.image.load('Player_Sprites\RedDown2.png').convert_alpha()
+        self.Down1 = pygame.image.load(r'Player_Sprites\RedDown1.png').convert_alpha()
+        self.Down2 = pygame.image.load(r'Player_Sprites\RedDown2.png').convert_alpha()
         self.DownIndex = 0
         self.Down_sprites = [self.Down1,self.Down2]
         self.Down_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Down_sprites]
 
-        self.Bike_Down1 = pygame.image.load('Player_Sprites\RedBikeDown1.png').convert_alpha()
-        self.Bike_Down2 = pygame.image.load('Player_Sprites\RedBikeDown2.png').convert_alpha()
+        self.Bike_Down1 = pygame.image.load(r'Player_Sprites\RedBikeDown1.png').convert_alpha()
+        self.Bike_Down2 = pygame.image.load(r'Player_Sprites\RedBikeDown2.png').convert_alpha()
         self.Bike_DownIndex = 0
         self.Bike_Down_sprites = [self.Bike_Down1,self.Bike_Down2]
         self.Bike_Down_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Bike_Down_sprites]
 
-        self.Swim_Down1 = pygame.image.load('Player_Sprites\RedSwimDown1.png').convert_alpha()
-        self.Swim_Down2 = pygame.image.load('Player_Sprites\RedSwimDown2.png').convert_alpha()
+        self.Swim_Down1 = pygame.image.load(r'Player_Sprites\RedSwimDown1.png').convert_alpha()
+        self.Swim_Down2 = pygame.image.load(r'Player_Sprites\RedSwimDown2.png').convert_alpha()
         self.Swim_DownIndex = 0
         self.Swim_Down_sprites = [self.Swim_Down1,self.Swim_Down2]
         self.Swim_Down_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Swim_Down_sprites]
 
-        self.Up1 = pygame.image.load('Player_Sprites\RedUp1.png').convert_alpha()
-        self.Up2  = pygame.image.load('Player_Sprites\RedUp2.png').convert_alpha()
+        self.Up1 = pygame.image.load(r'Player_Sprites\RedUp1.png').convert_alpha()
+        self.Up2  = pygame.image.load(r'Player_Sprites\RedUp2.png').convert_alpha()
         self.UpIndex = 0
         self.Up_sprites = [self.Up1,self.Up2]
         self.Up_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Up_sprites]
 
-        self.Bike_Up1 = pygame.image.load('Player_Sprites\RedBikeUp1.png').convert_alpha()
-        self.Bike_Up2  = pygame.image.load('Player_Sprites\RedBikeUp2.png').convert_alpha()
+        self.Bike_Up1 = pygame.image.load(r'Player_Sprites\RedBikeUp1.png').convert_alpha()
+        self.Bike_Up2  = pygame.image.load(r'Player_Sprites\RedBikeUp2.png').convert_alpha()
         self.Bike_UpIndex = 0
         self.Bike_Up_sprites = [self.Bike_Up1,self.Bike_Up2]
         self.Bike_Up_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Bike_Up_sprites]
 
-        self.Swim_Up1 = pygame.image.load('Player_Sprites\RedSwimUp1.png').convert_alpha()
-        self.Swim_Up2  = pygame.image.load('Player_Sprites\RedSwimUp2.png').convert_alpha()
+        self.Swim_Up1 = pygame.image.load(r'Player_Sprites\RedSwimUp1.png').convert_alpha()
+        self.Swim_Up2  = pygame.image.load(r'Player_Sprites\RedSwimUp2.png').convert_alpha()
         self.Swim_UpIndex = 0
         self.Swim_Up_sprites = [self.Swim_Up1,self.Swim_Up2]
         self.Swim_Up_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Swim_Up_sprites]
 
-        self.Left1 = pygame.image.load('Player_Sprites\RedLeft1.png').convert_alpha()
+        self.Left1 = pygame.image.load(r'Player_Sprites\RedLeft1.png').convert_alpha()
         self.Left_sprites = [self.Idle_Left,self.Left1]
         self.Left_sprites = [pygame.transform.rotozoom(image,360,self.Scale) for image in self.Left_sprites]
         self.Idle_Left = self.Left_sprites[0]
         self.LeftIndex=0
 
-        self.Bike_Left1 = pygame.image.load('Player_Sprites\RedBikeLeft1.png').convert_alpha()
+        self.Bike_Left1 = pygame.image.load(r'Player_Sprites\RedBikeLeft1.png').convert_alpha()
         self.Bike_Left1 = pygame.transform.rotozoom(self.Bike_Left1,360,self.Scale)
         self.Bike_Left_sprites = [self.Bike_Idle_Left,self.Bike_Left1]
         self.Bike_LeftIndex=0
 
-        self.Swim_Left1 = pygame.image.load('Player_Sprites\RedSwimLeft1.png').convert_alpha()
+        self.Swim_Left1 = pygame.image.load(r'Player_Sprites\RedSwimLeft1.png').convert_alpha()
         self.Swim_Left1 = pygame.transform.rotozoom(self.Swim_Left1,360,self.Scale)
         self.Swim_Left_sprites = [self.Swim_Idle_Left,self.Swim_Left1]
         self.Swim_LeftIndex=0
@@ -105,13 +105,13 @@ class Player(pygame.sprite.Sprite):
         self.Idle_Right = self.Right_Sprites[0]
 
         self.Bike_RightIndex = 0
-        self.Bike_Right1 = pygame.image.load('Player_Sprites\RedBikeRight1.png').convert_alpha()
+        self.Bike_Right1 = pygame.image.load(r'Player_Sprites\RedBikeRight1.png').convert_alpha()
         self.Bike_Right1 = pygame.transform.rotozoom(self.Bike_Right1,360,self.Scale)
         self.Bike_Right_Sprites = [self.Bike_Idle_Right,self.Bike_Right1]
         self.Bike_Idle_Right = self.Bike_Right_Sprites[0]
 
         self.Swim_RightIndex = 0
-        self.Swim_Right1 = pygame.image.load('Player_Sprites\RedSwimIdleRight.png').convert_alpha()
+        self.Swim_Right1 = pygame.image.load(r'Player_Sprites\RedSwimIdleRight.png').convert_alpha()
         self.Swim_Right1 = pygame.transform.rotozoom(self.Swim_Right1,360,self.Scale)
         self.Swim_Right_Sprites = [self.Swim_Idle_Right,self.Swim_Right1]
     
