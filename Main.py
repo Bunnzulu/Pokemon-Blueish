@@ -1685,11 +1685,11 @@ class Main:
 
     def Make_OakTeam(self):
         if self.Events.PlayerPoke == "Bulbasaur":
-            RP = Pokemon("Charizard",69,["Rage","Slash","Flamethrower","Fire Spin"],"Oak","Charizard")
-        elif self.Events.PlayerPoke == "Squirtle":
-            RP = Pokemon("Venusaur",69,["Razor Leaf","Growth","Sleep Powder","SolarBeam"],"Oak","Venusaur")
-        elif self.Events.PlayerPoke == "Charmander":
             RP = Pokemon("Blastoise",69,["Bite","Withdraw","Skull Bash","Hydro Pump"],"Oak","Blastoise")
+        elif self.Events.PlayerPoke == "Squirtle":
+            RP = Pokemon("Charizard",69,["Rage","Slash","Flamethrower","Fire Spin"],"Oak","Charizard")
+        elif self.Events.PlayerPoke == "Charmander":
+            RP = Pokemon("Venusaur",69,["Razor Leaf","Growth","Sleep Powder","SolarBeam"],"Oak","Venusaur")
         self.Kanto.BattlerOak.Team.insert(2,RP)
 
     def TrainerEncounters(self,Trainers):
