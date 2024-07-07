@@ -1,5 +1,0 @@
-1.pygame
-Install: pip install pygame
-
-2.pytmx
-Install: pip install pytmx
