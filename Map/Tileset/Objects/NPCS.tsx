@@ -260,7 +260,7 @@
   <image width="34" height="32" source="../NPCS/Man8_down.png"/>
  </tile>
  <tile id="97">
-  <image width="33" height="32" source="../NPCS/Lady3_down.png"/>
+  <image width="33" height="32" source="../NPCS/Lady3_Down.png"/>
  </tile>
  <tile id="98">
   <image width="33" height="32" source="../NPCS/Man2_Left.png"/>

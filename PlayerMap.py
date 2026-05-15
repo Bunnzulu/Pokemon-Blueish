@@ -23,7 +23,7 @@ class Map:
     def __init__(self):
         self.SelectedPlace = HoveredPlace
         self.FlyLocations = []
-        self.image = pygame.image.load("Trainer_imgs\Town_Map.png").convert_alpha()
+        self.image = pygame.image.load("Trainer_imgs/Town_Map.png").convert_alpha()
         self.rect = self.image.get_rect(topleft = (0,0))
         self.PlaceTextBox = pygame.Rect(self.rect.bottomleft,(800,200))
         self.Font = pygame.font.Font(None,30)

@@ -4,3 +4,5 @@ F - FLY
 S - SURF
 D - DIG
 ARROW KEYS - MOVE
+F5 - Save game state
+F9 - Load game state
