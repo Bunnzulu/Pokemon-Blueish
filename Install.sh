@@ -3,6 +3,7 @@ set -euo pipefail
 
 rdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 vdir="${rdir}/.blueish"
+cd "${rdir}"
 
 echo "[*] Pokemon Blueish installer"
 echo "[*] Repo: ${rdir}"
@@ -11,13 +12,6 @@ if ! command -v python3 >/dev/null 2>&1; then
     echo "[!] python3 not found"
     echo ""
     echo "Please install python3 or add to PATH"
-    exit 1
-fi
-
-if ! command -v pip3 >/dev/null 2>&1 && ! python3 -m pip --version >/dev/null 2>&1; then
-    echo "[!] pip3 not found"
-    echo ""
-    echo "Please install pip3 or add to PATH"
     exit 1
 fi
 
@@ -42,13 +36,15 @@ else
 fi
 
 echo "[*] Installing dependencies from ${REQ_FILE}..."
-pip3 install -r "${REQ_FILE}"
+python3 -m pip install -r "${REQ_FILE}"
 
 echo "[*] Normalizing Windows path separators..."
 python3 <<'PY'
 from pathlib import Path
 
 for path in Path(".").rglob("*"):
+    if any(part.startswith(".") for part in path.parts):
+        continue
     if path.suffix.lower() not in {".py", ".tmx", ".tsx"}:
         continue
 
@@ -70,9 +66,9 @@ PY
 echo "[*] Verifying syntax..."
 python3 -m py_compile Main.py
 
-chmod +x "${rdir}/start.sh"
+chmod +x "${rdir}/Start.sh"
 
 echo
 echo "[+] Installation complete"
 echo "[+] Start game with:"
-echo "    ./start.sh"
+echo "    ./Start.sh"
