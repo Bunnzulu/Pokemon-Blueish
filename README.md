@@ -35,6 +35,9 @@ A Fan made version of Pokemon Blue. I made this as a passion project in High Sch
 
 ### Install.sh
 
+  Requires Python 3.10 or newer with virtual environment support. The game uses
+  `pygame-ce` (imported as `pygame`), which provides prebuilt wheels for Python 3.14.
+
   Ensure [Install.sh](/Install.sh) has executable permissions:
 
     chmod +x Install.sh

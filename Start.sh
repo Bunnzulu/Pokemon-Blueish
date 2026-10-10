@@ -8,7 +8,7 @@ cd "${rdir}"
 
 if [[ ! -d "${vdir}" ]]; then
     echo "[!] Virtual environment missing"
-    echo "[!] Run ./install.sh first"
+    echo "[!] Run ./Install.sh first"
     exit 1
 fi
 
